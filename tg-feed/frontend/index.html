@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Загрузчик из СВО</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <div class="channel-avatar">
+        <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="24" cy="24" r="24" fill="#2AABEE"/>
+          <path d="M34.5 14L10 23l8 3 2 7 4-4 6 5 4.5-20z" fill="white"/>
+        </svg>
+      </div>
+      <div class="channel-info">
+        <h1 class="channel-name">Загрузчик из СВО</h1>
+        <p class="channel-handle">@loaderfromSVO</p>
+      </div>
+      <div class="status-badge" id="statusBadge">
+        <span class="status-dot"></span>
+        <span class="status-text">Загрузка...</span>
+      </div>
+    </div>
+  </header>
+
+  <main class="feed-container">
+    <div id="postFeed" class="post-feed" role="feed" aria-label="Лента постов"></div>
+
+    <div id="loadingSpinner" class="loading-spinner hidden" aria-live="polite">
+      <div class="spinner"></div>
+      <span>Загрузка постов...</span>
+    </div>
+
+    <div id="loadMoreWrap" class="load-more-wrap hidden">
+      <button id="loadMoreBtn" class="load-more-btn">Загрузить ещё</button>
+    </div>
+
+    <div id="emptyState" class="empty-state hidden">
+      <div class="empty-icon">📭</div>
+      <h2>Нет постов</h2>
+      <p>Посты из канала появятся здесь после первого запуска скрапера.</p>
+    </div>
+
+    <div id="errorState" class="error-state hidden">
+      <div class="error-icon">⚠️</div>
+      <h2>Ошибка загрузки</h2>
+      <p id="errorMessage">Не удалось подключиться к серверу.</p>
+      <button onclick="app.reload()" class="retry-btn">Повторить</button>
+    </div>
+  </main>
+
+  <!-- Lightbox for media -->
+  <div id="lightbox" class="lightbox hidden" role="dialog" aria-modal="true" aria-label="Просмотр медиа">
+    <button class="lightbox-close" id="lightboxClose" aria-label="Закрыть">&times;</button>
+    <div class="lightbox-content" id="lightboxContent"></div>
+    <button class="lightbox-prev hidden" id="lightboxPrev" aria-label="Предыдущее">&#10094;</button>
+    <button class="lightbox-next hidden" id="lightboxNext" aria-label="Следующее">&#10095;</button>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
