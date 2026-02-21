@@ -24,7 +24,7 @@ API_HASH = os.getenv("TELEGRAM_API_HASH", "")
 CHANNEL = os.getenv("TELEGRAM_CHANNEL", "loaderfromSVO")
 SESSION_NAME = os.getenv("SESSION_NAME", "tg_session")
 MEDIA_PATH = os.getenv("MEDIA_PATH", "../media")
-MESSAGES_LIMIT = int(os.getenv("MESSAGES_LIMIT", "100"))
+MESSAGES_LIMIT = int(os.getenv("MESSAGES_LIMIT", "5000"))
 
 Path(MEDIA_PATH).mkdir(parents=True, exist_ok=True)
 
