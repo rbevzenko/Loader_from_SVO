@@ -1,11 +1,11 @@
-const CACHE = 'gruzchik-svo-v2';
+const CACHE = 'gruzchik-svo-v3';
 const STATIC = [
   './',
   './index.html',
   './style.css',
   './app.js',
   './manifest.json',
-  './icons/icon.svg'
+  './icons/logo.jpg'
 ];
 
 // Install — кешируем статику
