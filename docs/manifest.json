@@ -1,0 +1,19 @@
+{
+  "name": "Грузчик из Шереметьево",
+  "short_name": "Грузчик SVO",
+  "description": "Лента Telegram-канала Грузчик из Шереметьево",
+  "start_url": "./",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#f0f2f5",
+  "theme_color": "#1B3A6B",
+  "lang": "ru",
+  "icons": [
+    {
+      "src": "icons/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
