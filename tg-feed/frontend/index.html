@@ -5,6 +5,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Загрузчик из СВО</title>
   <link rel="stylesheet" href="style.css" />
+  <script>
+    // Apply theme before render to prevent flash
+    (function () {
+      var saved = localStorage.getItem('theme');
+      var prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+      if (saved === 'dark' || (!saved && prefersDark)) {
+        document.documentElement.setAttribute('data-theme', 'dark');
+      }
+    })();
+  </script>
 </head>
 <body>
   <header class="site-header">
@@ -19,6 +29,18 @@
         <h1 class="channel-name">Загрузчик из СВО</h1>
         <p class="channel-handle">@loaderfromSVO</p>
       </div>
+      <button class="theme-toggle" id="themeToggle" aria-label="Переключить тему" title="Переключить тему">
+        <span class="theme-toggle-thumb">
+          <!-- Sun icon -->
+          <svg class="icon-sun" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path d="M12 4.5a.75.75 0 01.75.75v1.5a.75.75 0 01-1.5 0v-1.5A.75.75 0 0112 4.5zm0 13.5a.75.75 0 01.75.75v1.5a.75.75 0 01-1.5 0v-1.5A.75.75 0 0112 18zm7.5-7.5a.75.75 0 010 1.5h-1.5a.75.75 0 010-1.5h1.5zM6 12a.75.75 0 01-.75.75H3.75a.75.75 0 010-1.5H5.25A.75.75 0 016 12zm9.53-4.47a.75.75 0 010 1.06l-1.06 1.06a.75.75 0 11-1.06-1.06l1.06-1.06a.75.75 0 011.06 0zM8.47 16.47a.75.75 0 010 1.06l-1.06 1.06a.75.75 0 11-1.06-1.06l1.06-1.06a.75.75 0 011.06 0zm9.12 1.06a.75.75 0 11-1.06 1.06l-1.06-1.06a.75.75 0 111.06-1.06l1.06 1.06zM7.47 8.53a.75.75 0 11-1.06-1.06L7.47 6.41a.75.75 0 111.06 1.06L7.47 8.53zM12 8.25a3.75 3.75 0 100 7.5 3.75 3.75 0 000-7.5z"/>
+          </svg>
+          <!-- Moon icon -->
+          <svg class="icon-moon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path d="M21.75 12A9.75 9.75 0 0112 21.75 9.75 9.75 0 012.25 12 9.75 9.75 0 0112 2.25c.28 0 .558.012.832.034a.75.75 0 01.354 1.322A7.5 7.5 0 1019.5 12a7.46 7.46 0 00-.524-2.773.75.75 0 01.956-1.003c1.155.468 1.818 1.43 1.818 3.776z"/>
+          </svg>
+        </span>
+      </button>
       <div class="status-badge" id="statusBadge">
         <span class="status-dot"></span>
         <span class="status-text">Загрузка...</span>

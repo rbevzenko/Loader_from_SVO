@@ -1,5 +1,30 @@
 'use strict';
 
+// ── Theme toggle ────────────────────────────────────────────────────────────
+(function () {
+  const root = document.documentElement;
+  const btn  = document.getElementById('themeToggle');
+  const mq   = window.matchMedia('(prefers-color-scheme: dark)');
+
+  function applyTheme(dark) {
+    root.setAttribute('data-theme', dark ? 'dark' : 'light');
+  }
+
+  // Listen for OS-level changes (only when user hasn't set a manual preference)
+  mq.addEventListener('change', function (e) {
+    if (!localStorage.getItem('theme')) applyTheme(e.matches);
+  });
+
+  if (btn) {
+    btn.addEventListener('click', function () {
+      const isDark = root.getAttribute('data-theme') === 'dark';
+      const next   = !isDark;
+      applyTheme(next);
+      localStorage.setItem('theme', next ? 'dark' : 'light');
+    });
+  }
+})();
+
 const API_BASE = window.location.origin;
 const PAGE_SIZE = 20;
 
