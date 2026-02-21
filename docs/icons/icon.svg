@@ -1,0 +1,20 @@
+<svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <circle cx="50" cy="50" r="50" fill="#1B3A6B"/>
+  <text x="50" y="40"
+    font-family="Georgia, 'Times New Roman', serif"
+    font-style="italic"
+    font-weight="bold"
+    font-size="13.5"
+    fill="white"
+    text-anchor="middle"
+    letter-spacing="0.3">Loader from</text>
+  <text x="50" y="56"
+    font-family="Georgia, 'Times New Roman', serif"
+    font-style="italic"
+    font-weight="bold"
+    font-size="18"
+    fill="white"
+    text-anchor="middle"
+    letter-spacing="1">SVO</text>
+  <path d="M16 66 Q33 60 50 61 Q67 60 84 66 Q80 74 50 76 Q20 74 16 66 Z" fill="white"/>
+</svg>
