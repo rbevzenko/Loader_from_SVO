@@ -1,4 +1,4 @@
-const CACHE = 'gruzchik-svo-v1';
+const CACHE = 'gruzchik-svo-v2';
 const STATIC = [
   './',
   './index.html',
