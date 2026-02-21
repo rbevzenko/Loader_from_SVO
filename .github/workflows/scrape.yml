@@ -28,7 +28,7 @@ jobs:
       - name: Run scraper
         env:
           TELEGRAM_CHANNEL: loaderfromSVO
-          MESSAGES_LIMIT: "100"
+          MESSAGES_LIMIT: "5000"
         run: python scripts/scrape_to_json.py
 
       - name: Commit and push if changed

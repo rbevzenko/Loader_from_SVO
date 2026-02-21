@@ -268,28 +268,45 @@ def save(data: dict):
 
 # ── Main ──────────────────────────────────────────────────────────────────────
 def main():
-    log.info(f"Fetching https://t.me/s/{CHANNEL}")
-    try:
-        html = fetch_page(BASE_URL)
-    except Exception as e:
-        log.error(f"Failed to fetch page: {e}")
-        raise
-
-    new_posts = parse_posts_regex(html)
-    log.info(f"Parsed {len(new_posts)} posts from page")
-
-    data    = load_existing()
-    seen    = {p["id"] for p in data["posts"]}
-
-    added = [p for p in new_posts if p["id"] not in seen]
-    log.info(f"New posts: {len(added)}")
-
+    data   = load_existing()
     merged = {p["id"]: p for p in data["posts"]}
-    for p in new_posts:
-        merged[p["id"]] = p  # update (views may have changed)
+
+    # Paginate: fetch pages until we reach LIMIT or run out of posts
+    before_id = None
+    total_fetched = 0
+
+    while total_fetched < LIMIT:
+        url = BASE_URL if before_id is None else f"{BASE_URL}?before={before_id}"
+        log.info(f"Fetching {url}")
+        try:
+            html = fetch_page(url)
+        except Exception as e:
+            log.error(f"Failed to fetch page: {e}")
+            break
+
+        page_posts = parse_posts_regex(html)
+        log.info(f"Parsed {len(page_posts)} posts from page")
+
+        if not page_posts:
+            log.info("No posts found on page, stopping.")
+            break
+
+        for p in page_posts:
+            merged[p["id"]] = p
+
+        total_fetched += len(page_posts)
+        before_id = min(p["id"] for p in page_posts)
+
+        if len(page_posts) < 5:
+            # Likely reached the beginning of the channel
+            log.info("Too few posts on page, stopping pagination.")
+            break
+
+        time.sleep(1)  # be polite to Telegram servers
 
     all_sorted = sorted(merged.values(), key=lambda p: p.get("date") or "", reverse=True)
     data["posts"] = all_sorted[:LIMIT]
+    log.info(f"Total unique posts collected: {len(merged)}, saving top {len(data['posts'])}")
     save(data)
 
 
