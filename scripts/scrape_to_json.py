@@ -217,6 +217,17 @@ def parse_posts_regex(html: str) -> list[dict]:
             raw = text_m.group(1)
             # Replace <br> with newline
             raw = re.sub(r'<br\s*/?>', '\n', raw)
+            # Preserve <a href="..."> links before stripping all tags
+            def _keep_href(m):
+                href = m.group(1)
+                inner = re.sub(r'<[^>]+>', '', m.group(2)).strip()
+                inner = inner.replace('&amp;', '&').replace('&lt;', '<') \
+                             .replace('&gt;', '>').replace('&quot;', '"')
+                if not inner or inner == href or inner.startswith('http'):
+                    return href  # URL text is the link itself; linkify handles it
+                return f'{inner} {href}'  # "Display text https://url"
+            raw = re.sub(r'<a[^>]+href="(https?://[^"]+)"[^>]*>(.*?)</a>',
+                         _keep_href, raw, flags=re.DOTALL)
             # Remove all other tags
             raw = re.sub(r'<[^>]+>', '', raw)
             # Decode HTML entities
