@@ -487,6 +487,27 @@ body {
 .lightbox-prev { left: 12px; }
 .lightbox-next { right: 12px; }
 
+/* ===== Pull to Refresh ===== */
+.pull-indicator {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  height: 0;
+  overflow: hidden;
+  background: var(--bg);
+  color: var(--text-secondary);
+  font-size: 0.82rem;
+}
+.pull-indicator svg {
+  width: 18px; height: 18px;
+  flex-shrink: 0;
+  transition: transform 0.15s;
+}
+.pull-indicator.refreshing svg {
+  animation: spin 0.7s linear infinite;
+}
+
 /* ===== Theme Toggle ===== */
 .theme-toggle {
   background: var(--bg);
