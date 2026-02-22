@@ -31,11 +31,14 @@ jobs:
           MESSAGES_LIMIT: "5000"
         run: python scripts/scrape_to_json.py
 
+      - name: Sync shared CSS to tg-feed frontend
+        run: cp docs/style.css tg-feed/frontend/style.css
+
       - name: Commit and push if changed
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add docs/data/posts.json
+          git add docs/data/posts.json tg-feed/frontend/style.css
           if git diff --cached --quiet; then
             echo "No changes."
           else
