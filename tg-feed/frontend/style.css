@@ -46,6 +46,7 @@ body {
   color: var(--text);
   min-height: 100vh;
   -webkit-font-smoothing: antialiased;
+  overscroll-behavior-y: contain; /* disable native pull-to-refresh */
 }
 
 /* ===== Header ===== */

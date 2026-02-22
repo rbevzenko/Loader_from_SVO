@@ -281,11 +281,12 @@ const app = (() => {
       if (!tracking) return;
       pullDist = Math.max(0, e.touches[0].clientY - startY);
       if (pullDist <= 0) return;
+      e.preventDefault(); // block native scroll/PTR while pulling
       el.style.height = Math.min(pullDist * 0.5, 52) + 'px';
       const progress = Math.min(pullDist / THRESHOLD, 1);
       icon.style.transform = `rotate(${progress * 180}deg)`;
       label.textContent = progress >= 1 ? 'Отпустите для обновления' : 'Потяните для обновления';
-    }, { passive: true });
+    }, { passive: false });
 
     document.addEventListener('touchend', async () => {
       if (!tracking) return;
