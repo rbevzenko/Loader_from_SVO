@@ -365,5 +365,51 @@ const app = (() => {
   fetchStatus();
   setInterval(fetchStatus, 30_000);
 
+  // ── Pull to Refresh ───────────────────────────────────────────────────
+  (function () {
+    const el = document.getElementById('pullIndicator');
+    if (!el) return;
+    const icon = el.querySelector('svg');
+    const label = el.querySelector('span');
+    const THRESHOLD = 64;
+    let startY = 0, pullDist = 0, tracking = false;
+
+    document.addEventListener('touchstart', e => {
+      if (window.scrollY > 2) return;
+      startY = e.touches[0].clientY;
+      tracking = true;
+      pullDist = 0;
+    }, { passive: true });
+
+    document.addEventListener('touchmove', e => {
+      if (!tracking) return;
+      pullDist = Math.max(0, e.touches[0].clientY - startY);
+      if (pullDist <= 0) return;
+      el.style.height = Math.min(pullDist * 0.5, 52) + 'px';
+      const progress = Math.min(pullDist / THRESHOLD, 1);
+      icon.style.transform = `rotate(${progress * 180}deg)`;
+      label.textContent = progress >= 1 ? 'Отпустите для обновления' : 'Потяните для обновления';
+    }, { passive: true });
+
+    document.addEventListener('touchend', async () => {
+      if (!tracking) return;
+      tracking = false;
+      if (pullDist >= THRESHOLD) {
+        el.style.height = '48px';
+        icon.style.transform = '';
+        el.classList.add('refreshing');
+        label.textContent = 'Обновление...';
+        await new Promise(res => { reload(); setTimeout(res, 800); });
+        el.classList.remove('refreshing');
+      }
+      el.style.transition = 'height 0.3s ease';
+      el.style.height = '0';
+      icon.style.transform = '';
+      label.textContent = 'Потяните для обновления';
+      setTimeout(() => { el.style.transition = ''; }, 320);
+      pullDist = 0;
+    }, { passive: true });
+  })();
+
   return { reload };
 })();
