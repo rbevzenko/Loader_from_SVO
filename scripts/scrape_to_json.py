@@ -7,6 +7,7 @@ Environment variables (optional GitHub Secrets):
   MESSAGES_LIMIT    – how many latest messages to keep (default: 100)
 """
 
+import html as html_mod
 import json
 import logging
 import os
@@ -230,9 +231,8 @@ def parse_posts_regex(html: str) -> list[dict]:
                          _keep_href, raw, flags=re.DOTALL)
             # Remove all other tags
             raw = re.sub(r'<[^>]+>', '', raw)
-            # Decode HTML entities
-            raw = raw.replace("&amp;", "&").replace("&lt;", "<").replace("&gt;", ">") \
-                     .replace("&quot;", '"').replace("&#39;", "'").replace("&nbsp;", " ")
+            # Decode all HTML entities (including numeric like &#33; &#x21;)
+            raw = html_mod.unescape(raw)
             text = raw.strip() or None
 
         # Photos
