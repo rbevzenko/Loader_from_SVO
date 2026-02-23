@@ -270,25 +270,20 @@ const app = (() => {
     const THRESHOLD = 64;
     let startY = 0, pullDist = 0, tracking = false;
 
-    document.addEventListener('touchstart', e => {
+    function onStart(y) {
       if (window.scrollY > 2) return;
-      startY = e.touches[0].clientY;
-      tracking = true;
-      pullDist = 0;
-    }, { passive: true });
-
-    document.addEventListener('touchmove', e => {
+      startY = y; tracking = true; pullDist = 0;
+    }
+    function onMove(y) {
       if (!tracking) return;
-      pullDist = Math.max(0, e.touches[0].clientY - startY);
+      pullDist = Math.max(0, y - startY);
       if (pullDist <= 0) return;
-      e.preventDefault(); // block native scroll/PTR while pulling
       el.style.height = Math.min(pullDist * 0.5, 52) + 'px';
       const progress = Math.min(pullDist / THRESHOLD, 1);
       icon.style.transform = `rotate(${progress * 180}deg)`;
       label.textContent = progress >= 1 ? 'Отпустите для обновления' : 'Потяните для обновления';
-    }, { passive: false });
-
-    document.addEventListener('touchend', async () => {
+    }
+    async function onEnd() {
       if (!tracking) return;
       tracking = false;
       if (pullDist >= THRESHOLD) {
@@ -305,7 +300,23 @@ const app = (() => {
       label.textContent = 'Потяните для обновления';
       setTimeout(() => { el.style.transition = ''; }, 320);
       pullDist = 0;
-    }, { passive: true });
+    }
+
+    // Touch (mobile)
+    document.addEventListener('touchstart', e => onStart(e.touches[0].clientY), { passive: true });
+    document.addEventListener('touchmove', e => {
+      if (!tracking) return;
+      const d = Math.max(0, e.touches[0].clientY - startY);
+      if (d > 0) e.preventDefault();
+      onMove(e.touches[0].clientY);
+    }, { passive: false });
+    document.addEventListener('touchend', onEnd, { passive: true });
+
+    // Mouse (desktop)
+    document.addEventListener('mousedown', e => { if (e.button === 0) onStart(e.clientY); });
+    document.addEventListener('mousemove', e => { if (tracking) onMove(e.clientY); });
+    document.addEventListener('mouseup', onEnd);
+    document.addEventListener('mouseleave', onEnd);
   })();
 
   // ── Pagination ─────────────────────────────────────────────────────────
