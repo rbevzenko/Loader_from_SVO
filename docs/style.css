@@ -146,8 +146,8 @@ body {
   font-size: 0.95rem; line-height: 1.58; color: var(--text);
   white-space: pre-wrap; word-break: break-word;
 }
-.post-text a { color: var(--primary); text-decoration: none; }
-.post-text a:hover { text-decoration: underline; }
+.post-text a { color: var(--primary); text-decoration: underline; text-underline-offset: 2px; }
+.post-text a:hover { opacity: 0.8; }
 .post-text.truncated {
   display: -webkit-box; -webkit-line-clamp: 8;
   -webkit-box-orient: vertical; overflow: hidden;

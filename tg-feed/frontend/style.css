@@ -271,9 +271,10 @@ body {
 
 .post-text a {
   color: var(--text-link);
-  text-decoration: none;
+  text-decoration: underline;
+  text-underline-offset: 2px;
 }
-.post-text a:hover { text-decoration: underline; }
+.post-text a:hover { opacity: 0.8; }
 
 /* Truncate long posts */
 .post-text.truncated {

@@ -82,12 +82,25 @@ const app = (() => {
   }
 
   function linkify(text) {
-    const escaped = text
-      .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
-    return escaped.replace(
-      /(https?:\/\/[^\s<>"]+)/g,
-      '<a href="$1" target="_blank" rel="noopener noreferrer">$1</a>'
-    );
+    if (!text) return '';
+    function esc(s) {
+      return s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+    }
+    function bareUrls(s) {
+      return s.replace(/(https?:\/\/[^\s<>"]+)/g,
+        '<a href="$1" target="_blank" rel="noopener noreferrer">$1</a>');
+    }
+    // Render markdown-style links [display text](url) as proper anchors
+    const mdLink = /\[([^\]]+)\]\((https?:\/\/[^)]+)\)/g;
+    const parts = [];
+    let last = 0, m;
+    while ((m = mdLink.exec(text)) !== null) {
+      if (m.index > last) parts.push(bareUrls(esc(text.slice(last, m.index))));
+      parts.push(`<a href="${esc(m[2])}" target="_blank" rel="noopener noreferrer">${esc(m[1])}</a>`);
+      last = m.index + m[0].length;
+    }
+    if (last < text.length) parts.push(bareUrls(esc(text.slice(last))));
+    return parts.join('');
   }
 
   // ── Lightbox ───────────────────────────────────────────────────────────

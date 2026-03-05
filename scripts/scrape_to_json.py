@@ -222,11 +222,10 @@ def parse_posts_regex(html: str) -> list[dict]:
             def _keep_href(m):
                 href = m.group(1)
                 inner = re.sub(r'<[^>]+>', '', m.group(2)).strip()
-                inner = inner.replace('&amp;', '&').replace('&lt;', '<') \
-                             .replace('&gt;', '>').replace('&quot;', '"')
+                inner = html_mod.unescape(inner)
                 if not inner or inner == href or inner.startswith('http'):
-                    return href  # URL text is the link itself; linkify handles it
-                return f'{inner} {href}'  # "Display text https://url"
+                    return href  # bare URL, linkify handles it
+                return f'[{inner}]({href})'  # markdown link: frontend renders as underlined text
             raw = re.sub(r'<a[^>]+href="(https?://[^"]+)"[^>]*>(.*?)</a>',
                          _keep_href, raw, flags=re.DOTALL)
             # Remove all other tags

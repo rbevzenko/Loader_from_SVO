@@ -10,12 +10,31 @@ from telethon.tl.types import (
     MessageMediaDocument,
     DocumentAttributeVideo,
     DocumentAttributeAnimated,
+    MessageEntityTextUrl,
 )
 from dotenv import load_dotenv
 
 from models import upsert_post, upsert_post_media
 
 load_dotenv()
+
+def _text_with_links(message):
+    """Return message text with Telegram hyperlinks as [display](url) markdown."""
+    text = message.message or message.text or ""
+    if not text or not message.entities:
+        return text or None
+    entities = [e for e in message.entities if isinstance(e, MessageEntityTextUrl)]
+    if not entities:
+        return text or None
+    result, last = [], 0
+    for e in sorted(entities, key=lambda x: x.offset):
+        result.append(text[last:e.offset])
+        display = text[e.offset:e.offset + e.length]
+        result.append(f'[{display}]({e.url})')
+        last = e.offset + e.length
+    result.append(text[last:])
+    return ''.join(result) or None
+
 
 logger = logging.getLogger(__name__)
 
@@ -116,7 +135,7 @@ async def scrape_channel(client: TelegramClient, limit: int = MESSAGES_LIMIT):
 
         post = {
             "message_id": message.id,
-            "text": message.text or message.message or None,
+            "text": _text_with_links(message),
             "date": message.date.isoformat() if message.date else datetime.now(timezone.utc).isoformat(),
             "views": message.views or 0,
             "forwards": message.forwards or 0,
@@ -145,7 +164,7 @@ async def scrape_channel(client: TelegramClient, limit: int = MESSAGES_LIMIT):
 
         post = {
             "message_id": lead_msg.id,
-            "text": text,
+            "text": _text_with_links(lead_msg),
             "date": lead_msg.date.isoformat() if lead_msg.date else datetime.now(timezone.utc).isoformat(),
             "views": lead_msg.views or 0,
             "forwards": lead_msg.forwards or 0,
