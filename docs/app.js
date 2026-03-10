@@ -44,6 +44,7 @@ const app = (() => {
   const errorState  = document.getElementById('errorState');
   const errorMsg    = document.getElementById('errorMessage');
   const updatedText = document.getElementById('updatedText');
+  const refreshBtn  = document.getElementById('refreshBtn');
   const lightbox    = document.getElementById('lightbox');
   const lbClose     = document.getElementById('lightboxClose');
   const lbContent   = document.getElementById('lightboxContent');
@@ -368,6 +369,14 @@ const app = (() => {
       errorMsg.textContent = `Ошибка: ${err.message}`;
       errorState.classList.remove('hidden');
     }
+  }
+
+  if (refreshBtn) {
+    refreshBtn.addEventListener('click', async () => {
+      refreshBtn.classList.add('spinning');
+      await refresh();
+      refreshBtn.classList.remove('spinning');
+    });
   }
 
   init();

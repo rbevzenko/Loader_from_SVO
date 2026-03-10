@@ -68,6 +68,17 @@ body {
   background: var(--bg); font-size: 0.72rem;
   color: var(--text-secondary); white-space: nowrap; flex-shrink: 0;
 }
+.refresh-btn {
+  display: flex; align-items: center; justify-content: center;
+  width: 34px; height: 34px; border-radius: 50%;
+  background: var(--bg); border: none; cursor: pointer;
+  color: var(--text-secondary); flex-shrink: 0;
+  transition: color 0.2s, background 0.2s;
+}
+.refresh-btn:hover { color: var(--primary); background: var(--border); }
+.refresh-btn svg { display: block; }
+.refresh-btn.spinning svg { animation: spin 0.8s linear infinite; }
+@keyframes spin { to { transform: rotate(360deg); } }
 
 /* ===== Feed ===== */
 .feed-container { max-width: 680px; margin: 0 auto; padding: 16px 12px 48px; }
@@ -146,8 +157,8 @@ body {
   font-size: 0.95rem; line-height: 1.58; color: var(--text);
   white-space: pre-wrap; word-break: break-word;
 }
-.post-text a { color: var(--primary); text-decoration: none; }
-.post-text a:hover { text-decoration: underline; }
+.post-text a { color: var(--primary); text-decoration: underline; }
+.post-text a:hover { text-decoration: underline; opacity: 0.8; }
 .post-text.truncated {
   display: -webkit-box; -webkit-line-clamp: 8;
   -webkit-box-orient: vertical; overflow: hidden;
