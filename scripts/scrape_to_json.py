@@ -3,10 +3,15 @@ Scraper: parses the public Telegram channel page t.me/s/{channel}
 No API keys, no session, no authentication needed — works for any public channel.
 
 Environment variables (optional GitHub Secrets):
-  TELEGRAM_CHANNEL  – channel username without @ (default: loaderfromSVO)
-  MESSAGES_LIMIT    – how many latest messages to keep (default: 100)
+  TELEGRAM_CHANNEL         – channel username without @ (default: loaderfromSVO)
+  TELEGRAM_COMMENTS_GROUP  – linked discussion group username (default: loaderfromSVOchat)
+  MESSAGES_LIMIT           – how many latest messages to keep (default: 100)
+  TELEGRAM_API_ID          – Telegram API id (for comments via Telethon)
+  TELEGRAM_API_HASH        – Telegram API hash (for comments via Telethon)
+  TELEGRAM_SESSION_STR     – Telethon StringSession (for comments via Telethon)
 """
 
+import asyncio
 import html as html_mod
 import json
 import logging
@@ -22,8 +27,9 @@ from html.parser import HTMLParser
 logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(message)s")
 log = logging.getLogger(__name__)
 
-CHANNEL = os.getenv("TELEGRAM_CHANNEL", "loaderfromSVO")
-LIMIT   = int(os.getenv("MESSAGES_LIMIT", "100"))
+CHANNEL        = os.getenv("TELEGRAM_CHANNEL", "loaderfromSVO")
+COMMENTS_GROUP = os.getenv("TELEGRAM_COMMENTS_GROUP", "loaderfromSVOchat")
+LIMIT          = int(os.getenv("MESSAGES_LIMIT", "100"))
 
 REPO_ROOT    = Path(__file__).parent.parent
 DATA_FILE    = REPO_ROOT / "docs" / "data" / "posts.json"
@@ -177,6 +183,78 @@ def _parse_views(s: str) -> int:
         return int(s)
     except Exception:
         return 0
+
+
+# ── Telethon comments scraper ─────────────────────────────────────────────────
+async def _fetch_comments_telethon(post_ids: list) -> dict:
+    """Fetch comments for all posts via Telethon GetRepliesRequest."""
+    from telethon import TelegramClient
+    from telethon.sessions import StringSession
+    from telethon.tl.functions.messages import GetDiscussionMessageRequest, GetRepliesRequest
+    from telethon.errors import MsgIdInvalidError, ChannelPrivateError
+
+    api_id   = int(os.environ["TELEGRAM_API_ID"])
+    api_hash = os.environ["TELEGRAM_API_HASH"]
+    session  = os.environ["TELEGRAM_SESSION_STR"]
+
+    results = {}
+    async with TelegramClient(StringSession(session), api_id, api_hash) as client:
+        channel = await client.get_entity(CHANNEL)
+        group   = await client.get_entity(COMMENTS_GROUP)
+
+        for post_id in post_ids:
+            try:
+                # Find the forwarded message in the discussion group
+                disc = await client(GetDiscussionMessageRequest(
+                    peer=channel, msg_id=post_id
+                ))
+                if not disc.messages:
+                    results[post_id] = []
+                    continue
+                disc_msg_id = disc.messages[0].id
+
+                # Fetch all replies (= comments) to that message
+                replies = await client(GetRepliesRequest(
+                    peer=group, msg_id=disc_msg_id,
+                    offset_id=0, offset_date=None, add_offset=0,
+                    limit=100, max_id=0, min_id=0, hash=0
+                ))
+
+                users_by_id = {u.id: u for u in replies.users}
+                comments = []
+                for msg in replies.messages:
+                    if msg.id == disc_msg_id:
+                        continue  # skip the forwarded root message
+                    if not msg.message:
+                        continue  # skip media-only messages
+                    author = None
+                    if hasattr(msg, 'from_id') and msg.from_id:
+                        uid = getattr(msg.from_id, 'user_id', None)
+                        user = users_by_id.get(uid)
+                        if user:
+                            parts = [user.first_name or '', user.last_name or '']
+                            author = ' '.join(p for p in parts if p).strip()
+                            if not author and getattr(user, 'username', None):
+                                author = f'@{user.username}'
+                    comments.append({
+                        "id":     msg.id,
+                        "author": author,
+                        "text":   msg.message,
+                        "date":   msg.date.isoformat() if msg.date else None,
+                    })
+
+                results[post_id] = comments
+                log.info(f"Telethon: {len(comments)} comments for post {post_id}")
+
+            except (MsgIdInvalidError, ChannelPrivateError):
+                results[post_id] = []
+            except Exception as e:
+                log.warning(f"Telethon: failed for post {post_id}: {e}")
+                results[post_id] = []
+
+            await asyncio.sleep(0.3)
+
+    return results
 
 
 # ── Comments parser ───────────────────────────────────────────────────────────
@@ -457,28 +535,22 @@ def main():
         except Exception:
             pass
 
-    # Scrape comments for posts that link to a public discussion group
-    for post in data["posts"]:
-        url = post.get("comments_url") or ""
-        # Only public group URLs (skip private t.me/c/... and own channel)
-        m = re.match(r'https://t\.me/(?!c/)([^/]+)/(\d+)$', url)
-        if not m or m.group(1) == CHANNEL:
-            continue
-        group, thread_id = m.group(1), int(m.group(2))
-        try:
-            comments = fetch_comments(group, thread_id)
+    # Use Telethon if credentials are available
+    if all(os.environ.get(k) for k in ("TELEGRAM_API_ID", "TELEGRAM_API_HASH", "TELEGRAM_SESSION_STR")):
+        post_ids = [p["id"] for p in data["posts"]]
+        all_comments = asyncio.run(_fetch_comments_telethon(post_ids))
+        for post in data["posts"]:
+            comments = all_comments.get(post["id"], [])
             out = {
-                "post_id": post["id"],
+                "post_id":    post["id"],
                 "updated_at": datetime.now(timezone.utc).isoformat(),
-                "comments": comments,
+                "comments":   comments,
             }
             (COMMENTS_DIR / f"{post['id']}.json").write_text(
                 json.dumps(out, ensure_ascii=False, indent=2), "utf-8"
             )
-            log.info(f"Saved {len(comments)} comments for post {post['id']}")
-        except Exception as e:
-            log.error(f"Error saving comments for post {post['id']}: {e}")
-        time.sleep(0.5)
+    else:
+        log.info("Telethon credentials not set — skipping comments scraping")
 
 
 if __name__ == "__main__":
