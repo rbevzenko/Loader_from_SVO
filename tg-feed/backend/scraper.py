@@ -5,6 +5,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 from telethon import TelegramClient
+from telethon.extensions import html as tg_html
 from telethon.tl.types import (
     MessageMediaPhoto,
     MessageMediaDocument,
@@ -27,6 +28,14 @@ MEDIA_PATH = os.getenv("MEDIA_PATH", "../media")
 MESSAGES_LIMIT = int(os.getenv("MESSAGES_LIMIT", "5000"))
 
 Path(MEDIA_PATH).mkdir(parents=True, exist_ok=True)
+
+
+def _message_to_html(message) -> str | None:
+    """Convert message text with Telegram entities to HTML."""
+    raw = message.message or message.text or None
+    if not raw:
+        return None
+    return tg_html.unparse(raw, message.entities or [])
 
 
 def _media_filename(message_id: int, ext: str) -> str:
@@ -117,6 +126,7 @@ async def scrape_channel(client: TelegramClient, limit: int = MESSAGES_LIMIT):
         post = {
             "message_id": message.id,
             "text": message.text or message.message or None,
+            "text_html": _message_to_html(message),
             "date": message.date.isoformat() if message.date else datetime.now(timezone.utc).isoformat(),
             "views": message.views or 0,
             "forwards": message.forwards or 0,
@@ -143,9 +153,11 @@ async def scrape_channel(client: TelegramClient, limit: int = MESSAGES_LIMIT):
         if lead.media:
             first_media = await _process_media(client, lead)
 
+        lead_text_msg = next((m for m in msgs if m.text or m.message), lead)
         post = {
             "message_id": lead_msg.id,
             "text": text,
+            "text_html": _message_to_html(lead_text_msg),
             "date": lead_msg.date.isoformat() if lead_msg.date else datetime.now(timezone.utc).isoformat(),
             "views": lead_msg.views or 0,
             "forwards": lead_msg.forwards or 0,

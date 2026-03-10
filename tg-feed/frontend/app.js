@@ -166,11 +166,11 @@ const app = (() => {
 
     const mediaHtml = renderMedia(post);
     const textHtml = post.text ? (() => {
-      const linked = linkify(post.text);
+      const content = post.text_html || linkify(post.text);
       const isLong = post.text.length > 600;
       return `
         <div class="post-body">
-          <div class="post-text${isLong ? ' truncated' : ''}">${linked}</div>
+          <div class="post-text${isLong ? ' truncated' : ''}">${content}</div>
           ${isLong ? '<button class="read-more-btn" aria-expanded="false">Читать далее</button>' : ''}
         </div>`;
     })() : '';
