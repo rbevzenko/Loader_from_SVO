@@ -1,10 +1,12 @@
 """
-Run this script ONCE locally to generate a Telethon StringSession.
-Copy the printed string and add it as a GitHub Secret named TELEGRAM_SESSION_STR.
+Run this script ONCE locally to generate a Telethon StringSession using a Bot Token.
+No SMS code required — only a bot token from @BotFather.
 
-Usage:
-  pip install telethon python-dotenv
-  python scripts/generate_session.py
+Steps:
+  1. Go to @BotFather in Telegram → /newbot → copy the token
+  2. Run: pip install telethon python-dotenv
+  3. Run: python scripts/generate_session.py
+  4. Copy the printed session string → add as GitHub Secret TELEGRAM_SESSION_STR
 """
 
 import asyncio
@@ -13,18 +15,18 @@ from dotenv import load_dotenv
 from telethon import TelegramClient
 from telethon.sessions import StringSession
 
-load_dotenv("backend/.env")
+load_dotenv("tg-feed/backend/.env")
 
-API_ID   = int(os.environ.get("TELEGRAM_API_ID", input("Enter API_ID: ")))
+API_ID   = int(os.environ.get("TELEGRAM_API_ID") or input("Enter API_ID: "))
 API_HASH = os.environ.get("TELEGRAM_API_HASH") or input("Enter API_HASH: ")
+BOT_TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN") or input("Enter Bot Token (from @BotFather): ")
 
 
 async def main():
-    print("\nStarting Telegram authorization...")
-    print("You will be asked for your phone number and the confirmation code.\n")
+    print("\nConnecting with bot token...")
 
     client = TelegramClient(StringSession(), API_ID, API_HASH)
-    await client.start()
+    await client.start(bot_token=BOT_TOKEN)
 
     session_string = client.session.save()
     await client.disconnect()
