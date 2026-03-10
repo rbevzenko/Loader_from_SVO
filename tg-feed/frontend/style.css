@@ -68,6 +68,17 @@ body {
   background: var(--bg); font-size: 0.72rem;
   color: var(--text-secondary); white-space: nowrap; flex-shrink: 0;
 }
+.refresh-btn {
+  display: flex; align-items: center; justify-content: center;
+  width: 34px; height: 34px; border-radius: 50%;
+  background: var(--bg); border: none; cursor: pointer;
+  color: var(--text-secondary); flex-shrink: 0;
+  transition: color 0.2s, background 0.2s;
+}
+.refresh-btn:hover { color: var(--primary); background: var(--border); }
+.refresh-btn svg { display: block; }
+.refresh-btn.spinning svg { animation: spin 0.8s linear infinite; }
+@keyframes spin { to { transform: rotate(360deg); } }
 
 /* ===== Feed ===== */
 .feed-container { max-width: 680px; margin: 0 auto; padding: 16px 12px 48px; }
@@ -146,8 +157,8 @@ body {
   font-size: 0.95rem; line-height: 1.58; color: var(--text);
   white-space: pre-wrap; word-break: break-word;
 }
-.post-text a { color: var(--primary); text-decoration: none; }
-.post-text a:hover { text-decoration: underline; }
+.post-text a { color: var(--primary); text-decoration: underline; }
+.post-text a:hover { text-decoration: underline; opacity: 0.8; }
 .post-text.truncated {
   display: -webkit-box; -webkit-line-clamp: 8;
   -webkit-box-orient: vertical; overflow: hidden;
@@ -296,6 +307,49 @@ body {
 }
 [data-theme="dark"] .theme-toggle-thumb .icon-sun  { opacity: 0; }
 [data-theme="dark"] .theme-toggle-thumb .icon-moon { opacity: 1; }
+
+/* ===== Comments View ===== */
+.comments-view {
+  max-width: 680px; margin: 0 auto; padding-bottom: 48px;
+}
+.comments-back-bar {
+  display: flex; align-items: center; gap: 12px;
+  padding: 12px 16px; position: sticky; top: 0; z-index: 10;
+  background: var(--bg); border-bottom: 1px solid var(--border);
+}
+.back-btn {
+  display: flex; align-items: center; gap: 4px;
+  background: none; border: none; cursor: pointer;
+  color: var(--primary); font-size: 0.9rem; font-family: var(--font);
+  padding: 6px 0; flex-shrink: 0;
+}
+.back-btn:hover { color: var(--primary-dark); }
+.comments-title {
+  font-size: 1rem; font-weight: 600; color: var(--text);
+  white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+}
+.comments-container { padding: 12px; }
+.comments-list { display: flex; flex-direction: column; gap: 8px; }
+
+.comment-card {
+  background: var(--surface); border-radius: var(--radius);
+  box-shadow: var(--shadow); padding: 12px 14px;
+  animation: fadeInUp 0.2s ease;
+}
+.comment-header {
+  display: flex; align-items: baseline; justify-content: space-between;
+  gap: 8px; margin-bottom: 6px; flex-wrap: wrap;
+}
+.comment-author {
+  font-size: 0.85rem; font-weight: 600; color: var(--primary);
+  white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+}
+.comment-date { font-size: 0.75rem; color: var(--text-secondary); flex-shrink: 0; }
+.comment-text {
+  font-size: 0.9rem; line-height: 1.55; color: var(--text);
+  white-space: pre-wrap; word-break: break-word;
+}
+.comment-text a { color: var(--primary); text-decoration: underline; }
 
 .hidden { display: none !important; }
 
