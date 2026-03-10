@@ -208,32 +208,67 @@ def parse_posts_regex(html: str) -> list[dict]:
         views_m = re.search(r'tgme_widget_message_views[^>]*>([\d.,KMk\s]+)<', block)
         views = _parse_views(views_m.group(1)) if views_m else 0
 
-        # Text (strip HTML tags)
+        # Text
         text_m = re.search(
             r'tgme_widget_message_text[^>]*>(.*?)</div>',
             block, re.DOTALL
         )
         text = None
+        text_html = None
         if text_m:
             raw = text_m.group(1)
-            # Replace <br> with newline
-            raw = re.sub(r'<br\s*/?>', '\n', raw)
-            # Preserve <a href="..."> links before stripping all tags
+            raw_br = re.sub(r'<br\s*/?>', '\n', raw)
+
+            # Build text_html: keep <a> tags with proper attributes
+            # Use a placeholder to protect rebuilt <a> tags from the tag-strip step
+            _anchors: list[str] = []
+
+            def _make_anchor(m):
+                href = html_mod.unescape(m.group(1))
+                inner_text = html_mod.unescape(
+                    re.sub(r'<[^>]+>', '', m.group(2))
+                ).strip()
+                label = inner_text if (inner_text and not inner_text.startswith('http')) else href
+                tag = f'<a href="{html_mod.escape(href)}" target="_blank" rel="noopener noreferrer">{html_mod.escape(label)}</a>'
+                idx = len(_anchors)
+                _anchors.append(tag)
+                return f'\x00ANCHOR{idx}\x00'
+
+            html_ver = re.sub(
+                r'<a[^>]+href="(https?://[^"]+)"[^>]*>(.*?)</a>',
+                _make_anchor, raw_br, flags=re.DOTALL
+            )
+            # Strip remaining (non-anchor) HTML tags
+            html_ver = re.sub(r'<[^>]+>', '', html_ver)
+            html_ver = html_mod.unescape(html_ver)
+            # Linkify bare URLs that weren't wrapped in <a>
+            html_ver = re.sub(
+                r'(https?://[^\s<>"]+)',
+                r'<a href="\1" target="_blank" rel="noopener noreferrer">\1</a>',
+                html_ver
+            )
+            # Restore protected anchor tags
+            for idx, tag in enumerate(_anchors):
+                html_ver = html_ver.replace(f'\x00ANCHOR{idx}\x00', tag)
+            html_ver = html_ver.replace('\n', '<br>')
+            text_html = html_ver.strip() or None
+
+            # Build plain text: use display label for anchored links
             def _keep_href(m):
-                href = m.group(1)
-                inner = re.sub(r'<[^>]+>', '', m.group(2)).strip()
-                inner = inner.replace('&amp;', '&').replace('&lt;', '<') \
-                             .replace('&gt;', '>').replace('&quot;', '"')
+                href = html_mod.unescape(m.group(1))
+                inner = html_mod.unescape(
+                    re.sub(r'<[^>]+>', '', m.group(2))
+                ).strip()
                 if not inner or inner == href or inner.startswith('http'):
-                    return href  # URL text is the link itself; linkify handles it
-                return f'{inner} {href}'  # "Display text https://url"
-            raw = re.sub(r'<a[^>]+href="(https?://[^"]+)"[^>]*>(.*?)</a>',
-                         _keep_href, raw, flags=re.DOTALL)
-            # Remove all other tags
-            raw = re.sub(r'<[^>]+>', '', raw)
-            # Decode all HTML entities (including numeric like &#33; &#x21;)
-            raw = html_mod.unescape(raw)
-            text = raw.strip() or None
+                    return href
+                return inner  # just the display label, no URL
+            plain = re.sub(
+                r'<a[^>]+href="(https?://[^"]+)"[^>]*>(.*?)</a>',
+                _keep_href, raw_br, flags=re.DOTALL
+            )
+            plain = re.sub(r'<[^>]+>', '', plain)
+            plain = html_mod.unescape(plain)
+            text = plain.strip() or None
 
         # Photos
         photos = re.findall(
@@ -249,6 +284,7 @@ def parse_posts_regex(html: str) -> list[dict]:
         posts.append({
             "id":         msg_id,
             "text":       text,
+            "text_html":  text_html,
             "date":       date,
             "views":      views,
             "forwards":   0,
