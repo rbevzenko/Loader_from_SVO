@@ -117,6 +117,7 @@ def _serialize_post(row: dict) -> dict:
         "id": row["id"],
         "message_id": row["message_id"],
         "text": row["text"],
+        "text_html": row.get("text_html"),
         "date": row["date"],
         "views": row["views"],
         "forwards": row["forwards"],

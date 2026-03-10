@@ -13,6 +13,7 @@ async def init_db():
                 id INTEGER PRIMARY KEY,
                 message_id INTEGER UNIQUE NOT NULL,
                 text TEXT,
+                text_html TEXT,
                 date TEXT NOT NULL,
                 views INTEGER DEFAULT 0,
                 forwards INTEGER DEFAULT 0,
@@ -24,6 +25,11 @@ async def init_db():
                 created_at TEXT DEFAULT (datetime('now'))
             )
         """)
+        try:
+            await db.execute("ALTER TABLE posts ADD COLUMN text_html TEXT")
+            await db.commit()
+        except Exception:
+            pass  # column already exists
         await db.execute("""
             CREATE TABLE IF NOT EXISTS post_media (
                 id INTEGER PRIMARY KEY AUTOINCREMENT,
@@ -48,12 +54,13 @@ async def init_db():
 async def upsert_post(post: dict):
     async with aiosqlite.connect(DATABASE_PATH) as db:
         await db.execute("""
-            INSERT INTO posts (message_id, text, date, views, forwards,
+            INSERT INTO posts (message_id, text, text_html, date, views, forwards,
                                has_media, media_type, media_path, media_url, grouped_id)
-            VALUES (:message_id, :text, :date, :views, :forwards,
+            VALUES (:message_id, :text, :text_html, :date, :views, :forwards,
                     :has_media, :media_type, :media_path, :media_url, :grouped_id)
             ON CONFLICT(message_id) DO UPDATE SET
                 text = excluded.text,
+                text_html = excluded.text_html,
                 views = excluded.views,
                 forwards = excluded.forwards,
                 has_media = excluded.has_media,
