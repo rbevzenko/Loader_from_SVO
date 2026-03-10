@@ -175,10 +175,10 @@ const app = (() => {
 
     let bodyHtml = '';
     if (post.text) {
-      const linked = linkify(post.text);
-      const long   = post.text.length > 600;
+      const content = post.text_html || linkify(post.text);
+      const long    = post.text.length > 600;
       bodyHtml = `<div class="post-body">
-        <div class="post-text${long ? ' truncated' : ''}">${linked}</div>
+        <div class="post-text${long ? ' truncated' : ''}">${content}</div>
         ${long ? '<button class="read-more-btn" aria-expanded="false">Читать далее</button>' : ''}
       </div>`;
     }
