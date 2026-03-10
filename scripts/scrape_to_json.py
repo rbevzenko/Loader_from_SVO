@@ -321,6 +321,7 @@ def main():
     # Paginate: fetch pages until we reach LIMIT or run out of posts
     before_id = None
     total_fetched = 0
+    fetched_ids: set[int] = set()
 
     while total_fetched < LIMIT:
         url = BASE_URL if before_id is None else f"{BASE_URL}?before={before_id}"
@@ -340,6 +341,7 @@ def main():
 
         for p in page_posts:
             merged[p["id"]] = p
+            fetched_ids.add(p["id"])
 
         total_fetched += len(page_posts)
         before_id = min(p["id"] for p in page_posts)
@@ -350,6 +352,15 @@ def main():
             break
 
         time.sleep(1)  # be polite to Telegram servers
+
+    # Remove posts that were deleted from the channel:
+    # Any post whose ID falls within the scraped range but wasn't found → deleted.
+    if fetched_ids:
+        min_fetched = min(fetched_ids)
+        deleted = [pid for pid in list(merged) if pid >= min_fetched and pid not in fetched_ids]
+        for pid in deleted:
+            log.info(f"Removing deleted post {pid}")
+            del merged[pid]
 
     all_sorted = sorted(merged.values(), key=lambda p: p.get("date") or "", reverse=True)
     data["posts"] = all_sorted[:LIMIT]
