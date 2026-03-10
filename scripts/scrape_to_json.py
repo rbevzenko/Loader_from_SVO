@@ -25,8 +25,9 @@ log = logging.getLogger(__name__)
 CHANNEL = os.getenv("TELEGRAM_CHANNEL", "loaderfromSVO")
 LIMIT   = int(os.getenv("MESSAGES_LIMIT", "100"))
 
-REPO_ROOT = Path(__file__).parent.parent
-DATA_FILE = REPO_ROOT / "docs" / "data" / "posts.json"
+REPO_ROOT    = Path(__file__).parent.parent
+DATA_FILE    = REPO_ROOT / "docs" / "data" / "posts.json"
+COMMENTS_DIR = REPO_ROOT / "docs" / "data" / "comments"
 DATA_FILE.parent.mkdir(parents=True, exist_ok=True)
 
 BASE_URL    = f"https://t.me/s/{CHANNEL}"
@@ -176,6 +177,64 @@ def _parse_views(s: str) -> int:
         return int(s)
     except Exception:
         return 0
+
+
+# ── Comments parser ───────────────────────────────────────────────────────────
+def parse_comments_regex(html: str, skip_id: int | None = None) -> list[dict]:
+    """Parse comment messages from a Telegram group thread page."""
+    comments = []
+    blocks = re.split(r'(?=<div class="tgme_widget_message_wrap)', html)
+
+    for block in blocks:
+        id_m = re.search(r'tgme_widget_message_date[^>]*href="[^"]+/(\d+)"', block)
+        if not id_m:
+            continue
+        msg_id = int(id_m.group(1))
+
+        # Skip the forwarded root message (it's the original channel post, not a comment)
+        if skip_id is not None and msg_id == skip_id:
+            continue
+
+        date_m = re.search(r'<time[^>]+datetime="([^"]+)"', block)
+        date = date_m.group(1) if date_m else None
+
+        # Author name (group messages have tgme_widget_message_from_author)
+        author = None
+        for pat in [
+            r'class="tgme_widget_message_from_author[^"]*">([^<]+)<',
+            r'class="tgme_widget_message_author_name[^"]*">(?:<[^>]+>)?([^<]+)',
+        ]:
+            am = re.search(pat, block)
+            if am:
+                author = html_mod.unescape(am.group(1)).strip() or None
+                if author:
+                    break
+
+        text_m = re.search(r'tgme_widget_message_text[^>]*>(.*?)</div>', block, re.DOTALL)
+        text = None
+        if text_m:
+            raw = re.sub(r'<br\s*/?>', '\n', text_m.group(1))
+            raw = re.sub(r'<[^>]+>', '', raw)
+            text = html_mod.unescape(raw).strip() or None
+
+        if not text:
+            continue  # skip stickers/service messages without text
+
+        comments.append({"id": msg_id, "author": author, "text": text, "date": date})
+
+    return comments
+
+
+def fetch_comments(group_username: str, thread_id: int) -> list[dict]:
+    """Fetch comments for a thread from a public Telegram discussion group."""
+    url = f"https://t.me/s/{group_username}?thread={thread_id}"
+    log.info(f"Fetching comments: {url}")
+    try:
+        html = fetch_page(url)
+        return parse_comments_regex(html, skip_id=thread_id)
+    except Exception as e:
+        log.warning(f"Failed to fetch comments for {group_username}/thread/{thread_id}: {e}")
+        return []
 
 
 # ── Fetch page ────────────────────────────────────────────────────────────────
@@ -384,6 +443,42 @@ def main():
     data["posts"] = all_sorted[:LIMIT]
     log.info(f"Total unique posts collected: {len(merged)}, saving top {len(data['posts'])}")
     save(data)
+
+    # ── Comments ──────────────────────────────────────────────────────────────
+    COMMENTS_DIR.mkdir(parents=True, exist_ok=True)
+    active_ids = {p["id"] for p in data["posts"]}
+
+    # Delete comment files for posts that were removed from the channel
+    for f in COMMENTS_DIR.glob("*.json"):
+        try:
+            if int(f.stem) not in active_ids:
+                f.unlink()
+                log.info(f"Deleted orphaned comments file: {f.name}")
+        except Exception:
+            pass
+
+    # Scrape comments for posts that link to a public discussion group
+    for post in data["posts"]:
+        url = post.get("comments_url") or ""
+        # Only public group URLs (skip private t.me/c/... and own channel)
+        m = re.match(r'https://t\.me/(?!c/)([^/]+)/(\d+)$', url)
+        if not m or m.group(1) == CHANNEL:
+            continue
+        group, thread_id = m.group(1), int(m.group(2))
+        try:
+            comments = fetch_comments(group, thread_id)
+            out = {
+                "post_id": post["id"],
+                "updated_at": datetime.now(timezone.utc).isoformat(),
+                "comments": comments,
+            }
+            (COMMENTS_DIR / f"{post['id']}.json").write_text(
+                json.dumps(out, ensure_ascii=False, indent=2), "utf-8"
+            )
+            log.info(f"Saved {len(comments)} comments for post {post['id']}")
+        except Exception as e:
+            log.error(f"Error saving comments for post {post['id']}: {e}")
+        time.sleep(0.5)
 
 
 if __name__ == "__main__":

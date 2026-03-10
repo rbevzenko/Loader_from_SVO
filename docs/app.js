@@ -196,7 +196,7 @@ const app = (() => {
         <time class="post-date" datetime="${post.date}">${formatDate(post.date)}</time>
         <div class="post-meta">
           ${viewsHtml}
-          ${post.comments_url ? `<a class="tg-link" href="${post.comments_url}" target="_blank" rel="noopener">
+          ${post.comments_url ? `<a class="tg-link comments-link" href="#comments-${post.id}">
             <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"/></svg>
             Комментарии
           </a>` : ''}
@@ -382,6 +382,78 @@ const app = (() => {
       refreshBtn.classList.remove('spinning');
     });
   }
+
+  // ── Comments view ──────────────────────────────────────────────────────────
+  const commentsView     = document.getElementById('commentsView');
+  const feedMain         = document.querySelector('.feed-container');
+  const pullInd          = document.getElementById('pullIndicator');
+  const backBtn          = document.getElementById('backBtn');
+  const commentsList     = document.getElementById('commentsList');
+  const commentsSpinner  = document.getElementById('commentsSpinner');
+  const commentsEmpty    = document.getElementById('commentsEmpty');
+  const commentsError    = document.getElementById('commentsError');
+  const commentsErrorMsg = document.getElementById('commentsErrorMsg');
+
+  function showFeed() {
+    commentsView.classList.add('hidden');
+    feedMain.classList.remove('hidden');
+    pullInd.classList.remove('hidden');
+    document.title = 'Грузчик из Шереметьево';
+  }
+
+  function renderComment(c) {
+    const div = document.createElement('div');
+    div.className = 'comment-card';
+    const safeAuthor = (c.author || 'Участник').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+    div.innerHTML = `
+      <div class="comment-header">
+        <span class="comment-author">${safeAuthor}</span>
+        <time class="comment-date">${formatDate(c.date)}</time>
+      </div>
+      <div class="comment-text">${c.text ? linkify(c.text) : ''}</div>`;
+    return div;
+  }
+
+  async function showComments(postId) {
+    feedMain.classList.add('hidden');
+    pullInd.classList.add('hidden');
+    commentsView.classList.remove('hidden');
+    commentsList.innerHTML = '';
+    commentsEmpty.classList.add('hidden');
+    commentsError.classList.add('hidden');
+    commentsSpinner.classList.remove('hidden');
+    document.title = 'Комментарии — Грузчик из Шереметьево';
+    window.scrollTo(0, 0);
+
+    try {
+      const res = await fetch(`data/comments/${postId}.json?t=${Date.now()}`);
+      if (!res.ok) throw new Error(`HTTP ${res.status}`);
+      const data = await res.json();
+      const items = data.comments || [];
+      commentsSpinner.classList.add('hidden');
+      if (items.length === 0) {
+        commentsEmpty.classList.remove('hidden');
+        return;
+      }
+      const frag = document.createDocumentFragment();
+      items.forEach(c => frag.appendChild(renderComment(c)));
+      commentsList.appendChild(frag);
+    } catch (err) {
+      commentsSpinner.classList.add('hidden');
+      commentsErrorMsg.textContent = `Ошибка: ${err.message}`;
+      commentsError.classList.remove('hidden');
+    }
+  }
+
+  function handleRoute() {
+    const m = window.location.hash.match(/^#comments-(\d+)$/);
+    if (m) showComments(parseInt(m[1], 10));
+    else showFeed();
+  }
+
+  window.addEventListener('hashchange', handleRoute);
+  backBtn.addEventListener('click', () => { history.back(); });
+  handleRoute();
 
   init();
 })();
