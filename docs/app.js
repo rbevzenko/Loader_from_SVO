@@ -196,10 +196,10 @@ const app = (() => {
         <time class="post-date" datetime="${post.date}">${formatDate(post.date)}</time>
         <div class="post-meta">
           ${viewsHtml}
-          <a class="tg-link" href="${tgUrl}" target="_blank" rel="noopener">
+          ${post.comments_url ? `<a class="tg-link" href="${post.comments_url}" target="_blank" rel="noopener">
             <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"/></svg>
             Комментарии
-          </a>
+          </a>` : ''}
           <a class="tg-link" href="${tgUrl}" target="_blank" rel="noopener">
             <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm5.562 8.248l-2.018 9.509c-.145.658-.537.818-1.084.508l-3-2.21-1.447 1.394c-.16.16-.295.295-.605.295l.213-3.053 5.56-5.023c.242-.213-.054-.333-.373-.12l-6.871 4.326-2.962-.924c-.643-.204-.657-.643.136-.953l11.57-4.461c.537-.194 1.006.131.881.712z"/></svg>
             Открыть

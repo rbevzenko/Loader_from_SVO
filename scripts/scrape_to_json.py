@@ -278,20 +278,38 @@ def parse_posts_regex(html: str) -> list[dict]:
         # Video
         has_video = bool(re.search(r'tgme_widget_message_video', block))
 
+        # Comments URL (from linked discussion group)
+        comments_m = re.search(
+            r'<a[^>]+href="(https://t\.me/[^"]+)"[^>]*>[^<]*'
+            r'<span[^>]*tgme_widget_message_replies_count[^>]*>',
+            block, re.DOTALL
+        )
+        if not comments_m:
+            comments_m = re.search(
+                r'tgme_widget_message_replies[^>]*href="([^"]+)"', block
+            )
+        if not comments_m:
+            comments_m = re.search(
+                r'<a[^>]+href="([^"]+)"[^>]*class="[^"]*tgme_widget_message_replies[^"]*"',
+                block
+            )
+        comments_url = comments_m.group(1) if comments_m else None
+
         if not text and not photos and not has_video:
             continue  # skip empty / service messages
 
         posts.append({
-            "id":         msg_id,
-            "text":       text,
-            "text_html":  text_html,
-            "date":       date,
-            "views":      views,
-            "forwards":   0,
-            "photos":     photos,
-            "video_path": None,
-            "gif_path":   None,
-            "has_video":  has_video,
+            "id":           msg_id,
+            "text":         text,
+            "text_html":    text_html,
+            "date":         date,
+            "views":        views,
+            "forwards":     0,
+            "photos":       photos,
+            "video_path":   None,
+            "gif_path":     None,
+            "has_video":    has_video,
+            "comments_url": comments_url,
         })
 
     return posts
