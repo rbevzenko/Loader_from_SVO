@@ -1,0 +1,44 @@
+name: Generate Telegram Session (run once)
+
+on:
+  workflow_dispatch:
+    inputs:
+      api_id:
+        description: 'TELEGRAM_API_ID (число с my.telegram.org)'
+        required: true
+      api_hash:
+        description: 'TELEGRAM_API_HASH (строка с my.telegram.org)'
+        required: true
+      bot_token:
+        description: 'Bot Token (от @BotFather)'
+        required: true
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Install telethon
+        run: pip install telethon
+
+      - name: Generate session string
+        env:
+          API_ID: ${{ github.event.inputs.api_id }}
+          API_HASH: ${{ github.event.inputs.api_hash }}
+          BOT_TOKEN: ${{ github.event.inputs.bot_token }}
+        run: |
+          python - <<'EOF'
+          import asyncio, os
+          from telethon import TelegramClient
+          from telethon.sessions import StringSession
+
+          async def main():
+              client = TelegramClient(StringSession(), int(os.environ["API_ID"]), os.environ["API_HASH"])
+              await client.start(bot_token=os.environ["BOT_TOKEN"])
+              session = client.session.save()
+              await client.disconnect()
+              print("\n" + "="*60)
+              print("TELEGRAM_SESSION_STR =", session)
+              print("="*60)
+
+          asyncio.run(main())
+          EOF
