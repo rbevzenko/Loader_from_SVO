@@ -62,15 +62,14 @@ body {
   text-decoration: none;
 }
 .channel-handle:hover { text-decoration: underline; }
+.header-controls {
+  display: flex; align-items: center; gap: 6px;
+}
 .updated-badge {
   display: flex; align-items: center; gap: 4px;
-  font-size: 0.72rem; color: var(--text-secondary);
-  white-space: nowrap; overflow: hidden; min-width: 0;
+  font-size: 0.72rem; color: var(--text-secondary); white-space: nowrap;
 }
 .updated-badge svg { flex-shrink: 0; }
-.header-controls {
-  display: flex; align-items: center; gap: 6px; flex-shrink: 0;
-}
 .refresh-btn {
   display: flex; align-items: center; justify-content: center;
   width: 34px; height: 34px; border-radius: 50%;
