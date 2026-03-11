@@ -20,7 +20,7 @@ jobs:
       - name: Install telethon
         run: pip install telethon
 
-      - name: Send auth code and print partial session
+      - name: Send auth code and print session + hash
         env:
           PHONE:    ${{ github.event.inputs.phone }}
           API_ID:   ${{ github.event.inputs.api_id }}
@@ -38,13 +38,16 @@ jobs:
                   os.environ["API_HASH"],
               )
               await client.connect()
-              await client.send_code_request(os.environ["PHONE"])
+              sent = await client.send_code_request(os.environ["PHONE"])
               session = client.session.save()
               print("Код отправлен в Telegram!")
               print()
-              print("=== PARTIAL_SESSION (скопируй в Step 2) ===")
-              print(session)
-              print("===========================================")
+              print(">>> Скопируй ЭТИ ДВЕ строки в Step 2 <<<")
+              print()
+              print("partial_session =", session)
+              print("phone_code_hash =", sent.phone_code_hash)
+              print()
+              print(">>> Конец <<<")
 
           asyncio.run(main())
           EOF

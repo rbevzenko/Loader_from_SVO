@@ -4,7 +4,10 @@ on:
   workflow_dispatch:
     inputs:
       partial_session:
-        description: 'Строка из логов Step 1 (между === линиями)'
+        description: 'partial_session из логов Step 1'
+        required: true
+      phone_code_hash:
+        description: 'phone_code_hash из логов Step 1'
         required: true
       code:
         description: 'Код из Telegram (5-6 цифр)'
@@ -32,12 +35,13 @@ jobs:
 
       - name: Complete authentication and print session string
         env:
-          PARTIAL_SESSION: ${{ github.event.inputs.partial_session }}
-          CODE:            ${{ github.event.inputs.code }}
-          PHONE:           ${{ github.event.inputs.phone }}
-          API_ID:          ${{ github.event.inputs.api_id }}
-          API_HASH:        ${{ github.event.inputs.api_hash }}
-          PASSWORD:        ${{ github.event.inputs.password }}
+          PARTIAL_SESSION:  ${{ github.event.inputs.partial_session }}
+          PHONE_CODE_HASH:  ${{ github.event.inputs.phone_code_hash }}
+          CODE:             ${{ github.event.inputs.code }}
+          PHONE:            ${{ github.event.inputs.phone }}
+          API_ID:           ${{ github.event.inputs.api_id }}
+          API_HASH:         ${{ github.event.inputs.api_hash }}
+          PASSWORD:         ${{ github.event.inputs.password }}
         run: |
           python3 - << 'EOF'
           import asyncio, os
@@ -53,7 +57,11 @@ jobs:
               )
               await client.connect()
               try:
-                  await client.sign_in(os.environ["PHONE"], os.environ["CODE"])
+                  await client.sign_in(
+                      os.environ["PHONE"],
+                      os.environ["CODE"],
+                      phone_code_hash=os.environ["PHONE_CODE_HASH"].strip(),
+                  )
               except SessionPasswordNeededError:
                   pw = os.environ.get("PASSWORD", "")
                   if not pw:
