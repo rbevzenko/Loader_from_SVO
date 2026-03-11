@@ -3,8 +3,11 @@ name: "Generate Session — Step 2: Complete Auth"
 on:
   workflow_dispatch:
     inputs:
-      auth_token:
-        description: 'AUTH_TOKEN из логов Step 1 (одна длинная строка)'
+      partial_session:
+        description: 'partial_session из логов Step 1'
+        required: true
+      phone_code_hash:
+        description: 'phone_code_hash из логов Step 1'
         required: true
       code:
         description: 'Код из Telegram (5-6 цифр)'
@@ -32,27 +35,23 @@ jobs:
 
       - name: Complete authentication and print session string
         env:
-          AUTH_TOKEN: ${{ github.event.inputs.auth_token }}
-          CODE:       ${{ github.event.inputs.code }}
-          PHONE:      ${{ github.event.inputs.phone }}
-          API_ID:     ${{ github.event.inputs.api_id }}
-          API_HASH:   ${{ github.event.inputs.api_hash }}
-          PASSWORD:   ${{ github.event.inputs.password }}
+          PARTIAL_SESSION:  ${{ github.event.inputs.partial_session }}
+          PHONE_CODE_HASH:  ${{ github.event.inputs.phone_code_hash }}
+          CODE:             ${{ github.event.inputs.code }}
+          PHONE:            ${{ github.event.inputs.phone }}
+          API_ID:           ${{ github.event.inputs.api_id }}
+          API_HASH:         ${{ github.event.inputs.api_hash }}
+          PASSWORD:         ${{ github.event.inputs.password }}
         run: |
           python3 - << 'EOF'
-          import asyncio, os, json, base64
+          import asyncio, os
           from telethon import TelegramClient
           from telethon.sessions import StringSession
           from telethon.errors import SessionPasswordNeededError
 
           async def main():
-              token = os.environ["AUTH_TOKEN"].strip()
-              data = json.loads(base64.b64decode(token).decode())
-              partial_session = data["s"]
-              phone_code_hash = data["h"]
-
               client = TelegramClient(
-                  StringSession(partial_session),
+                  StringSession(os.environ["PARTIAL_SESSION"].strip()),
                   int(os.environ["API_ID"]),
                   os.environ["API_HASH"],
               )
@@ -60,11 +59,11 @@ jobs:
               try:
                   await client.sign_in(
                       os.environ["PHONE"],
-                      os.environ["CODE"].strip(),
-                      phone_code_hash=phone_code_hash,
+                      os.environ["CODE"],
+                      phone_code_hash=os.environ["PHONE_CODE_HASH"].strip(),
                   )
               except SessionPasswordNeededError:
-                  pw = os.environ.get("PASSWORD", "").strip()
+                  pw = os.environ.get("PASSWORD", "")
                   if not pw:
                       raise RuntimeError("2FA включён — введи пароль в поле 'password'")
                   await client.sign_in(password=pw)
