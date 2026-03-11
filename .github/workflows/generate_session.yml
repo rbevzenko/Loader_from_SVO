@@ -20,14 +20,14 @@ jobs:
       - name: Install telethon
         run: pip install telethon
 
-      - name: Send auth code and print session + hash
+      - name: Send auth code and print combined token
         env:
           PHONE:    ${{ github.event.inputs.phone }}
           API_ID:   ${{ github.event.inputs.api_id }}
           API_HASH: ${{ github.event.inputs.api_hash }}
         run: |
           python3 - << 'EOF'
-          import asyncio, os
+          import asyncio, os, json, base64
           from telethon import TelegramClient
           from telethon.sessions import StringSession
 
@@ -40,14 +40,18 @@ jobs:
               await client.connect()
               sent = await client.send_code_request(os.environ["PHONE"])
               session = client.session.save()
+
+              combined = base64.b64encode(
+                  json.dumps({"s": session, "h": sent.phone_code_hash}).encode()
+              ).decode()
+
               print("Код отправлен в Telegram!")
               print()
-              print(">>> Скопируй ЭТИ ДВЕ строки в Step 2 <<<")
+              print("=" * 60)
+              print("AUTH_TOKEN:", combined)
+              print("=" * 60)
               print()
-              print("partial_session =", session)
-              print("phone_code_hash =", sent.phone_code_hash)
-              print()
-              print(">>> Конец <<<")
+              print("Скопируй строку AUTH_TOKEN целиком в поле 'auth_token' в Step 2")
 
           asyncio.run(main())
           EOF
