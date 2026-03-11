@@ -537,7 +537,14 @@ def main():
 
     # Use Telethon if credentials are available
     if all(os.environ.get(k) for k in ("TELEGRAM_API_ID", "TELEGRAM_API_HASH", "TELEGRAM_SESSION_STR")):
-        post_ids = [p["id"] for p in data["posts"]]
+        now_ts = time.time()
+        # Only fetch comments for posts whose file is missing or older than 24 h
+        post_ids = [
+            p["id"] for p in data["posts"]
+            if not (COMMENTS_DIR / f"{p['id']}.json").exists()
+            or now_ts - (COMMENTS_DIR / f"{p['id']}.json").stat().st_mtime > 86400
+        ]
+        log.info(f"Fetching comments for {len(post_ids)} posts (skipping {len(data['posts']) - len(post_ids)} cached)")
         try:
             all_comments = asyncio.run(_fetch_comments_telethon(post_ids))
             for post in data["posts"]:
