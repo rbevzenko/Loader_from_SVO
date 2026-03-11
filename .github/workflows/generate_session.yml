@@ -1,52 +1,56 @@
-name: Generate Telegram Session (run once)
+name: "Generate Session — Step 1: Send Code"
 
 on:
   workflow_dispatch:
     inputs:
+      phone:
+        description: 'Номер телефона с кодом страны (например +79991234567)'
+        required: true
       api_id:
         description: 'TELEGRAM_API_ID (число с my.telegram.org)'
         required: true
       api_hash:
         description: 'TELEGRAM_API_HASH (строка с my.telegram.org)'
         required: true
-      bot_token:
-        description: 'Bot Token (от @BotFather)'
-        required: true
 
 jobs:
-  generate:
+  send_code:
     runs-on: ubuntu-latest
     steps:
       - name: Install telethon
         run: pip install telethon
 
-      - name: Generate session string
+      - name: Send auth code to Telegram
         env:
-          API_ID: ${{ github.event.inputs.api_id }}
+          PHONE:    ${{ github.event.inputs.phone }}
+          API_ID:   ${{ github.event.inputs.api_id }}
           API_HASH: ${{ github.event.inputs.api_hash }}
-          BOT_TOKEN: ${{ github.event.inputs.bot_token }}
         run: |
           python3 - << 'EOF'
-          import asyncio
-          import os
+          import asyncio, os
           from telethon import TelegramClient
           from telethon.sessions import StringSession
 
           async def main():
-              api_id = int(os.environ["API_ID"])
-              api_hash = os.environ["API_HASH"]
-              bot_token = os.environ["BOT_TOKEN"]
-              print(f"Connecting with API_ID={api_id}...")
-              client = TelegramClient(StringSession(), api_id, api_hash)
-              await client.start(bot_token=bot_token)
-              me = await client.get_me()
-              print(f"Connected as: {me.username} (id={me.id})")
+              client = TelegramClient(
+                  StringSession(),
+                  int(os.environ["API_ID"]),
+                  os.environ["API_HASH"],
+              )
+              await client.connect()
+              await client.send_code_request(os.environ["PHONE"])
               session = client.session.save()
-              await client.disconnect()
-              print()
-              print("=" * 60)
-              print("TELEGRAM_SESSION_STR =", session)
-              print("=" * 60)
+              with open("partial_session.txt", "w") as f:
+                  f.write(session)
+              print("Код отправлен в Telegram!")
+              print("Теперь запусти Step 2 и введи полученный код.")
 
           asyncio.run(main())
           EOF
+
+      - name: Upload partial session as artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: partial-session
+          path: partial_session.txt
+          retention-days: 1

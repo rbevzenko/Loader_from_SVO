@@ -1,0 +1,84 @@
+name: "Generate Session — Step 2: Complete Auth"
+
+on:
+  workflow_dispatch:
+    inputs:
+      code:
+        description: 'Код из Telegram (5-6 цифр)'
+        required: true
+      phone:
+        description: 'Тот же номер телефона что в Step 1'
+        required: true
+      api_id:
+        description: 'TELEGRAM_API_ID'
+        required: true
+      api_hash:
+        description: 'TELEGRAM_API_HASH'
+        required: true
+      password:
+        description: 'Пароль 2FA (если включён, иначе оставь пустым)'
+        required: false
+        default: ''
+      step1_run_id:
+        description: 'Run ID из Step 1 (последние цифры из URL страницы того запуска)'
+        required: true
+
+jobs:
+  complete_auth:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Install telethon
+        run: pip install telethon
+
+      - name: Download partial session from Step 1
+        uses: actions/download-artifact@v4
+        with:
+          name: partial-session
+          run-id: ${{ github.event.inputs.step1_run_id }}
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Complete authentication and print session string
+        env:
+          CODE:     ${{ github.event.inputs.code }}
+          PHONE:    ${{ github.event.inputs.phone }}
+          API_ID:   ${{ github.event.inputs.api_id }}
+          API_HASH: ${{ github.event.inputs.api_hash }}
+          PASSWORD: ${{ github.event.inputs.password }}
+        run: |
+          python3 - << 'EOF'
+          import asyncio, os
+          from telethon import TelegramClient
+          from telethon.sessions import StringSession
+          from telethon.errors import SessionPasswordNeededError
+
+          async def main():
+              session_str = open("partial_session.txt").read().strip()
+              client = TelegramClient(
+                  StringSession(session_str),
+                  int(os.environ["API_ID"]),
+                  os.environ["API_HASH"],
+              )
+              await client.connect()
+              try:
+                  await client.sign_in(os.environ["PHONE"], os.environ["CODE"])
+              except SessionPasswordNeededError:
+                  pw = os.environ.get("PASSWORD", "")
+                  if not pw:
+                      raise RuntimeError("2FA включён — введи пароль в поле 'password'")
+                  await client.sign_in(password=pw)
+
+              me = await client.get_me()
+              session = client.session.save()
+              await client.disconnect()
+
+              print(f"Вошёл как: {me.first_name} (@{getattr(me, 'username', 'нет')})")
+              print()
+              print("=" * 60)
+              print("TELEGRAM_SESSION_STR =", session)
+              print("=" * 60)
+              print()
+              print("Скопируй строку выше и добавь в GitHub Secrets:")
+              print("Settings → Secrets and variables → Actions → TELEGRAM_SESSION_STR")
+
+          asyncio.run(main())
+          EOF
