@@ -1,4 +1,4 @@
-const CACHE = 'gruzchik-svo-v11';
+const CACHE = 'gruzchik-svo-v12';
 const STATIC_ASSETS = [
   './style.css',
   './app.js',
