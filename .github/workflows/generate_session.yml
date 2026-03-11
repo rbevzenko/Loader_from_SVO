@@ -13,10 +13,6 @@ on:
         description: 'TELEGRAM_API_HASH (строка с my.telegram.org)'
         required: true
 
-permissions:
-  actions: write
-  contents: read
-
 jobs:
   send_code:
     runs-on: ubuntu-latest
@@ -24,7 +20,7 @@ jobs:
       - name: Install telethon
         run: pip install telethon
 
-      - name: Send auth code to Telegram
+      - name: Send auth code and print partial session
         env:
           PHONE:    ${{ github.event.inputs.phone }}
           API_ID:   ${{ github.event.inputs.api_id }}
@@ -44,25 +40,11 @@ jobs:
               await client.connect()
               await client.send_code_request(os.environ["PHONE"])
               session = client.session.save()
-              with open("partial_session.txt", "w") as f:
-                  f.write(session)
               print("Код отправлен в Telegram!")
-              print("Запусти Step 2 и введи полученный код.")
+              print()
+              print("=== PARTIAL_SESSION (скопируй в Step 2) ===")
+              print(session)
+              print("===========================================")
 
           asyncio.run(main())
           EOF
-
-      - name: Store partial session in repository variable
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          SESSION=$(cat partial_session.txt)
-          gh api --method POST \
-            "repos/${{ github.repository }}/actions/variables" \
-            -f name=PARTIAL_SESSION \
-            -f value="$SESSION" 2>/dev/null || \
-          gh api --method PATCH \
-            "repos/${{ github.repository }}/actions/variables/PARTIAL_SESSION" \
-            -f name=PARTIAL_SESSION \
-            -f value="$SESSION"
-          echo "Partial session saved. Run Step 2 now."

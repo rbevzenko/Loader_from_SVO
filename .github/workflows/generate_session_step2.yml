@@ -3,6 +3,9 @@ name: "Generate Session — Step 2: Complete Auth"
 on:
   workflow_dispatch:
     inputs:
+      partial_session:
+        description: 'Строка из логов Step 1 (между === линиями)'
+        required: true
       code:
         description: 'Код из Telegram (5-6 цифр)'
         required: true
@@ -20,10 +23,6 @@ on:
         required: false
         default: ''
 
-permissions:
-  actions: write
-  contents: read
-
 jobs:
   complete_auth:
     runs-on: ubuntu-latest
@@ -31,21 +30,14 @@ jobs:
       - name: Install telethon
         run: pip install telethon
 
-      - name: Retrieve partial session from repository variable
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          gh api "repos/${{ github.repository }}/actions/variables/PARTIAL_SESSION" \
-            --jq '.value' > partial_session.txt
-          echo "Partial session loaded ($(wc -c < partial_session.txt) bytes)"
-
       - name: Complete authentication and print session string
         env:
-          CODE:     ${{ github.event.inputs.code }}
-          PHONE:    ${{ github.event.inputs.phone }}
-          API_ID:   ${{ github.event.inputs.api_id }}
-          API_HASH: ${{ github.event.inputs.api_hash }}
-          PASSWORD: ${{ github.event.inputs.password }}
+          PARTIAL_SESSION: ${{ github.event.inputs.partial_session }}
+          CODE:            ${{ github.event.inputs.code }}
+          PHONE:           ${{ github.event.inputs.phone }}
+          API_ID:          ${{ github.event.inputs.api_id }}
+          API_HASH:        ${{ github.event.inputs.api_hash }}
+          PASSWORD:        ${{ github.event.inputs.password }}
         run: |
           python3 - << 'EOF'
           import asyncio, os
@@ -54,9 +46,8 @@ jobs:
           from telethon.errors import SessionPasswordNeededError
 
           async def main():
-              session_str = open("partial_session.txt").read().strip()
               client = TelegramClient(
-                  StringSession(session_str),
+                  StringSession(os.environ["PARTIAL_SESSION"].strip()),
                   int(os.environ["API_ID"]),
                   os.environ["API_HASH"],
               )
@@ -79,17 +70,9 @@ jobs:
               print("TELEGRAM_SESSION_STR =", session)
               print("=" * 60)
               print()
-              print("Скопируй строку выше и добавь в GitHub Secrets:")
+              print("Добавь в GitHub Secrets:")
               print("Settings → Secrets and variables → Actions → New repository secret")
               print("Name: TELEGRAM_SESSION_STR")
 
           asyncio.run(main())
           EOF
-
-      - name: Clean up partial session variable
-        if: always()
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          gh api --method DELETE \
-            "repos/${{ github.repository }}/actions/variables/PARTIAL_SESSION" 2>/dev/null || true
