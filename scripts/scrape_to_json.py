@@ -27,9 +27,10 @@ from html.parser import HTMLParser
 logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(message)s")
 log = logging.getLogger(__name__)
 
-CHANNEL        = os.getenv("TELEGRAM_CHANNEL", "loaderfromSVO")
-COMMENTS_GROUP = os.getenv("TELEGRAM_COMMENTS_GROUP", "loaderfromSVOchat")
-LIMIT          = int(os.getenv("MESSAGES_LIMIT", "100"))
+CHANNEL         = os.getenv("TELEGRAM_CHANNEL", "loaderfromSVO")
+COMMENTS_GROUP  = os.getenv("TELEGRAM_COMMENTS_GROUP", "loaderfromSVOchat")
+LIMIT           = int(os.getenv("MESSAGES_LIMIT", "100"))
+COMMENTS_LIMIT  = int(os.getenv("COMMENTS_LIMIT", "300"))  # only fetch comments for N most recent posts
 
 REPO_ROOT    = Path(__file__).parent.parent
 DATA_FILE    = REPO_ROOT / "docs" / "data" / "posts.json"
@@ -537,24 +538,26 @@ def main():
 
     # Use Telethon if credentials are available
     if all(os.environ.get(k) for k in ("TELEGRAM_API_ID", "TELEGRAM_API_HASH", "TELEGRAM_SESSION_STR")):
-        now_ts = time.time()
-        # Only fetch comments for posts whose file is missing or older than 24 h
+        # Only fetch comments for the most recent COMMENTS_LIMIT posts
+        recent_posts = data["posts"][:COMMENTS_LIMIT]
         post_ids = [
-            p["id"] for p in data["posts"]
+            p["id"] for p in recent_posts
             if not (COMMENTS_DIR / f"{p['id']}.json").exists()
-            or now_ts - (COMMENTS_DIR / f"{p['id']}.json").stat().st_mtime > 86400
         ]
-        log.info(f"Fetching comments for {len(post_ids)} posts (skipping {len(data['posts']) - len(post_ids)} cached)")
+        log.info(f"Fetching comments for {len(post_ids)} posts (skipping {len(recent_posts) - len(post_ids)} cached, limiting to {COMMENTS_LIMIT} most recent)")
         try:
             all_comments = asyncio.run(_fetch_comments_telethon(post_ids))
-            for post in data["posts"]:
+            for post in recent_posts:
+                cache_file = COMMENTS_DIR / f"{post['id']}.json"
+                if cache_file.exists() and post["id"] not in all_comments:
+                    continue  # already cached, not re-fetched
                 comments = all_comments.get(post["id"], [])
                 out = {
                     "post_id":    post["id"],
                     "updated_at": datetime.now(timezone.utc).isoformat(),
                     "comments":   comments,
                 }
-                (COMMENTS_DIR / f"{post['id']}.json").write_text(
+                cache_file.write_text(
                     json.dumps(out, ensure_ascii=False, indent=2), "utf-8"
                 )
         except Exception as e:
