@@ -429,7 +429,7 @@ const app = (() => {
       const res = await fetch(`data/comments/${postId}.json?t=${Date.now()}`);
       if (!res.ok) throw new Error(`HTTP ${res.status}`);
       const data = await res.json();
-      const items = data.comments || [];
+      const items = (data.comments || []).slice().sort((a, b) => (a.date || '').localeCompare(b.date || ''));
       commentsSpinner.classList.add('hidden');
       if (items.length === 0) {
         commentsEmpty.classList.remove('hidden');
