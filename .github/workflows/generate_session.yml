@@ -13,6 +13,10 @@ on:
         description: 'TELEGRAM_API_HASH (строка с my.telegram.org)'
         required: true
 
+permissions:
+  actions: write
+  contents: read
+
 jobs:
   send_code:
     runs-on: ubuntu-latest
@@ -43,14 +47,22 @@ jobs:
               with open("partial_session.txt", "w") as f:
                   f.write(session)
               print("Код отправлен в Telegram!")
-              print("Теперь запусти Step 2 и введи полученный код.")
+              print("Запусти Step 2 и введи полученный код.")
 
           asyncio.run(main())
           EOF
 
-      - name: Upload partial session as artifact
-        uses: actions/upload-artifact@v4
-        with:
-          name: partial-session
-          path: partial_session.txt
-          retention-days: 1
+      - name: Store partial session in repository variable
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          SESSION=$(cat partial_session.txt)
+          gh api --method POST \
+            "repos/${{ github.repository }}/actions/variables" \
+            -f name=PARTIAL_SESSION \
+            -f value="$SESSION" 2>/dev/null || \
+          gh api --method PATCH \
+            "repos/${{ github.repository }}/actions/variables/PARTIAL_SESSION" \
+            -f name=PARTIAL_SESSION \
+            -f value="$SESSION"
+          echo "Partial session saved. Run Step 2 now."

@@ -19,9 +19,10 @@ on:
         description: 'Пароль 2FA (если включён, иначе оставь пустым)'
         required: false
         default: ''
-      step1_run_id:
-        description: 'Run ID из Step 1 (последние цифры из URL страницы того запуска)'
-        required: true
+
+permissions:
+  actions: write
+  contents: read
 
 jobs:
   complete_auth:
@@ -30,12 +31,13 @@ jobs:
       - name: Install telethon
         run: pip install telethon
 
-      - name: Download partial session from Step 1
-        uses: actions/download-artifact@v4
-        with:
-          name: partial-session
-          run-id: ${{ github.event.inputs.step1_run_id }}
-          github-token: ${{ secrets.GITHUB_TOKEN }}
+      - name: Retrieve partial session from repository variable
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh api "repos/${{ github.repository }}/actions/variables/PARTIAL_SESSION" \
+            --jq '.value' > partial_session.txt
+          echo "Partial session loaded ($(wc -c < partial_session.txt) bytes)"
 
       - name: Complete authentication and print session string
         env:
@@ -78,7 +80,16 @@ jobs:
               print("=" * 60)
               print()
               print("Скопируй строку выше и добавь в GitHub Secrets:")
-              print("Settings → Secrets and variables → Actions → TELEGRAM_SESSION_STR")
+              print("Settings → Secrets and variables → Actions → New repository secret")
+              print("Name: TELEGRAM_SESSION_STR")
 
           asyncio.run(main())
           EOF
+
+      - name: Clean up partial session variable
+        if: always()
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh api --method DELETE \
+            "repos/${{ github.repository }}/actions/variables/PARTIAL_SESSION" 2>/dev/null || true
