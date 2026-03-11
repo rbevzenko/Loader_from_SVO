@@ -538,17 +538,20 @@ def main():
     # Use Telethon if credentials are available
     if all(os.environ.get(k) for k in ("TELEGRAM_API_ID", "TELEGRAM_API_HASH", "TELEGRAM_SESSION_STR")):
         post_ids = [p["id"] for p in data["posts"]]
-        all_comments = asyncio.run(_fetch_comments_telethon(post_ids))
-        for post in data["posts"]:
-            comments = all_comments.get(post["id"], [])
-            out = {
-                "post_id":    post["id"],
-                "updated_at": datetime.now(timezone.utc).isoformat(),
-                "comments":   comments,
-            }
-            (COMMENTS_DIR / f"{post['id']}.json").write_text(
-                json.dumps(out, ensure_ascii=False, indent=2), "utf-8"
-            )
+        try:
+            all_comments = asyncio.run(_fetch_comments_telethon(post_ids))
+            for post in data["posts"]:
+                comments = all_comments.get(post["id"], [])
+                out = {
+                    "post_id":    post["id"],
+                    "updated_at": datetime.now(timezone.utc).isoformat(),
+                    "comments":   comments,
+                }
+                (COMMENTS_DIR / f"{post['id']}.json").write_text(
+                    json.dumps(out, ensure_ascii=False, indent=2), "utf-8"
+                )
+        except Exception as e:
+            log.error(f"Telethon comments scraping failed (posts already saved): {e}")
     else:
         log.info("Telethon credentials not set — skipping comments scraping")
 

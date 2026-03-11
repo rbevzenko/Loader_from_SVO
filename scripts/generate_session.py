@@ -1,32 +1,36 @@
 """
-Run this script ONCE locally to generate a Telethon StringSession using a Bot Token.
-No SMS code required — only a bot token from @BotFather.
+Run this script ONCE locally to generate a Telethon StringSession
+using your personal Telegram account (phone number + SMS code).
+
+A USER session (not bot) is required because GetDiscussionMessageRequest
+and GetRepliesRequest are only available to user accounts.
 
 Steps:
-  1. Go to @BotFather in Telegram → /newbot → copy the token
-  2. Run: pip install telethon python-dotenv
+  1. Get API credentials: https://my.telegram.org → Apps → create app
+  2. Run: pip install telethon
   3. Run: python scripts/generate_session.py
-  4. Copy the printed session string → add as GitHub Secret TELEGRAM_SESSION_STR
+  4. Enter your phone number, then the code from Telegram
+  5. Copy the printed session string → add as GitHub Secret TELEGRAM_SESSION_STR
+
+Note: The account must be a member of the comments group (loaderfromSVOchat)
+to be able to read comments.
 """
 
 import asyncio
 import os
-from dotenv import load_dotenv
 from telethon import TelegramClient
 from telethon.sessions import StringSession
 
-load_dotenv("tg-feed/backend/.env")
-
 API_ID   = int(os.environ.get("TELEGRAM_API_ID") or input("Enter API_ID: "))
 API_HASH = os.environ.get("TELEGRAM_API_HASH") or input("Enter API_HASH: ")
-BOT_TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN") or input("Enter Bot Token (from @BotFather): ")
 
 
 async def main():
-    print("\nConnecting with bot token...")
+    print("\nConnecting with user account...")
+    print("You will receive a login code in Telegram.\n")
 
     client = TelegramClient(StringSession(), API_ID, API_HASH)
-    await client.start(bot_token=BOT_TOKEN)
+    await client.start()  # prompts phone number + SMS/app code interactively
 
     session_string = client.session.save()
     await client.disconnect()
