@@ -540,10 +540,22 @@ def main():
     if all(os.environ.get(k) for k in ("TELEGRAM_API_ID", "TELEGRAM_API_HASH", "TELEGRAM_SESSION_STR")):
         # Only fetch comments for the most recent COMMENTS_LIMIT posts
         recent_posts = data["posts"][:COMMENTS_LIMIT]
-        post_ids = [
-            p["id"] for p in recent_posts
-            if not (COMMENTS_DIR / f"{p['id']}.json").exists()
-        ]
+        # Re-fetch comments for posts published within the last 7 days (they may get new comments)
+        # even if a cache file already exists. Posts older than 7 days are skipped if cached.
+        from datetime import timedelta
+        refresh_cutoff = datetime.now(timezone.utc) - timedelta(days=7)
+        post_ids = []
+        for p in recent_posts:
+            cache_file = COMMENTS_DIR / f"{p['id']}.json"
+            if not cache_file.exists():
+                post_ids.append(p["id"])
+            elif p.get("date"):
+                try:
+                    post_date = datetime.fromisoformat(p["date"])
+                    if post_date > refresh_cutoff:
+                        post_ids.append(p["id"])
+                except Exception:
+                    pass
         log.info(f"Fetching comments for {len(post_ids)} posts (skipping {len(recent_posts) - len(post_ids)} cached, limiting to {COMMENTS_LIMIT} most recent)")
         try:
             all_comments = asyncio.run(_fetch_comments_telethon(post_ids))
