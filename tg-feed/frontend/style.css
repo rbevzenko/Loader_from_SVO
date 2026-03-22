@@ -389,7 +389,7 @@ body {
 .icon-btn {
   display: flex; align-items: center; justify-content: center;
   width: 34px; height: 34px; border-radius: 50%;
-  background: var(--bg); border: none; cursor: pointer;
+  background: transparent; border: none; cursor: pointer;
   color: var(--text-secondary); flex-shrink: 0;
   transition: color 0.2s, background 0.2s;
 }
