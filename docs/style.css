@@ -353,6 +353,83 @@ body {
 }
 .comment-text a { color: var(--primary); text-decoration: underline; }
 
+/* ===== Search Bar ===== */
+.search-bar {
+  background: var(--bg);
+  border-bottom: 1px solid var(--border);
+  padding: 8px 12px;
+}
+.search-bar > * { max-width: 680px; margin: 0 auto; }
+.search-input-wrap {
+  display: flex; align-items: center; gap: 8px;
+  background: var(--surface); border: 1.5px solid var(--border);
+  border-radius: 20px; padding: 7px 14px;
+  transition: border-color 0.2s;
+}
+.search-input-wrap:focus-within { border-color: var(--primary); }
+.search-input-wrap svg { color: var(--text-secondary); flex-shrink: 0; }
+.search-input-wrap input {
+  flex: 1; border: none; background: none; outline: none;
+  font-size: 0.9rem; font-family: var(--font); color: var(--text);
+}
+.search-input-wrap input::placeholder { color: var(--text-secondary); }
+.search-clear {
+  background: none; border: none; cursor: pointer;
+  color: var(--text-secondary); font-size: 1.25rem; line-height: 1;
+  padding: 0 2px; transition: color 0.15s;
+}
+.search-clear:hover { color: var(--text); }
+.search-count {
+  display: block; text-align: center;
+  font-size: 0.76rem; color: var(--text-secondary);
+  margin-top: 5px; min-height: 14px;
+}
+
+/* ===== Icon buttons (search, bookmarks) ===== */
+.icon-btn {
+  display: flex; align-items: center; justify-content: center;
+  width: 34px; height: 34px; border-radius: 50%;
+  background: var(--bg); border: none; cursor: pointer;
+  color: var(--text-secondary); flex-shrink: 0;
+  transition: color 0.2s, background 0.2s;
+}
+.icon-btn:hover { color: var(--primary); background: var(--border); }
+.icon-btn.active { color: var(--primary); background: rgba(42, 171, 238, 0.15); }
+
+/* ===== Bookmark & Share buttons in post footer ===== */
+.bookmark-btn, .share-btn {
+  background: none; border: none; cursor: pointer;
+  color: var(--text-secondary); display: flex; align-items: center;
+  gap: 4px; padding: 2px; transition: color 0.2s;
+}
+.bookmark-btn:hover, .share-btn:hover { color: var(--primary); }
+.bookmark-btn.saved { color: var(--primary); }
+.bookmark-btn svg, .share-btn svg { width: 15px; height: 15px; }
+
+/* ===== Scroll to top FAB ===== */
+.scroll-top-btn {
+  position: fixed; bottom: 24px; right: 18px; z-index: 200;
+  width: 44px; height: 44px; border-radius: 50%;
+  background: var(--primary); border: none; cursor: pointer;
+  color: white; display: flex; align-items: center; justify-content: center;
+  box-shadow: 0 4px 14px rgba(0,0,0,0.22);
+  opacity: 0; pointer-events: none;
+  transform: translateY(10px);
+  transition: opacity 0.25s, transform 0.25s, background 0.2s;
+}
+.scroll-top-btn.visible { opacity: 1; pointer-events: auto; transform: translateY(0); }
+.scroll-top-btn:hover { background: var(--primary-dark); }
+
+/* ===== Toast ===== */
+.toast {
+  position: fixed; bottom: 80px; left: 50%; transform: translateX(-50%);
+  background: rgba(0,0,0,0.8); color: #fff;
+  padding: 8px 18px; border-radius: 20px;
+  font-size: 0.85rem; z-index: 500; white-space: nowrap;
+  pointer-events: none; opacity: 0; transition: opacity 0.25s;
+}
+.toast.show { opacity: 1; }
+
 .hidden { display: none !important; }
 
 /* ===== Responsive ===== */
