@@ -34,6 +34,8 @@ const app = (() => {
   // ── State ──────────────────────────────────────────────────────────────
   let allPosts = [];
   let offset = 0;
+  let searchQuery = '';
+  let bookmarksMode = false;
 
   // ── DOM ────────────────────────────────────────────────────────────────
   const feed        = document.getElementById('postFeed');
@@ -50,6 +52,14 @@ const app = (() => {
   const lbContent   = document.getElementById('lightboxContent');
   const lbPrev      = document.getElementById('lightboxPrev');
   const lbNext      = document.getElementById('lightboxNext');
+  const searchToggle   = document.getElementById('searchToggle');
+  const searchBar      = document.getElementById('searchBar');
+  const searchInput    = document.getElementById('searchInput');
+  const searchClear    = document.getElementById('searchClear');
+  const searchCount    = document.getElementById('searchCount');
+  const bookmarksToggle = document.getElementById('bookmarksToggle');
+  const scrollTopBtn   = document.getElementById('scrollTopBtn');
+  const toastEl        = document.getElementById('toast');
 
   let lbItems = [], lbIdx = 0;
 
@@ -170,6 +180,8 @@ const app = (() => {
   function renderPost(post) {
     const card = document.createElement('article');
     card.className = 'post-card';
+    card.dataset.postId = post.id;
+    const isSaved = getSavedIds().has(post.id);
 
     const mediaHtml = buildMedia(post);
     const tgUrl = `https://t.me/${CHANNEL}/${post.id}`;
@@ -196,6 +208,17 @@ const app = (() => {
         <time class="post-date" datetime="${post.date}">${formatDate(post.date)}</time>
         <div class="post-meta">
           ${viewsHtml}
+          <button class="share-btn" aria-label="Поделиться" title="Поделиться">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M4 12v8a2 2 0 002 2h12a2 2 0 002-2v-8"/>
+              <polyline points="16 6 12 2 8 6"/><line x1="12" y1="2" x2="12" y2="15"/>
+            </svg>
+          </button>
+          <button class="bookmark-btn${isSaved ? ' saved' : ''}" aria-label="${isSaved ? 'Удалить из закладок' : 'В закладки'}" title="${isSaved ? 'Удалить из закладок' : 'В закладки'}">
+            <svg viewBox="0 0 24 24" fill="${isSaved ? 'currentColor' : 'none'}" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M19 21l-7-5-7 5V5a2 2 0 012-2h10a2 2 0 012 2z"/>
+            </svg>
+          </button>
           <a class="tg-link comments-link" href="#comments-${post.id}">
             <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"/></svg>
             Комментарии
@@ -242,6 +265,39 @@ const app = (() => {
       });
     }
 
+    // Share button
+    const shareBtn = card.querySelector('.share-btn');
+    shareBtn.addEventListener('click', async () => {
+      const url = `https://t.me/${CHANNEL}/${post.id}`;
+      const text = (post.text || '').slice(0, 200);
+      try {
+        if (navigator.share) {
+          await navigator.share({ title: 'Грузчик из Шереметьево', text, url });
+        } else {
+          await navigator.clipboard.writeText(url);
+          showToast('Ссылка скопирована');
+        }
+      } catch (e) {
+        if (e.name !== 'AbortError') {
+          try { await navigator.clipboard.writeText(url); showToast('Ссылка скопирована'); }
+          catch { showToast('Не удалось скопировать ссылку'); }
+        }
+      }
+    });
+
+    // Bookmark button
+    const bookmarkBtn = card.querySelector('.bookmark-btn');
+    bookmarkBtn.addEventListener('click', () => {
+      const saved = toggleBookmark(post.id);
+      const svgEl = bookmarkBtn.querySelector('svg');
+      bookmarkBtn.classList.toggle('saved', saved);
+      bookmarkBtn.setAttribute('aria-label', saved ? 'Удалить из закладок' : 'В закладки');
+      bookmarkBtn.setAttribute('title', saved ? 'Удалить из закладок' : 'В закладки');
+      svgEl.setAttribute('fill', saved ? 'currentColor' : 'none');
+      showToast(saved ? 'Добавлено в закладки' : 'Удалено из закладок');
+      if (bookmarksMode && !saved) card.remove();
+    });
+
     return card;
   }
 
@@ -256,10 +312,12 @@ const app = (() => {
       const newPosts = fresh.filter(p => !knownIds.has(p.id));
       if (newPosts.length > 0) {
         allPosts = [...newPosts, ...allPosts];
-        offset += newPosts.length;
-        const frag = document.createDocumentFragment();
-        newPosts.forEach(p => frag.appendChild(renderPost(p)));
-        feed.insertBefore(frag, feed.firstChild);
+        if (!searchQuery && !bookmarksMode) {
+          offset += newPosts.length;
+          const frag = document.createDocumentFragment();
+          newPosts.forEach(p => frag.appendChild(renderPost(p)));
+          feed.insertBefore(frag, feed.firstChild);
+        }
       }
       if (data.updated_at) updatedText.textContent = timeAgo(data.updated_at);
       return newPosts.length;
@@ -324,17 +382,85 @@ const app = (() => {
     document.addEventListener('mouseleave', onEnd);
   })();
 
+  // ── Bookmarks ──────────────────────────────────────────────────────────
+  const BOOKMARKS_KEY = 'svo_bookmarks';
+  function getSavedIds() {
+    try { return new Set(JSON.parse(localStorage.getItem(BOOKMARKS_KEY) || '[]')); }
+    catch { return new Set(); }
+  }
+  function toggleBookmark(id) {
+    const saved = getSavedIds();
+    if (saved.has(id)) saved.delete(id); else saved.add(id);
+    localStorage.setItem(BOOKMARKS_KEY, JSON.stringify([...saved]));
+    return saved.has(id);
+  }
+
+  // ── Display filter ─────────────────────────────────────────────────────
+  function getDisplayPosts() {
+    let posts = allPosts;
+    if (bookmarksMode) {
+      const saved = getSavedIds();
+      posts = posts.filter(p => saved.has(p.id));
+    }
+    if (searchQuery) {
+      const q = searchQuery.toLowerCase();
+      posts = posts.filter(p => (p.text || '').toLowerCase().includes(q));
+    }
+    return posts;
+  }
+
+  function resetFeed() {
+    feed.innerHTML = '';
+    offset = 0;
+    showPage();
+  }
+
+  // ── Toast ──────────────────────────────────────────────────────────────
+  let _toastTimer;
+  function showToast(msg) {
+    toastEl.textContent = msg;
+    toastEl.classList.remove('hidden');
+    toastEl.classList.add('show');
+    clearTimeout(_toastTimer);
+    _toastTimer = setTimeout(() => {
+      toastEl.classList.remove('show');
+      setTimeout(() => toastEl.classList.add('hidden'), 300);
+    }, 2200);
+  }
+
   // ── Pagination ─────────────────────────────────────────────────────────
   function showPage() {
-    const page = allPosts.slice(offset, offset + PAGE_SIZE);
-    if (page.length === 0) return;
+    const display = getDisplayPosts();
+    const page = display.slice(offset, offset + PAGE_SIZE);
+
+    if (page.length === 0 && offset === 0) {
+      // Empty state for search/bookmarks
+      if (searchQuery || bookmarksMode) {
+        const icon = bookmarksMode ? '🔖' : '🔍';
+        const title = bookmarksMode ? 'Нет закладок' : 'Ничего не найдено';
+        const desc = bookmarksMode
+          ? 'Сохраняйте посты, нажимая иконку закладки.'
+          : 'Попробуйте другой запрос.';
+        feed.innerHTML = `<div class="empty-state">
+          <div class="empty-icon">${icon}</div>
+          <h2>${title}</h2><p>${desc}</p>
+        </div>`;
+      }
+      loadMoreWrap.classList.add('hidden');
+      return;
+    }
+
     const frag = document.createDocumentFragment();
     page.forEach(p => frag.appendChild(renderPost(p)));
     feed.appendChild(frag);
     offset += page.length;
 
-    const hasMore = offset < allPosts.length;
+    const hasMore = offset < display.length;
     loadMoreWrap.classList.toggle('hidden', !hasMore);
+
+    if (searchQuery) {
+      searchCount.textContent = `Найдено: ${display.length}`;
+    }
   }
 
   loadMoreBtn.addEventListener('click', showPage);
@@ -344,7 +470,7 @@ const app = (() => {
   sentinel.style.height = '1px';
   document.querySelector('.feed-container').appendChild(sentinel);
   new IntersectionObserver(entries => {
-    if (entries[0].isIntersecting && offset < allPosts.length) showPage();
+    if (entries[0].isIntersecting && offset < getDisplayPosts().length) showPage();
   }, { rootMargin: '200px' }).observe(sentinel);
 
   // ── Load JSON ──────────────────────────────────────────────────────────
@@ -382,6 +508,61 @@ const app = (() => {
       refreshBtn.classList.remove('spinning');
     });
   }
+
+  // ── Search ─────────────────────────────────────────────────────────────
+  searchToggle.addEventListener('click', () => {
+    const isOpen = !searchBar.classList.contains('hidden');
+    if (isOpen) {
+      searchBar.classList.add('hidden');
+      searchToggle.classList.remove('active');
+      if (searchQuery) {
+        searchQuery = '';
+        searchCount.textContent = '';
+        resetFeed();
+      }
+    } else {
+      searchBar.classList.remove('hidden');
+      searchToggle.classList.add('active');
+      searchInput.focus();
+    }
+  });
+
+  let _searchTimer;
+  searchInput.addEventListener('input', () => {
+    const val = searchInput.value.trim();
+    searchClear.classList.toggle('hidden', !val);
+    clearTimeout(_searchTimer);
+    _searchTimer = setTimeout(() => {
+      searchQuery = val;
+      resetFeed();
+    }, 300);
+  });
+
+  searchClear.addEventListener('click', () => {
+    searchInput.value = '';
+    searchClear.classList.add('hidden');
+    searchQuery = '';
+    searchCount.textContent = '';
+    searchInput.focus();
+    resetFeed();
+  });
+
+  // ── Bookmarks toggle ────────────────────────────────────────────────────
+  bookmarksToggle.addEventListener('click', () => {
+    bookmarksMode = !bookmarksMode;
+    bookmarksToggle.classList.toggle('active', bookmarksMode);
+    bookmarksToggle.setAttribute('title', bookmarksMode ? 'Показать все посты' : 'Закладки');
+    // Update SVG fill to show filled bookmark when active
+    const bsvg = bookmarksToggle.querySelector('svg');
+    bsvg.setAttribute('fill', bookmarksMode ? 'currentColor' : 'none');
+    resetFeed();
+  });
+
+  // ── Scroll to top ───────────────────────────────────────────────────────
+  window.addEventListener('scroll', () => {
+    scrollTopBtn.classList.toggle('visible', window.scrollY > 400);
+  }, { passive: true });
+  scrollTopBtn.addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' }));
 
   // ── Comments view ──────────────────────────────────────────────────────────
   const commentsView     = document.getElementById('commentsView');
