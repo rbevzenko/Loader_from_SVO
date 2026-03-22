@@ -35,6 +35,9 @@ const app = (() => {
   let hasMore = true;
   let lightboxItems = [];
   let lightboxIndex = 0;
+  let allLoadedPosts = [];   // accumulates every fetched post
+  let searchQuery = '';
+  let bookmarksMode = false;
 
   // ── DOM refs ───────────────────────────────────────────────────────────
   const feed = document.getElementById('postFeed');
@@ -51,6 +54,14 @@ const app = (() => {
   const lightboxContent = document.getElementById('lightboxContent');
   const lightboxPrev = document.getElementById('lightboxPrev');
   const lightboxNext = document.getElementById('lightboxNext');
+  const searchToggle    = document.getElementById('searchToggle');
+  const searchBar       = document.getElementById('searchBar');
+  const searchInput     = document.getElementById('searchInput');
+  const searchClear     = document.getElementById('searchClear');
+  const searchCount     = document.getElementById('searchCount');
+  const bookmarksToggle = document.getElementById('bookmarksToggle');
+  const scrollTopBtn    = document.getElementById('scrollTopBtn');
+  const toastEl         = document.getElementById('toast');
 
   // ── Helpers ────────────────────────────────────────────────────────────
   function formatDate(iso) {
@@ -85,6 +96,71 @@ const app = (() => {
     if (!url) return null;
     if (url.startsWith('http')) return url;
     return API_BASE + url;
+  }
+
+  // ── Bookmarks ──────────────────────────────────────────────────────────
+  const BOOKMARKS_KEY = 'svo_bookmarks';
+  function getSavedIds() {
+    try { return new Set(JSON.parse(localStorage.getItem(BOOKMARKS_KEY) || '[]')); }
+    catch { return new Set(); }
+  }
+  function toggleBookmark(id) {
+    const saved = getSavedIds();
+    if (saved.has(id)) saved.delete(id); else saved.add(id);
+    localStorage.setItem(BOOKMARKS_KEY, JSON.stringify([...saved]));
+    return saved.has(id);
+  }
+
+  // ── Toast ──────────────────────────────────────────────────────────────
+  let _toastTimer;
+  function showToast(msg) {
+    toastEl.textContent = msg;
+    toastEl.classList.remove('hidden');
+    toastEl.classList.add('show');
+    clearTimeout(_toastTimer);
+    _toastTimer = setTimeout(() => {
+      toastEl.classList.remove('show');
+      setTimeout(() => toastEl.classList.add('hidden'), 300);
+    }, 2200);
+  }
+
+  // ── Search filter ──────────────────────────────────────────────────────
+  function getFilteredPosts() {
+    let posts = allLoadedPosts;
+    if (bookmarksMode) {
+      const saved = getSavedIds();
+      posts = posts.filter(p => saved.has(p.id));
+    }
+    if (searchQuery) {
+      const q = searchQuery.toLowerCase();
+      posts = posts.filter(p => (p.text || '').toLowerCase().includes(q));
+    }
+    return posts;
+  }
+
+  function showFilteredFeed() {
+    feed.innerHTML = '';
+    const posts = getFilteredPosts();
+    if (posts.length === 0) {
+      const icon = bookmarksMode ? '🔖' : '🔍';
+      const title = bookmarksMode ? 'Нет закладок' : 'Ничего не найдено';
+      const desc = bookmarksMode
+        ? 'Сохраняйте посты, нажимая иконку закладки.'
+        : 'Попробуйте другой запрос или загрузите больше постов.';
+      feed.innerHTML = `<div class="empty-state">
+        <div class="empty-icon">${icon}</div>
+        <h2>${title}</h2><p>${desc}</p>
+      </div>`;
+      loadMoreWrap.classList.add('hidden');
+    } else {
+      const frag = document.createDocumentFragment();
+      posts.forEach(p => frag.appendChild(renderPost(p)));
+      feed.appendChild(frag);
+      loadMoreWrap.classList.add('hidden');
+    }
+    if (searchQuery) {
+      searchCount.textContent = `Найдено: ${posts.length} из ${allLoadedPosts.length} загруженных`;
+    }
   }
 
   // ── Status ─────────────────────────────────────────────────────────────
@@ -163,6 +239,7 @@ const app = (() => {
     const card = document.createElement('article');
     card.className = 'post-card';
     card.dataset.postId = post.id;
+    const isSaved = getSavedIds().has(post.id);
 
     const mediaHtml = renderMedia(post);
     const textHtml = post.text ? (() => {
@@ -187,12 +264,26 @@ const app = (() => {
         ${formatNum(post.forwards)}
       </span>` : '';
 
+    const tgUrl = `https://t.me/loaderfromSVO/${post.id}`;
     card.innerHTML = `
       ${mediaHtml}
       ${textHtml}
       <div class="post-footer">
         <time class="post-date" datetime="${post.date}">${formatDate(post.date)}</time>
-        <div class="post-stats">${viewsHtml}${forwardsHtml}</div>
+        <div class="post-stats">
+          ${viewsHtml}${forwardsHtml}
+          <button class="share-btn" aria-label="Поделиться" title="Поделиться">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M4 12v8a2 2 0 002 2h12a2 2 0 002-2v-8"/>
+              <polyline points="16 6 12 2 8 6"/><line x1="12" y1="2" x2="12" y2="15"/>
+            </svg>
+          </button>
+          <button class="bookmark-btn${isSaved ? ' saved' : ''}" aria-label="${isSaved ? 'Удалить из закладок' : 'В закладки'}" title="${isSaved ? 'Удалить из закладок' : 'В закладки'}">
+            <svg viewBox="0 0 24 24" fill="${isSaved ? 'currentColor' : 'none'}" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M19 21l-7-5-7 5V5a2 2 0 012-2h10a2 2 0 012 2z"/>
+            </svg>
+          </button>
+        </div>
       </div>
     `;
 
@@ -244,6 +335,39 @@ const app = (() => {
         }
       });
     }
+
+    // Share button
+    const shareBtn = card.querySelector('.share-btn');
+    shareBtn.addEventListener('click', async () => {
+      const url = `https://t.me/loaderfromSVO/${post.id}`;
+      const text = (post.text || '').slice(0, 200);
+      try {
+        if (navigator.share) {
+          await navigator.share({ title: 'Грузчик из Шереметьево', text, url });
+        } else {
+          await navigator.clipboard.writeText(url);
+          showToast('Ссылка скопирована');
+        }
+      } catch (e) {
+        if (e.name !== 'AbortError') {
+          try { await navigator.clipboard.writeText(url); showToast('Ссылка скопирована'); }
+          catch { showToast('Не удалось скопировать ссылку'); }
+        }
+      }
+    });
+
+    // Bookmark button
+    const bookmarkBtn = card.querySelector('.bookmark-btn');
+    bookmarkBtn.addEventListener('click', () => {
+      const saved = toggleBookmark(post.id);
+      const svgEl = bookmarkBtn.querySelector('svg');
+      bookmarkBtn.classList.toggle('saved', saved);
+      bookmarkBtn.setAttribute('aria-label', saved ? 'Удалить из закладок' : 'В закладки');
+      bookmarkBtn.setAttribute('title', saved ? 'Удалить из закладок' : 'В закладки');
+      svgEl.setAttribute('fill', saved ? 'currentColor' : 'none');
+      showToast(saved ? 'Добавлено в закладки' : 'Удалено из закладок');
+      if (bookmarksMode && !saved) card.remove();
+    });
 
     return card;
   }
@@ -298,7 +422,7 @@ const app = (() => {
 
   // ── Data Fetching ──────────────────────────────────────────────────────
   async function fetchPosts() {
-    if (isLoading || !hasMore) return;
+    if (isLoading || !hasMore || searchQuery || bookmarksMode) return;
     isLoading = true;
     spinner.classList.remove('hidden');
     loadMoreWrap.classList.add('hidden');
@@ -311,6 +435,7 @@ const app = (() => {
 
       hasMore = data.has_more;
       offset += data.posts.length;
+      allLoadedPosts = [...allLoadedPosts, ...data.posts];
 
       if (offset === data.posts.length && data.posts.length === 0) {
         emptyState.classList.remove('hidden');
@@ -354,6 +479,15 @@ const app = (() => {
     offset = 0;
     hasMore = true;
     isLoading = false;
+    allLoadedPosts = [];
+    searchQuery = '';
+    bookmarksMode = false;
+    searchBar.classList.add('hidden');
+    searchToggle.classList.remove('active');
+    bookmarksToggle.classList.remove('active');
+    bookmarksToggle.querySelector('svg').setAttribute('fill', 'none');
+    searchInput.value = '';
+    searchCount.textContent = '';
     feed.innerHTML = '';
     emptyState.classList.add('hidden');
     errorState.classList.add('hidden');
@@ -364,6 +498,79 @@ const app = (() => {
   reload();
   fetchStatus();
   setInterval(fetchStatus, 30_000);
+
+  // ── Search ─────────────────────────────────────────────────────────────
+  searchToggle.addEventListener('click', () => {
+    const isOpen = !searchBar.classList.contains('hidden');
+    if (isOpen) {
+      searchBar.classList.add('hidden');
+      searchToggle.classList.remove('active');
+      if (searchQuery) {
+        searchQuery = '';
+        searchCount.textContent = '';
+        // Restore normal feed
+        feed.innerHTML = '';
+        const frag = document.createDocumentFragment();
+        allLoadedPosts.forEach(p => frag.appendChild(renderPost(p)));
+        feed.appendChild(frag);
+        if (hasMore) loadMoreWrap.classList.remove('hidden');
+      }
+    } else {
+      searchBar.classList.remove('hidden');
+      searchToggle.classList.add('active');
+      searchInput.focus();
+    }
+  });
+
+  let _searchTimer;
+  searchInput.addEventListener('input', () => {
+    const val = searchInput.value.trim();
+    searchClear.classList.toggle('hidden', !val);
+    clearTimeout(_searchTimer);
+    _searchTimer = setTimeout(() => {
+      searchQuery = val;
+      loadMoreWrap.classList.add('hidden');
+      showFilteredFeed();
+    }, 300);
+  });
+
+  searchClear.addEventListener('click', () => {
+    searchInput.value = '';
+    searchClear.classList.add('hidden');
+    searchQuery = '';
+    searchCount.textContent = '';
+    searchInput.focus();
+    feed.innerHTML = '';
+    const frag = document.createDocumentFragment();
+    allLoadedPosts.forEach(p => frag.appendChild(renderPost(p)));
+    feed.appendChild(frag);
+    if (hasMore) loadMoreWrap.classList.remove('hidden');
+  });
+
+  // ── Bookmarks toggle ────────────────────────────────────────────────────
+  bookmarksToggle.addEventListener('click', () => {
+    bookmarksMode = !bookmarksMode;
+    bookmarksToggle.classList.toggle('active', bookmarksMode);
+    bookmarksToggle.setAttribute('title', bookmarksMode ? 'Показать все посты' : 'Закладки');
+    bookmarksToggle.querySelector('svg').setAttribute('fill', bookmarksMode ? 'currentColor' : 'none');
+    if (bookmarksMode) {
+      loadMoreWrap.classList.add('hidden');
+      showFilteredFeed();
+    } else {
+      searchCount.textContent = '';
+      feed.innerHTML = '';
+      const frag = document.createDocumentFragment();
+      allLoadedPosts.forEach(p => frag.appendChild(renderPost(p)));
+      feed.appendChild(frag);
+      if (hasMore) loadMoreWrap.classList.remove('hidden');
+    }
+  });
+
+  // ── Scroll to top ───────────────────────────────────────────────────────
+  window.addEventListener('scroll', () => {
+    scrollTopBtn.classList.toggle('visible', window.scrollY > 400);
+  }, { passive: true });
+  scrollTopBtn.addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' }));
 
   // ── Pull to Refresh ───────────────────────────────────────────────────
   (function () {
