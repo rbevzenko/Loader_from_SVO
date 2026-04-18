@@ -1,6 +1,6 @@
 {
   "channel": "loaderfromSVO",
-  "updated_at": "2026-04-18T20:34:51.733063+00:00",
+  "updated_at": "2026-04-18T21:34:55.481319+00:00",
   "posts": [
     {
       "id": 3068,
@@ -20,7 +20,7 @@
       "text": "В недавнем определении № 306-ЭС25-11423 (1, 2) эк.коллегия верх.суда (докладчик - судья Шилохвост, которого добрые читатели наверняка помнят как автора самого чудовищного текста верх.суда в 2025 году; кстати, тоже по залоговому праву) обсуждает любопытный, но несложный вопрос о поиске покупателем информации о залоге автотранспорта в реестре залогов. \n\nПомним, что в реестре залогов информацию о залоге можно искать по VIN автомобиля, номеру шасси или номеру кузова, поиск можно осуществлять по любому из идентификаторов. \n\nВ деле была такая ситуация: банку были заложены грузовики, которые впоследствии подлежали модификации. При регистрации залога была заполнена графа VIN, а графы Номер шасси и Номер кузова не были (хотя эти данные у банка были). \n\nГрузовики впоследствии были залогодателем модифицированы и получили новые VINы, номера шасси и кузова были оставлены прежними. Однако банк изменения в данные реестра залогов не внес. \n\nПотом грузовики были перепроданы, должник не исполнил обеспеченное залогом обязательство и банк потребовал обратить взыскание на грузовики. \n\nПокупатель возражал, ссылаясь на то, что он не знал о залоге и поэтому тот прекратился. Банк же утверждал, что информацию о залоге можно получить из реестра, правда, надо вбить номер шасси грузовика в графу VIN (вместо собственно номера VIN).\n\nСуды согласились с банком, а эк.коллегия отменила акты и решила дело в пользу залогодателя. \n\nВ определении правильно написано, что нельзя требовать от покупателя заложенного автомобиля чего-то кроме проверки известных ему номеров покупаемых машин. Причем вбивать эти номера надо в соответствующие графы (но не путем экспериментов с вбиванием их в нерелевантные графы). В этом и заключается стандарт нормального осмотрительного поведения покупателя при покупке автомобиля. Соответствие этому стандарту и есть добросовестность (в субъективном смысле).\n\nЕдинственное, что меня очень расстроило в этом определении, это то, что судья Шилохвост использует в отношении собственника (последнего покупателя) предмета залога выражение \"добросовестный приобретатель заложенного имущества\". \n\nЭто юридическая ошибка, причем грубая. \n\nПо ГК добросовестный приобретатель это тот, кто купил имущество от несобственника, но не знал об этом. Поэтому распоряжение, совершенное этим лицом, ничтожно, а приобретатель собственность от него не приобретает и приобрести в принципе не может. Он становится собственником, но первоначальным способом, в силу решения правопорядка, на основании ст. 302 ГК. \n\nВ ст. 352 Кодекса (о прекращении залога) этот термин (добросовестный приобретатель), естественно, не используется. Ведь в ней речь идет о покупке заложенной вещи у собственника. Поэтому здесь право собственности переходит от отчуждателя (залогодателя) к покупателю производным образом, в силу передачи вещи (ст. 223) на основании договора купли-продажи (ст. 218). Он именно что покупатель (!), а не приобретатель (!!). \n\nЖаль, что эта терминологическая стройность норм ГК была судьей Шилохвостом проигнорирована.",
       "text_html": "В недавнем определении № 306-ЭС25-11423 (1, 2) эк.коллегия верх.суда (докладчик - судья Шилохвост, которого добрые читатели наверняка помнят как автора <a href=\"https://t.me/loaderfromSVO/2921\" target=\"_blank\" rel=\"noopener noreferrer\">самого чудовищного текста верх.суда в 2025 году</a>; кстати, тоже по залоговому праву) обсуждает любопытный, но несложный вопрос о поиске покупателем информации о залоге автотранспорта в реестре залогов. <br><br>Помним, что в реестре залогов информацию о залоге можно искать по VIN автомобиля, номеру шасси или номеру кузова, поиск можно осуществлять по любому из идентификаторов. <br><br>В деле была такая ситуация: банку были заложены грузовики, которые впоследствии подлежали модификации. При регистрации залога была заполнена графа VIN, а графы Номер шасси и Номер кузова не были (хотя эти данные у банка были). <br><br>Грузовики впоследствии были залогодателем модифицированы и получили новые VINы, номера шасси и кузова были оставлены прежними. Однако банк изменения в данные реестра залогов не внес. <br><br>Потом грузовики были перепроданы, должник не исполнил обеспеченное залогом обязательство и банк потребовал обратить взыскание на грузовики. <br><br>Покупатель возражал, ссылаясь на то, что он не знал о залоге и поэтому тот прекратился. Банк же утверждал, что информацию о залоге можно получить из реестра, правда, надо вбить номер шасси грузовика в графу VIN (вместо собственно номера VIN).<br><br>Суды согласились с банком, а эк.коллегия отменила акты и решила дело в пользу залогодателя. <br><br>В определении правильно написано, что нельзя требовать от покупателя заложенного автомобиля чего-то кроме проверки известных ему номеров покупаемых машин. Причем вбивать эти номера надо в соответствующие графы (но не путем экспериментов с вбиванием их в нерелевантные графы). В этом и заключается стандарт нормального осмотрительного поведения покупателя при покупке автомобиля. Соответствие этому стандарту и есть добросовестность (в субъективном смысле).<br><br>Единственное, что меня очень расстроило в этом определении, это то, что судья Шилохвост использует в отношении собственника (последнего покупателя) предмета залога выражение \"добросовестный приобретатель заложенного имущества\". <br><br>Это юридическая ошибка, причем грубая. <br><br>По ГК добросовестный приобретатель это тот, кто купил имущество от несобственника, но не знал об этом. Поэтому распоряжение, совершенное этим лицом, ничтожно, а приобретатель собственность от него не приобретает и приобрести в принципе не может. Он становится собственником, но первоначальным способом, в силу решения правопорядка, на основании ст. 302 ГК. <br><br>В ст. 352 Кодекса (о прекращении залога) этот термин (добросовестный приобретатель), естественно, не используется. Ведь в ней речь идет о покупке заложенной вещи у собственника. Поэтому здесь право собственности переходит от отчуждателя (залогодателя) к покупателю производным образом, в силу передачи вещи (ст. 223) на основании договора купли-продажи (ст. 218). Он именно что покупатель (!), а не приобретатель (!!). <br><br>Жаль, что эта терминологическая стройность норм ГК была судьей Шилохвостом проигнорирована.",
       "date": "2026-04-14T04:16:16+00:00",
-      "views": 11600,
+      "views": 11700,
       "forwards": 0,
       "photos": [],
       "video_path": null,
@@ -152,7 +152,7 @@
       "text": "💡 Нужно ли «цифровой копии» согласие оригинала? \n\nАвтор - М.А. Рожкова, источник - https://ipclub.in/\n\nНе так давно на Закон.ру была опубликована заметка «Как создать цифровую ИИ-копию (на примере Романа Бевзенко)» (https://zakon.ru/blog/2026/03/26/kak_sozdat_cifrovuyu_ii-kopiyu_na_primere_romana_bevzenko). Автор заметки пишет, что для интеллектуального развлечения он создал бота, который отвечает на вопросы в стиле Р. Бевзенко. Для этого им были обобщены фразы и воссоздан стиль Романа, для чего использовался «массив публичных высказываний: лекции, посты, комментарии в Telegram, разъяснения пленумов, к которым он имел непосредственное отношение». Также автор заметки сообщил, что у него есть цифровые копии Артема Карапетова и Сергея Сарбаша: «запускаешь всех троих на один вопрос и получается эдакий виртуальный круглый стол М-Логос».\n\nДопускаю, что использование интеллектуального труда и образов известных людей в личных целях – это частное дело каждого, что ограничивается лишь нормами этики и рамками ментального здоровья пользователя. Но когда такая ситуация выносится на публику, в дело, как мне кажется, вступают правовые нормы и встает вопрос получения согласия.\n\nПисать статью по этому поводу мне кажется излишним. Поэтому я решила ограничиться постом.\n\n1.  Согласно ст. 1273 ГК без согласия и без выплаты вознаграждения автору допускается «воспроизведение гражданином при необходимости и исключительно в личных целях правомерно обнародованного произведения». \nСбор автором заметки результатов интеллектуальной деятельности известного лица и их использование в проекте можно с некоторой натяжкой рассматривать как воспроизведение (хотя условие «необходимости» тут явно отсутствует, учитывая, что сам автор заметки писал о развлекательном характере). Но скорее все же речь идет о переработке, что не охватывается нормами ст. 1273 ГК. \nЕсли же проект, подобный «цифровой ИИ-копии», представляется общественности для пользования (она получает доступ к боту), то ст. 1273 ГК однозначно перестает работать.\n\n2.  Пункт 4 ст. 19 ГК предусматривает: «Имя физического лица или его псевдоним могут быть использованы с согласия этого лица другими лицами в их творческой деятельности, предпринимательской или иной экономической деятельности способами, исключающими введение в заблуждение третьих лиц относительно тождества граждан, а также исключающими злоупотребление правом в других формах». \nТаким образом, когда автор заметки описывает свой проект «цифровой ИИ-копии» и использует имя конкретного лица как элемент идентификации проекта «(на примере Романа Бевзенко)», в заключение приглашая в свой телеграм-канал, то возникает вопрос: имеет ли в этом случае место использование имени в смысле ст. 19 ГК и требуется ли согласие конкретного физического лица, на имени которого строится весь этот приглашающий пост. \n\n3.  В силу п. 1 ст. 152.1 ГК обнародование и дальнейшее использование изображения гражданина допускаются только с согласия этого гражданина.\nНасколько я понимаю, автором заметки использовано сгенерированное ИИ шаржированное изображение Р. Бевзенко (кстати, Роман по этому поводу заметил, что глаза у него зеленые, а не голубые)) В связи с этим возникает вопрос: если это изображение является узнаваемым, то подпадает ли оно под регулирование ст. 152.1 ГК и требуется ли в таком случае согласие изображенного лица?\n\nТак все же: нужно ли было автору заметки получить согласие лица, чьи работы, стиль, имя и образ использованы для создания «цифровой ИИ-копии»?",
       "text_html": "💡 Нужно ли «цифровой копии» согласие оригинала? <br><br>Автор - М.А. Рожкова, источник - <a href=\"https://ipclub.in/\" target=\"_blank\" rel=\"noopener noreferrer\">https://ipclub.in/</a><br><br>Не так давно на Закон.ру была опубликована заметка «Как создать цифровую ИИ-копию (на примере Романа Бевзенко)» (<a href=\"https://zakon.ru/blog/2026/03/26/kak_sozdat_cifrovuyu_ii-kopiyu_na_primere_romana_bevzenko\" target=\"_blank\" rel=\"noopener noreferrer\">https://zakon.ru/blog/2026/03/26/kak_sozdat_cifrovuyu_ii-kopiyu_na_primere_romana_bevzenko</a>). Автор заметки пишет, что для интеллектуального развлечения он создал бота, который отвечает на вопросы в стиле Р. Бевзенко. Для этого им были обобщены фразы и воссоздан стиль Романа, для чего использовался «массив публичных высказываний: лекции, посты, комментарии в Telegram, разъяснения пленумов, к которым он имел непосредственное отношение». Также автор заметки сообщил, что у него есть цифровые копии Артема Карапетова и Сергея Сарбаша: «запускаешь всех троих на один вопрос и получается эдакий виртуальный круглый стол М-Логос».<br><br>Допускаю, что использование интеллектуального труда и образов известных людей в личных целях – это частное дело каждого, что ограничивается лишь нормами этики и рамками ментального здоровья пользователя. Но когда такая ситуация выносится на публику, в дело, как мне кажется, вступают правовые нормы и встает вопрос получения согласия.<br><br>Писать статью по этому поводу мне кажется излишним. Поэтому я решила ограничиться постом.<br><br>1.  Согласно ст. 1273 ГК без согласия и без выплаты вознаграждения автору допускается «воспроизведение гражданином при необходимости и исключительно в личных целях правомерно обнародованного произведения». <br>Сбор автором заметки результатов интеллектуальной деятельности известного лица и их использование в проекте можно с некоторой натяжкой рассматривать как воспроизведение (хотя условие «необходимости» тут явно отсутствует, учитывая, что сам автор заметки писал о развлекательном характере). Но скорее все же речь идет о переработке, что не охватывается нормами ст. 1273 ГК. <br>Если же проект, подобный «цифровой ИИ-копии», представляется общественности для пользования (она получает доступ к боту), то ст. 1273 ГК однозначно перестает работать.<br><br>2.  Пункт 4 ст. 19 ГК предусматривает: «Имя физического лица или его псевдоним могут быть использованы с согласия этого лица другими лицами в их творческой деятельности, предпринимательской или иной экономической деятельности способами, исключающими введение в заблуждение третьих лиц относительно тождества граждан, а также исключающими злоупотребление правом в других формах». <br>Таким образом, когда автор заметки описывает свой проект «цифровой ИИ-копии» и использует имя конкретного лица как элемент идентификации проекта «(на примере Романа Бевзенко)», в заключение приглашая в свой телеграм-канал, то возникает вопрос: имеет ли в этом случае место использование имени в смысле ст. 19 ГК и требуется ли согласие конкретного физического лица, на имени которого строится весь этот приглашающий пост. <br><br>3.  В силу п. 1 ст. 152.1 ГК обнародование и дальнейшее использование изображения гражданина допускаются только с согласия этого гражданина.<br>Насколько я понимаю, автором заметки использовано сгенерированное ИИ шаржированное изображение Р. Бевзенко (кстати, Роман по этому поводу заметил, что глаза у него зеленые, а не голубые)) В связи с этим возникает вопрос: если это изображение является узнаваемым, то подпадает ли оно под регулирование ст. 152.1 ГК и требуется ли в таком случае согласие изображенного лица?<br><br>Так все же: нужно ли было автору заметки получить согласие лица, чьи работы, стиль, имя и образ использованы для создания «цифровой ИИ-копии»?",
       "date": "2026-04-06T06:58:03+00:00",
-      "views": 17700,
+      "views": 17800,
       "forwards": 0,
       "photos": [],
       "video_path": null,
@@ -165,7 +165,7 @@
       "text": "Важный текст от Юлия Тая про то как мало значит статус адвоката сегодня.",
       "text_html": "<a href=\"https://zakon.ru/blog/2026/04/05/v_zaschitu_advokatury\" target=\"_blank\" rel=\"noopener noreferrer\">Важный текст</a> от Юлия Тая про то как мало значит статус адвоката сегодня.",
       "date": "2026-04-05T15:56:01+00:00",
-      "views": 22900,
+      "views": 23000,
       "forwards": 0,
       "photos": [],
       "video_path": null,
@@ -232,7 +232,7 @@
       "text": "Вниманию всех, кто пишет исследовательские работы по частному праву (или собирается их писать)!\n\nЯ давно понял, что одна из ключевых проблем в этой сфере - это поиск информации о том, кто и что написал когда-то по интересующему вопросу. Речь не о монографиях, они более-менее на слуху, а именно о статьях в периодике.\n\nПонятно, что есть справочные системы, но искать в них информацию о статьях по той или иной теме, довольно сложно. Среди сотен названий публикаций сомнительного качества надо выискивать нужное. \n\nЯ решил, что надо сделать каталог, в который бы входили статьи по вопросам частного права, изданные в изданиях, которые я считаю лучшими в сфере цивилистики. Это Вестник гражданского права, Вестник экономического правосудия и Цивилистика. \n\nПотом я подумал - но ведь есть же много сборников, выходящих в честь ученых, в честь юбилеев принятия законов и проч. В них публикуются отличные работы, удержать в памяти которые просто невозможно. \n\nТак же невозможно удержать в памяти и статьи, выходящие в превосходной серии \"Опыт цивилистического исследования\". И статьи из \"Петербургской цивилистики\". А еще есть серии \"Анализ современного права\" и \"Практика рассмотрения коммерческих споров\". А еще есть великолепные \"Очерки по торговому праву\" ярославской школы. \n\nЯ уверен в качестве публикаций в этих изданиях, так как или дружу, или хорошо знаком с их редакторами. И уверен, что их знания, навыки и репутация гарантируют качество опубликованного материала.\n\nТак родилась идея ресурса, на котором любой юрист, ищущий глубокие работы по вопросам частного права, смог бы искать библиографические описания, а затем уже искать - в открытом ли, в платном ли доступе сами работы по составленному списку. \n\nЭто совпало с моим увлечением вайбкодингом и ИИ-сервисами. Собственно, обработка статей и изданий осуществлялась при помощи, расстановке тегов - тоже.\n\nСсылка на созданный мною ресурс - здесь.\n\nСейчас на нем больше 4,5 тыс. записей о статьях. \n\nНа ресурсе еще есть что доделать (например, я хочу подгрузить туда все материалы журнала \"Закон\", пока просто не дошли руки до этого). Надо разобрать некоторые ошибки, которые были сделаны при формировании карточек статей (например, есть \"задвоения\", есть карточки, где не указан автор). По мере наличия свободного времени я это сделаю. \n\nЕстественно, я буду пополнять каталог в будущем (возможно, мне для этого потребуются помощники, поэтому буду рад если найдутся энтузиасты).\n\nТрадиционно буду рад комментариям и предложениями по улучшению. Делитесь ссылкой с друзьями, изучающими право и интересующимися цивилистикой!",
       "text_html": "Вниманию всех, кто пишет исследовательские работы по частному праву (или собирается их писать)!<br><br>Я давно понял, что одна из ключевых проблем в этой сфере - это поиск информации о том, кто и что написал когда-то по интересующему вопросу. Речь не о монографиях, они более-менее на слуху, а именно о статьях в периодике.<br><br>Понятно, что есть справочные системы, но искать в них информацию о статьях по той или иной теме, довольно сложно. Среди сотен названий публикаций сомнительного качества надо выискивать нужное. <br><br>Я решил, что надо сделать каталог, в который бы входили статьи по вопросам частного права, изданные в изданиях, которые я считаю лучшими в сфере цивилистики. Это Вестник гражданского права, Вестник экономического правосудия и Цивилистика. <br><br>Потом я подумал - но ведь есть же много сборников, выходящих в честь ученых, в честь юбилеев принятия законов и проч. В них публикуются отличные работы, удержать в памяти которые просто невозможно. <br><br>Так же невозможно удержать в памяти и статьи, выходящие в превосходной серии \"Опыт цивилистического исследования\". И статьи из \"Петербургской цивилистики\". А еще есть серии \"Анализ современного права\" и \"Практика рассмотрения коммерческих споров\". А еще есть великолепные \"Очерки по торговому праву\" ярославской школы. <br><br>Я уверен в качестве публикаций в этих изданиях, так как или дружу, или хорошо знаком с их редакторами. И уверен, что их знания, навыки и репутация гарантируют качество опубликованного материала.<br><br>Так родилась идея ресурса, на котором любой юрист, ищущий глубокие работы по вопросам частного права, смог бы искать библиографические описания, а затем уже искать - в открытом ли, в платном ли доступе сами работы по составленному списку. <br><br>Это совпало с моим увлечением вайбкодингом и ИИ-сервисами. Собственно, обработка статей и изданий осуществлялась при помощи, расстановке тегов - тоже.<br><br>Ссылка на созданный мною ресурс - <a href=\"https://private-law-articles.lovable.app/\" target=\"_blank\" rel=\"noopener noreferrer\">здесь</a>.<br><br>Сейчас на нем больше 4,5 тыс. записей о статьях. <br><br>На ресурсе еще есть что доделать (например, я хочу подгрузить туда все материалы журнала \"Закон\", пока просто не дошли руки до этого). Надо разобрать некоторые ошибки, которые были сделаны при формировании карточек статей (например, есть \"задвоения\", есть карточки, где не указан автор). По мере наличия свободного времени я это сделаю. <br><br>Естественно, я буду пополнять каталог в будущем (возможно, мне для этого потребуются помощники, поэтому буду рад если найдутся энтузиасты).<br><br>Традиционно буду рад комментариям и предложениями по улучшению. Делитесь ссылкой с друзьями, изучающими право и интересующимися цивилистикой!",
       "date": "2026-04-01T09:41:04+00:00",
-      "views": 27600,
+      "views": 27700,
       "forwards": 0,
       "photos": [],
       "video_path": null,
@@ -325,7 +325,7 @@
       "text": "Среди добрых читателей канала есть довольно много людей, преподающих право или занимающихся научными исследованиями в области юриспруденции. \n\nОчень рекомендую прочитать последний (мартовский) номер журнала Закон, в нем главная тема - это юридическая наука. Две великолепные статьи - В.А. Белова (о деградации системы присвоения ученых степеней) и С.Л. Будылина об осмыслении опыта работы \"Диссернета\". \n\nИнтервью номера - с научным руководителем ВШЭ Я. Кузьминовым не зацепило. Слова он говорит правильные, но им всем грош цена после известной истории о том, как из ВШЭ изгоняли ученых, критиковавших публично путинские поправки в Конституцию 2020 г. Думаю, что даже если он сам это и не поддерживает, репутацию ВШЭ после такого отмыть будет очень сложно...\n\nPS. Кстати, по поводу Диссернета. Не помню, рассказывал ли я добрым читателям, но я сам несколько раз страдал от плагиата. \n\nПричем один из этих случаев вскрыл именно Диссернет. \n\nНекто Сергей Александрович Иванов защитил в 2011 г. в Кубанском аграрном университете (опять не понимаю, как университет может быть ... аграрным?! Как он может быть юридическим, экономическим, правосудия?!) диссертацию на тему \"Категория владения в гражданском праве\". \n\nНаучным руководителем был проф. В.П. Камышанский, оппонентами - Н.М. Коршунов и Е.А. Коломиец.\n\nДиссернет выяснил, что эта диссертация где-то на половину состоит из украденного из моей кандидатской диссертации текста. Сам же Диссернет написал обращение в ВАК, и степень аннулировали.",
       "text_html": "Среди добрых читателей канала есть довольно много людей, преподающих право или занимающихся научными исследованиями в области юриспруденции. <br><br>Очень рекомендую прочитать последний (мартовский) номер журнала Закон, в нем главная тема - это юридическая наука. Две великолепные статьи - В.А. Белова (о деградации системы присвоения ученых степеней) и С.Л. Будылина об осмыслении опыта работы \"Диссернета\". <br><br>Интервью номера - с научным руководителем ВШЭ Я. Кузьминовым не зацепило. Слова он говорит правильные, но им всем грош цена после известной истории о том, как из ВШЭ изгоняли ученых, критиковавших публично путинские поправки в Конституцию 2020 г. Думаю, что даже если он сам это и не поддерживает, репутацию ВШЭ после такого отмыть будет очень сложно...<br><br>PS. Кстати, по поводу Диссернета. Не помню, рассказывал ли я добрым читателям, но я сам несколько раз страдал от плагиата. <br><br>Причем один из этих случаев вскрыл <a href=\"https://www.dissernet.org/expertise/IvanovSA2011?key=1\" target=\"_blank\" rel=\"noopener noreferrer\">именно Диссернет</a>. <br><br>Некто Сергей Александрович Иванов защитил в 2011 г. в Кубанском аграрном университете (опять не понимаю, как университет может быть ... аграрным?! Как он может быть юридическим, экономическим, правосудия?!) диссертацию на тему \"Категория владения в гражданском праве\". <br><br>Научным руководителем был проф. В.П. Камышанский, оппонентами - Н.М. Коршунов и Е.А. Коломиец.<br><br>Диссернет выяснил, что эта диссертация где-то на половину состоит из украденного из моей кандидатской диссертации текста. Сам же Диссернет написал обращение в ВАК, и степень аннулировали.",
       "date": "2026-03-26T09:10:58+00:00",
-      "views": 17500,
+      "views": 17600,
       "forwards": 0,
       "photos": [],
       "video_path": null,
@@ -876,7 +876,7 @@
       "views": 22100,
       "forwards": 0,
       "photos": [
-        "https://cdn4.telesco.pe/file/jgR1P1ajJ3ohZ4nNkbLKMIu1ENsnjOmioRSxyi2VKheOWIoF1XNWLP367FtTZOkInh1hLNxXGeksffOl7nNlRLtJbIAFuk_544R0bGSRLcPVUFilYfIi86PD96KurVL-xb7H9rz1sOx1y71O5C5T_NNZq9XPSpAWjkcajYH-cXcLAf-ESAGYr55Wds0xJZxSDZD5GQYQUSD6dG6iCflsk4eTHa6_97som0migvNYCEAnZuqj1R99pNE8DJwoOjB8R2CxusWnF9lF7WcgZ43sNcPPP0efTqvHwI3fNaV4mdlyIFCGVBMrgyqGG8_z0cgD3O4ok2fOtfbAq3Q2TZ9bWQ.jpg"
+        "https://cdn4.telesco.pe/file/KQo4WEY8MM6MufdYOSW8AEVHIFVbnOvhfjaaM1nTxIdKuK7cD1gYV53qyrqdEs2N6YlEO5_pe-_6trn_n4-mBnSqydJlckwxTICSwceBqxmshW4cLymcElWeoN7fjZECJVUKLIW88-5gwCDt2nYhiqn_Uz-9qqhxVHu5lCZgD1CcgnN12l3FKtCbkijSVlscXKwVmY0aDl5N1CWLKB5kJumTVuhTnlYbf_vWo0pbn4rD2BQKTfURe9KNMGJ9fFDH_96wwkqLMnm6-DCqUP1yf4OC478JCo3M7rBe4VwQCbk5EfqPS6qnClO_8UeHx3Y8Kew8wNKy-VvAEELpT2_dqQ.jpg"
       ],
       "video_path": null,
       "gif_path": null,
@@ -930,7 +930,7 @@
       "views": 20600,
       "forwards": 0,
       "photos": [
-        "https://cdn4.telesco.pe/file/iwX9VR23kQnUPlC1vPZOAJYVfqBsHFWaKkoHjh9kOtEifJvhenQQmEP657pQjSowpp9wBFjMTumfMOAYFIFYFP6e3ZKw0fCQplp5hxV_EOdF59VvHqz2h4rXpXZdyxQ6P7QxSitwyHdavAoMxGoMmjjIREBVmOXuUEREXnq0IyH8AcBjXjJITxZ15bM-qOoZfA2bY5SNeidszsAk_BqAcrgESqpC28Oj4o3aWmFaJ_SyyJwYCgC3WDjHjB5NMM8FdPxEaxJxwdEGW28pO_VrcEOROnm9oSWoIxQE8p_O2LKWb_olvNR4jaqFuQDiVb-6HuBCfzOlEyaolnaABp-XOQ.jpg"
+        "https://cdn4.telesco.pe/file/iumliJEYQrafYwp1hWGGw5DtlYcwIOZgRy2Qstzgn5m5XJfKMAZiSHLMbrZjlnfA-1oIL0iHYZhISEe23pjSs6x0U6yYIZInwNkJeHzmWg8b-EpQq37m43uKrdtR270wfgrlvHYz6Jam4UV9VY22rEr-S9dUr7R8TFbHQVCpW7nXpus0db2O078crZBNusDyQMtCsQmFbVlPi1glDOrwcZflHNTmpjBUBWyMjtulLC6IPefjBrcdhT8WtkZoqLnqLKSkJag62ZNE4l6D9blf-gEDCcquufU6BFPyEy0z_bZ_BxD7vPSIp162UQfrLuTj8xS4NydEwjJfAqcCCb3MyA.jpg"
       ],
       "video_path": null,
       "gif_path": null,
@@ -1133,7 +1133,7 @@
       "views": 25100,
       "forwards": 0,
       "photos": [
-        "https://cdn4.telesco.pe/file/v-AVpPOMQ8BwsY7z7SBS5-kZxeMOari-JbSFPDGEKwobZ-M4wIu_M2wfQpYp2i8wWC6WCiZsZ7jS81b-ZqTUuBegEI5I-P1HL1RhW4PCebrjgKoDpUrR77f0oIC-gkCtsVrmtPcN1HXbS_t6fLxH8FJZCmgU0oSnX9y9q7PUZxz-0XIgLKnD2kJHI1aveS9jFKWSN_yd4Iikd9b65XPaqFEHyfdhqKRMp-t_fqJkV22e-FZdj2ZZZzpTTIoG-DUGkAmrF5MFRu8D6lAnY9ZLy6HEpQPflwSVQfpUcraatK-mvQDB0vD16XXLHOQ5Ivn0CmLdYrOg_hOkhjeo1mjJeQ.jpg"
+        "https://cdn4.telesco.pe/file/s5Lo_2MBnVS__cxYVTQ8x6cV7PVxSjze8hADDY27sm9rCAw_ZPdMxD9aT8gTbr3LfUHGK67J7P4Em23ss_C3RvVEAS-righ1NErrbnmo8J3GUBncIbjeR3EATEFbeDqEFm6AugExXJiCj9pFg3yQAAfu_vHiEdsyx89RMqoe9julUq4pM9c1UWHRVJNQIjZdDTGjewIQ-GEWbWcJS-iCoFmmqQWiTJKmjZ_5_fiTIXZC--D0RDk_eTadjVDYLUKtZAWAf0hgtOIrC8wEMsUCg3jy-Nt3nNTwPKeInL4GGTPqu2oiaKHBJUr8vOUb5rbydZCZX5AreZJrAA7P3Rd5RA.jpg"
       ],
       "video_path": null,
       "gif_path": null,
@@ -1269,7 +1269,7 @@
       "views": 19500,
       "forwards": 0,
       "photos": [
-        "https://cdn4.telesco.pe/file/B6U6XtFH0RCviE3kestZAhfU_OjEOiNgXPtLSdksQpMs9lHlvWg5WusE2MC37Qrf6-hlVBupgtkJoYNwNizibZyKZtWsw1aCGrVqAvABCbagUv5DXnhKZkVM1GaEb4y867RVrA2u1AC-40_JzHvtOF75j2yagp9T3DygNsCtqu7S2hTPlH6YdK1dZyWGnsaWjZ4itr0-HlJo223W63lgTzwZJlXqYLjztAifRK0D7KPln6-nhadfJw_hATUAjs4VfaK6UAbIZB8nVov0qZ_szD528OLUNcpIuZiqRAgfDoufWw7yzHHp9FnyoBSSqm4QVOSZQuDeqEYsNvfEI3ZKYw.jpg"
+        "https://cdn4.telesco.pe/file/KJ2-XVsOILqFSKWEHoe-kODlvkg1p4rij0Gy79imGAOqiBfhBR0-g3AqoFe3I1X5eBlJAYcy7nNU2yY2zrWe7dPGT3PDQgo87OLRjAqtGR8CgY2dPz4kJEGg5tlrFgpnFHnNNPRxFTph9ViOBcrI44X9ZTk-4tkW0BLOBb5uZtCQxoiHUKgsDgWzIUKq5S7OvkJWM5jTMGeBi_W_XlRwaOPfnejBLGGGN3RmkIDGVNF3Dh3yQcfIyayuvvTZCs54FxLiJUqYR9Owfdc3yPGET4oS_wfMpd4U4FFkbp65zo26_hDCck9UfOw1-Cd2Io85JJZW8StaCmllASFsUtmxdw.jpg"
       ],
       "video_path": null,
       "gif_path": null,
@@ -1392,7 +1392,7 @@
       "views": 25200,
       "forwards": 0,
       "photos": [
-        "https://cdn4.telesco.pe/file/Yr9W7NLgIz34ONiK_qDrehSeuKpG65igSKrw-d_qre3f4FRe-ULzvw7Y_eqI646GKfcO31V-F1P4xJotg4BVwnLAxgqR8cNSrwAglA9hO5x-gWl2mWDWncClEd2HhNUUIgI-9kq6KGva0JZENYB5_Toq6vXVT9zQpVc2lR2GlICjgD6Xc2Jf8comWBb74nkRVRqs0UzoQrkb9kb8pbBkxhH8C-6xFHzd7fDu38sLTsgN-cO-Yt8JlYiKdz5EXodaawAVYf_B94Hm6EsZ5Hprmg5W2f_6zfX-8_y3YQ4wR5fHYoFD5CzDxvYT-8NsYdzbA0pDFef0u8aLSJ5DxyvzJQ.jpg"
+        "https://cdn4.telesco.pe/file/j5cQbc9ACLLY6cA2K1zze8a49TF5U79wPJshXf8-Y74qnZv23T1WMKM3TWdHC-eJdmRj63DQm49kMmdWozhF1JUp4QW6UFZARCjWVWS4MXFxHhdkOgyDzT4gWuQDoWTitr9LvBHQkrzTnq-a-BieHkRFCxH17AMx75fIifc7E5e4CsD0rzGPkhS-omereL6HADtib6rYUf4xI2D__g96QEq7HMY3L2FLtdB0gjMygJgRh5ghdGg3veYYWAYRjNkDkxHHRXmNBdzJBomQfNEjtPJ95D86tvRhuKmRkR1DOzv5dLW4V7kL65siG7M8QthiRMq2UG_T1DHy3TCyZqTh3A.jpg"
       ],
       "video_path": null,
       "gif_path": null,
@@ -1655,7 +1655,7 @@
       "views": 22000,
       "forwards": 0,
       "photos": [
-        "https://cdn4.telesco.pe/file/lGceijXr8S25_40YEbK7sQ5JYmkXHTYTYA7TXQ4c7f0BzmbuhEzfvRBtXcGelEmaMsBj4FPxcv5ZdtAeo6W2ZlWs-1AFr1btZmYfTMK3YzYYUye_vxQtj72n6TSrcnC2k0PA8g4pRKJWXBWmHexpm0EHnNEBfOUqWefQoljsBmHuzckKDECjGBPQMA0uVef0jJk6zUiDsTVhCWJG4Ls-ID3lhvkH2bVX0yt0FxUiRqAl-wSl0NYw7YFS2Q18DUYL15DmZvn1PGl-Y3FSr8scqe7KdOCqHAPh_5UpUtNdcITe2TovlCtYAMheGEkcvk3BJEMfBjx4AN1pWTBq6cDWDw.jpg"
+        "https://cdn4.telesco.pe/file/EVTlCzQVEX5em8mKN2-Jwd2kfxzN5pPJ2I4hnSm5n9Ura_hufpAxboY0iT-FB7N5vrvWAcydZPzBDTDySPNgChzkaZlqasIq0iTYpUAYFVlSHYTXEiIVh52wtJg3Vp8mDUrQo9To_fDRNwVVsoBeSm4yJB6tPExe6zg0OeV5Mf7i7pi-xEE_covziajsIYH2pitpWbS_CQfaNapnTiue2_DxTWf1cbnpgLfTiIc288bmpI6UR6rTZ0S9h28R8NmB88a6MTb1v_sbpd9TeabOqhqkcIyC9BntckqoiRGd7v3oGGMZOeTgATqe1U9gZdxliIj-9e4ciuOqlI3qi2MDTg.jpg"
       ],
       "video_path": null,
       "gif_path": null,
@@ -2091,7 +2091,7 @@
       "views": 24500,
       "forwards": 0,
       "photos": [
-        "https://cdn4.telesco.pe/file/hd0qOvwMm-02-jWutzA6L-gJFiA3cqABboA1Bfdg6Wwyqgaqe9fDe9GDYWfy_Z7Ork_fy-T-LQuaMSYnNy7PkJCZieFkHluCHCgKjbPEYR34DoZmYef8uDuFzBvwHf6tZftjQ3ELFDDumYXZOprK9tXVHxy0gjFGBm4AhDYCCzg13pJphRs85ONBgOJrm8Exm-NmXUBx72-cCJY9cUh0QsUUmepDvfqFszEnEdEh37jXuTi3P6oWcL4OkuQ7hEripJS1qnd865WBymEszmTKcCJZjFvVp8hlW0mXczunxuXtRf91ca4GP8EXP4Z0lf9B63dGaUVb8KM252-Ti7NPqw.jpg"
+        "https://cdn4.telesco.pe/file/p4BC5Bw0LoILCj9V23szrTeQW5OG-uf5GWUZ6UsHoZpwdmvbUjWjN0ooXQwd-qp0WvHaktU0UG7A1AI9MyXvt8bogEvD8nUCWWLrqBigvk37aAu1sbvrI854ph4st0N0bkzpp7heqgVivcMhRdfk51fgJXDtWzFf_5GvVcsSfEw7Wyq7CBA4-aRu5c4Jvj4ZxCoRfBMpfgO7PVaYQvQSqgwxZZ9FFzSxkzAtqpXBTBSGRZNKhOjv9LHKeylkKtQhexe9FR-Ekytrw27xRG4uFveZsQykPBYaBZOc-v32UOIO5YBJT2Fp3L3w1zGpL_9SYX0ZP6iWK8DV-HXY8ti0Ew.jpg"
       ],
       "video_path": null,
       "gif_path": null,
@@ -2119,7 +2119,7 @@
       "views": 20400,
       "forwards": 0,
       "photos": [
-        "https://cdn4.telesco.pe/file/g63RD_1-Gzz8l5Njc4AaxC9adQSSh0iufWiyveA4hFY2ZnWYmQP2U0wDdsStZvy1ype-jUmYnSWzA_rS9Cd8vZU7gNvRTGtdpCT8aAN9zBtspMoX6JmiXrKEmqX0wXWAMtWl69S4SIWxFQx-qqkoiIBrcxIpXY8NyCjA8a0hGc3By5q3SlV1JpcpBgd6dTwqSyQrOIqVZf4FBkWyfBuaPr95OBFrxNS48icZfX7kzgFrmS6abKCXFsO8hZXfmVb8zs1CrLyxYKUZ71z0ZTpZw0Le_4s7DVWffmZDNvS-T0cPPUzd1HIX9suTEtFv7ZDQp18TUhrL8E64gFkvBkAU1w.jpg",
+        "https://cdn4.telesco.pe/file/hmksbsD3I4jgVAFptekj9ZyDna314vLQ0s59s5WVUlb3FZIoCHCW576Zsi4jfQL_cLPvwchRYmlOeIIOCErwx-7pEs380_eOOv6tgJQGxylnmk0hTxDEeZY6cfEyK96yUoQlRpABdGspeY5g2_hgIY7Ofk1R4kagWswaTOBIZgHYaChexHZBgmVMCepO7cl6p7xnMssN83dCPJ-0GHRgqNo-IEzlWeh3YINGVNbej1mPW__LKo7fO95znEFha-TnvJv21b7NhzvPfkdKL_QfRwaDKmq6GZiz4nqPq-5_Rt-A2u3XF7hI9VIV4S-1kV-8Q2Ezk7uUvP92st3UfWzizQ.jpg",
         "https://cdn4.telesco.pe/file/WIUEP7SBqD-AEb9V33GeZxXm9950RiJiZULnM2JECU63z5I90fFZqRBy3tkv_SoaVyv7xpVFb0dDJ7iQk32-dfnsACvMUU3vvEID7DMTUzA4yAuwfpjasdepb_LXgqTXGBq4cBGXbVBpQ0S7LM9YwIvZJW_KokoNHTXoI3IuL1L9c9w-zLVsJRhrxeXxxbHvFTPiQNekDOceo9qQMejeP6FhHo5NKGmZDhfmvSOZ6Ycg4ey25uuDTkE5ZQD4f3EsUR5D5DJGVNnzhHQc6dPtmusyAb8KZPOJOlBPgxn4t7rMJijfLXYEUWeAcAfYAsSPJvWTZILgqXMwfREmGkxU3A.jpg",
         "https://cdn4.telesco.pe/file/gNxSXyaroVVhOBW8uWveMwx-mBLWTFq0IMceIeK68Sn6RJ0pc5uDEnYVU7CnxpwgnSUQ-FeyxMz9yXfhdHk6PE_D1pBu9v5deRke7B0_6QGc-U6uPHvZjZSRkDWd3T9oRoUMxta4qDRftIz3h_AcOfimRZjsR67IfwO_WuwoR3SIeVsebnsdqBnKO5ACeuDtm4Ow08Let_x8vy53hJHhW1R2Bw-1NqKmyYSw7oqpi7Xelna_ojbBUq9oSsUFHSDbr1qVUK8bEIPEB432CObVxIz92MoT3zX4jpkJIIVwwPGW9Hlx-rreDb_hbJHOEEGQyArWHz_TLEg7y8ZtFgCfsA.jpg",
         "https://cdn4.telesco.pe/file/YvPmehs20pLOSYfjTMwk0MvcHCyCEtExTNi4FddRFMIG2hy8kR3pfprZwajKneG7U25O16A5ThddDvTPykXSKqoR_8iPcsblaFJa_gPD8C0MXcZ5Mj2XAgD0j8sqARnrQrAK5Nt9XoU0gqknjZ8IIwr737GaLi3bR9tROFT0TiObBeimjgJ3bYkVg2CZreU2sW4FViMxsOMiDz9CagFgpGQEtPAYEo-SxWa0go9bgUDTADFxJVjg5c6HanDjU_D5--Li8V9Y2haCfGrYW5RwWd2NH49G0OPxdehG_9ivtakL_JklDair0z6hm8NwIJPbVnx3zk61TWsi08ExWPe_EQ.jpg"
@@ -2260,7 +2260,7 @@
       "views": 22100,
       "forwards": 0,
       "photos": [
-        "https://cdn4.telesco.pe/file/rQiXlwIoMCDuHpxXOxMavHhWEoTytKhe48auNZzf1dbBaGzDTqYQrdR-xdH2aFE4tSXX9dhx9aXYlkwY4xYZrTB9mVGAqJthEy1A60W1iUCjwJo9XomJgIvRQJIaHgBPeWbVZfUa7TaNdGmLekYMAc7l9_vDlb9JDRPbjVsgi2IBzzsrNUwAT_KcP1OEXvjCCr4GQKLQRn4rkCP3p3Qef6rer2u6-DMJUcazcH3wf0DE5MLSuyOG8BjOwNCwrDfVaiN1oPYWCzi-SybD0imorb84ejr3nWYBUtoWs0JqND-sbVXg_eG6CwSoVYbLhWeTOsmmyRdvx3JLqv-I8L6uXw.jpg"
+        "https://cdn4.telesco.pe/file/FKf35Dm-L8OyBVeORAWmFfbO7_tnbVvVQLfWa3RkH9D1bfNTHM-H1AMiEUnVtC2negUkCLF9Ovv2ZsLPwa7LT3xPteBRBjHHBGoY3o3uAeVmxfFjbs_Wqg_E5IiEHyQIRPBzxDp-WiO2arc4U_yfSkFvLT6ZgbUXzjSd4iiED1vA7ZDbf3MFChNiKxhxc4AWkUquazsHlB9oHtaKXCCHc-T3mLUk-AF9QrgrreP4NIHKNGjCeZlY6dxv-VxU8t_NmaHgPGaL7iSnOfrYc5dpAXyImk7ljl6v4Mg2sG2yJR6pUI3RiWJMvaEOnsrhxOyml3p-fNly9zOg2aG4WrpfGQ.jpg"
       ],
       "video_path": null,
       "gif_path": null,
@@ -2504,7 +2504,7 @@
       "views": 28600,
       "forwards": 0,
       "photos": [
-        "https://cdn4.telesco.pe/file/BEB192FBNEqaGDZOcycxlwuKbSBwJIxjQ9_8RAxK9xtsyGHffI6mF555Xt3M4Zm-D_7m7hgu7mYWP1yExfnKzKKbsmYirxF4g15NS0OuMvvX3-d86H4pvyZqvF64WqAA9JDeMwwTuhv4DMsd5frRb36Mt1crvYKQgZubu9esUxnTln1f0eirrP059ot0H0X-0lauLPyY9KmCPQXCnpzjsSkf4e2ZtNdjTGVH5YT1TjiC4ylq7PdTrxn_Wi9ZJEmC0i5UKO3gaIkdu3eEBtIzzeopzjw4I0kSeVGjXMFHXd37G6Kh24GMtOw8HzixSuWL-WTjKcAcQZen1K5mohx0hw.jpg"
+        "https://cdn4.telesco.pe/file/PvizWovTqu0z9MPZKx8kAD4P34oFc1nmhnNQlaKu_Xvw7qG4Bece4qIZqaPHJMGu1BW6ilxCvypk86bLX4K40sm4bxnG0vnTOSLerv1l_aVf5x9WXoXJAqXpYL8b2nnK2SKqsS7SLo3t-y9ZWDRuvZTpfDH1sw1rp0MgXNdB5L6pwv4oNrvvHKg937a9lB69ghUaE_9wjyAOARnnzIFg4jcw-NHRaQ7VoiOAYwkZzFVfcxUGq_nqj8N_M6WtJo9zzefX5Ez5YnvNSZz9LhAvaeixkSYrVpJ0NZ9nSOK4rCjSe7TjVHtwgaUl67XWtDirPI8jjJT0ob_VJj3VEn9rSg.jpg"
       ],
       "video_path": null,
       "gif_path": null,
@@ -2599,7 +2599,7 @@
       "views": 21800,
       "forwards": 0,
       "photos": [
-        "https://cdn4.telesco.pe/file/IG-J305drXzPyiorXCPqNcvgzScoqS82an1MAERG1Iyu0LyTiL4ZI0fYz1OsmR-CpY9kc1rXlA78-mhd99zoqY1WZmGLXwhXTowvnQ78Q0C1c_uvzXyTtF4yTJTS8ZuD_1hT7lBN8RY6taMOxdV5duwi0ibPamHLKYJF8QTGkZqJloY3hkPfqc_or-ABNDJZh9W-PnoCqoosJQM1IsR8d2ej6TUTb4XemWJ64H7MEYj2AAOUTNdTzy7Q93bbT2sF9EEIsQGzfrkkQSAlT7d3WP32-r0QobRi1tI6UsFO1Eh9F44QQcy4c3-D_VpZrjR20-jNyqGS9OPtTn5G2u4LmQ.jpg"
+        "https://cdn4.telesco.pe/file/gd_5zA624TZGazE3VdHqfKkihAqyriT17cYOI-AVeOKXQqdrFYEm7kK3mO7ImZFsDfH-kzDrGGVvpM29p4KSxBlwWQ1ceH6k9Wo5VJEVoAiAJhy6cqRJ3dEyHDqG8So9IR7WnfcQtAXSBpU2aWdU-7rKT_irBty0V4INk4OPV-ndvRgdRhishWc11oRwccw9EcMkmNzPZeNfM18KaYioeV-OTar-t9UczVzHIOgDvKaxus-v6ndBMOrXtSR8sB5vUKaduA8nT4NTtO8b7_WlyvymFagVhT_qqZZsLZsQzLFpa0lJLr6FTmPR9GB19OmPdBcbWzIk68lTPrS5mWgWAQ.jpg"
       ],
       "video_path": null,
       "gif_path": null,
@@ -3120,7 +3120,7 @@
       "views": 19800,
       "forwards": 0,
       "photos": [
-        "https://cdn4.telesco.pe/file/N2kazfKbRUcvySqrsBpCV05HocjmCJDcjdpsshVE-nCXboTkCBwNNPnMnd2EhO32-oE0hn_AiYVKIpUblIQVJuonxjtEd-x-kfxiBOQjGYH3SistBd4QrLOsJ54_ZGZ-cXmyW_etr6p_OU8Getv1CaC5Q6TQdxGlZWno4JbVCMxj3X3JlKgDQchT8siK-_2jeWPy0eJGI0yHVqkEV7d0wnhpD6kyRIALW5qKZsTNrnXy33DMZp_4zLCK_1vXTLTtqTKMlCwUqxnr3GVqLZWoR6X1BeE8YgAiWOb3BOKFF32p_DEqI8FhMH2BO2Zh6Fi0ioxPFkw-0iFdlFYQjiI7hw.jpg"
+        "https://cdn4.telesco.pe/file/qfWoBi-Rc9_exy0a5xG558kGAc-oP46qx-NdKrqJzowp2TudZ7SSYrgCoDnR3br2faKmhlObCG-eW54NF-pyzbsb8eyLKUWZWCvLFpWMLEqq2FfDBxCkmoWnC5ZtLfhrtGQuqFvJ2JlAsu3qjPzTClnyZuERC6dz8xAioKfYP1fTSDky20q5nHz8fXtVwygTbszUQd7FJFPoHyFKziP6_3aAinxPFslBzd2zjOmBb0ameh2pPB-bNIBhFQDBJDsvN5JknQbpU5s6LEsA_aN80OKO7TBy7_TZ3fLFbChU0V1EiHh93KTfCrOJUEZ5IlxBLRdA-E7MVa0d1BvNYcYtOQ.jpg"
       ],
       "video_path": null,
       "gif_path": null,
@@ -4635,7 +4635,7 @@
       "views": 32700,
       "forwards": 0,
       "photos": [
-        "https://cdn4.telesco.pe/file/KXdfk1Xmmjt3mbK7hjHX_KVb8PfiQbmZCYmJuhV6MTgzb16ytrRI7MdVibOCzlT9B74yMLIYtXCfOYqU48Q8itXBazkB9l3HeBudBr4hJ5q-ZnHWQbbAMJK4PR-s6aZj7OuHsHyqNwXKXCm9gvSLGl3UlOtUTQGMizTM3cFrDHYps3rjcLfnzMr6ZQD7MKvrFXRL0bAbDWSvx4YWmPfDHt2PIQ9y21aCuusHt-Z3DZ0ZZT2vswMT77bdYxI-v2a9DlHcxKvAQ5cq-eHHa5GR8biZqk3UchVSJNsf2tjgOX7WzU_HuZSqBpwULSt-b_tSt5gXnXBRtz4Em-4fG9VqJQ.jpg"
+        "https://cdn4.telesco.pe/file/oRNbneaS86IvIoQeOpK7S9RQbEhIYvQeHdT_MGwJR7GmrMyVwgs6AnikjEeGwrJ3jYemlWl1vQ6x30QPFjcdSfW9uGms2FE13LVihlJJ4IziOfB1SEYxm74ntEbDP_OKQHderiFeC_HmVXdZxwE-R2AfsydM-mNHxfqKRAi47aMAjjo7zDJkpaSKB6m8IxTO2Kb4zp0UvbLHOwhVbPobLJlrc96SvZO3rnjOcDrCm3Ss-Co5SHCqyJWybuk5y2q8gzlOtGLMPqe7y9qQgu8kb7AUhF8kDrkRoW5DcbeSsr0UKdLNpatFrIIGNg-EWD2x27YqrfhUttiH5JYafyH6uA.jpg"
       ],
       "video_path": null,
       "gif_path": null,
@@ -5435,7 +5435,7 @@
       "forwards": 0,
       "photos": [
         "https://cdn4.telesco.pe/file/PpaOJqvOb_vg6yn8H2DqI5LEVqLVWx6ImYFRw0h8Hj86fTp5QamUnHkLBhFrXw9ter8ZjnWkGkkMOTBwElCJIVVi_XYFN_xsUhD0xPEKGiFvkmDFQPZzMUmYMlqMWxbjYUkItq7CDF_CkHT_CGeA-rTy31qk6yOYUhO8KaHnQVV3CM43XivMwlSJ_VUm1aRvPmvdRISCcC8_ytFQmM5qTiYZwIvmi96ap4aC_Z3K9AKAAkCi1OjecMupvtR0ebggiWmOCJM591CwP2EYWcL3chR4yEG1d2VBqSdmiwXYbXl_mAp9nmi3K_iwqjbjmtQ1-mka4LQ6DX0FGZ8kKLj47A.jpg",
-        "https://cdn4.telesco.pe/file/rAW7MObuWbYQJbDT87T1qbSDimh8mzAzYXjD3s8h_mm-DS5w93l6ODJN8oL-6Afd3Wd4v8GM6_s4vAF17BifqoyHi6KWY_lUKnIR6wJ1JkMW3ZSumv7orXr3ixB97SfZwu76PaQx4U8o4ixUJCJaupV23rAqty2YpysYwTYQKp_Jtn_kNSdQm69eZM3FcKCeMteD2hIA4n7Z4VEGTOB28sw_1zf8gyUr8w-zLjkkdCqFU1vz6Is6BbNcaqTDn14cG0J5A9EcLJsfD2j-91Iqbvb83d2Ok99asC0OhHqeurUWuM4g30DdIiGYgzoSdjIrE7bPaD_Wkf3QD20eXMz4nA.jpg",
+        "https://cdn4.telesco.pe/file/NW3uAKN8RFkmDXD4xeM1vA1MHYPY71NylI7DLwjipRrlyPs2hheJCtOZGUAbaFp_IVD1zv4At5y68g5a3ZBWn3IXEIIQzckHqew9vfbgPwcDDXfkYXV9XpNI15TIV7UpoNZ7Qqi7nyGqu46d5vvY5GIywoh_PqVd9KSEDP4NPYVN4tdduihBOc80OeHJu4GFqZA1G3rNvog7KwohbRXg3oQfGJ4Js0zb3vO4Lvc03jh8eh8h7Q1c-0QUHpvNNE0iGrNFSOH4DsLTIUmc8A-PqA_lWWMqq1Am7oHi3yk5FS4rWkGEprfLpxCUrNLWhR4pGmExbNYS7tCxlyBtA-K6Aw.jpg",
         "https://cdn4.telesco.pe/file/MygqqEslN7PTjSVDGwbEB5nxqF6Qg5kus0fn2EZu1wwtUim5CZJoSkia0FKtLr9vgyU9vodhALVLhlEtxqJ3Akef1SciNgQyxSOv4wMKNkZhVWempgpWHYr9uVLIBFT7Z9iAZz0FvJMngOxika9ypGkPPzSdlhz_NXIVmRZFFjrrKd3MPva-SsoQiqTYqs9tywM2zPqzd8bm9GlbJq1wgjpZKarwtrrOGJeyjj9SgTeG5WvV2rf8SAaNSr8NtIyUW58MZoA3KlYb3XIRAqFdEGpHeV3VRMhrGXBGKDVXquy61CkZE65H-zkka9iqwA3mKbXa8M-8YWi-or_-04b44w.jpg"
       ],
       "video_path": null,
@@ -5603,7 +5603,7 @@
       "text": "Поговорил с ChatGPT про право застройки по действующему праву. Ответ получился на четыре с минусом. Но в целом это уже неплохо.",
       "text_html": "Поговорил с ChatGPT про право застройки по действующему праву. Ответ получился на четыре с минусом. Но в целом это уже неплохо.",
       "date": "2025-04-15T06:33:06+00:00",
-      "views": 22400,
+      "views": 22500,
       "forwards": 0,
       "photos": [
         "https://cdn4.telesco.pe/file/JyWDcYrufdeduitPQ2RApFMAlQHjyg9lolkpWVCufnJPw9WE6fi9RRp4YFJRpb9GExoX3WQFq3OUVFYTtawtk4WAfprsLQDG0xV-wrfRnSOcCwWXnN70487eSKlVIj6MxDGdqevMZnO7h-PLWkJY-79KHCRTj6pLuO5xuaeioeGpISpwV1PJVXH2AcyW6nEeiK_cDnw480gSevZaRxynB2RoTzZ_ZWmGspYbr2B8_JjaQDwuERkrdKAveU-ise80NuVJgcGPK_J77P47n2P2YUjv14VQdXha-rLknDYKGWxyb6h7Wc2Xei_QVRzlxUUYJGkYIKs3gpPl7wvIcdqZGw.jpg"
@@ -5675,7 +5675,7 @@
       "views": 23200,
       "forwards": 0,
       "photos": [
-        "https://cdn4.telesco.pe/file/WvJqcIaOqzzJRDVA6acIITY-bT4FmM8cA6dl6wKsgnr0TPYFbGK0OxKdixuw61Qp-UfP-Y37x04VpdGvRLTvz4Hdy4gEZsAVbjv2vqXRP_7C8n-CqYkL3yOczC6FkIlqUd22QQmWmqA-_HKQDxQ3eiwqbxn3QrbMKTWGtyM2-z8xi1olVa6LOD5ZiwmG0adUQNxG6TJZY0w6j6MDw2P5GyHCTFEzWHFNcAaDWfWn6bAaCavGFtlgM_PKEnUmushQ8ltaOYaIkCP0XaXSrqzCwXvJTV0ExPjqAHASCpK0tOhhzEx0JdA7ZPwFz-ubQDEdN4a2sRQcsHQstHjKx-nnkg.jpg"
+        "https://cdn4.telesco.pe/file/OYGbrtD_CqUGF3CHZVQ_5J4PY3gIu17Pxf4EcvvLg0ABQj0wUvmf_WwdEVvdU8BJ0-dG7hSCZkc7pJPR6PFKs62QWB_MvaWC-bCH1HG_0d46yzCyWiOd0CLF7AsQUr8ovhuuTeTxgAsb9h-r-m1sIFlQDDauU-X-_R-sV5Rl3hCmOQpgba1qxq_aXod_2Lj3bYcmZcGHBL2cf8PP8z2uAcfV1RtMXj_huULcayaeNMQBeHNCDqJeoUMtLnqrBYrqivAWnN6LEQNYS7Nfs8EFY3bRN-vZ4moTDGTDzT9-ePSy2Qgce0_s-xoXzAH9B0TBi_7sXQj8zHbH0GS8tMaBzw.jpg"
       ],
       "video_path": null,
       "gif_path": null,
@@ -5907,7 +5907,7 @@
       "views": 29900,
       "forwards": 0,
       "photos": [
-        "https://cdn4.telesco.pe/file/HIrADVGGtI1Xp7cHrk7ROIaz0eQkOKRWb8BlmUQ-YbI0VfAiwnTOxln2LHM-cROvNratoeir_VinAX-T7ca3LIQDgdpLC43fAk1tpz_DQRva0Zz1db3mal3RwurJUlyi83UCB0ZapE9Gy-glbvAHbmiHIHirV6zHYnbzgl3VSd5WQYpH_p9RKFIChJQa_d8ljp9N4AOdh3l1gjoZTNEAEm76Go35JaHkeOESE6sMKGIi-QlJC9EksyXFlPZlC5jj-2iUkxgPJ6CCFPLZopnop8jcnAkDpopOFTBy59PEsOWdlV0HUb6SMyy_zLABg-ODK_MkA-irazZkKzwoBiBRWg.jpg"
+        "https://cdn4.telesco.pe/file/Y2cv5UiJfxAU4wQld8IXlPSB9hUGEGP4BrT1TkpwUE0NXcQkAFbNGNkh_sxOzLPdr44wNun7WzZ8KXG7lheGHPSX6Y0NHrHbFcsQnzEgvtIYP5vL3gxvq-ra91C1PAJYUHteVmjVsRR2XX4hFwFozvvf-KJ-TIzmeUsTRz42xBy79rf5DYcJPs-LNQJcpqKevcMXVp6w6gE3xaFh8DtZ4xzTIPk7c7wPRNFkCD-XD11a7W78ipuzehSUBT9QHgUfRi1IXW1IfgVmRjf2T7gPya8weovQrh9KPfhnURfbmKAhQomQm8TBUgVrOJTiyNyNjnw2326qTF0gF329g7zPuA.jpg"
       ],
       "video_path": null,
       "gif_path": null,
@@ -6201,7 +6201,7 @@
       "views": 29700,
       "forwards": 0,
       "photos": [
-        "https://cdn4.telesco.pe/file/uK0OPyojXeG3rtKYZWIuD6iIjHGsMCGBcLgRQy7ZkmS1SoXOuTAVsiDcxIsdzOZLqrPJmPtDZ7gVm1qGfCRlcf1hr9RPamA1xXwPKYJ51achEmcRZCF0J7arVrnxvKETwBjv-FEqwjeZoRZvH_8UYtef5tWA3M6INJeNVZqqdZxHoc27uSb0GNAeglAen-jc99EFrcc0LQ0OmaEb6hegS17dvUZCb2C-asAWwJTXeuK1Gp7EVIb68G6Lx1ivjRnc0t6Hs00IQ9Uof-Ytb7X3oj_a1ri58bWst2oxPk-dc7P1wDuaq5-zFbYVwvOFw_7OUji4XGqku2iR_Aco10gRzg.jpg"
+        "https://cdn4.telesco.pe/file/hGkrT5Zc5C4bF1lnlS05rFbPp50tiNMRabO5NUi57vnL1yuA9SN8ClHYH6ab1ZWKcy80xCO2n4SxpzF0an_MOMKFY9Zelu9-gIA8GRAqu6ZcFVkpOL6zU9_R0QgAa9zkwWHoKZUGpi6-wQZk8alFlroPmIndurAdcRj02irv8rpmb2i-ACqjh10FbTWJbLp_xwp1EARpKb-tryZ86LDr7BqdmJlIRWANOWNI-6GurHNtIn6Jho7-z7p5GrILlbgp8T_x71D8yIlFH-lncVT2T8cg9seYxApseYnEhTg-wuLpCxJmpZanmzJvnKJrvHii3Ispgi9kULJp_3YcjTtHKw.jpg"
       ],
       "video_path": null,
       "gif_path": null,
@@ -6350,7 +6350,7 @@
       "views": 29500,
       "forwards": 0,
       "photos": [
-        "https://cdn4.telesco.pe/file/TNzOou-gjxoSSH47AVTq5wDJIWPEgui-zVrMyJZwtV3xMRwXTPu40yDiq0b5qbQvpoBrXawi4bPqrPyPkUTuFLCSLsVe6WyEXXSlAzhv7M_0rUiSyyo_Kl7Wygcyya_h-n8nXFny6rInM7GTLTFOIJi1XPW2ZL-Jl1B_8WMryItK8X75IN80rnu3V-I-WbtTTF6OxApHJaIREp7m8FcIUHZlvAC5vPLNQ52tScTpQ4q8JByrN9owsGHzc1B07YZSlOiR0N9HNm4pVh0I3iVah0ti2brGs5971UIR9wkXd5GP-vgw0X5nmWj3oAwMwO3j3yTScMynQz0PzSTHzV5GdQ.jpg"
+        "https://cdn4.telesco.pe/file/kdp4ESHYql-32BBjRIH1fL-HBt_0bKugiO46mBiLELDUVAv67jk3gDA6pXQU6_OObHFqKyJWp555-IzB90hmuiOKwVyGqlDSpoCGReI8yHyMIxo6Uld8wkqpwvOOlUJ8VGg4566nfZZNI-3k2Q3XcU2hVDhoIKnkIYplMNNKAzxcvU1vECJiRf388rzAxr8DIq9WexV1w4J5qNLyyX99hfzreaBMaeui3aNLDHH9xn6zwmFONgFHhm4grbeRM3Azj_6jKybGWgPpUYu2riMtQ6hDVeQ13pPNspFSINHgcj6id6F9p7-TMqjcJM0EhMg07U6NtEnP9Yl5WKzA7USM7w.jpg"
       ],
       "video_path": null,
       "gif_path": null,
@@ -6486,7 +6486,7 @@
       "views": 31800,
       "forwards": 0,
       "photos": [
-        "https://cdn4.telesco.pe/file/E2ZWgC_VnxkSGCn3UNkFi8U-yA_Mcz_xxP9t1e6WnyYM3s6I3L5g9dxp9JiP_mVWfFNUnNew1NcaicB83ARO4MgYOH_s9XhQkGoqBbOfG-DKHI_YY6Lybu0yVErWTwIR5FeEc4wHa0X0htKIAVWcP3dOzJw0zAuXNPI4uW0x6Trpl8f2F8zfiJIz_s9K4SD8bupf0gxb3i4q7KgQldMWLyWMits3rWm3VUjVzAXpG2DXPZHubFxaXkfj5KhzKv5maK4V-dNC4EIbPNQzO48V0shk_O3feZuj7F_UA_ZWULixnyR0DOVem68KQL6z9KRJ1cgkgc89xJfz4W4PEeQj4w.jpg"
+        "https://cdn4.telesco.pe/file/S9W5i9KUYl3u1wn9gIApMYq1dQAVHKT4Wz5PZLfxOJZcrzW7D9b21HfgZLV4KOIqpqDZ922Nd4Wdp1tay7L6dk70Bvk1HD8nJHi8HOWH7mKaEYWmJcu1yca-asgIgEtmogejQClAHOvzLuhTnoUHCSUV3hU7o3lGoL7F7IKlkBRu8HHogdBtB6EPQv7anROvhg_74lJ8yXyrZLq57Me8ZDt-e0AsA1-IzpTzTGhi3mDoZMBN06tXpby2tX2OsoaSVfLPizK_ZDpO0mL7DR40nJpCqRi_FmZ8pJylHVd7-1bjlnqLtx2ujDE1dMxc59SBVxUvS5W4i4fzTPPyl7GoSA.jpg"
       ],
       "video_path": null,
       "gif_path": null,
@@ -7386,7 +7386,7 @@
       "views": 21100,
       "forwards": 0,
       "photos": [
-        "https://cdn4.telesco.pe/file/ThsmkEA-sFUjedtg7IFdBPxzPnO4C1E9T7UZwfcPZUNyJQbTdt2W5_yNxD6mgcawOnrCc5GzFvU7apnbcIH4v_c7ZZtJAYFVAdoWG8-jaEI1VbHPyMRKUzcWtA_OoPOm2c8CdlM7ber42agHes7wf3_ViHvXZlpAuqlkr5t0cWVGhnbgAHrui_Qw14qVKLShG0LRKrDE8ZBiZeFyv-lYmGx6LIYG16l1iJJ5gqEvudf2JEPOCLd1rFruMNeui2ImQkEPsSm4lfSNdOn5SeCs6AoS7ygZypC-A9Z7gfkNqE_8yPxB-VuOcqnrZN4aQX2D6TFNt4144taw-3u84VzaDg.jpg"
+        "https://cdn4.telesco.pe/file/fBrseoC36EgIrPPV2dgRSCo9k62MSfcr_7K1LbxnqqZjnmnZXu4_rs41eONaPOobr7-q8NEwFXK8qPnGekm4Ffq6y16jv3k0fU-iAlPjvYREJdKvn4_Q9RcSoQjSUEVFrKVMawPSaaZBPf7HYseTW8CssJkBuDFr2WpsypmLg5xrlV4HDpoL-y0IFJBCzLNR8g2eOHnSG515-Xe5GIQ-dAksYoQ46U3DHZTSals7CreQFor4ILxkxqcO5oXP1vLpQyztlkhUevo87a6fXFKiHivJ5A9duvTJJnx3p3vctObhW5EOSf8pBxHn8K46SPL-EgydJ6bw_Z4fdaClo8Jysg.jpg"
       ],
       "video_path": null,
       "gif_path": null,
@@ -8104,7 +8104,7 @@
       "views": 28900,
       "forwards": 0,
       "photos": [
-        "https://cdn4.telesco.pe/file/Q39DA7rIPtjfvfPQAJ0nggC0V-9Cc8rsmIEY58871I5B9jVHU_SYeQoZ5dhAGuo0W3sR8mU_o7dDSVO3hlFCxbIIDw4a-Nv4I5uWV9UpXcS0LjyKTvzRrOK6MQXOcYJXL70BqlvmZSOHWGeiWfyBT5bhIQ3-lC8gTPQ9GYlPoqHdHeh5ScCBavOVAfGLH1eb6vPjDGWjKl2DtCnnRcpAGSMlVVMbv6PJd4f34CkyQyeakytSecG9-xc6KX_bgpkuq_W2Ai-b9y-_SeJf-19SVKDEckCuKjJh4S5-d_Z70YxzTKhv_egEw0j5T_tAEl-_i6NqnHuBv8qdXTYqF4IqPg.jpg"
+        "https://cdn4.telesco.pe/file/V9wqhRh65JsUzT_MBytv1Yfo9rNpsIIV2m2RwK7nNZ1UZoqzq-bzvfx9YHDJ61rygHdXGn0dMEDz_NH-PAhzwDSRBmHtCLWSGP6PjYhKDU_czNVqte6ZAU2izqdqpy1BOVtxyFdX7WdyFI1EngXcVwzviwRoNcNY5V-IOJAWmWQ_7xkbip_Xe3mnJKfr5jKSrCGa3hVb4Afa6a5w-kzta1PUvyoUknIeWttCt_2KZPCIQFbNt6pmFpTphjNwsgkY-L6FLRfTiNkHELlu4JUYwEJCbPmjygsvQJ4D3Dy4O4MR0cFd9qLhl2LKoqlick38rk7bkb6-9dQemtQg3uZy2g.jpg"
       ],
       "video_path": null,
       "gif_path": null,
@@ -8716,7 +8716,7 @@
       "views": 22200,
       "forwards": 0,
       "photos": [
-        "https://cdn4.telesco.pe/file/f1MqxBnBW3RKOv0fSvk50C_LjJE7xw01iN3IJCU53NgQe8oN7-ZaMMhllPM_vMXJqlHV4At_WGAjiRkwm0MECwpSvm1z5AZuML2yK1X_NceTHviYx0djNAbATHhRN_N3bzqECD3X1RCo7BJ-cRSVAoT3ytvrfA3VaPzdgo8D2pnvuf4WPbjBJpbeRUukE961aDK9_qKJ8ngIMs8cq_a762fb5LvALtZwGU_anH_6xWliFUUp4jOu6pJI7TviBZvP2fLEIYsi-rFkAMhtkw34_E3QDpJSA7mvl7qOPGbNfx2Il4UUfNc55fV_NFvJAUePGVPnX_M2AfJdlDmqMXZFYg.jpg"
+        "https://cdn4.telesco.pe/file/NdJA3KCKP1ruykm0GwC_HFKApiloq6eIsKd8KbDOVTULAnPqhxYRFgKuuB1XyHZIcqmkXZkbAhUSvSAnf-pXvsnohUNm7IYIsG7ct8RpEVNx9sYI4rh0Jx_0-KEdxCazLpsYfP3oeJdRgjGHLK7I_66Ls_LCqblnnTP8B29KtLm43wO-r8ufjMFOfPKq5NRYlTiUDUFNP5eIP03qrgPDvnn8LS2BVnwiaW3_0uuRYRuj8XkFvaV39PjnaJskX5cSnA_bRU8RTxnaFwZY262M4C7-y0ZJ0oGx6aplUrZgX3T5CXm9oj3oqsYc_0YP_J0QBlTg5B4cloE0IVbxSiYwDw.jpg"
       ],
       "video_path": null,
       "gif_path": null,
@@ -8744,7 +8744,7 @@
       "views": 25000,
       "forwards": 0,
       "photos": [
-        "https://cdn4.telesco.pe/file/ncwfrVUzCV5tkztas61AtPX49QExyJo5bb0tQXNw7sTCj_cGU2TKCJpvULB4U0bwZ7jYMgyCxaRCSvAJgvNFDV3cLxRPmxFJURQQeBoSRRx_MBnVM5RInXQb8OAqEeehLWhEtMuE8XRQFuPc-0CzuxPTQ89Xje-9Rwd9DV-pq1Np0kXyBaZVxlJ_tZC5v6Mo9AzdLMGzyEBmyGCN72Eawl-dpvsXPX_uNkdld45wN3zbhiE_FKAbGndDpxWt41yY84GExIC0PPQHyP4DLiSyp8UfIvH-ye6rNOJc82MVR-YxWjHfte3DNfuej5MafilFa3fz2YyMPX0vDMKFLboC3Q.jpg"
+        "https://cdn4.telesco.pe/file/uA09mcGU7O9EsfH9jnGqXRSmB7Ttki8IGLIzvyXS2OgmyHJ3WNqk7LGL_iMHReJBuWUd5stqc7a2Z6wPpTKJujR7AVB4X7cp9aH6TBcPFVil_-Vra7indUqJXZj1MDO-rNo418gzbktQ3BKw5ip3gxVu3Cg20PFepjX3qA9ZZ5uwUd7_F0-bsAAc3bQOarILm6dywJlSHHroJJE1d_fTb33qPzHshN6WixLGTZfO77EYh2-l5Wuptcm6E3L_y8N1n0Gx6Wyvv6QRkYLVzOPGOOrVsgIwvAgZ2z0Iim0yI6zeHo60e4eySr8fq07EGK__0ih8u83cXjR-Oa__dr8vTA.jpg"
       ],
       "video_path": null,
       "gif_path": null,
@@ -9000,7 +9000,7 @@
       "views": 22500,
       "forwards": 0,
       "photos": [
-        "https://cdn4.telesco.pe/file/gBuIsItPebSTivZ4Ohn0ZhPXfcZDzVPbRvEz0Jhs_JUIMU0Lb8YPRtoSMRxkBGWsz59d-Ff2iZIzKAgJKUEmVPYrAzzd-8M1iWOff9YTbIxjJ418JcmyWc6SI_JGkLUcUY21wKJoW2a8EBantmbZJEPtodv2gE7cUlS4oWMDQ-OwLA4GnXN_dqXJIVmYFwGa0AFJK2dgSkG-eWEg2gQVNGPcUUBkM1CWSmwqOuibLyrtwrD4r3dGTNTrX7kpfIDrlDJAlJbjwktW2P1muPwzFOOZtgKOELMCYrrqt4l7CluiaCsz2_pXKdPz3awZpiCB9RtN6mbORjGvvCWoq0jZww.jpg"
+        "https://cdn4.telesco.pe/file/XihJJhr_b4dP8EM7akuABviYHayrlLawXk4DlLkFIRS3yslay1UcMtGO83ir9SESaUMYwBLLeIEPiuYrdqdxQSy84DNt6d_coyN1sNHnccGDM3YOf0u8HHZebh46uY1BeNgs41L3LhKio7xD9cZf9KEakS2hbYZyurpOwf18tfpD1et204DSMfoShZDnN19-gVGieNYZYYlOgfueq2fRVnO3aWJswMqp0tfgKOeGsQYN3qsEY-X5CZjOKCA2-7-zOmyvoCSeLi6PKR_3oZmTVDJnCNjDJdTg_21G3a-Eqm2u3uPBj2MpIuXLKMqqzCazbuL9H_VjlW-kfZOGadmNRg.jpg"
       ],
       "video_path": null,
       "gif_path": null,
@@ -9205,7 +9205,7 @@
       "views": 22400,
       "forwards": 0,
       "photos": [
-        "https://cdn4.telesco.pe/file/UUkvg09cyUMBrPiDMCB7NfNrxpDiInzNp4ljqc2MRRxM2TjC3p7vFwB-iln_F1pafHBk_tOQgE-ltWCn3lax2r02WxRHIm-ex3kr9E4fNK10WgoHuZTWS3aGbXB-w7qPlJbZFYrmijszAYiUuKLyRn88D4q9hL5sLi3WVPZPRw0VaFbviUCWdx8Omwo23RbVOp3jmNFtXoYy8O-SHvz9mM518yZWgzjHrrAa6X7IaNngavSxwephu7Pntoo75wmdl7tR0WztM5rqFY7Vcxuaixnr3q3NF5zRLhNL2gZN8mqp0FMDIa4M8U9jCEXUOjPoFVQNJo_x5nM9yu7YFtDF7g.jpg"
+        "https://cdn4.telesco.pe/file/X6pNBoLAG2ZNRuSwQ8pfINeqFO9mR529N2lArxYQwoVpJ4arxxEABKiBjqp2H3QPaAm21D6d-Is49yskUYCjbKiCeytVaPabK3ZLE202MUf15q6pOAXTIxjjrUoeoYnCBmSS8x5X6NH0FsXAZXRV2IcIbYV8ltZUxCiUZnaLnGjNOaojiz7b3yhQmQVNjxiXhtnKgCvLtRgzt-aR5Qm_VrbTpQTC4Kx_EprNiStKMTLnHLH2Xap-gZfKljZmBkFfEdv9lTHovey474lH0QyYCnEfGz9oB9-6mT__NAVEspzpimujWvBE7zc85HXyb6Pe9YZkyZo8e7XnWEyJCddOsg.jpg"
       ],
       "video_path": null,
       "gif_path": null,
@@ -9659,7 +9659,7 @@
       "views": 23500,
       "forwards": 0,
       "photos": [
-        "https://cdn4.telesco.pe/file/hvTkTFovJtwBaFYFCOOCCCKI5qE3lu_YRHDWkhV4socicoYVDDwjGsDcE9NLUzQu-R1Ajxq4jkM-CwPK6hK89GJJWyy246vbiFnQuq7l6yTWv_JyCUKw0tPBE11J81-xK3h5y2zbrOHaCH5mVbwT4IthYr6vb7hVuTpjs997i1VmFoQ6-ZBYntqaIt6217FNG7G3OKIivij-BcPImO5pqftP3TH-5Oq8EQvXClY0UqwWHjAME4oJfwGv3WbWJmZNoeOgSDlj_MP4E775vbgyDBxRnXU7m6Ca10JdbCsbp760t6MZjDrM9Abv6KOYKSeExMthydGxDA7Tq8Ps2cxi1g.jpg"
+        "https://cdn4.telesco.pe/file/GdX4o7SKiEn68mQALONVSiZVFSSgrHjVTBEK03OwkW8l6VU3F3KysIUPednZ3W-l0exqmLXzaIf99BxcLOOFqXlWmFsooV8yUFhSLdB7F3BPCCcY22PxWzp7Ki3PCzZrbQJWRwRNiJsyqFhnrdobC4nIYodqO7Fq2GHNo0Qf0Q3YTBM98dev95083TEVdAOXAFzfRVeBLx9gUQVS9skrzyLlbDukQnUlSCaobrMy356zNIGWTEpWHcy7WNpwvDT7F_7dfcUvl9ZhMZcsY93jh9ZcijvkA7ShvS-3aIO3IA9P7XtUBv29KHZqFIkedU1Z67Y1zXwTnKELss89AbBPAQ.jpg"
       ],
       "video_path": null,
       "gif_path": null,
@@ -10102,7 +10102,7 @@
       "views": 30600,
       "forwards": 0,
       "photos": [
-        "https://cdn4.telesco.pe/file/v2vpEFb5MMvgs0LGZSejfj3siJQ4TLTFg9z17FToVRx3F8UuQ2gGnYNy7tkLY_cu1b1j7fnkRu4FGDiR9a5jagOXajNBU7pgj-5Q9ui6WRXN2K0IHNDdOYn2TB1DVKHGdl37lsQxfgAG2UZv1WDx7GKorSjHiH7R1oJs0GGPWyi_M4d4ofs9wiJ5wrMRyUN8z3KTb5SWXoDcQZUZTGWSllr9I6-mmzCZBvd2y7E1bIdcuEmAo6czTIy8mbH5TyIWrIE_X7wPCC6HWMPsA-5tyfSyrOHGr5ZK_8Hq9AIoWgARcNQ_m_b7haXPSFn7cueVeJkEut8Y8k0gnAmX9nlNyw.jpg"
+        "https://cdn4.telesco.pe/file/IFl0IhZvZk7hubqMVHk6T6W-4BSci_Wn7oJcB__XfGUuN-F30rvf_fwxsC1aqpU5SF65jmq4_6wmgplDZtdxtmjwLHyAFuT5cmM2O7QS3OdA74UMpWnTgi6g8sbCEIdjAkrR9fIPHlTpNWRs70HafzcLgpuICZCB_ClKd6Q1glT9SkUAqd5Kk9pvmyQ7jeII9AnCX6OoA_Sx3Qy6s4MuGxtvFD_R1ig2SM0n0ikovDRqriuds-KojAYWYXNm00exGASa6v3KO-i5PfDu5LTVl33cWIKm8yQ33LR79TMYof81boPf80D37cJG26-gZWgbYh9Vz1-W2K31lONdtSqzfQ.jpg"
       ],
       "video_path": null,
       "gif_path": null,
@@ -10281,7 +10281,7 @@
       "views": 22700,
       "forwards": 0,
       "photos": [
-        "https://cdn4.telesco.pe/file/McFBiNwdZ287gX6EDet_BASCdiv_Yn-F22Xaq_grnwKZ1eOQiZhGnDusCTeTUaFxB2wURNeARY2MgYmbeqLanwjZY1A37br8DgiqVHiwxYeTzwkfYDlJSRfrPJCglDQfo1vt7ssxr-ycrZm8ehFnq8adrWU7UpNwvvlIGIwRczw4b3bFohL2X0ngozsGVVTK9aGBF916XBzPnZVGXpYc6LgwjxXWPGf93FW3nVn5m6u3wHQrOrwUht1T47TLu1yv1iUk8qVEjXWLar0pYaPpHQbzypDXtG7kPYurhnC0TBqOQZbwbzkTIHO9UlTo9MolEm7w797OsGZEY3YyHS3jeQ.jpg"
+        "https://cdn4.telesco.pe/file/loEi7qIyjdl4UGwirTJJ52W43GHhPHwVWLx98M65nSz7Fjgv-lqEpm_R659Uv3Mh0NP4u4SSVUzY2gOUvawXYZhMIgUAJqUSEsgOPH0aXXt6gtbJHVmLKt-uUgWqMAkIbXkJbVwwdkbRvn3ZAXLYHddBciYQnPFjQcV4MYjGLEGh2ioUszGWwnZJ88GkPz4HWLNJn8klfJ4i5xzfy66t1VudF92u_F3xLiIDl566F_f6ACKCxi_9y3OE_0Zb8bB0C_H1OZCbRhZzzJuVMWp_PJiCYYNsAqsC0CAnTgUN2PE0-ELZ-Trhdl3Jz0iHlIcOWZtazNWHEIoCgrDtVSMuQQ.jpg"
       ],
       "video_path": null,
       "gif_path": null,
@@ -11550,7 +11550,7 @@
       "views": 33900,
       "forwards": 0,
       "photos": [
-        "https://cdn4.telesco.pe/file/b3MF7FNKy3zu7xe7fy5YE9iQIrw1esDt6trFyrJ6qz_LRtO4Dq9jnnUQPbDkx3MyooiUoIip1n5c9qMUHuttPRF6jj1yUAaHk3Kspat5hEtcDL6TUpeOIg4D6m4HscBv5NvryRH7Rx_zfgvREjLiEm8t2cPpHor0vSaQEINtGcY_TVuTmoHsMmO2-HTxi56hHCbvxzG6dfK8yLNvFodbl4dLkrrhN31p--P5Duqp73tV-eXAuUxeYViyDBOmRoafjdppSnl1zvK1QJkv9oJqYMsMi36mAlohxNnVweIQdfhC1f9oS7bsm4ydpzH5ZLqLgaynCta6tnERPGr339oFng.jpg"
+        "https://cdn4.telesco.pe/file/UEYd6b1e96d3-K6W3p68hJUfrqCiyEn_CNronRt2XFbBrthmnj5IPAFhYYmEmtMm5--SLZ25MjgJ2C46gfamoliZL1xXoMxwioilmV9fVZsB4JcBTkJ2bMT2r8F6mCU_ufaWhQGXtrslVVen_6p-eTnpcnpSg5W9PU1TeCzPfqoANu6E5zcL3ztv5mClbiojOStSpRkRe62Nm-dUAgrKqceVk_4TwzRdWOB_WYUReSPJJqZLFnwacYAT8gZqUHnynVjCagsAGXJn_QsiWCUBmwuPBkKshppiz5JKMMuqohNsWSKneFq2Eu7XczUqh_tWh3TIFLnaYwXXyY-C6v642g.jpg"
       ],
       "video_path": null,
       "gif_path": null,
@@ -11790,7 +11790,7 @@
       "views": 27400,
       "forwards": 0,
       "photos": [
-        "https://cdn4.telesco.pe/file/msgdSF4yL_7GdoVmwiZl0kfT4J-RftC-f0T-09o68HKdGv9XPeUymdIGhK13UHn7A7o6kG6FN3ZLycaDFhwIRj3nXXVd61GfFC11Qb7iWUp8I8pb3QyiirsDWVkpHcEQ0f64XrT-KdFlZu0miVUhh2SMA9DtXsRPttk-bQpy2fRNhW-fTprvIw57Dx1zBAFt6MI-aW_IdVpdSTAifpmrcjHNSumFVG3M0m3pt8VAYz1-q8x3zbc-gcdHdazEU42EhUE3kYFIWU38Jv_LHe9XevPX41pjHgiZ2HGP2bFQlU7kEaPHCzdLLDHWudbqB70I4iSQT8umjYZOd6BaUSu7yw.jpg"
+        "https://cdn4.telesco.pe/file/OSFmO8zaZoCyKO8D1EWl7Sc5NO4NNPJbodlffJkCNpl39DvOyEbVs6FOPpAEzxDiZj8KK31MsFPZ-6F7OaPDE3LTLyyMOQM_ATlOHGwRpGTxTStvwWculXOojZU27AHbw4FFRj9TB-97vgSeo8dY6cmelukr_kPHiR3BaNRpK10xJOeSVa3FbyPep9TvzkcLrYQAeuEo6y3rTJsbtZE63nZUaSEkgo-y4n4VPJavs7cDrtP_Z0CrK840HXPyelLxZnaC4arNHbYU1KGHSqmPobk2sno79dgG0S4yIfMLwZkLL7Hu-aVUuLFixpCgzDTFaFgbltJe55vHTHAG3gMxWA.jpg"
       ],
       "video_path": null,
       "gif_path": null,
@@ -12636,7 +12636,7 @@
       "views": 22900,
       "forwards": 0,
       "photos": [
-        "https://cdn4.telesco.pe/file/UlkkGZMZTocTYUNnKPlqwca0Fw9si5M8NRyY44z-iWL1qSwX8mVZdTD5k1ezd1IHSm1soB0svXTD3FCuGu54KDZIKYXI8aeBL3A997gcm_6uFGlGIAXgATAdrqHbTZtyEHszlTaclW02JQYgNUD8tn2bYoyyLg6Ye2t2Wk7wUJCNn9LHnzstt9wpQaf6e_LSfw_ZTN6B15W_N_hAT1yw-AVk7B51qi7J_6JWUITisMETy_dEZdifJtzDsU--5lXuVAJtyZmpRtgInO8MX6Oolr7-UJ0ZrfyEP0exskTyZMDsUTYcwIfO7B4_jJoOjhRMXLFBF4Nt7lowSrCptD_OCg.jpg"
+        "https://cdn4.telesco.pe/file/XyTIN4PUr8DScnab6pag_7uch3MeSp4LDBduX5TLRDQTSmlOaxgP1spIkpfjxMeJss0QJydaz5O56QvL5wYj6mA0VzwUp0YgxjijzdWW-cuckA0sZ5UJhk1ywIZhwjj0h7NRkJFC-x5xayrlu9_PA77x78ArSOTB1UT_qqlSEBP-rOTCH2ym0bCsIbZ84oczDnReUmE9C8AzUfb--Fa0c_7d1YwTCSk65WDFWAV6SVwDAHd2R_7yOP7YKgb9MnfMBpRkN6hYVC4pBTfTfvQ_1RnXNtEqQ8aSEIwPB6jH9E81sskAO1MDxXvFvb3xpb79LjnxwUb0VRhfXTJkdLMngw.jpg"
       ],
       "video_path": null,
       "gif_path": null,
@@ -14760,7 +14760,7 @@
       "views": 23800,
       "forwards": 0,
       "photos": [
-        "https://cdn4.telesco.pe/file/CPi5_KehdEKvLNo-ZViZF21mfW1wAJ26HD8VbhFnER82HFab_6gwFZ7SHPq4Knn4jd-HoliRVogw_n3nlDVYjR29s6zIPi6Dz87FV3zQzBb66lcqobclD3BqkPMEFvWB2gMh0gcny-k-hYAGXcVD6jigJlDJHNVuywSOY1hlsqIs1HxpTBxHF5ZSv1VFigHFKg-_MwdopG_NfkD5hfNs7n4bMAXp6Gt4T5VHzR2S9-YEr91ay4AIlR7-CkQD8d4yxDqWDeruldeXTPxMbOXvwFxmXm0zVYjPJrx3-uhXxRXhhOhiSoG4WFpGTnyEMx2oeF20K-LHc-9Ng5e512vrzA.jpg"
+        "https://cdn4.telesco.pe/file/NlCvyoIb-PJXQj7HG5dg4WuEYND0uqJyOWmyUYTCKTvkpYwB_KJUTd2xV-u1-6azD_30sHdI7Pii6CnUO9gdeXsgv8LZoXcKQmhcEihDXTAzKiLlRPIJkmn1ngvlaIneBlrKX5SoLq9dSCWWaiQ3hNrRLBnxzrpNkYJq7Mvdr7MPyITQjcyzyEf_wJS27UUW2XZklbyw6-GpVRuEFmb2YrDqBpWJ_ws4e5O29oN45s3lRe2a18rz1pJcivren3QnZRXKLDUUsRwiBVZBuRcSdm6chh9yeo6fzL7f-sEqAvkIE2XEk5IlBePwoRRyJoCrlKOrShHzE1A6Pt9zUFUnAQ.jpg"
       ],
       "video_path": null,
       "gif_path": null,
@@ -17198,7 +17198,7 @@
       "views": 18000,
       "forwards": 0,
       "photos": [
-        "https://cdn4.telesco.pe/file/BENbuIqB8reuv4ZQ_qt2yZtkIxmy0rxMaK9X1hpk8dLTnm_YkahwgKNGtkHSozkKlJdnyqUcHWCiO6I5SpVL870yYiNfQdencVracjkscImMozPgkihQh_DYvAigmjxaPtNAcTiLwWmuErnzUmL7LPW9Bp3c4LUU3P-p238IecBzKhDo8E9f4tgq2_woeuRfpViaUbeopzXKQG2M_iYY2-8A52i9atW_dFlrj1f_E7oqBOo92E7rBJP4Dx2uK6cawkgiW8tA_7GbKKMdSuCA3lg0ukH0jFVPoZOlkwZUnOMoXNEgqnHvmyQGb9a5aseNN2JUpNABLrlp6ApmKAjAzw.jpg"
+        "https://cdn4.telesco.pe/file/K2vG_2rEKuOIDWvEL4TtzIxFbrNf1HdKji75mfTHYi6MkrOpqJrxlAqqTr3BdE5JfsxlErgHgH9YqAIEt1SjaqSJxTxRauwv9LEORn93RUaskkExKe7muC-79MAqWppvLskiC7d2sNyLFefPp4oft1wrO8zOAdyBPM-2zwyM4KKMexlrVrzHhrXw4TXhsRBhoBjgryeqANaYyNPXP6tVZxjQ4wenBxRydogBySUwSoQk5hWaxUCZOrpjEuIvtXykvT-q3q7c6InJxcjFt32cJu-Q9RFYPfk-iG_KW_x7XPO2qauBKwmSC_ZF5zEXVQ4KiYUdL1nvIhgiqWQfagYzxA.jpg"
       ],
       "video_path": null,
       "gif_path": null,
@@ -17416,7 +17416,7 @@
       "views": 21700,
       "forwards": 0,
       "photos": [
-        "https://cdn4.telesco.pe/file/gsJazck5bxr1vYBRBu3Q6hqCXQ6lvG-rBJNpjk4L7azu1MtptlEGdhazVvmB7r_Q-B65J2l03F4qoErsJnq8prnHv-XXvLaEMDKDzHs51HS1DRil-xeBDkSQ0e6pQPpF11ReCP1Gq6UEk8krstqfK3-_HTSfwFcjMCetLyriFOcbQ3Zx3Kk2zXwdvR7xbRNi6wdpRbMSVLxUE4m_2RG-oylEeo8HSYpyp9quHFhSUe0_GxoeZja__jnmWTUXrsXeoOrSKpZJE2rLg-Ag_WPZQs3kfGwmL9z2BCQF18ML13H8Nd8JTu5xdIexsvr_2Bjb19FCQwZIkDIc93jgkYxC4g.jpg"
+        "https://cdn4.telesco.pe/file/IAUZRPaaI-gQVfYctTxgYo8hsm5pJn_ibT-7F2xJn2htXCVHHg6ac7tjzdr982kwnyEZ7JZW789SME9H3pfzD-2Kgttql431Hz-QshuqKjNd1inWM6OlT0fBqlYCDdxBLb_YqoJqUBig1EwfVyBiAnlop0iDkHdB1MHOJe9PL5QXy_S5ELUMRbJMDVakWeeXssdZaPGxHu2DJP_e-FaUQHS38VGWEoYV-wR9RJgal5JSTDTTPpc4e4DV9fME8ajbFi_vth0UaSX2kquMRC1iPYi1RM7nuEUmPJ0vcNWwm-4t-_ApG-37huZ1yALDLfZSXMnQGJxkMiYQSn-0Q4rfIg.jpg"
       ],
       "video_path": null,
       "gif_path": null,
@@ -17537,7 +17537,7 @@
       "views": 23000,
       "forwards": 0,
       "photos": [
-        "https://cdn4.telesco.pe/file/VMwuE3UpiUo7ilHyObjNUYi6_kO7ttXBB5t1OdS1uRpPpJomGnHXkBIlpEalsWuIXU4F5hYX1XeOthLBpbLYvfe3EJcJm2OUWIlWskgEpdq5dW69pNe9R1HFpt2zXS0iWSGJi2EXw07p-G1CwrEdoXZ-15KM0RxIf-_0JX5qbYrwoSV9-dSgy1_-0d5cKF58YJp5N5ifOg4onvPD1TQppgWxACcJJ-qEqqawUZTe-RdHvgKCIdwNDz7VGYzYDHR-fSuSxg2bbNbZDm8V4woKDRJ0r0mEFuxBDhiw__idy8HzIX4XzzfbFbLQYKZXZN9T8PET9Z6jduJz12bqzB9UDA.jpg"
+        "https://cdn4.telesco.pe/file/ad3eGd7GGyLdC9jJNFuJ_zG8ZUY5jSRisPxf1lt245SQyPa5DkskrnhZaljVz5Kg4E4KKtwRTFFGy_fXUsR5WQNCeti-XyUvKwq6bPM79va4zivY0TrUMjf6fyoN-0zcIO6_oA95HRa-FEil6V5tRq3lUL7ZhLcSjFpaGPc0hmI_2mC17z9H_YmLOYupz4Mr4oRcFlyerY2m1ihA6fivbUQTPNTfKnUAxtiIHZoStdrxmybN8FfcxorSOHhnU17hWG6SqKVa302tp52j0go698HH7BhwGMvlkpCiqitu3Tj6E2jLfPsfT7KRN48zqIbMIyMtB6ObxPdEuyWm4X4vdA.jpg"
       ],
       "video_path": null,
       "gif_path": null,
@@ -17632,7 +17632,7 @@
       "views": 17300,
       "forwards": 0,
       "photos": [
-        "https://cdn4.telesco.pe/file/ncagSBQNJbP6FH0wnc-C-_gDRzexHMiAQuNwzoxj5mIstYDnhha5AcftXDCSw4jLb1ltkOwWKNwb0le8zUNTFfW03M7YrrRxOdBlsnN2IrlJj5GaX3JcKbm-t5YF0tgasyc-jxMHNjoVn3cyDa-rf88pakSLJhUi7nEhoSW4E8RH7oOOOtGIyU2tJjYNi-_GTJjgjPIGJWFdCX1N398oTa_Ag5fzREjQbHULdNiRfhrC_d5aouxi6UC2IzHah9afKdS6rECRhXnuobJ44x9Q05yIRXfU0I3tpCLNDmDxy6cC6I__393xu88KsV50AcIXr1MDWiBgDDVVd2rK3Sc3Xw.jpg"
+        "https://cdn4.telesco.pe/file/OwsO3JcnUDZOZxmv3BIvvCGZ6H9jltlmxY8LnNF2RF3B4OYFc-PF9pEl1NmhVvXblrc-VfQ3zuB_dGXR3GVpWIFS_0YcB1pVbXHHYmVRObfmNJkS1MzARwg-_k4Lq4iG7MHNJa47YW5XPErd9bN3k7ZEOSasAnpUFwAcJo6pKKUD-VXMYpTk0kC8wCo5j-s_zC9fpSCLNP-ROTLvRGLd6QpB_aJPieOWgTh86_lbA5UYomfIby3czZjQrJexs-CPoEqFaQ66l9LBK5l_imTVTmS6dxsqonVQJm3I0VY9i9BdAhysNJXsfU1F5dE5GAuzRxkW8ZV9_vxHDWi1Ojs62A.jpg"
       ],
       "video_path": null,
       "gif_path": null,
@@ -18600,7 +18600,7 @@
       "views": 32100,
       "forwards": 0,
       "photos": [
-        "https://cdn4.telesco.pe/file/pCgP63gYmC1Qf5wNEKik0fv5z4qAXM7rASqUtCP7At6IlVuxFV3Bf6ESLqPjpafgQlBEV8MmQaYac3BXjNWODl-QMI7b8ZeOxuO2wipZRRrF8LShLE5MaC8FrS34ZHBerRv2HIVHiwBb7qJQywNDMUZ9C4WHPP7RE6YGoyTNZBttBpQKuvd1Axbu05yqalB5ubl6qIsUZrHSIFQFtBXC8DAxsuUonVU9V9rVAZNIUp15Qc_-sKXmtW_mpVxplJiP5eV2h8PRooOOORBtXqH8m02oHwr95wdAlYbNrg0kqqm6X8KjvHogm8HgwCd2VViSVJb5EyWTJoUycoDaaVNNYA.jpg"
+        "https://cdn4.telesco.pe/file/Nr7HXURhPbq0tm3VujOte_qGXPC20Aus7HcJMVBlduDuXnQAkfpn8_UWmyqttCYveiJACJacEGJX9vhvrss5axczT6qEpq8Upw0fODjCdRi33nj9DvHFv8BK5AE7iMzdcoiwodP6aDCOC1qWVkhpEJYo1zsBM4v6EAjBVzBNghNsaY0_rbgPyRR25UKluzwW2dZyQqLrbG_gc2Rmck8mXjJTUZbUBBJ7D88ROGohuf6sqhCKDlRglx1WuJBj2sm3LGaO4HKHgAr6pgD1eyiqh2ooi0-Vpn2dbf1N2e3wo4ZXO6Q3CNyVuLU2u_772qdSJMNl-zZzTSna78Gzy0aQ0Q.jpg"
       ],
       "video_path": null,
       "gif_path": null,
@@ -18844,7 +18844,7 @@
       "views": 22100,
       "forwards": 0,
       "photos": [
-        "https://cdn4.telesco.pe/file/N5vJeeFUWanyt45JRidd6VtPeVoAZSkR-rVra5LHMvAYgQBelnGoWau_3xdNPVS3G6lq-OD-4UNTW6xU22_AsxkAg230R7JFh2nJ6xXzfUVkueyfIlu0_2j3Bu4RsMTqLDecGFCV1-aiXST7crTuxawxzrhD6S8UA3klcPGh_0f_nH3HDqdQD-zf3d52023wMZUPnJY0hfsCEHhOPGuq--h1V9TpAzBIyGa5u2TT953qqJ7a-tZnHGbUl24GbErOzRy3zCtKJ5rTUqHBJQyT6yhMeFGEd7KuLyTdaPWf7PRfMQgePIumZa51mfgPSqSyieOAZL9XC5am2SslCg8mmw.jpg"
+        "https://cdn4.telesco.pe/file/YoEk_1U3MVPAjInwIPrk7guOfMnFm5xNl3DeVWVCO-mKj4F5Ns7zXZbKfmphbampOPemooqvoLLkfl2jD6a5N-06QaYb6EtZo1og3PQsFbosAY-upIXQmF5FWBMbKmNMMzuZWb2JHKSUBAufGLt6mUTskpUcsXAUr5Yh6vmOj2ocQS42VbtOhG4Nhwz3IhoDaMgaBJOBH-PK8Zzq-Q8s-wXREqVa_8fLGkjVZ_e9AonL9QqXZqlsvPZZvX4q4V8SWwUaG-sTQiaTbgdxRHXOYoCPu7kvcOVtCJPbqLa4kr-ID-e_XnHGgJ-YeLW1vwCPTgfc7Yirs9_16j07Dy6bOw.jpg"
       ],
       "video_path": null,
       "gif_path": null,
@@ -19207,7 +19207,7 @@
       "views": 27300,
       "forwards": 0,
       "photos": [
-        "https://cdn4.telesco.pe/file/G65OIARbMOFfZMW7Lptjcrw7QbEd31QJsbb-lZ4lFZRjtuUw0FE27GXyLfTozovMPcLTyXbRi2ojbz7CWpnZr6sgELxkY21bs4BMRqnu3VhWGCSGz7c3nwlW9Z0LnD2L39goXfDPeJSSupItNwtmj5rtd_fn_n8mdpWX9yh1T_W1GvRXAfvA74MJImG4LFyUD9Yu8Yvjf6j08k2cEDyBYWM6_UNYxICRXrG1SpHsI34fNoesaxK9Xr9fp_orbqecopNTEPzAFBekuQx5ddfIbeuoPwqs2gwSH7r8uQ-5ruMsXR5HgkTrkgS2qNvZiCwDuI-sflaKy6PCL9QUGUT8Ew.jpg"
+        "https://cdn4.telesco.pe/file/sfuvT4aWpRF55qpuqhr0rn0lkef08MDwXxqmgKttAlgDyF-SxZYtGcNkQZ1wD-3vqWXyS-UMmWuECy-xbgnpu0WSY-QCuPA3wCb2EzBoieeh5Gk1RjYuofyYZQ_pxq8vCzepXGirMhiMX38iPD37KLFz96onOQcNXpTX8pL3oKUCj8m4zx5YPt_3madr0gxcsz8hN1H2QFe0uTfKD4UTy978Z0bmFPtsURDzLMdCLaW7n25Hb-l-BifXmtPUWrtPeLupfJ5ShFyeBnyz_o6WlQumVQ-liEZF_JvnaH_QCM1VchlpHXavqziSETOI2jXUh7EKDVhDPtmTVQvp6pEMsg.jpg"
       ],
       "video_path": null,
       "gif_path": null,
@@ -19236,7 +19236,7 @@
       "forwards": 0,
       "photos": [
         "https://cdn4.telesco.pe/file/Xu64lNpJ-_KPe4IRwEHBKi6JT_1Vw1AhLax6sZYuyWXL2KyD1opcMq9jGrCZQ_erThbrvT8rK4AtCsUumfgOLxbykw3svKiuM6e_-gBrxKBkqNq4FCcfQhPmlipCOe8VjaUTk0YBmIPr5R4eo-tI3361Y_vtTx2_LwPu4iiH76I149ZVs3CKCNqAhSrGy789OuB9btql9HuGOG5Nh4h2QABCM45qzjHMV--p--sVzuwAjKnbeZ51_Yh2wviLC9gZs1lrfTUkvUL0XIdPWwKq2MgK6h3ZLYmC93umfjx3btnWXVHpmT_mHcUEiBWSW7zmVXGAvglwvBr0fah8Hfodlw.jpg",
-        "https://cdn4.telesco.pe/file/sVQnTycRv4rPqelxILFkIVTwSmeAbdL_zKPI-f4qdvMrPmBnf_AJf0OVmBrBY9U9-RXd6jE3So9cPQuLnuSWflV-Kx978Byzp_siLdbpoTp31y2AVZJEuL6nFTZaNlo_PIPxfQYIP59MC_UDiGAR6aLM2rW6Fqjr10eWWHkJ11EmMOSAuyqWHoP7fLBbnJyvpqHuFU8gLREzqPKW3be09QM9UGzOjhRtTTFJWEbfdQDKKPEkJyvsjt3I84dOysrTPbrHaP5iMwRluzE0bNlS4th7GHBXz-sFadeRwd6THvcl4YYjzkoeWUh1Wl_yvNxXNMEz6YAeYutiYVCfHBEn6A.jpg",
+        "https://cdn4.telesco.pe/file/fa3UFmP9ZcQuK6BykzTqVgb0DlsGwEAuf6E68599n_AuisLC3ytOZTUf0AnRNqVyH5V9ZnGIl6kVo8f8mHcKWxJS8bI6QPHlaUtJxRXwV06BQRiB8bNQUaAgBJpFOSXVuIVlIa7LChGA3IC5xvvSzgi8UjOvilHaK7IBjOv07vm8u1xHg6eYwioIWoOs3R1FctmYsEX3bjOEmNx0G6wEPXbNwmhEi65fY74uLaRNeVhThfd4Uh0vcqf6VlRrCH88g5lBRcsS-Cqbe95LwraoG9lBVelVzBO81EZ5by0jC8sCBBnsAO_QUUnTofzW7GPnj2RqpB1BcjwFwt0iyueS0w.jpg",
         "https://cdn4.telesco.pe/file/taFMlDxnejco17kZGsz161mbDK0jP2Bvz1dGa9YvfOGv-LhozJQibD_5Dy_1FYoA8IQKgxuvEdC1kNyGMthHq8NlxM1Ub-jsmRpnfINH3iwEXLsl_jKCwI5kVGjk5XO8rqLK-22bsClfF5-cxXY1IU819jA50WnVkWblXM61C2UiyBqwboeMeHeXjcuSSIR2Wa4SInnrtXqlO0IUACncRHXmG6qMOQQgJQAup3QszNooUmGUo8aJvQr7LDpWme8r0zI2EDqUwCndz43PgzJat5tPEOfHh4pz0oJNpcF3h9dV3DggDgNKUFrKV4LzQIxmLi7syXWJaVx5rAyRnUgoGg.jpg"
       ],
       "video_path": null,
@@ -20073,7 +20073,7 @@
       "views": 22600,
       "forwards": 0,
       "photos": [
-        "https://cdn4.telesco.pe/file/YZ1MhMN23kMaboWHSHkPOENOsznntc4hXgZQ2CMranLfFoKAExvghC_M5bemHt8OCchUpAoXE-FMnndxYIkRH-SKo0UE3XSdW3WrtY1Bh4N2jH4Hmym13EqHx_eq8gPXl1se-3fQ1G-Y1e79eCqfZVKB61qzmmMMRAJeGXN20v69XeSwsfIbeR86NrngYjsgJxjy7-lHzqHoAFcnEewXiMLK_yRgjwGyf6NvjPN81Mq-PhASpPmLxQYcmPT0v7l_MYw4qmUKHrIsEhDFUnoHRVyie4Z1jq4kt9DH0d4oZvJf3vkrcVfVaygvKIHgIg_6oilEnbhxrg0JpX7bqjcLiA.jpg"
+        "https://cdn4.telesco.pe/file/FKoaH9VDPPfYy9_CgHbDrlyUXuBVMcjjDXv3jRI4p2Uz_lZlKlHb7wQ6wHyJPCoztskOqyy_0Rwuf9FLqMUbKOoWZTTc3RSCjFf_F_oYyPoIQHLxb9Ac47RGxGtgFdDi0GKGZu5tWEK2DfUpQci3aXSap6iV0_XSmohs4Sd1QHjy4Ecxts8iEu9FBLSujjjnOPuHNQhTu3NqsMMRU3T4UFtfmXqPqSlH0lTRyIOlEih5dsO63F6b7JDr89kIXWBOgtfiZbdJQPG0YIXU5UfpGuw6_1ozA-raJGN7g7J9X2DpEf613aUid0cR7SAnrG4YCcC8zXOgB7tIy4YrxtPD3w.jpg"
       ],
       "video_path": null,
       "gif_path": null,
@@ -20183,7 +20183,7 @@
       "views": 19800,
       "forwards": 0,
       "photos": [
-        "https://cdn4.telesco.pe/file/DdSPeiCxH6MLrSA0k52HIVLQF-zcH_vw0ahDYrwoFYTJn5p0cqZenY1WC67dWF4AqfbcQqz8zykxhtVcnF4EXxhGGOaWiSkgSX9zKsilhf2ncx8Thn29I5-Uwf60nzOLKMUCN2jU-wzwT4bl9hjsYc5GRtY53oIu0J4QqkXnQRysPkl6eV0oMKTiHyt8BQO3z86m65GKspK66EKH-52KBz5Kod9P38vVsteCZB9z2K-gBYTPRvMdfEay9qrf_b-RUXJBRIqXEmvd4kS8EVp-5QqGHNvg1GuUPtzlkiQ98gyamEKXdB1Wg2zdvCk8ktu0KXySuh67HypojuY7_xT3Ag.jpg"
+        "https://cdn4.telesco.pe/file/dp9tJHFqNZi5CLQbP3R5RynudLSdrwhJPyYxGmIv6Pq_xeBBGp4Utm4oDwEU7C8WUzwXsURMV6-1QPdBg6v_vB-gndZqOoMnhBhC6_6zI2WL8l5vq6ok1kYax1z5yeukFY9pXfR_ilCdhNbXyA8I0ltKpzbKwLM-gijdtsZxjfe1MpkaJMsHyXrcoXvOXuhKBtOc2OemLVobm7WJka5oVexoGd2ZygLJBgOzRlLYw7tAw3XphdtUTbun5a8_YYTOzJYHnFYyP9yfgC3-yZLe0DH3yBgC4KPcWb6zumJMvrD6T_XyFA83p6N8AFkigQQHOLxLoQXOua9SlhsbDeI6-Q.jpg"
       ],
       "video_path": null,
       "gif_path": null,
@@ -20624,7 +20624,7 @@
       "views": 16400,
       "forwards": 0,
       "photos": [
-        "https://cdn4.telesco.pe/file/fvZM_BPtvji-1zAohPeqSqtOKr-MX3IPc6kEVV9HoF-CLZMhjGNIv9J06eo6hg4a51ShAUW8OxJZRpImx24pugtL5VOeuezebx6HneYKtOSi_iSJHeTY6ibhWprTf6Q0UZC1d31laLKEkLEgA_NOztl8l0OevhEHh5PgwhIUVQIsIy6IXm38oJZ5yDMGRLwC7BXoEyx03CXVkm1FDl2x7RoeN_8qMfEMjnT6d5qDsFbp2dKdDq1-w4ZVc20P0KUX9Ml4ge8DfkgG-6uY4UIYl1Z3CFLJKQ1l5lIK_gIuhwlJbsCb0_hPCAcsW3uH6_HZaffdtWLTsV2r5Pd9w5ax2A.jpg"
+        "https://cdn4.telesco.pe/file/RngpIb8SvIeLzqE3PJUv-LZCjuxoTpeg_zVVmr1RHpQGN6Geo7CMSWhV1XQuWUdPdJkhetkPZoowXwNwCo3vSsTxFT2K-oYzdAcX_ubtoVQSB1E6A2Lbiz41RGJ1OWH3t_ybmNuiz_1yyh_jsAy-LUjMnTlZRneauyYvU45RwHM6NOztK7fQzWKaAY9reNacuurDhSzkn-6orZNoCpVDPBk5LTYqWVR1SLkI-tPaPNh6bq6gNyWkJSbdHh7K3qWd_ggdTewqqPv7rP7QIlhp2kBcv0s1-zaBjLpivCIyYqoDBuZibwgdBZ6iLC4pfkKFIgAm-VVNlkYdx-ptzTF-ng.jpg"
       ],
       "video_path": null,
       "gif_path": null,
@@ -20678,7 +20678,7 @@
       "views": 17100,
       "forwards": 0,
       "photos": [
-        "https://cdn4.telesco.pe/file/cE6lfReWJD9CfSy_m0X-ELhWAuX7WgfJc_hWm4BH7zI2GPZ5jP7bMKCaqzXFvgf_ucxddwq5Z4x85HZ1TiabUchweqrqRv9E7lS-KNmkD2F1YyAsAddNaIL1SErWmN1KKkE9REkyDytz1Jq8S4diVGUopFc0f3TSBABUCouG-7gE8mB9QccAFYMLZHbAkUTgORuDv2sM_ddWC5VQI8maF-DweQLPlbCWsrB0BYPOTnCsb-zNaei4aFjb8D-aF2eR2l5U_sdCI2-GOxeQhsdJFTxGUnMrhByMorEyxAry2FuOQw9x-Snh5nLKr5faI-yVXSyTKrXj9J4xuG0f12VcMA.jpg"
+        "https://cdn4.telesco.pe/file/Q-rqbRfUgU4ff67qFn2bjJvWMQ16Y561AmF_L7RZrpKoiFfqn87BPCHZhRJAxwcelOGTfPDXrBS11erHYBOT2KvND95jmUYxAsf_nMmzG7xH1qJs5kGTLGAHCHiI8O0uS7K-kM6_BHnhLts7WcBdWFsyEtcbQDsbS3epDgwXSev2J9cethp2OjggoohE-7f-qgP_gLF0EdgYWudZPLlK-iNZwtq78NNAT8RitvITvqVU3gYzFF7eYdQ6IpHmQXTgOaqCVDfmqTZSoag3ojXWMP1r42FeaX4cHN-paXXUrNuEhaa8ykAh3DpnQRelRvtH84kFpyFC8d1Lpsb5Xdt8EQ.jpg"
       ],
       "video_path": null,
       "gif_path": null,
@@ -21758,7 +21758,7 @@
       "views": 16000,
       "forwards": 0,
       "photos": [
-        "https://cdn4.telesco.pe/file/aK7VvMdUE0xh5I6i-kFgyHkst_94LNf3i8BLT3CIHbh3xDrkX_ca-rXwXLxIiuQjkdXjT62nPc3RovsmXIQEGXTuHh-fxB731EZdmJAjJrUFCT-Cvaug31drsJo592weFuup3DFKQMLIsISH38KXgnxUDW4TkEShTvkd-tGAeMik1V6oTnbDAqCSoLm5D7sMX8U3m3JJ7QrW5tdA9IpZ18G3Re3Z3zV_rRoRHdddYb-KA815YY-yn_lET0B6C8FradvA4fPBJnC3BxuJcuVj4ymA5uB38K5YKfnr7gv5WsYytdjnj83yGKUSwGfv32TvPViqYyyQtIszxCivc0Xkvw.jpg"
+        "https://cdn4.telesco.pe/file/bRgNqqNgu10ttk3r2QEyXdiGBxJXBDZEDJDG9pkjKltiyoGyPQBEvVM-fT5d7VGwGISP5GbmajO6zuXmsAfcy7w7zerrPZmLED3Q2rA_GqUOYyz0Tg7YSGk3HLGRm3DtxW9cZRgDlut9Qtpazu36LN1u8UhXB25acIiSJxbVabkCgbRTrIl-M-lKJbQPnhdA4mUCdOdqU92DYUOM33WvCcZAgDPF_wzPTkiSiuRqC097XCiDOJ5qFnwvOmmmCSU2LQfFRHmB1E8uqjrQtBDKg33fTkyP25paFnFaDwJjHJYJUY7Y9VU75dyxXLwXdeVg5e8Hi64_mXo-0DpM3dTUJQ.jpg"
       ],
       "video_path": null,
       "gif_path": null,
@@ -23055,7 +23055,7 @@
       "views": 16700,
       "forwards": 0,
       "photos": [
-        "https://cdn4.telesco.pe/file/o6U2iLl64q_GRaEMYaEGsdN1lcrYG_2Kpq6ARrYDB3dgHn39zulgfJNpFF1khVWZRiXHMS85yvBodO2CQajAfGcc-uC4RhOzbLFmhbsq0lDjeMI4K1Vu1tlU4OsB57vPkFDrCEAgPsfTc_vQglMHaxextp7zW8avi5Kp5lqLVAVcZyC3Q-1UThxhlnFSDdXu7pk5aXreeZW6kKdwCpEEhF6tBc7Om78tTklKXh2dbx0rU0HJCQFmo9Wr8sxraZiEHk9ykWYb6rawDL9qsePjwgehZ64TQrSqSIb1NEkm_njDULZmBm9MmMg2ywQINFeZyFs1a7BmTAhd2I0va4ggdQ.jpg"
+        "https://cdn4.telesco.pe/file/jPXvoVnaatKTSFxi0rjYRUkNQRbaPtNBP3R-8q1vTTK6oh-mhj6BYkA4rFJPqp_reYFa3hiJ4H-EaAn9kvaNo0yxjZXUgL17A8PG3hLUwE-DzxK6Pdh7kHPPP4xLOMbF3BCjCjRHdo7g8F9COzjCC50y3OVb7pi35vN_4KQ9OmlszAlzb6vzsljGRFerfwyWSFastvbIZU9aG9gMIK8BfTZ6_AhM_TsnjKUE7xhKIk2ldmcQk4pT4J1PieqLMOY6_lSI8o0T40PmFO76ujcChHYozGTtk8XIwn4LZ7cTrN9E6My4fCYsAB6AXvG56ksaR7AYE5MGtJWQsiJwsQCn7g.jpg"
       ],
       "video_path": null,
       "gif_path": null,
@@ -24705,7 +24705,7 @@
       "views": 11600,
       "forwards": 0,
       "photos": [
-        "https://cdn4.telesco.pe/file/ex1uyT23pL8SbbBx27EKBnJYTbrrc2UoTYKmdv7ncobZFMHorDLh5F31GZ-eG28GyEUE899JucFygAaqGgNeieBVKiZzkJy6Ah1MhHgFv8OfUCTiDkIrmrfiYWK-B5AX-XYtFUPWyXW9ljZJuU7l5iEb7au7q_cwLhXQ4gsB1C05bbRdh8ractPIk-0aL-84zZOGxY_F7tkTzfzKm9MCCZS7R0n6Zcy85C3x4MgWxNq6cJqhkuWKnOeKMAuzwau5I8J5gz9RG8iyVeehEqJHVNgeBbRIuuWt72dkZfh2IsqP_tZzG0SfQD6doDnk6sc1k45CdCV3BqGqIJIQOh3UUQ.jpg"
+        "https://cdn4.telesco.pe/file/iXIS1vnHvA3TOhXeVk348AZF0MiOZ-eA6Bvsc_gi26RSdJ12y7X8Z038X1oDvK7eKmMH_DAqQFSd4-a84eS8pa3XolC0o0rykDHBYV1a84fewU7JmaZGpg8pErNxRKmMwkMzVe6Yq6Cla0wiv7K7qxl81_Qf2TXQzPri6MFScrHs69ypEapBulFVoqkEjF2UtkUqTs8g7dUnwiZE0Yx9I-x5XHQdBbBWAV6t9cxwX7DH8FAO4Y0gvAK2HaxvPDYH8c_W9KPxi_B8tRkfHbTqGxKfC2iEbpC4Je7xxPArwFPTDnC-7DzaKPuoXj6DyIt36c5onCgZbNs3GLMrGmO1rw.jpg"
       ],
       "video_path": null,
       "gif_path": null,
@@ -26429,7 +26429,7 @@
       "views": 10300,
       "forwards": 0,
       "photos": [
-        "https://cdn4.telesco.pe/file/IJH7bUMV9aWEnVZIdaPRYNF3AJ3jtC2_N263o1csAKP_Pka9C9GteG0DLQsfMD976VvpPdBDCI86_K0fXpihYNQeG7Su3TX9Xqko3j-rA5qyFe_SqYNQ676sSJSQZurM-w7ZjKmDk4GaGoNHjSUl0FwphUMcbx3KUVjiP8l7QsejHcTTORVr677S3Lje9TtHwKSyp7xV3YeHTpT-Io9fXuCGOM6FvxE14OX0HaAdCAI5_6t3jOIe97BSoCq1THpGjkMfdyWuqP4qIrrSBmDwK-RJ-ic2jnOleeGOzgUCV-u54r0d_cUYku8ZFpjvB9SoEXb3RwMqc9i8vEOXRxYAbw.jpg"
+        "https://cdn4.telesco.pe/file/YUIWgxp97nR5n6TkHWgUmfbf1VrtgAnh5g4DAwJCQLDPpEKYLF3jKToZqw4PZ_EMtnr3Khm3xneem4eBP_3ByNayTtBuPbIYN0tsyDpoD8nd_xLLXdNWyVoZ_7JqHRAkF2bybbO89sq7Rsmryi73rEG8poi_UMORZmC6SbEbEcnwAaANXBrX8QJU0YTOuKjiYV9t1Ec9Fmkfog4yx0uJdkfZ-ldnKoaDAPODPqrof-Dw_Lh5C7VT_swhvNwjGKNX-2O24_ULBSs52rfunl6R7Cdw2IYaxo8ZHOBMUBN2NGivMSboe1nE-tqEXmJstagEdlBcBIkHq12_X25mF8WcmA.jpg"
       ],
       "video_path": null,
       "gif_path": null,
@@ -26526,7 +26526,7 @@
       "views": 9320,
       "forwards": 0,
       "photos": [
-        "https://cdn4.telesco.pe/file/EA_AQOL5eP3qbW_wkwl0fBsnoCKBZZR11FiQRpmN7hw9gvuO0oOQENGWCu1sCWTNHIBe416YrRxdr9EQ234XMgWjzDncZQe86JYUDYsxkA0QsrkCPty3MIrMQ8SF7BwHeBhlzFMu9y786oVZYPtASSCyCNSeVYhx1hRgL-0WrEFDJyC414LUdYIK8jm_-0FSYZG_Ht3-ysNcUWsvfNLQcMj6fb4lPcyPZdO_3Gzro9NyFE_7J5pejz0TT6jV1xFZHFg6v4IxtWJYozZ_GjAWgjmT_u95z8dIwlr6_VxuO5z4oI2kpN1r-drxS5AG3n_k1cTKMrv_TwzPVv4EG4YNKQ.jpg"
+        "https://cdn4.telesco.pe/file/Aow4qLFWsHXBH-SU9f4CcGGTj_4ze6A5dbeVGDtMyZ3YGThGv0sbjUT7AtjUt8_yGLFvYz5RLqQ6L70h6ZPjIA2j633cGM8_VdDXBKw3RFhgyEuV6BKvH7anclC2m4LMNcfOkzNi0LMYBYnigYzLe5H-2IZowiA3-T3J2aRJYuAPoMZE65yMUVNXcPgRGyCBuMldhWXP0BiD9ESKrSPbp6GILVXkBpjnrvBWq7jb5xvZtPjecZndu9lFnPZPBMHe5KyRFwx_jnLpfDorobkpU2Wie2zUdhEbCLjySiUDs0TR5_Uyw9-tGKgp8EGuOsWF0t__7p7-uWd2lEhp8nANsQ.jpg"
       ],
       "video_path": null,
       "gif_path": null,
@@ -27567,7 +27567,7 @@
       "views": 8340,
       "forwards": 0,
       "photos": [
-        "https://cdn4.telesco.pe/file/O5lZfcpuIRK7W0W4nQXi0lXwMfqZyTlA0f1COUaLW8E9Qz8JGr7XPd0WT0sARBK9P_IyNi0bN93Bv9erVy6tVZsHnbDZZW5O62jUguUJLQnSACmBwqVtG9MnUt122OCqMgZRam8--x5Gzsjyx2i-m4wtPa9i8j3p41-kTe7eecFxVCYkunaG490Fm9dd-6yPVs2HPcYu06fm6OnhclH-Lz-CX1JY9dNR5Vrci0UVz-HMYGusNE6s1cChgmX6waQ86MRJoqYcvSgf97Pjz313UWZnc8DieWowM2W7RK-sQzjiOLnNs5e8TMcmdhjkY9tFRVmSyL5tE9TS9AaeFPkUIg.jpg"
+        "https://cdn4.telesco.pe/file/U_k91FTHCJT7UDddRxtWDB4R2kTiisn1dGHL_ZPgE67j3JOML7aSUonkxEpcl8q-IfwGJwKNbvFDx9L8K0NDWJMji4QKtviFJq93c6j3bq9RlTo1tRqoNhN6VcZbSvzakazXne8_bjnlqWYmXMiGyaY0hhgsq4Az27lLQN4OpUjNMr7DDRZ-4hJo8GWlizVSAFhGpsbdNFJShllX4RPA0hDQtx9rkzq0pYQyTSHMVMbZCdDaU-T3a50OAxE0oMfpWPthVBZrXQBc_kWGTeZ5u4xt-vAs8xILsKboEarf43GPdoVZRmWcx54hsegcPZIWW_edPBpQ3HkIQ71823YWbg.jpg"
       ],
       "video_path": null,
       "gif_path": null,
@@ -27937,7 +27937,7 @@
       "views": 6360,
       "forwards": 0,
       "photos": [
-        "https://cdn4.telesco.pe/file/Qn5juiKKqFwelYTEVlaRGV2PL1cNiKf_RbM_1RBedgec77Bapgq34KmZyyTPj2Nkh4MtMmSOSbtBGHqmwuVYYtasZFQxyqgcwvuILtuikbudaB0BNO8b_bU9gXUZ63XyMTTL-zyLB_UVfvn6aM9s7vNnKjzvcK3t5894Z2iX2KrMQlL-fM7v1BDp6Nz6A-xqpyFbthTj2Nevj6Wz9iMNAO8PRkAQH0tVBLfdfxcxPSMpdkgVR12tdp36igZ8rEDP5nWrNw5E9pg-OrmNl8-bevSdXTIBokWMJ_-HUTAokRFfJmzvlkHC3u28ES0R2GQi67DcAs1USEMh-ThYmyrn3A.jpg"
+        "https://cdn4.telesco.pe/file/n4jb4wYhqdcbomhSMHsZe64V6UZ-ZqSssThGdw2jcN0V4koRiMpmgUM1rVTdpTBDplLKmSoQVKcUl-dyhisNUMqrYL0J7Loz9UqxassHexjK-uUygU-ov8MU4-YcQ4QPVb61I-JFrklVQnf3SVc-QAyz6iwO5nAlPYdqfj09RntWTIMWPGnyh1BUKXouMhv9JmE4cf9_8dXGajfCCbNGeAIsOAwkFCeJKAfC02-FYkFWNLM9IbYiH0-SQp8Jn899w-_uZ5r9kFurGc4zIcvwRfEtIwV9Oz1h-yZdHmAME65KUQrZuqmnzxnBjl1eaesHPAWMCcXcPGBGY12ZjCcuHA.jpg"
       ],
       "video_path": null,
       "gif_path": null,
@@ -31201,7 +31201,7 @@
       "views": 2880,
       "forwards": 0,
       "photos": [
-        "https://cdn4.telesco.pe/file/IWH1l1LfGQlZFNGq8P4jfiv3nT3I_3QYT6j4kJjBRJqkFotAEGq8br3W9zym-JnoNa7s-EeZ6X9wFyq6qS94qgkg2L03MudE60fw11bSFVyzOLhXCmyUckVFSepGxGLYP2UHg_vukr-2RUV1JHo9YJca8KHnYNbdMeyorG3VkSblGJXZLsRNSEE4YyFzq1b-y6d-SZk_ey0CjFShnnAbA2nlIASQAlbtlYMKUGIuBPlrjAivzu17LMm0D9WayVuTNVDPTrQhoMAwqM4ePZ3xX3CFJkTJrRxGxHb140WID9SLq35hCZSoQdxuJNWu-uiAcFdJbtalyz0XNAlIMb1ZKg.jpg"
+        "https://cdn4.telesco.pe/file/lRBjrgdppUf4dG_Tm4YzczMnwJclW61xsbzH-jsnfkdLgR3Io_S6WKuR46x181vBuZ8SkCkhYhvM3OKKwUug9tibFhMenE-IwQhRkktjO_UI97Ed22pcd2tDMMnxyoKUdrxcXJBCNIjrfggkGaZ9eBoadKyCpa5px34Dow_d_DhWiVelY0t5OmbNqEWE_xuJavw-Irk7kfrhZWoaP5uuGmMP4o9w7AtKC-SH3XQCymJsSFF0hJ2R3ayJroil12JkjOZILcf3qAkVwJLGP2vQ7nY4aLpLwqqB8nKAAxvWukiVka6fmZs-rLWy-tsa-VHgzsiDWHcp9Y8S33r2pFNn6w.jpg"
       ],
       "video_path": null,
       "gif_path": null,
