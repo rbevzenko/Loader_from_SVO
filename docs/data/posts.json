@@ -1,13 +1,13 @@
 {
   "channel": "loaderfromSVO",
-  "updated_at": "2026-04-18T10:39:42.972933+00:00",
+  "updated_at": "2026-04-18T11:35:16.046001+00:00",
   "posts": [
     {
       "id": 3068,
       "text": "Посмотрите внимательно это видео. \n\nЯ даже не знаю, как это комментировать….\n\nPS. Судью Пчелинцеву добрые читатели, конечно же, помнят по инциденту с паспортом представителя .",
       "text_html": "Посмотрите внимательно <a href=\"https://t.me/sovetsudey/856\" target=\"_blank\" rel=\"noopener noreferrer\">это видео.</a> <br><br>Я даже не знаю, как это комментировать….<br><br>PS. Судью Пчелинцеву добрые читатели, конечно же, помнят по <a href=\"https://t.me/loaderfromSVO/2972\" target=\"_blank\" rel=\"noopener noreferrer\">инциденту</a> с паспортом представителя .",
       "date": "2026-04-16T04:49:02+00:00",
-      "views": 9990,
+      "views": 10000,
       "forwards": 0,
       "photos": [],
       "video_path": null,
@@ -20,7 +20,7 @@
       "text": "В недавнем определении № 306-ЭС25-11423 (1, 2) эк.коллегия верх.суда (докладчик - судья Шилохвост, которого добрые читатели наверняка помнят как автора самого чудовищного текста верх.суда в 2025 году; кстати, тоже по залоговому праву) обсуждает любопытный, но несложный вопрос о поиске покупателем информации о залоге автотранспорта в реестре залогов. \n\nПомним, что в реестре залогов информацию о залоге можно искать по VIN автомобиля, номеру шасси или номеру кузова, поиск можно осуществлять по любому из идентификаторов. \n\nВ деле была такая ситуация: банку были заложены грузовики, которые впоследствии подлежали модификации. При регистрации залога была заполнена графа VIN, а графы Номер шасси и Номер кузова не были (хотя эти данные у банка были). \n\nГрузовики впоследствии были залогодателем модифицированы и получили новые VINы, номера шасси и кузова были оставлены прежними. Однако банк изменения в данные реестра залогов не внес. \n\nПотом грузовики были перепроданы, должник не исполнил обеспеченное залогом обязательство и банк потребовал обратить взыскание на грузовики. \n\nПокупатель возражал, ссылаясь на то, что он не знал о залоге и поэтому тот прекратился. Банк же утверждал, что информацию о залоге можно получить из реестра, правда, надо вбить номер шасси грузовика в графу VIN (вместо собственно номера VIN).\n\nСуды согласились с банком, а эк.коллегия отменила акты и решила дело в пользу залогодателя. \n\nВ определении правильно написано, что нельзя требовать от покупателя заложенного автомобиля чего-то кроме проверки известных ему номеров покупаемых машин. Причем вбивать эти номера надо в соответствующие графы (но не путем экспериментов с вбиванием их в нерелевантные графы). В этом и заключается стандарт нормального осмотрительного поведения покупателя при покупке автомобиля. Соответствие этому стандарту и есть добросовестность (в субъективном смысле).\n\nЕдинственное, что меня очень расстроило в этом определении, это то, что судья Шилохвост использует в отношении собственника (последнего покупателя) предмета залога выражение \"добросовестный приобретатель заложенного имущества\". \n\nЭто юридическая ошибка, причем грубая. \n\nПо ГК добросовестный приобретатель это тот, кто купил имущество от несобственника, но не знал об этом. Поэтому распоряжение, совершенное этим лицом, ничтожно, а приобретатель собственность от него не приобретает и приобрести в принципе не может. Он становится собственником, но первоначальным способом, в силу решения правопорядка, на основании ст. 302 ГК. \n\nВ ст. 352 Кодекса (о прекращении залога) этот термин (добросовестный приобретатель), естественно, не используется. Ведь в ней речь идет о покупке заложенной вещи у собственника. Поэтому здесь право собственности переходит от отчуждателя (залогодателя) к покупателю производным образом, в силу передачи вещи (ст. 223) на основании договора купли-продажи (ст. 218). Он именно что покупатель (!), а не приобретатель (!!). \n\nЖаль, что эта терминологическая стройность норм ГК была судьей Шилохвостом проигнорирована.",
       "text_html": "В недавнем определении № 306-ЭС25-11423 (1, 2) эк.коллегия верх.суда (докладчик - судья Шилохвост, которого добрые читатели наверняка помнят как автора <a href=\"https://t.me/loaderfromSVO/2921\" target=\"_blank\" rel=\"noopener noreferrer\">самого чудовищного текста верх.суда в 2025 году</a>; кстати, тоже по залоговому праву) обсуждает любопытный, но несложный вопрос о поиске покупателем информации о залоге автотранспорта в реестре залогов. <br><br>Помним, что в реестре залогов информацию о залоге можно искать по VIN автомобиля, номеру шасси или номеру кузова, поиск можно осуществлять по любому из идентификаторов. <br><br>В деле была такая ситуация: банку были заложены грузовики, которые впоследствии подлежали модификации. При регистрации залога была заполнена графа VIN, а графы Номер шасси и Номер кузова не были (хотя эти данные у банка были). <br><br>Грузовики впоследствии были залогодателем модифицированы и получили новые VINы, номера шасси и кузова были оставлены прежними. Однако банк изменения в данные реестра залогов не внес. <br><br>Потом грузовики были перепроданы, должник не исполнил обеспеченное залогом обязательство и банк потребовал обратить взыскание на грузовики. <br><br>Покупатель возражал, ссылаясь на то, что он не знал о залоге и поэтому тот прекратился. Банк же утверждал, что информацию о залоге можно получить из реестра, правда, надо вбить номер шасси грузовика в графу VIN (вместо собственно номера VIN).<br><br>Суды согласились с банком, а эк.коллегия отменила акты и решила дело в пользу залогодателя. <br><br>В определении правильно написано, что нельзя требовать от покупателя заложенного автомобиля чего-то кроме проверки известных ему номеров покупаемых машин. Причем вбивать эти номера надо в соответствующие графы (но не путем экспериментов с вбиванием их в нерелевантные графы). В этом и заключается стандарт нормального осмотрительного поведения покупателя при покупке автомобиля. Соответствие этому стандарту и есть добросовестность (в субъективном смысле).<br><br>Единственное, что меня очень расстроило в этом определении, это то, что судья Шилохвост использует в отношении собственника (последнего покупателя) предмета залога выражение \"добросовестный приобретатель заложенного имущества\". <br><br>Это юридическая ошибка, причем грубая. <br><br>По ГК добросовестный приобретатель это тот, кто купил имущество от несобственника, но не знал об этом. Поэтому распоряжение, совершенное этим лицом, ничтожно, а приобретатель собственность от него не приобретает и приобрести в принципе не может. Он становится собственником, но первоначальным способом, в силу решения правопорядка, на основании ст. 302 ГК. <br><br>В ст. 352 Кодекса (о прекращении залога) этот термин (добросовестный приобретатель), естественно, не используется. Ведь в ней речь идет о покупке заложенной вещи у собственника. Поэтому здесь право собственности переходит от отчуждателя (залогодателя) к покупателю производным образом, в силу передачи вещи (ст. 223) на основании договора купли-продажи (ст. 218). Он именно что покупатель (!), а не приобретатель (!!). <br><br>Жаль, что эта терминологическая стройность норм ГК была судьей Шилохвостом проигнорирована.",
       "date": "2026-04-14T04:16:16+00:00",
-      "views": 11400,
+      "views": 11500,
       "forwards": 0,
       "photos": [],
       "video_path": null,
@@ -87,7 +87,7 @@
       "text": "Коллеги, в эфире снова моя любимая рубрика: классные статьи на ШОРТРИДЕ.\n\nВ этот раз все хороши как на подбор:\n\nколонка Марии Ероховой про обход договорных условий с помощью деликтного иска\n\nколонка Николая Андрианова о плате за пользование авансом по договору подряда\n\nкраткий обзор ключевых позиций ВС из нового Обзора по налогам для граждан\n\nстатья о том, как зафиксировать для суда нарушение интеллектуальных прав в интернете\n\nА я сейчас собираю материал для своей колонки в ШОРТРИДе, не переключайтесь.",
       "text_html": "Коллеги, в эфире снова моя любимая рубрика: классные статьи на ШОРТРИДЕ.<br><br>В этот раз все хороши как на подбор:<br><br>колонка Марии Ероховой про <a href=\"https://shortread.ru/obhod-dogovornyh-uslovij-s-pomoshhju-deliktnogo-iska-vliyanie-pozicii-ks-kolonka-marii-erohovoj/?utm_source=bevz8.04&amp;amp;utm_medium=post&amp;amp;utm_campaign=shortread.ru%2Fobhod-dogovornyh-uslovij-s-pomoshhju-deliktnogo-iska-vliyanie-pozicii-ks-kolonka-marii-erohovoj%2F\" target=\"_blank\" rel=\"noopener noreferrer\">обход договорных условий с помощью деликтного иска</a><br><br>колонка Николая Андрианова <a href=\"https://shortread.ru/plata-za-polzovanie-avansom-po-dogovoru-podryada-mozhno-li-ee-predusmotret-na-sluchaj-narusheniya-sroka-vypolneniya-rabot/?utm_source=bevz8.04&amp;amp;utm_medium=post&amp;amp;utm_campaign=shortread.ru%2Fplata-za-polzovanie-avansom-po-dogovoru-podryada-mozhno-li-ee-predusmotret-na-sluchaj-narusheniya-sroka-vypolneniya-rabot%2F\" target=\"_blank\" rel=\"noopener noreferrer\">о плате за пользование авансом по договору подряда</a><br><br><a href=\"https://shortread.ru/obzor-verhovnogo-suda-po-nalogam-kljuchevye-pozicii-sudov-obshhej-jurisdikcii/?utm_source=bevz8.04&amp;amp;utm_medium=post&amp;amp;utm_campaign=shortread.ru%2Fobzor-verhovnogo-suda-po-nalogam-kljuchevye-pozicii-sudov-obshhej-jurisdikcii%2F\" target=\"_blank\" rel=\"noopener noreferrer\">краткий обзор ключевых позиций ВС из</a> нового Обзора по налогам для граждан<br><br>статья о том, <a href=\"https://shortread.ru/narushenie-prav-na-intellektualnuju-sobstvennost-v-internete-kak-pravilno-zafiksirovat-dlya-suda/?utm_source=bevz8.04&amp;amp;utm_medium=post&amp;amp;utm_campaign=shortread.ru%2Fnarushenie-prav-na-intellektualnuju-sobstvennost-v-internete-kak-pravilno-zafiksirovat-dlya-suda%2F\" target=\"_blank\" rel=\"noopener noreferrer\">как зафиксировать для суда нарушение интеллектуальных прав в интернете</a><br><br>А я сейчас собираю материал для своей колонки в ШОРТРИДе, не переключайтесь.",
       "date": "2026-04-09T10:29:12+00:00",
-      "views": 14200,
+      "views": 14300,
       "forwards": 0,
       "photos": [],
       "video_path": null,
@@ -930,7 +930,7 @@
       "views": 20600,
       "forwards": 0,
       "photos": [
-        "https://cdn4.telesco.pe/file/iznRL-stuiGSoy703F1If_6RjmJxFTj5dQTU0hYukodSkdf_h_3MBvPBNwU4GwICc1aqhkKZ-WM6EgHYzvqIdE24xljXWZ-bIkHfvWEG3rbmE9c5ykVnGBDJ4Z0ca0w_Zk3QzVlTeblBxa6fAxfV_K9o2Cb2Spjzs_rPH8L5ZqLw2rC9YESU8RMsIp21jvH0bmpnuBquVaXQ1ITdaTHVqBL0oscCq3hqY0vLCOnqxsxwC1dDABXgL1y8Bfj02UF4w1Uxhd0UWhDZ92AfccCJ4xVvCuYYzX165Envdp-B2yFd_sRT9rTZGx9p5j5Qt4P880Q6_H4p63xfwM-gkBqJ_A.jpg"
+        "https://cdn4.telesco.pe/file/bmemRP-D7IV-ut5636VSwUQaNR_H1ITcuzXMKnCRkQvRkNKLOGHPU2COJfhsW2KfYPlAWHlwr927MqTC1X5B0gF5gF507xsgAfKbTKQJvhTm32fjJOf25ej5IUA9x73Fj37wjRc11AwJyGTAQ2goJ_u9gFLi9-jLtzFqtl47zEVTOpRu9ry-6zc2RBhMZ1hTheySvoP2kjgFPajPZ8FFTC1K4jGUn_zp3-4-YDfEqu7iIc1GjzIvdhGyUrdQYoToE33Nszk_2Sb2-UUespeKKA16sHlvV6XsPEL0PGVd2G775R_tOHCCbLxCpUEW-lpDEU0k8veI1lhJfOZ1vU9dnA.jpg"
       ],
       "video_path": null,
       "gif_path": null,
@@ -1186,7 +1186,7 @@
       "text": "Досужие субботние размышления. \n\nЧто-то мне подсказывает, что скоро в рамках защиты православных от мошенников мы услышим предложение о том, чтобы все сделки между гражданами на сумму свыше 50 тыс. руб. обсуждались и согласовывались в мессенджере Макс. \n\nПод страхом ничтожности, разумеется.",
       "text_html": "Досужие субботние размышления. <br><br>Что-то мне подсказывает, что скоро в рамках защиты православных от мошенников мы услышим предложение о том, чтобы все сделки между гражданами на сумму свыше 50 тыс. руб. обсуждались и согласовывались в мессенджере Макс. <br><br>Под страхом ничтожности, разумеется.",
       "date": "2026-01-31T09:53:06+00:00",
-      "views": 24400,
+      "views": 24500,
       "forwards": 0,
       "photos": [],
       "video_path": null,
@@ -1392,7 +1392,7 @@
       "views": 25200,
       "forwards": 0,
       "photos": [
-        "https://cdn4.telesco.pe/file/tAiWontc9FQvjZiki4IxIfqmY1DU8XPc9FB0L_RusUR9qMr6QQEgj2O2daYzVg0ZrXsf6r2AAgzgz_J9xOs5CuMV-7gxN3tF-4jvnRl5qJMtKfQKx-OAueVdjouJwP73PN9wR5I9mj100VWmfDUA0_KSRRGF5KlApqAzMBjG0dYzckSgs1fuum9A4GdfVOR8hm5v6MVILpGoMgIoij4h4wfTDt0v7LphETP97g8l8lS5UYnrBbLUeAnsHjfEuJH_8kJH2VuK8I5XWnT16lxOqkHrTm5XNt-pyXnVRtUv1BNHeb93vDn9Sc1XTjAqlapoGOr0_Lxe6KGPpMd07QxdYg.jpg"
+        "https://cdn4.telesco.pe/file/oIXJjnRNNJvNo8XCwYY6x_akeiYEPVONw53mRznhqE9WB8t1J53KhazRz_J_byl4fblEmj_qQo4fT2sCTpWM32qTeyR-LpTCDEdF6bypPBwDChL_SzGVCUs0kDcTE-aO9lSArEGkF5YHnTMhP0S_-QAAJYcc-vEsoNqCojzRTOofeEk5nAKfkAg4KBC1ARtbmpc331TLKT6KQyUlhN6QyYooVOR-0aieOcTjrjf9Px9vPZq7T6F6-X9uz4wjDYtOMEBZ4eNNg5vOr6YJXdbRNSlbbtdvCDsW9UVFsIK4QxD6Sw0jM8N4Y_p76B56-FSi4yF5Dr-UPEl_KW6cAdnz-w.jpg"
       ],
       "video_path": null,
       "gif_path": null,
@@ -2119,7 +2119,7 @@
       "views": 20400,
       "forwards": 0,
       "photos": [
-        "https://cdn4.telesco.pe/file/bdqu7n2xHF275cpuKQUxqE4IGN09TDKAr00ptp-pfBkDp6NtqGOfFowg2Tuc2GYcX2HcN4adm0ivn7K5AvuLreswLZqUNdF7t1-Sk9qPTFg0Vta1nPrGJZ5TKmiHw0Aklq0vaBsnC7Fc9oIWbaBmCMr4yzTxqXFo9ExqNIPkSVqbIMFoGyVm4Yc2yZJoo8vBC9HtMTr-UT6Ax9ltg0jv0aSRhNPHs3FYuU9LraQIDB-WD0cbikziANMPJwUf11-z_2HTbskysIrwb28J6pD9jqJIKoU6txT2fAfq2beL4f9c1OFEe0dL12ByYvyqVN_hYhtvWl-Yos_xHLBe8uPDgA.jpg",
+        "https://cdn4.telesco.pe/file/kCkd0xTg05svzx8gZXfxEWOVW6KGRcbwQQFPCYZcoGr-F4_L2ZKonkSTJ1rOnnJd7W2p1eeCHCPy2Fr5ObGMfxa3oD1oAOArxNCUaKInar06sxKf2rVo6l8wxX8_qLuBEfYgv_wD13nnmqfZgS9tGTm92NUJeJqseCvaZhQ3Ix9CAYngDTYNcKqpdFnnzKzx0JCw62cjcsNWKiKJDs3VJFOHtuW4i-h4xleO1uu9AEXRJphBPKB8XoICVnZBGmVlsOuqBMKI64oulBkc3rk1_bcakntRo7lG9NSVJURHS1QpEAZOFTRV0YTYUTfTAa-b0ImyE-9yfVZFM9ig4X5LYg.jpg",
         "https://cdn4.telesco.pe/file/cvsASjRXoEmMRmylmJl8p1Jji6lUxNI1SnrqhiyosWLf6uZjWAgpDPXeil615dehUo8j4M58P5Nq9xQmbuI4I3OISP-NvI0h920W6LEB_NRtEDb3NcNjR6sg6Q0juAGSa8H-DM4AGb9FMlhzZbtcOo-UqAp2WhtU4H0iiVHlnuEf8B6SaEdzaGqNxwpdT7oolHtB_FevpUHfH6tfMmSwcWKO8KyseYXQnYHIbWpSQrxsUiZn5wRV_o8sSovD2Ac9MQOaiweU0VxsfStu0nXRiliLAhTtls7fX8mSCMZOVJMHLrCLKc__EzrjFEmlRqjM_udSFR2DNCXQTjFZzDj9AA.jpg",
         "https://cdn4.telesco.pe/file/qaz3DnQpEK4IkLfL8mz0HrEs9pDbYoUJDZ49U-ll_ORorGZOQloJIn3Trreu0lPDosNr_Td1VRG_4xagz9qEA3SIeY9-MVl6cBYt5o2wzexFabZCHf9ifArXvMD-pHVF7EmB_FXe0QwUBlYW9XXFPoF27jwAPYyR3GlOSo7voEP5bmNc2sPjIQ-oDWJRU44OIos6fHVqp5cHrAfVhe8UyBehoW8YwDAbtMzDDY2FBo8JZ3F_eK6An0JOD9moO3P3SPClPpGxw9FcdWrwbvYCVzQERtOd0Ib_QctqD2igtGvUFvtz2S3R00FhfsoDcaN1zqahejaNcHRLbp09p4nbyQ.jpg",
         "https://cdn4.telesco.pe/file/FGdXFOQQ7uzPKSjOM7dHZHIMnqW_gcjsBq34Ycu1_kO4H1uNX0qhERV5ojPdI10-RX5SChPevuolVn7Vq0IgBF5WLaNs0Byo8cg5yEWcZyif5a6OgeadF1XnOxGgZz7gStak55s5v3yuR-4tGw3kJGFuEVJx0UCrpmUgWlXvoK5UKdWKxfkpnFCuLhRllnO3HAP7-nOmmsrEoHX17lURLTl1Brpmd8RTFH7d_tuz7I6u00zYRXP5FKKGZTkJNV-AQtopCjeMG4SsZIxa93f0c95hzFWAGexLNQa-hmzyFbqfn6v4Z5adumReAJl_1_uxu6E-Qc5UH2Px-979VzGX7A.jpg"
@@ -2599,7 +2599,7 @@
       "views": 21800,
       "forwards": 0,
       "photos": [
-        "https://cdn4.telesco.pe/file/Ljnl_DSWJfGVBi1e_2gezWHtQOOp-xbM12-yjAjzouKlvT4WE8u4k6zn5nBEL2CdIobln_oPM6AZewiLRhJ2N3Ep9-JAX_sQQMSJNLlJrbWNye4h1dVdAwT3OJa8MfE_VHYo3B4RxgaQl0wdtGsD8S_pTxvg-Q1FQ6MuT-UA9Gx7AXk1bRUkI8zp8XW1-iImeSFYXybAjMl-lq-QTILhI3W8QaRf5K4XOA1I9L5aWcPvThikeHm-OeZCNVpv-ulXRalelpBtgg0TyhhkPw9O2FZLA7o56z9yBba08M0TS4iV8fKz8i7m_T3QI2jY7LtROpTeaSqUVPPzjty-3ovgkw.jpg"
+        "https://cdn4.telesco.pe/file/W4A-RiHyeM2g8rKh-d-PzBrxqv4AHll0iMb_8rkqMrr4KToONAkS0HfuJXp2BhrwcRPmkvAy42InWD5v48nXZRZGiK7BfE6b5Kuty4UdHl5Taq-j_NiyQ6OMo_2H-xWM75E32OLu27uJEetoXKc7zLi4fBq3OAj76Uu6g7P7XMMvRF3rqlfBMljXWtd86_FvZsqIYKM4gWA_2kb5XZHR696eSgMoTjUI2bmzmv9UMBo6Z8W2Xlo1l49DBW83fz3rpefRrS6JefT0mcb3430Qbj0OMcNEHhHINss9DhsHfIScBQQERfsLC-AEl8vbjgMMW-ZWgyMQmiJbOjvt3G_8yg.jpg"
       ],
       "video_path": null,
       "gif_path": null,
@@ -6350,7 +6350,7 @@
       "views": 29500,
       "forwards": 0,
       "photos": [
-        "https://cdn4.telesco.pe/file/JeDJW66TVb8GHeK6tljfhPMGZ3_LTFN7bSkim1sws8N4888dXOqWbkb7-VwwMpQlQzcH3vCMzHObkj4bv76kpt5YB54InbipUDVPnkH6-6chR_tqfP1QC4krtDE2PPz4h-j-6C_7tiz3xXAIpsw8hahyyZz5s6rY4Eyg1dz0TXSA8QRmpQYHSgc8Z65xknY1J3kBTdAlCm0ekqZW19nlWhTz_vFc_umcCUfS2dnCxL12UCVGtBBnuB8ZEA_awIXPjgWcmhXK9Za4F7zBbdzdw3LSpvjNjbhlcIDpkULrbci3dgvRROpLUrfM_fgLkvspa28VIbfOuVKyrdijxcffXQ.jpg"
+        "https://cdn4.telesco.pe/file/smsaXJpaGfLWLVaSlFd6xvfICeWzWKewDdN5RTzOs_kTy0f1U_RkqzIxr2br5j8LiyDEUnudzrkz_l8eyfLMas8b5xrzyRuQyIbeKr8FuVPFzg1QPibLHfCn3_8GpvhNE8ed8a_v4cu-g_sVLANAESD94PGOm-1B3aPxeIMZ0SgCtXRMOnuUPlDEMFVL7yKP7r6-w8lkoDwtZGlFOQvFugtTnD9mDfkg6jhk_z-XQ2M3lHRHudDWPieR8ncsvQOXiuGRP0vbouqFwy4IKW8AsgHAcqr59HsUayntI7veRyy0H-3CNlTOwp0DUKal6bsdajnx-E2kKUkp2qKYHA0SFA.jpg"
       ],
       "video_path": null,
       "gif_path": null,
@@ -6486,7 +6486,7 @@
       "views": 31800,
       "forwards": 0,
       "photos": [
-        "https://cdn4.telesco.pe/file/dnol3rtpw7rvXoAZpNtMIo_cigZYJLntt_Bv_AA949uo2RyO1-dbg9P2rQwtxm6GfcS3oHLNmD8X1t8XCHmCXXECQXFuQkkkJh4Jxcw6OvlcJ2HrpI3xhoX28-G_Nn2EhtyRYO5AHCIYCWtZrxMMBLDdlSsxZJkctTlLspRts2faizGXiZocXUizKbIhScr-wG8GYZeTm2VRMbWzZgvi5nksdB6kAHYwDX81AQuBp-KFy29WY9-tWVaScOl_qQejnTZsXhXA6VEIAM74FvZuUXYGpfGxWg6DIIkheAqdvMxiLgJO7_5l99gwpjuOv1OBqxJmoDpIZS_pBlg2twRVzw.jpg"
+        "https://cdn4.telesco.pe/file/gHy_fBVLc9VtWyZKA2HRBtRV_OUgRcot8xpiuAVWJj5L0hU8LBZd3Uyvo9hZtzc4YsZyt4iimxuJO1KmouWrW6BfHuUWug3wDmECplBtamgMwtfERAT28IhRVjpHC21ING1yMaHawn9Q4if1C9_V05NrPP85ixwjvH-Hzd6kyC_-b5B0FAqmcRFZVm1wrrhLdj12nxSsYlU7Ic8kCxyES1OkpED0TQi0F2vrp7-N-HvaEAt5bx3KH7NTGEEfaUu0u2EdbRrzZZoKZwGx6gwYdSH4Js2gK8SRALlV0sNYsGAF5OYmLlNUZCuNracg5v1JgwIvofMiwxW2akbpkIJOHQ.jpg"
       ],
       "video_path": null,
       "gif_path": null,
@@ -8104,7 +8104,7 @@
       "views": 28900,
       "forwards": 0,
       "photos": [
-        "https://cdn4.telesco.pe/file/HxD9Io5oZNcLYE8YQM5hIM1eeft_PAuqGrDSVsvSkr5eAt67tpu6QaApE68TF6jn_ZffEV_k27GxJWOtLrPA5Dm4fx_02_bz2URLzHQyLsVPWD-k_PcM7xQ4Idg5Q7gamicUOxRz-4TZpgzbBkjQfWktWbqY32ufJEnODTVkM5QfMyy6gjL7cxzPqX7GmwnucHmnEzlggfqHx8hbv4hCI8h1fbc6pbM3mOL-SUvoYTX4SbS03twjivN9YnB9ZhNW0rOxbHzIceuvMUhoBQzeEKiM4BlKQtHDif1NEVeRGusLX9SPLLOsRql2IY4LiRchawCwS6S_ohynybFKp5oX6Q.jpg"
+        "https://cdn4.telesco.pe/file/mlTVZ_q4U-M7qOO49vLlX2r0JZfC64L-Kb4JVPmjq-QqevntW8Gj431H4yK1DHBGhn2gtyaKwIc_aB4QI13Zx-qnABdIOlixXxNlVVhTJB0Vw1PK2lpgUK70W49S8e7GCmSr5vZxhNuuAnMOa6Ld3zMBiiNdv2XKdcni8qPsYGSDjzT2CVglanJroD0JdhGz7B2y6G58mhO6wzjFIG99VYtqQuCJgtXC9jljdax1vy90X_jfSJ0Q6xy7iQ98RvBxpdNIyYG-VSkfoauqep8psOD1qzEpD8i34dbMFnOvBzE5trHYh8-tHgp0JTqcAj8QECyahlpkSU42KulQhhuYCQ.jpg"
       ],
       "video_path": null,
       "gif_path": null,
@@ -10281,7 +10281,7 @@
       "views": 22700,
       "forwards": 0,
       "photos": [
-        "https://cdn4.telesco.pe/file/FBmTo4SmAjKyBFqmIqHdq97KiPODMaHN0KwFXcyAB9b7lh84-IizSbdLljeMG8f82njymi7Zawa8ARxVx4d0AoLrVUDcaLHj0nqxPEtymu7Dwf0XLG5N7TSgoSVncc_9Bbti5lqayaESKppoRhOJ0V6HJKMytQlZaWPupG-8AF02ogevW1hCTgYvDSQQGhNI0KPP4y3ioPvwSE8slGvBwN7QZToK-5h-B-f_SXr-C03adS6EqEFKoC_kwOH_O6O5CX7tFEIjsT3VjM_5Ujbd3UZTabI5QEyT5_PEfZJEy6Lnx0NEgWiz9MCKEKWcK-5OD9Gh3zpVa4_nXPfK9Yyk6w.jpg"
+        "https://cdn4.telesco.pe/file/droNWh4XYJb965idz6EqUcZ0y33wQQeZZaYjPriKlTV9hdCQ1VTndEkFJQpxpCLm6V-3NQJln5J_ll2LdsIxn_QvHnFsxx-QbWK1Z_C7JjvYODPHV0qsyAXH1tRPxHCRcBgAz2OipnyNDOSlxOMabPM-vr76qlOEZVWmzPUSu2MBPkXkFTFkoK6sypuaUOxU3eVUDyMzINLcGCchJCrQ8yRHQOxTJpVdGb7IzS48fT7LFF0vtKfbPi44vNWv2830H_vZHi2ZK82mroP7P_Uy6PdZBANujlpd2Rj2HDpbCMu_MFVSvTEN2KOdC9RchMaNGoUB14l40Lbv0gRdGagx8A.jpg"
       ],
       "video_path": null,
       "gif_path": null,
@@ -11550,7 +11550,7 @@
       "views": 33900,
       "forwards": 0,
       "photos": [
-        "https://cdn4.telesco.pe/file/SQfHZPxoJlpkM-x7IftG4BKcJ9bkn07zZednrP5FDUHD1stAUgnKrKJ9vJmIphMqPLZafQHTrXRTl9zfyfilDxBuLItCzWkMjUZbl006b3T48M0fkKu7DsMC4l5KmxoA6pY4W42MFB0rfSrfGJZPD4UG5hvwdv2hmVjzIMgDvh2BSK81uB1jersRiJUTUS8bnhnwoooxAuEBYH5Seh_8OR-BSbowppxMJ_MlVxWb3hQRRwXhtZ7B4GiFw-xaxOM2-t8SvJAaoZyO6_K2hrJLhHgvY_M4wb2FLDDt7QVki0F-vGxODwMsG0538_zbVyTJ3Irn0zx4fAz6ikw111ApUg.jpg"
+        "https://cdn4.telesco.pe/file/Rl9is49Uh5EcT-SPB_ABdacpQks9_e2Od10UggWtxmmvTXmMfL8ktnkmoKSAakFpSN0wV8Ce5o-Sj19ZynLNLW3AyCQc73mGWt026HY7knjLz-xmVZzGbrccbfUTetc7WK_ir1Zav6OylguWq942q1DRINYj3__WCBKtc_00gUbLIQIaUex1wOEr3pszRBWePkIV90NSRfSAzsvit1AwA_uOdGIbhV74SKtNnKjXZgXftSFJAUTNscpwq_7YYjXDJKsCdZVCDPa2icwvk2qtGK0QvbluqUh5CAXznurUD766YHAzrEaKOEAYPjDtR6QcBsF5o4YbDXNq4lEykSezIA.jpg"
       ],
       "video_path": null,
       "gif_path": null,
@@ -12636,7 +12636,7 @@
       "views": 22900,
       "forwards": 0,
       "photos": [
-        "https://cdn4.telesco.pe/file/H5n7IzrscHgqXaO0R-VHZ-OeqijdsY3UWRYhZ82vrey-Qy6lusqu5VxWavtmAdP4RY4_bAgxTIGv4R7XQ08rTzoDfOOX_3v1U4U3hzngWUxevTEY3wilsEpsiUGJRA-ttL1f0k29NCv7bZlq5XkC7Mjekh0GI4Vx50JsbnkqtGS-osH9VGnlxXWGc6tnGj4fxHx6XU3HcsxOzfjqGwbh1NVUzGxpAViZc3miGKYVblkcizbTMUnJIp_43bUC3iGjmgN9SUchfDWWV7S2qekYOnRaHJrgYe2N29wH8IyfPclfsLkMdh6kwVS7b56q7bZB3C7RjPo2l-vy106-TKmo4w.jpg"
+        "https://cdn4.telesco.pe/file/I3URFlxsr3HwW1nSg6Led093viwUf5ElVeDyI6j315m2Isu2Gc6wIbmxzbboY-8-Z3tUnp-3t4lTpm7tGTEoARIdpbhPVAwgTF6o8XIAmTW7pB24RsquipNRyVXunT3YcTJeYGiDTkr1pw17wuVxMAyXuZoiOF2PUVRjeb_HwpT13llIbJh5ut6g50BhUzfvXqIuTtQ-NRWCcHMgYZNLob7hqsc1almN6s-gpQUkMm45i-KNjbK-z_A94c1adjcNdBI-jPQ2WBQhS9heK-L7pSE-uc7HiD5tcf2qrwKoFogxNPwYoKLpkHDlOD5at3_Yi-Jbb_hNppLG5BZHyf0rpg.jpg"
       ],
       "video_path": null,
       "gif_path": null,
@@ -14760,7 +14760,7 @@
       "views": 23800,
       "forwards": 0,
       "photos": [
-        "https://cdn4.telesco.pe/file/eTYdgeIt7H8ASslDBiTdojQDiG9xixMy7Fe7kQOfXcSNza5Pc72EyGblnPJqMe8qvi3jG2LiSyeYiZrvjKHizpNZXbTpQAHpH5XB6rQhcJUNEvBxDOxoe5agd4cfswkm9KhqAvOx2owZpeaTeAuJwv-ZvtVyY4p_eh45V6DMVH3HRckycI0oHFn2NxiJJOcqURCwEAr3ibcmHxX9jxn-EIWrM0gWuvzDDU99M4VJIX2OwyMamFiPDTb7X8cpoXcqzIa6KgOEgVb1X33-xGE0rg3lr0XAN0hj6cOCdFEVeuOYIqWugHqs4KqO43Eb7fOiilserZr3wdxSkl26PDP41A.jpg"
+        "https://cdn4.telesco.pe/file/u5kT-ujTS3zMn2I80IkB9sIxiJdWI2wiionFwx6YyIQEV3HQAo_xPG3Qi6O-rxMUzDPOAYq1FGc-3rvB9I-8gnn6ygWtU-HiKgSZ4J_y6Gpet8NQnz3JzRjX4Oy6dw-SZPovZ2T08aN38x1N--rirkL2csdINdqYRQXrozCm3JisTBnzg1ceJNhLVi-cpHzviLI9vqbqQlZqkyxg9qXjfX9MiGpRsywA_iywotXabB9wlYXMltaUuv91cT19gs-9vcL7b1iev9sUE1PZt1eWtE74omBGk6Bt9blR9ZF_xdwJXFGJTZzrrSXMOQeTTpxe1JljhP65dRGbSDehJA4czg.jpg"
       ],
       "video_path": null,
       "gif_path": null,
@@ -17537,7 +17537,7 @@
       "views": 23000,
       "forwards": 0,
       "photos": [
-        "https://cdn4.telesco.pe/file/bpr-_ywCb7LAJHbVxYAkY3QOa_R6xxHZ9O-65vEcCjhXY-8jia73UscppPy-3Q1DIscYaCu05GUQ-jaNKp6IH5ahCDOH3hz_CsYaBn4RzkZQG3Lckd_W9lVWtHnpnTq9y18SK0GbLYsLQNYTInAXnF19bxE-Z3AWYIlzW1IczyQO4aFBl2n-RFjWWJ8PNf7QSKGSgvWhItO0KVtIfixbYSy77BCPGk20k8vRmG2yd72qQWUQa6W5uK_Etqt0KK0af0ZQoGPX70eZil12njUX4WbK4oE1xKhxx4Y2XsSJpUSVMHQmJcxS-IB_EXsnpUqpsBj4Jn4iMt4nNudjTPkqgA.jpg"
+        "https://cdn4.telesco.pe/file/Eqt3_fJr5YGC8qIE7hOfaXYCgTeEmGXxOuHbET9WtHXqbN_n_xzrHf7A7-BsRlVdYlahjUbPMzFhTRyLby6gChp1xwyfXWiFTuTJ0ZzTlz7dJAiR-IiLvNsJPEo6jOt5mVWcca3NN6CDbMvBPQYrJJo6caORoMLwft5FtVxYggTqqEsrB24O2UkSBkvpqewJKWE4UcGhEUo-LTxVJXUoO8CyMsFbF9YkGGGn_evPYO1r3xdYQr4IrkxRGJ1yxQeT0B6Z67-UsJArFv6alGKWuwg1NoYBOtV7LAy5rYEy2If0pLMIJzAKBlSdONDL4KYRNQClApCwkLXqcG35-3WZpQ.jpg"
       ],
       "video_path": null,
       "gif_path": null,
@@ -18600,7 +18600,7 @@
       "views": 32100,
       "forwards": 0,
       "photos": [
-        "https://cdn4.telesco.pe/file/Ozvk8WjdPUY_xlt5EOBR5QwD_vhjDSOx7u9l35SCr64KzPd6cdzB3gwepRwlrGpeUXq6xZw4d9sOg_IeJKuCOz_tAFouljwf4QHfpeSMy0h7lDmicV6ujtqNC2P0nMLjFesjybHRC_73N8XIqpmQXsh0ox60xcClZFR8cWTe125IAIJAbnIoc_8eYC0vkjXu76D-pQ1y7k5kNBzU8WTyMTtCPAJDP7avTSFz2Z0KvF6J96_ltq7mVq1yoevRaRiDCVEXeH0DVQPiq0vVTKKB9G0-DRydUXWfNGb4lFFIZCmjoMkIsH2wzVK0UoksgFV3w103L1uE55giWB8wvPGJSg.jpg"
+        "https://cdn4.telesco.pe/file/ShGYbH2gDhQMoWuWmWU12Ey8_Impi6SR2DealWQnreb_JINWvf6ofVzaJ_s-dtK_5XkeuxDdADHlhcis65jf6zhS9IGemQFMnFtUszvtV0aR1AegK4i60LyVcP7P4wgbdoJ0ELjxbj5VUmHslrWL808noBW5-mpzLNe665tazwlTarXyJ8OjlcqHZ5ftwO1CqHii3uRagScAaR1H59BsyoEXIpxIYMGvqpLFcoLqzhYlsFXdAGrxXxz4IXeHmyshpZ9lph7lcZhJUrN5IkMY7EgkoV7ycwRnl52edr44loDbY1aTYlHQlihNVLMOOSne9wHCVjyjVxw4r3lCkwql6A.jpg"
       ],
       "video_path": null,
       "gif_path": null,
@@ -20678,7 +20678,7 @@
       "views": 17100,
       "forwards": 0,
       "photos": [
-        "https://cdn4.telesco.pe/file/vgsBQLUX_YphyPUIMaMY9_1aDj-j8DumU0fyahycxq55azsUmoe65XCz8MaerhhEJu5ZWivGtyEpJpsAFPOy9DjcK8rqzZiQbmXz2-KAY1TDTHqn8JlYJ9f9iReWKrGZFO-EThKszfcg8N9fxL0cvhPzYhe-rF2OaQfFjQh06feG_Pzqbq_za8zRhclfRG3--_GLX3efVm8D2KPHJ3iyMQCWnhNZwFIhHmS4FGNZu92PfGyLceoZo5WSixJa904IUXcThz_VnyaYNCMxqsgMBu_r6uMftPVkL6ONruag7LRL9CEMKyRa072f7cTwRpCPXAmVQHRFiGIqYrldiuSTiQ.jpg"
+        "https://cdn4.telesco.pe/file/vpqUJCEOAtR_BXIgM3Vals17RMEsLNUJomIGZlt-j2CY135XasVUMBvM_s4Sk-_X0-xdJjnJ4wkA1R9Oj8nmqkt3V3kQc5Qt7LmfgzjIZ25fwb4t6iae3CIEjp3yWKXaGayS6MK30mybFpOQaqEIdAFKD9QuTdTm9EC-tHeQXJu1zrJGi_o4IyTJiW5rEWNeaZ5Q-XLdaSabN5secy-dGNVKGCol7mxtaZ9buwphfE-QF1PvPsLmfDoU0mMcQXI62HBTw1JoUwasD4nrC-Bq2o1O-wIxeAbnIBE7SR1lC85kAtOAl9Av2Rsk6dZe2J5BhN2CuKTmLpPmGf7HziWoqw.jpg"
       ],
       "video_path": null,
       "gif_path": null,
@@ -23055,7 +23055,7 @@
       "views": 16700,
       "forwards": 0,
       "photos": [
-        "https://cdn4.telesco.pe/file/sfbiA0QUwnfPdR0t7IkRlgCK88go9etg79L2JwfvMCmgzAMNVmlaZuftFCabsXNRj0C55CXbhcewwlgtStLm24YABuyClqV9teRT02SpQ5YkLYVhG13lApS5RmO5KTAkfUUgqLm_YYpLJLPeqZmx3BNNwrN7sfPjiXDs8FEF8hgsY_rKuoERqEaemvpl_y8KHjCwNHxVbzOuUg9dlMGMWYzKuYbsM86Hg62nSqT2O-Wp8mdsKLTmkvFXFB0wpRYPhaT7W7o5wUH1KtZ320pZbm2cFp_RRQDhY1335nfFGpJEj1OEt2oxbdsDIYWIZqfVdN6iuK6HLOP5WGCwcmXHUw.jpg"
+        "https://cdn4.telesco.pe/file/aMd7xPHdd3qjA7C8ykgjSB_N8d4rfKVxkaQGMaivc6Wawn3BBW5Vzwy0BG4t0MQeYZZsNJa_e0_XdsSPsCSci1tYkCBokJgG47RENsbCe9UeFJxmFArPVy3Y_lhl0ybOMw9W6jHQLO5wjBWmV2sJURv44Gu61DAiASwxgAW1dk8XGQ5dW0HXMdTc0w8E25o5WTADkmD3igIS6AIY6kMmQtSjKRol170OQxab41Ap_FFrNjFV4U6wSxM8S9xEWmhoJeNlqrNf7vu45kNhmIA88tBOe4U1fyjiOZYPWplW6RlWmEyf5ubFtxB1BjfXjcaRYOVCvBcbW6rbEIsMHOq4EA.jpg"
       ],
       "video_path": null,
       "gif_path": null,
@@ -26526,7 +26526,7 @@
       "views": 9320,
       "forwards": 0,
       "photos": [
-        "https://cdn4.telesco.pe/file/KXISqqZ6e-eE1Dy3rX96mcomnxBp1PhQUpu-D7yFoYACgIPcxQRfXvi2SMR-8TQBlKsrORNr3jfVMSr5CwdOHO_h-gXeG8hhkOKnMsrKllPsvywr0HnB7pkcpAvFvA_QtY5umctRVGjWq-PjY1HUIW35vjGjcsRwyXuuJZVQ8ZPUm8jb6O4h1hV0SPmE184tmMJEh2YFC74K35I65r4ynM__oeK8W_J1EM5FNyXD1_8R0eDxVLZmWX_lIuenBIHBMBR8XBzak6-ntbhl-gD8ACf7qbkWe7zFbW9TKAqJkg2NS5TuArCG57VUXXBOWIskj2pbiW_Ol-Y_FHzt7llXjg.jpg"
+        "https://cdn4.telesco.pe/file/YiPuSE8xuqzfk8av0FDOwc-w9nVkJpa2NYmdHnKQ1W94XnkBuJtbL7e2d7daqLsdzUimET--KPD4fF2SsYWZrNmxpCEQ8d_1bhSX5SM3DVicnZHKmLu6j1h6PzQXymYhoKfi_S6naDbjPQ1GtnMhiWHiI1DEfg2salNubUwZQtHvRl5N66P5WPxoVPMf1oSyMzK9PyE3BQp6g6M2y9kwICf4b_ODJfEqb2FxCnBnShDO98HhMYkuehW3WXx3TUxjxqSro75LtA-NCHdhXbtL8ud8k89ySfYtQzG9D6yxDXjjGh_EHx9smNLgaLHU6yZnSYYwP1y8HnMEpMhDZOVRog.jpg"
       ],
       "video_path": null,
       "gif_path": null,
@@ -31201,7 +31201,7 @@
       "views": 2880,
       "forwards": 0,
       "photos": [
-        "https://cdn4.telesco.pe/file/Ir6K66teGj9yVJKTUI-KFkkKHZEVXqynKjRPOZrYMmfgsYo8OxHR_FvUnqW2rOaGzxWx4CHq2nYfazB_nMKvMtfIyNypjdVRjeP4eG5B8w0-63KWrNo9pme1FysDCjRwR9Pplcp3Bf94WmY84M-VBo-LS4CS8wSKo42Y-Tuz-k24ZIY8lujgtO61_Ru59gAU0o9i8mtsKSSPpUoj7zA9E89xNLfLLaV9uyioNnblzdKVIqEAAX3cKLlcIirL5GYKx11nnHRCwESGrjsvBV1rhP6Uonny0cpORwiLW06GEB0GR8eq6jfN7HJVSZhke43_vYYgqopUdObYEv5HSlYUNA.jpg"
+        "https://cdn4.telesco.pe/file/m-HwUkQt-JCI9Bs-I7xOgwtXFmHzkvFGzv_iGuDIZK-3YGZs0wXGMhAgJTvSxTELoplGIH-KWiELBiYkOh3A5Z2wHzLHQqMuWcn9OgwuF-pnMbQCHo9WRGSYEwNgU_Y6G6G5vvM3HWzLacsoy0zRPdWX_7zLLJjoZpcCTnqCBV0IRe1i6nUVE2k0Bi0ar_bzkTLA3cOuyafgjmXXggn4jPO28ZzIB7WJU6K_Vl08CdUGXmP_a1dzd1SnFeLAxLODZv5Mq44svzvSx1yOlQwJ3DhK32y8i2SRNsh361zkPOlyuMdpq-pF12p0c-L6uPxD7jpwJ1torv4i0v3Dvoin1w.jpg"
       ],
       "video_path": null,
       "gif_path": null,
