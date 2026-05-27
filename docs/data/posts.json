@@ -1,13 +1,13 @@
 {
   "channel": "loaderfromSVO",
-  "updated_at": "2026-05-27T22:19:46.777041+00:00",
+  "updated_at": "2026-05-27T23:46:47.740003+00:00",
   "posts": [
     {
       "id": 3132,
       "text": "Постоянно слышу от экономистов, что нас скоро ждёт сильный экономический кризис. Это всегда - кризис неплатежей. \n\nВ таких условиях бурным цветом расцветают техники взаимозачетов, которые помогают неплатежи «расшить». \n\nА главный механизм для этого - векселя. \n\nПоэтому совет молодым коллегам, которые постоянно меня спрашивают о специализации такой: доставайте с полок учебники вексельного права и изучайте его. \n\nКак человек, много работавший в свое время с векселями, заявляю: вексельное право это и сложно, и жгуче интересно. \n\nТолько очень важно читать правильные книги по вексельному праву. А неправильные - не читать.",
       "text_html": "Постоянно слышу от экономистов, что нас скоро ждёт сильный экономический кризис. Это всегда - кризис неплатежей. <br><br>В таких условиях бурным цветом расцветают техники взаимозачетов, которые помогают неплатежи «расшить». <br><br>А главный механизм для этого - векселя. <br><br>Поэтому совет молодым коллегам, которые постоянно меня спрашивают о специализации такой: доставайте с полок учебники вексельного права и изучайте его. <br><br>Как человек, много работавший в свое время с векселями, заявляю: вексельное право это и сложно, и жгуче интересно. <br><br>Только очень важно читать правильные книги по вексельному праву. А неправильные - не читать.",
       "date": "2026-05-27T09:21:43+00:00",
-      "views": 7270,
+      "views": 7310,
       "forwards": 0,
       "photos": [],
       "video_path": null,
@@ -20,7 +20,7 @@
       "text": "Как помнят добрые читатели, несколько недель назад российский суд оштрафовал сторону процесса за использование в процессуальном документе ссылок на судебную несуществующую практику. Это была галлюцинация нейросети, которую использовали при подготовке документа. \n\nТогда же кто-то из комментаторов предположил, что недалек тот день, когда кто-то из разработчиков юридических ИИ сервисов предложит разработку по поиску судебной практики, которая будет свобода от галлюцинаций. \n\nИ действительно, такая разработка появилась. \n\nЭто - сервис поиска по практике высших судов (КС, ВС, Президиум ВАС) и по актам, содержащим абстрактные правовые позиции (постановления пленумов и информационные письма). \n\nСервис называется Casus Legal. Он живет (пока) в телеграме по адресу @CasusLegalBot\n\nГипотеза разработчиков сервиса заключалась в том, чтобы соединить в одну базу все актуальные акты высших судов (около 26 тыс. актов) и подключить к ней возможность интеллектуального поиска. \n\nТо есть, в отличие от обычной СПС, которая работает на основе поиска по словоформе, поиск CasusLegal по базе судебных решений осуществляется при помощи нейросетей по смыслу запроса и смыслам текстов, включенных в базу и обработанных при помощи нейросетей. \n\nЯ потестировал сервис и мне он показался очень и очень приличным с точки зрения, во-первых, понимания запроса пользователя, и, во-вторых, качества ответа. \n\nТак как довольно долгое время моя работа заключалась в том, чтобы хорошо знать судебную практику (в пределах моей правовой специализации), то я могу подтвердить, что, например, на вопрос о том, является ли забор недвижимой вещью, CasusLegal делает правильную и полную подборку судебной практики. \n\nРазработчики сервиса предлагают бесплатный тестовый период первым ста желающим. Каждый активировавший код bevzenko получает право на пять поисковых запросов. В ответ разработчики просят оставлять отзывы о качестве работы сервиса.",
       "text_html": "Как помнят добрые читатели, несколько недель назад российский суд <a href=\"https://t.me/loaderfromSVO/3121\" target=\"_blank\" rel=\"noopener noreferrer\">оштрафовал</a> сторону процесса за использование в процессуальном документе ссылок на судебную несуществующую практику. Это была галлюцинация нейросети, которую использовали при подготовке документа. <br><br>Тогда же кто-то из комментаторов предположил, что недалек тот день, когда кто-то из разработчиков юридических ИИ сервисов предложит разработку по поиску судебной практики, которая будет свобода от галлюцинаций. <br><br>И действительно, такая разработка появилась. <br><br>Это - сервис поиска по практике высших судов (КС, ВС, Президиум ВАС) и по актам, содержащим абстрактные правовые позиции (постановления пленумов и информационные письма). <br><br>Сервис называется Casus Legal. Он живет (пока) в телеграме по адресу <a href=\"https://t.me/CasusLegalBot\" target=\"_blank\" rel=\"noopener noreferrer\">@CasusLegalBot</a><br><br>Гипотеза разработчиков сервиса заключалась в том, чтобы соединить в одну базу все актуальные акты высших судов (около 26 тыс. актов) и подключить к ней возможность интеллектуального поиска. <br><br>То есть, в отличие от обычной СПС, которая работает на основе поиска по словоформе, поиск CasusLegal по базе судебных решений осуществляется при помощи нейросетей по смыслу запроса и смыслам текстов, включенных в базу и обработанных при помощи нейросетей. <br><br>Я потестировал сервис и мне он показался очень и очень приличным с точки зрения, во-первых, понимания запроса пользователя, и, во-вторых, качества ответа. <br><br>Так как довольно долгое время моя работа заключалась в том, чтобы хорошо знать судебную практику (в пределах моей правовой специализации), то я могу подтвердить, что, например, на вопрос о том, является ли забор недвижимой вещью, CasusLegal делает правильную и полную подборку судебной практики. <br><br>Разработчики сервиса предлагают бесплатный тестовый период первым ста желающим. Каждый активировавший код bevzenko получает право на пять поисковых запросов. В ответ разработчики просят оставлять отзывы о качестве работы сервиса.",
       "date": "2026-05-26T09:39:27+00:00",
-      "views": 9930,
+      "views": 9940,
       "forwards": 0,
       "photos": [],
       "video_path": null,
@@ -46,7 +46,7 @@
       "text": "Досужее субботнее чтение принесло дивную юридическую новость. \n\nОхрана морской среды в водах Кипра дает результаты, популяция дельфинов, обитающих в прибрежных водах выросла. \n\nМестные дельфины приноровились воровать улов у местных рыбаков. Они рвут сети и поедают пойманную в них рыбу. \n\nМестные рыбаки пожаловались в морской департамент, там приняли решение выплачивать рыбакам компенсацию из бюджета. \n\nЭто разумное решение: ведь если защита окружающей среды осуществляется ради общего блага, то и негативные экстарналии этой защиты также должны распределяться на все общество. \n\nКипр это единственная страна в ЕС, которая платит рыбакам компенсацию за вред, причиненный морскими обитателями. \n\nНо компенсации покрывают лишь стоимость утраченного улова, но не порчу сетей. \n\nРыбаки же требуют полной компенсации - и стоимость ремонта сетей, и стоимость утраченного улова.",
       "text_html": "Досужее субботнее чтение принесло дивную юридическую <a href=\"https://cyprus-mail.com/2026/05/17/brazen-dolphins-are-not-a-fishermans-friend#\" target=\"_blank\" rel=\"noopener noreferrer\">новость</a>. <br><br>Охрана морской среды в водах Кипра дает результаты, популяция дельфинов, обитающих в прибрежных водах выросла. <br><br>Местные дельфины приноровились воровать улов у местных рыбаков. Они рвут сети и поедают пойманную в них рыбу. <br><br>Местные рыбаки пожаловались в морской департамент, там приняли решение выплачивать рыбакам компенсацию из бюджета. <br><br>Это разумное решение: ведь если защита окружающей среды осуществляется ради общего блага, то и негативные экстарналии этой защиты также должны распределяться на все общество. <br><br>Кипр это единственная страна в ЕС, которая платит рыбакам компенсацию за вред, причиненный морскими обитателями. <br><br>Но компенсации покрывают лишь стоимость утраченного улова, но не порчу сетей. <br><br>Рыбаки же требуют полной компенсации - и стоимость ремонта сетей, и стоимость утраченного улова.",
       "date": "2026-05-23T06:02:55+00:00",
-      "views": 13900,
+      "views": 14000,
       "forwards": 0,
       "photos": [],
       "video_path": null,
@@ -113,7 +113,7 @@
       "text": "С большим нетерпением прочитал определение гражд.коллегии верх.суда № 18-КГ25-481-К4. \n\nВ нем обсуждается одна из моих любимых тем - использование права собственности для целей обеспечения исполнения обязательств. Я имею в виду случай, когда должник не устанавливает залог на имущество, а передает его в собственность кредитору. Возврат долга обычно оформляется как обратный выкуп имущества. \n\nНо именно в этом деле (оно из Краснодара) это использование было особенно хитрым. Видимо, кредитор что-то слышал о сложностях титульного обеспечения в России (его верх.суд то признает, то не признает) и поэтому пошел по такому пути. Были заключены в один день: договор займа, договор ипотеки и (внимание!) соглашение об отступном, по которому предмет залог передавался в собственность кредитору в качестве отступного. Однако право собственности на него за кредитором так зарегистрировано не было. \n\nВидимо, должник не вернул долг и кредитор пошел в суд с иском о признании права собственности на предмет отступного. \n\nРазумеется, это и есть тот самый ненавистный мне ахаляй-махаляй иск, порождение омерзительного союза юридической безграмотности и дикой юридической дивизии. \n\nИск был удовлетворен. Ну действительно, а чего бы нет? Ахаляй-махаляй, ерики-морики, чего бы и не признать?! Жалко что ли?! Это вполне по-нашему, от всей, так сказать, души. По-кубански!\n\nВерх.суд отменяет акты. И нет бы написать - четко, резко, бескомпромиссно! - что подписание соглашения об отступном в тот же день, в который возник долг, является доказательством того, что стороны в действительности хотели чего-то другого, что судам надо разобраться, чего именно и применить к отношениям сторон спорные нормы (о залоге ли, общие положения об обеспечении ли). \n\nНо он этого не сделал, увы. Вместо этого он - даже как будто стыдливо - напомнил, что на иск о признании права управомочен тот, кто считает себя собственником. А собственность в России возникает в момент внесения записи в реестр. Кредитор же в реестре никогда не фигурировал, собственником не был. И вообще - он сторона обязательственного требования. \n\nОсобенно милым в этом определении является пассаж о том, что договор ипотеки прошел государственную регистрацию (седьмой абзац сверху, он же третий снизу на стр. 3; увы, благородное искусство нумерации абзацев до верх.суда еще не добралось). Это при том, что ее отменили в 2014 году!\n\nДокладчиком по делу был судья Петрушкин. Двое других судей - Асташов и Киселев. Последние двое хорошо известны добрым читателям своими, так скажем, интеллектуальными промахами на неблагодарной ниве написания судебных актов. Но вот судья Петрушкин долгое время работал в арбитражном суде Поволжского округа и писал хорошие тексты. Да и став судьей верх.суда, он выгодно выделялся качеством своих определений. \n\nНо, видимо, что-то есть трагическое в том самом здании на улице Поварской в Москве (в его подвалах тоже расстреливали людей в сталинское время), и оно со временем портит даже хороших людей. Я знаю уже почти десяток таких.",
       "text_html": "С большим нетерпением прочитал определение гражд.коллегии верх.суда № 18-КГ25-481-К4. <br><br>В нем обсуждается одна из моих любимых тем - использование права собственности для целей обеспечения исполнения обязательств. Я имею в виду случай, когда должник не устанавливает залог на имущество, а передает его в собственность кредитору. Возврат долга обычно оформляется как обратный выкуп имущества. <br><br>Но именно в этом деле (оно из Краснодара) это использование было особенно хитрым. Видимо, кредитор что-то слышал о сложностях титульного обеспечения в России (его верх.суд то признает, то не признает) и поэтому пошел по такому пути. Были заключены в один день: договор займа, договор ипотеки и (внимание!) соглашение об отступном, по которому предмет залог передавался в собственность кредитору в качестве отступного. Однако право собственности на него за кредитором так зарегистрировано не было. <br><br>Видимо, должник не вернул долг и кредитор пошел в суд с иском о признании права собственности на предмет отступного. <br><br>Разумеется, это и есть тот самый ненавистный мне ахаляй-махаляй иск, порождение омерзительного союза юридической безграмотности и дикой юридической дивизии. <br><br>Иск был удовлетворен. Ну действительно, а чего бы нет? Ахаляй-махаляй, ерики-морики, чего бы и не признать?! Жалко что ли?! Это вполне по-нашему, от всей, так сказать, души. По-кубански!<br><br>Верх.суд отменяет акты. И нет бы написать - четко, резко, бескомпромиссно! - что подписание соглашения об отступном в тот же день, в который возник долг, является доказательством того, что стороны в действительности хотели чего-то другого, что судам надо разобраться, чего именно и применить к отношениям сторон спорные нормы (о залоге ли, общие положения об обеспечении ли). <br><br>Но он этого не сделал, увы. Вместо этого он - даже как будто стыдливо - напомнил, что на иск о признании права управомочен тот, кто считает себя собственником. А собственность в России возникает в момент внесения записи в реестр. Кредитор же в реестре никогда не фигурировал, собственником не был. И вообще - он сторона обязательственного требования. <br><br>Особенно милым в этом определении является пассаж о том, что договор ипотеки прошел государственную регистрацию (седьмой абзац сверху, он же третий снизу на стр. 3; увы, благородное искусство нумерации абзацев до верх.суда еще не добралось). Это при том, что ее отменили в 2014 году!<br><br>Докладчиком по делу был судья Петрушкин. Двое других судей - Асташов и Киселев. Последние двое хорошо известны добрым читателям своими, так скажем, интеллектуальными промахами на неблагодарной ниве написания судебных актов. Но вот судья Петрушкин долгое время работал в арбитражном суде Поволжского округа и писал хорошие тексты. Да и став судьей верх.суда, он выгодно выделялся качеством своих определений. <br><br>Но, видимо, что-то есть трагическое в том самом здании на улице Поварской в Москве (в его подвалах тоже <a href=\"https://www.google.com/url?q=https://www.rbc.ru/society/10/07/2002/5703ba109a7947afa08c7057&amp;amp;sa=U&amp;amp;ved=2ahUKEwi67qPo8MSUAxUAakEAHaUdIwIQFnoECCgQAQ&amp;amp;zccpm=epi&amp;amp;usg=AOvVaw1gvt3ihPBKOoVmWqc2NFMW\" target=\"_blank\" rel=\"noopener noreferrer\">расстреливали</a> людей в сталинское время), и оно со временем портит даже хороших людей. Я знаю уже почти десяток таких.",
       "date": "2026-05-19T08:03:50+00:00",
-      "views": 14100,
+      "views": 14200,
       "forwards": 0,
       "photos": [],
       "video_path": null,
@@ -1592,7 +1592,7 @@
       "views": 21100,
       "forwards": 0,
       "photos": [
-        "https://cdn4.telesco.pe/file/aVSZ_jIRcchKn5O-59WUjnZxzfNfoZpPpZF_ZpOlgmQ1bavF0OPEC0DJJesohbZmXneUT23EaPsU_3hCgWlufxFFtFTC81yFB8J-r7Z25I2qy6CHzwUM9JURQ_W7iOEMRTphq7m6vdmiN0xomNJLGvrLV_7t8IGkG1ODBBWR5SI-YJ9HnajiG_rgaudEc_l2YhqHE0eJXB8Ps_Li7W7MlZQk7o42sGJ3Qp1-FfOU4cAHlrVllgOdq2ykC7gXdE84B2iDHNhJj4YV2NLNKd0Ai-SQY1hPOAj-MqoUvrgU86rwCI9EIU9WXkhLdFgWV0Imqn41PuSRIfx294a5S_niWQ.jpg"
+        "https://cdn4.telesco.pe/file/wCMptL2EkMyTt44iIgXkmw1KX97C8Iy5P8H-s7oIgiijz16FkNkobBuRZQKQ0TDkzhCZImCbtvaANNNESOJ3ztQtXjCK-JBVJaBhqo1SLzOCLhGrizrEhMhtb9vjMszhamKyrb6KBGWpI8pl4pms2VWkcMv43vMnOEcPkCJ3dRjnN_Pj5xrR2nqWlBcAoGVitCclM_PiiMBGHd8SrGGckmFjpepIAABThhRyJ9t_cMWrn5RnDMThvA36Ps1ZvJnufMa6KmMTtbohEuwTx99j3ZkSj27bicSMd3DrtC4HYiYuVsffUonXqIK81OH4mOqW6KGiYnsgjQuus4Hkxiv8Zw.jpg"
       ],
       "video_path": null,
       "gif_path": null,
@@ -1699,7 +1699,7 @@
       "text": "В очередной раз удивляюсь, почему разработчики закона о регистрации недвижимости так ненавидят русский язык. \n\nВот норма ч. 1 ст. 31 закона:\n\n\"До осуществления государственного кадастрового учета и (или) государственной регистрации прав либо отказа в государственном кадастровом учете и (или) государственной регистрации прав рассмотрение представленных для осуществления государственного кадастрового учета и (или) государственной регистрации прав заявления и (или) документов может быть прекращено на основании совместного заявления лиц, представивших заявление и (или) документы для осуществления государственного кадастрового учета и (или) государственной регистрации прав\".\n\nЧеловек, который любит русский язык, написал бы эту норму так:\n\n\"Заявитель может отозвать заявление о регистрации прав (кадастровом учёте) в любой момент до принятия органом по регистрации решения по заявлению. Если заявителей несколько, заявление об отзыве подают все заявители совместно\".\n\nВидимо, нам это наказание послано нам свыше. Ибо как было сказано бабушкой Агафьей, в наказанье за грехи обнуления будет послан вам Канцелярит Канцеляритыч, и будет он блед.",
       "text_html": "В очередной раз удивляюсь, почему разработчики закона о регистрации недвижимости так ненавидят русский язык. <br><br>Вот норма ч. 1 ст. 31 закона:<br><br>\"До осуществления государственного кадастрового учета и (или) государственной регистрации прав либо отказа в государственном кадастровом учете и (или) государственной регистрации прав рассмотрение представленных для осуществления государственного кадастрового учета и (или) государственной регистрации прав заявления и (или) документов может быть прекращено на основании совместного заявления лиц, представивших заявление и (или) документы для осуществления государственного кадастрового учета и (или) государственной регистрации прав\".<br><br>Человек, который любит русский язык, написал бы эту норму так:<br><br>\"Заявитель может отозвать заявление о регистрации прав (кадастровом учёте) в любой момент до принятия органом по регистрации решения по заявлению. Если заявителей несколько, заявление об отзыве подают все заявители совместно\".<br><br>Видимо, нам это наказание послано нам свыше. Ибо как было сказано бабушкой Агафьей, в наказанье за грехи обнуления будет послан вам Канцелярит Канцеляритыч, и будет он блед.",
       "date": "2026-02-12T15:31:24+00:00",
-      "views": 33100,
+      "views": 33200,
       "forwards": 0,
       "photos": [],
       "video_path": null,
@@ -2054,7 +2054,7 @@
       "views": 25300,
       "forwards": 0,
       "photos": [
-        "https://cdn4.telesco.pe/file/to0CKYlXREJCfDNSuZP9_TIG3JAmN8J8V-urZjvGXRKoFlMhuV0UbhO9vDQ-v7FDPwuwiuFL6yxwBtA6L8zl6m2Tx5QyxTaj22nR9C_Osc-WbnxcYFiXk9IlJH_FyL2x5z8I9fJg4B2b2jc77Oqnjo4X8qNCz27TCykww73lZwm-qLYk5cPSy8q7NwGM3w7DlgIq8Z8qYJ7axSHb15nWO48HYfcaZo7pLTKh7bJyXqXibB0gKgzPSpdpccXuj9R_75-JJ9_Hy1DVzsibpaY_MWmB9GZkgZBZXHV_h7gWcbSqrewyYnKb5WQzwl4iQdK9NeXRQrt8MAxdDVEdH9bveg.jpg"
+        "https://cdn4.telesco.pe/file/KgOolGfDdMaaEJBAtceeW52mQD1VR5xrQwbT7EDNKEpM2LxyiJX7h5JFuj4JmV4ceR5NQ1q9ON83Ky0Xwhqf3PuRwQyCnAJJVEMQQftS32ZXBpj_QYYzkx2VaTARtt9aDDcAzYzwq4DLFgaFoNJJZUj-9NZmoH3KaDyBx5JUA4pCUJGjaK8QgmIArsv5rg9tCtqN3k2sTHXTECSWXvnRyMcDEuByG7gUIImgwkIsLoMP8UJpb_UYb2dHp35Rm2Jt78wcuXei-VYHcYqt1Ekq51VwhRtkukylb9iTGv9mspKIHKaPACYysmLsdcyRd1A4-jlYdX4dDEGFsqlcHTCOPA.jpg"
       ],
       "video_path": null,
       "gif_path": null,
@@ -2781,7 +2781,7 @@
       "views": 20500,
       "forwards": 0,
       "photos": [
-        "https://cdn4.telesco.pe/file/YLxI1d2_wEa6apnFHXGgSHuM0JTYwcj-Ct_chBGzNlR6aAmRsX5b7iG7s7f4s1CBGjGTga0whty3sWuqlj0jjIFyPRHOP0clrrFhKYS_8XuzlX46kAcRbqWKL_CUV3UJKpCCUxecXgdHyZJ6UvDoALaAWX5X5dNwXWE4DgqEc4Gx87MIh1rcKsc0FOmnHVZ4MXGy9AyOUbNQIgcaXQwxwUI1Kia0X3bs3_2M4sQquZwMA64HoBgiEgT_2O4j7B7oJQZFNE_8tTSNQhVa3gK-KxTDlVoaFK0WdfHkwXvYVuaDFaeBG37LCo8-9hbcplJsZFb4zXfJq9onZ28H6VvuLg.jpg",
+        "https://cdn4.telesco.pe/file/E0DLSxFU8jAwn0La0WnhAg7AUwFHLkOnSrWgfwvdJgEXjFV-gpCY2gEI3VAxMpjSf-Td8swVEnfJzKQDic1loCL06OUK0t3OYX8dOKl0mSq3-29oc0y0xF-hSNScHQO29iBUHxwOfO4QCnUtPtX60fnt2SMCd5lItfLgUwp0REhwKi3tDkA6pYQ2zwQ5dISDn2qoqCrG5BxOWDk5bcyNlWvR9UTbF7RrZ4EgUkZXUqTTKs72QQlWMJSKWESZohbF7s6tJ5XEe9LyWc5-2ATOrYkJPt52sD4XIhbJ1c3YyZQ06sFI_EM9sKFPd9y1IfOHB9PAkdIiUYM9MVtfps-aYQ.jpg",
         "https://cdn4.telesco.pe/file/Pjj91tC4RQZbeFtw0gRj_dTeyvo0vwFkrn92JtFCZjCT2ze_3_h_3TI4UJPEkMiE1gRxc79JokIEg0JIXLUjw5XX1bj1UCicbdQdif2N5Wlg1vI9r26M8Fyk0aodi8_JaWzajK3Fsxr4UHRzb30Jh4Cl_RpBTvqisYgSFf7HPnnO1z_jDmaxGTcgezYQUPriLZqP3LTzMJQbM8FOu_h8v1SZtRxKiJ1ir5Qzk2ICnu7HNLwl3bxSEkshvXMreXKRyAZa229O4kJOtJQfp5GXdE7Z2Jgcx46Pur1lFLOBAmlUpUaUjTHxlKuDKy5-KZJOJF86GHi7C64S5e3l_k03bQ.jpg",
         "https://cdn4.telesco.pe/file/ZgohokxPpEalYjds9ausWAzcJi2nto6SPX-H7YrxiOzBtfZKTb41E9pPLZnBOKORK7UaP9zPh5PG5rK5DgrMy_RGFNVniTWAW8lqna6xkCUNWFzwgAPLzOndtd01UHEQUwXVWkkT-EtseCtyml-QEUe_oAPVb5qJRVZF2wuiM1oiHV-jiuDbPS_QVFKriU7ahlIbgnwYbt8YzRNX40uQG2Rx4e_NCf3vNQxIPg8hIQ4we9TGHyTMznOz8oPgOvws91BOpceRRcIL-lX3kuYRj6T6SgY-pch2UBiPKuuxbujZovT_5UZxTZTPL8Owb5SczElM6EJE1Q9INTTEZMfTGQ.jpg",
         "https://cdn4.telesco.pe/file/kyrDWrvu-BbRdcjNoU2GFZtW4kQ85s73p54k57hDvzDm_R03pqdhXXuJFj_NkNRhUHGJVYUgBzsL4jrZxw-v0zglZ99tNLO2z8slpFDjrJKEpkTnQDE5Xg0wuovPSOe-rw1Oa-n_Kzrg2GUVgdX6E2I_eZJe2Fq0A-v4ja2rJa3x5pPQxBX8OZpaI1EfWCavhrqOha9kXUkxPo6Agx-XxJrpkYA0q6fo8l0rlEQk-5o14IbjZ0_FDWvb_kBpVIhr6D_yRQA0Q2P3B7IYYgsLZuhl2qJ8Gdi-4eFGjiraBeD4BaCMrTSBH0PsNjJNYjvyxur8Nzx2-h1aHHGKJUA7Zw.jpg"
@@ -3261,7 +3261,7 @@
       "views": 21900,
       "forwards": 0,
       "photos": [
-        "https://cdn4.telesco.pe/file/B-xJDE9moGW3SVKcdcCDF--F8xN6jkgisJWqeq3AlhO1AWwid6wok8GY-aEAdLQdU1mnZ8YMqKdTWzugz8tsJuTngxf31M1IN0_8_WbEL7q5n_MMeaOPTKldxuYRXzuhws4GKlA2BsFmSZLe0bjmsNrmG7xILO8kKXfSFc9pSy0fZ6uEKDNm6mvd4-ARIidY0Yp_90ZkARBdFTqNX5dIyrioYQrlvTTIImtRLRRE5LxMh_Ai6NCL_UGV3QTqOWiDeROzhmyLMjYTsLpVpPJ816jnxDaNlEvx9JzM2ZB-6ht6XxFNrW5oudkGfH882lL5rQOu_VkLFsTJqeAJ6XHMTg.jpg"
+        "https://cdn4.telesco.pe/file/VCwOkThJXE3ygsaWi07A8oKQVfMpNs42MaArEKbSteoVOFghQ03-GtWB3OcOyLzRm8WntrYRGDXsVgY461kvzx8uiCXbvpRXr8a30HF3a59DySCyRAS0XDPODK-MGhXUHYz6yue7Za8UhglYhuC2_ZwgSeAsV5QKK1OyC6cBdKtnRQa2rAfpUDHul62TQ2TbBYB0vHDjTr9_ruePLxmdcT2SNJufKzu35E2VGzK7sCZYa-U2N0dDGEqeVByQrIX614khsQlrE9Wyctee5AUvj58HPa3ld2Rmom5EV9T9jvChgIBS5atOlREDZDwsFes2hiobc-btsBncQiKAVoEjwA.jpg"
       ],
       "video_path": null,
       "gif_path": null,
@@ -5297,7 +5297,7 @@
       "views": 32700,
       "forwards": 0,
       "photos": [
-        "https://cdn4.telesco.pe/file/Ckho_HrIPy90MoNPlzVjoWthF9b-WUzSELhonXzycKRKxBxcr3FqRE1rIpuKdyjh9hoM5IeLYif1rVRMQqFnto3U-Z7BalmZPe5vnxgBspCUeYl0R63wdgK3RWySsIPzi9FJhDKbL3n4duXHY6Vv-7xKV-vQPdNfVXxUzPPqd6Qu90CL4OW9iBYvY0XHzEGNW6CvyJx-K2EZfqqRYOd1YWSU88WBVy8f1xTayPgQ-BEhlgh3FJlQhJmHZZ-Fy8krwUBObxa4Vzd8VJsIovMW4mEVcI8ZWquDguFBfi5XO_W0kAolDHfJZ6WWcirG_seXawM5-DTD5zzpT7r0tLzNeA.jpg"
+        "https://cdn4.telesco.pe/file/KWxRp0dBaq6ug6GYMcvF_hnwogm8XI7qrtL6DYIa8vKUwWcYGc852uCt5z5PmbM6md-OgLjj7UPKPyxOTbS5QMTr4i8d8GaMkxWGSHUd67g9zKj5FzXdSa2-B7n56vxFNdHW8MJt8XMIR5NveNtEeJRf0RCpoQth4wpG3PYjQBAhvn0o0Uz2EGoCFkkR7Z7R_2J5TYwcYRqkjJWqzr63vtZ-T-Rhu5ZNIASGkqwQyt9r14ulF-11GBOO86yXhA9zraeWhup5jkOBSGVz9shd1IUvYkSOo0auE9UQ00IKEGEnFLdpRZRsoZlGfp5qHxQ3Nfm_6Z8UqHNvHfNSur77Jg.jpg"
       ],
       "video_path": null,
       "gif_path": null,
@@ -6863,7 +6863,7 @@
       "views": 29700,
       "forwards": 0,
       "photos": [
-        "https://cdn4.telesco.pe/file/GWexrXhfYPnuutAkCwBAt37CNIzMzcCcJec2dqPgZ1RnQXWxq682mub9FLJVPg5lCp9xZnMTsNoFa9pS4VTzkcChhPObTaCoH2VWV_8n6u0LX3xam1XbG4LuAHtkxclKNXxVma4ZVDNCe2UcSzB6PWa7P-J18x8tbG-lyp5SiELW8Fhm1HtgXeXXFyfXorIfP_bcUGlIkuelrh7pSV8CX4iMQdk9H17joIsTjMG34RmRxrHbeFzRWoxokvXjznc2i9SsbO28Tr3a8DO9jCQkQQTQV3-XOpOJ3qa5VJPrWA6Gx5WGRWB_uFOY6qy5H5xpdksvYKdJmIF7AFNsnpT13w.jpg"
+        "https://cdn4.telesco.pe/file/C8rJT40vg4merTcRM1NZyiNfzCC52f3mnch-84B2O4mNCygp35hWP1eAlShYRLQCttaoWGVwhYay0dMjEtBBolKd42trHmFASRV3ZLeIZg6whhG4asKnRHb6tTIEjTp5qgw_1cp3snHMoya9e7bdTyu__YTH5LpDTcMjXY92zm5hplEUQsWqc-t2vuaiO0GRTftsIoyKpLkoGS14mkeRbWjBZkQPMOPZ3s4gVK6EqbnRkyvr_ut6MCw1Q9Pj_6PEZvFCigZFl7v9igVCWilrva7rTUbLhRANqR_J-NYf6fXZSI8vFLRhf4ak1r7GO_LGCyzhryYWXr5S9irw-Av2jA.jpg"
       ],
       "video_path": null,
       "gif_path": null,
@@ -7148,7 +7148,7 @@
       "views": 31800,
       "forwards": 0,
       "photos": [
-        "https://cdn4.telesco.pe/file/sRaYzZZbu4FQtZ72wfBtyCVWrP8zRhd6DnAAM_r4S0juIJaOeOwaY3oqyusSubp4ZnbgCEn-JsIRxw6ruOJz_McYVns-xh6DdZ_6ugQCYzmVY9i2uob94dbEh4tDpyItTiX1vRyD_ZjSgHIQURcD4LLO2eHSyIadhPHfGFb55qHxyMc-Nm9x4MaI16ho_SmRaMvtlmCCowqi7wSoVuEe_6_yUN3sUWNUvf3zi6UveCnizJvaKyFXHhonrBfuOp-iSSQed4tXMesl54BYxLAiCYyaIhpmbBPdLz_Zn49aXL0Dul9idJL512UviOyANjBVzUnGGo9FdZq3MDaO4UE8Zg.jpg"
+        "https://cdn4.telesco.pe/file/gDWZ1uNZA-Vj9M8vCwQEQHAkYQ_yITN46KgSFGpb-9-q9WsdhlNFkxv1G0enl0ir2HU5all2RpSfDLlOEoaovw5W_vR3e5vhkATs15F4PzgujdOjbi8aLoFdii8q_t0UwjO97e-sulax96zZ3pZ5PcwOU-0BmoXptjBomZdXMdc4ZdiFZkOkrkOORe1EWwC3RNRBri5Tnjh9caewvW5JhRavHSPosgJClZM-FUW442qMNmONsIt_QZ74IjYaAzf6F7WRW1XJDV5fIlT72lpM1JPLJO7w7thxrlKQg_QBKvtOQNu2SejE81ebksMY02AU7SkD5_xVynSzwJDcvClfbQ.jpg"
       ],
       "video_path": null,
       "gif_path": null,
@@ -10943,7 +10943,7 @@
       "views": 22700,
       "forwards": 0,
       "photos": [
-        "https://cdn4.telesco.pe/file/aSSfTkE7NrHEifm1zgA4BRb_iVAfQhsMMcNJ5m9bVdpJwDeh661EkhaHaXFa5yXeXK3shGHDfmrPMBj1jQl7DC6QOwWe0LAs1uvBrpKMM0E_RqPXQArzjxFQUdHquxtVQ0SzV093Hae4bFHw-TyTIa-KWtRW0mVJK5ojm0c-pRK1xyMMiBhbegRlLlVwcWatonQAp9hj6QSxsG1u0Hk8egUNdMTM_bIUpK1FY5o09s_Camj1ayPiSKvqFtmNCj9BQv6Z3KVNnStjThL9_qJtRbayvVVdZ4oj1493ImKr55kfZkaVSeXPsHupQhRZBlWV_G7Y3yGPiG9iZmDsqtP2cw.jpg"
+        "https://cdn4.telesco.pe/file/QFTgL0cBHRGaUXFserCLHikZC060nqYW8SRcV6Im2wjk5gDt9BKf1NxiTnP3bI00a3KW868-qY4RZn2pCj_P2i8tz0jpXpCOvkIGmYB0G9DUECXpoQjMcL_8fWidZTNDb94aXrSFjfVKmGc7sK7ZHea1EBbc0KjVkQhmzFcxJ7k35YlnVyzewUjS2TgusrTjKz9TsAQCKyiO9gD_zmJ7E1I3qO75zvUFKAS7IBhFazfMohf2YhLKxFDh_rCY1b6un65XOj4f1BiRn6CWUly7zVVsqnA9xW41T8CJPM7cmbYQYx-7NjcDEe8YkRyEPWs32u8H-GxIak13g66-BZWuSQ.jpg"
       ],
       "video_path": null,
       "gif_path": null,
@@ -13298,7 +13298,7 @@
       "views": 22900,
       "forwards": 0,
       "photos": [
-        "https://cdn4.telesco.pe/file/Q6h_vmkh2jjEuJXQIYNtib9h5y1MJdhzrSRrt09wg2At3HvAFpQNv9zSkX0TB4TtZol5xfX5IvKCVQcl7vSO2-ZoYNmW2lhgGXso5iAbIPX_L8K7GuhxIY0wavgjxOewiHbbT-tvIWlOnX9odxGAoAOJRcKJHi04XLR8pXilExQpOZ_a1UZdLIGkYhjSseQHkJjrSmsUSE17gh3ujBL06ozoAsM1iUID4z31v9RGu4v5o1uh4_iApt3XwAZPQuSRAsXrUzPeMD7amobeQ-b2Ebe-DYTWien5dDCE2Zc9j8Sjx_f_oFGMLY3m1_wWGTBp11zy5lvVEwdJQj5re6Df8Q.jpg"
+        "https://cdn4.telesco.pe/file/fCPVPAQzXuIBULlDXo13G4fOHm71saC1fTzdkgSYNEaJm1cLMVMaHcDPO8WOm3VpkaSSVxLLov3CTDy0ya8IJY2MrhB1Oj3ePKt8ZinN236kuDC7GIafmdB1XVEmyLyGKAYOa9KBNYrqyVerr_cic8-HpDRyQQSk3RCIk08pgPDDtqvvnI-wDwIP6VNp8Dqz1f5oT9l43Un-WzTBVwt9AJMl56-pUkybaJQ4MZYjNYlwH8e0Rvi4YDK_VZIiLvherkaxGYQNcMrl7lwQMQXvZKwMSBK7B1V43EhLEbEaavAT6UYWIpMFgj1mJ-uZOX0lPGhGMVJs_8IFVjfARXYXkw.jpg"
       ],
       "video_path": null,
       "gif_path": null,
@@ -18199,7 +18199,7 @@
       "views": 23000,
       "forwards": 0,
       "photos": [
-        "https://cdn4.telesco.pe/file/eo2aazfNsiY77nHujcvgK_y6nGszpfd_O6QCY5j3ZJuykAFpqVhIkhxCCctTrEJdKlhZoqZi87NfGLdaQL7kA77HzNi8tNa6fWg-SWQ4WRlGmFhiLQiEM6JzkftpEPOrYFMVEDSInnQliKjxgAXPbycPsMY5ZqiCsN9GMZm6U_nvM9xk8egwRlRUIqEuNkiFXhNYzuIvTLg5AqTX4OixuBQgmCfw7ZuHkzFdOB-sJ_TbC3HlpoxiYuNcazY79uKKmI5nleAvdqlpcUdu8yNa_wSWvxh6re94x__X-yXlMSUMaLrWAvi0zXuAtmWnmaV2Tes-jgxttl9Mel8XPWjNPw.jpg"
+        "https://cdn4.telesco.pe/file/ttagV8WsfKOffGEf1F1YWx_BeXN1H2UDXe5gBuCZMj7m47xCuc1PVONQoiZF4-qiRnCvR8Qs769wBYtfXftzTMlnDx8336vuScIKz1wKddQ9HQcTJZOjxiNyq3JrBEr60q5s1ItT4_JWyd5qAX2aAyk3j1b5BKWIT6h4XrKpY4Eyj45NiBg0CmIL7oj7twzd858eimm_0BiOovvlrTgCQi_UTwU8y3NbKRXV_u5XLLYJYXEpVtYrJBNCWQqX1fxF8nVAZMXddNKhIkVUqPDZgQ1jGXtjCidGlga8V02gZcJPajRogjyWb3SlsB15hrO5Fh3YRskrsuSSKMVQ3BHvfw.jpg"
       ],
       "video_path": null,
       "gif_path": null,
@@ -21340,7 +21340,7 @@
       "views": 17100,
       "forwards": 0,
       "photos": [
-        "https://cdn4.telesco.pe/file/RrIvQufPxhChuZBUj4ASb2fFYHuLddT0z-e52TuyW7YlPGSV72WKXI_yMA30Fzu-wAG09qrPyoKd1XfHcc_zOtwEkXE4iuzVjDlZ0OODdWvZNoVEGHi_eLtTwLm_qdUx85Owoffi4vdOGA1QIZRoRXEIQNLcByOXPZzEWaWjoQtQbG4_euqSjLtgDfvjyfUXJV2cXnqv4vz78m16xRAcOfRokYbyHuFGe4gg3619suHvl7fwJs3Bhm6CMWWclUSHLdIyg151ENVS9boNU0qqfHcnvTb3IkFLcBYJIip2Ktd2traISU82c5T_qsPET_hyY-hY0vZYkwOv9rTTgvbjQQ.jpg"
+        "https://cdn4.telesco.pe/file/Nz4J1FOYF4tKM_VEzrcQM7LO-W-linUWf4DGxpxz6OSVT35FFTatebSiSZ-Rj18eK4xBfN_3Cfoo0DalJxwlWSyMQa5KS4qQJQIR80CbnPJERBCQXYp_ZhXLIMWZtFuIciEqsRCI5EL7pea2IHIsNZSwSPg1NY_1uk4STvbkULIl0mCgKBe300YVvf06d8o06J5dG7jjDD5Quhj0gB2rPbl9bYUR6KMSr2kWr-NSUhq-8PYYYejCAeILnZn4NVi-WU2aRjkoAIGj7Tchx0bzGPa59X-Fjg-VAVk2KQbuNRyejFm_1uzcm_TRbeGd-wVM6GZ0-DdvehaaewCxTKO4MA.jpg"
       ],
       "video_path": null,
       "gif_path": null,
@@ -23717,7 +23717,7 @@
       "views": 16700,
       "forwards": 0,
       "photos": [
-        "https://cdn4.telesco.pe/file/XmoiX08pchKvYQxs0wRtUUQin6kzB0QjuWksosh841LSVv8IF8mLetT3tAhnuCHjIaZABBJfbOV_ZnUJN6WQcq2p0wX45a5x663caI9N-x7UasD_d9OGYczUcqkunB7P06XaN4HmWDDCVBhvb1ycn0E1e6MZ_twhZi7XU0mg9zwzQY6gZYzHL8SjeVTGrd_12NiCSbeBOp5UrWkZT3sAURxCyFdacnC_WxxPk_EE-p7VmbsGOeyzUgebzZdFO6mFt5Os4T-ol6JfJYoeTUBahKa_bomUa_90O7feUR3Om4_TrnwfkRkss6e0Yql39OpzTiXi-8FJpFrj9KFjrk0Hqw.jpg"
+        "https://cdn4.telesco.pe/file/EyXkn-HWFpcCvCEfl_Xr8gjYdbduFwS0TmKV_EJM0lS_AnYjo7So80MKwyHFwTJJi3C6fP4v1uAyHZI5WWg6jPEZuA95oTLOn_lO7eaDuwzxaseZkBrXTS2MldjtaoTvDfgAgcDuudABJbLaitO1rrsRCYWnB181IrL6yLzU7xwFacHDVBxl96DCigizPaVln_fuzULAAY_s9Ww2CrjSdQj_-e_swLlXb0wGJdVk7BGMYMeQsTfHEdkbSXjfNz2yqpCb8lQUqeRz1fdewxMJh1JEOYgMtlXupqlpEiPHwKOxpo_AdVcPWCNcv5pEQB3kVuV0-YPbXpM_R2E0QrObpw.jpg"
       ],
       "video_path": null,
       "gif_path": null,
@@ -28347,7 +28347,7 @@
       "text": "Запись сессии Петербургского юридического форума 2020, в которой я выступал: \"Влияние актов государственных органов на исполнение обязательств\". Модерировал сессию Александр Смирнов, спикеры - Максим Башкатов, Юлий Тай и я.\n\nhttps://youtu.be/Uk9SVjj5GsM",
       "text_html": "Запись сессии Петербургского юридического форума 2020, в которой я выступал: \"Влияние актов государственных органов на исполнение обязательств\". Модерировал сессию Александр Смирнов, спикеры - Максим Башкатов, Юлий Тай и я.<br><br><a href=\"https://youtu.be/Uk9SVjj5GsM\" target=\"_blank\" rel=\"noopener noreferrer\">https://youtu.be/Uk9SVjj5GsM</a>",
       "date": "2020-04-15T22:26:13+00:00",
-      "views": 8820,
+      "views": 8830,
       "forwards": 0,
       "photos": [],
       "video_path": null,
@@ -31863,7 +31863,7 @@
       "views": 2880,
       "forwards": 0,
       "photos": [
-        "https://cdn4.telesco.pe/file/FATW5xpl6thLN99fQdEYrCrdUfXob1E2QO1QbKtxK5ym3oonsSWY1tqe-z34NZLdSyt-oB4T9sHx_PRM9tY-gM7eKEIXqmm67ErscWubUFovemOK7iZvfzjj7DrC16RSkpx0337Y8_0dOPboy7zUBEug0dSyHqOs-Oyb1N_uM7paFfwXn5xvyQzwbehzenLmjsQx-TPij6oebhFVYGnWlCvUNh4ewLrzbVd7MzWLi_EygWmqRsAUrLLlQQmEwjl-BQ89JCQ4pYitRTE1q8NbMRzZqcFDpDWR5LWOd1VHo-jOvxVMaRZOGItmg_Im9ikufDcfF9F4Ugj2E08hPrYuoQ.jpg"
+        "https://cdn4.telesco.pe/file/EyZv9uG3A-WcYY4sJhSGDCnn5rbbplHplaGPkbI37Eu6MhI5dcXxgP3fJ4zJvtBGVDV3v5fkDvE7hIKSoeXzCAOSde-qMubuh-NhSnOkXI77PwJWJWylKZ8iK2NvQglVdqs1Fayo2G9JbKGI-ZSGAkLk_wXtgTjqVVsdirdopQ30FIy3-WDqwyMgL9Q7Tztj6ZQlLkyR34z4YVGwaOnqTsZPdFu6q2uL2u4sbNcFllu29FJkeiO3_McIp5aOU0jZ5tajg1JbqWqj2NhdbxIu2Gpely3BUUmI-rQm8WOQrmkJyIOoOycW54BSl9Njc7yIwbELCupXhsIOSsN2nPDoRg.jpg"
       ],
       "video_path": null,
       "gif_path": null,
