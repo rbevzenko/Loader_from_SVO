@@ -1,13 +1,13 @@
 {
   "channel": "loaderfromSVO",
-  "updated_at": "2026-06-17T23:02:36.001005+00:00",
+  "updated_at": "2026-06-18T00:21:51.394320+00:00",
   "posts": [
     {
       "id": 3170,
       "text": "Пропагандист Андрей Норкин (НТВ) предложил подбрасывать наркотики приехавшим в Россию американским рэперам \n\nОн считает, что таким образом можно будет использовать задержанных граждан США для обмена заключёнными.\n\n=========\n\nА ведь когда-то меня - даже стыдно вспомнить - звали на шоу к этому персонажу. В роли юриста-эксперта.",
       "text_html": "Пропагандист Андрей Норкин (НТВ) предложил подбрасывать наркотики приехавшим в Россию американским рэперам <br><br>Он считает, что таким образом можно будет использовать задержанных граждан США для обмена заключёнными.<br><br>=========<br><br>А ведь когда-то меня - даже стыдно вспомнить - <a href=\"https://t.me/loaderfromSVO/1495\" target=\"_blank\" rel=\"noopener noreferrer\">звали</a> на шоу к этому персонажу. В роли юриста-эксперта.",
       "date": "2026-06-17T18:00:07+00:00",
-      "views": 5570,
+      "views": 5740,
       "forwards": 0,
       "photos": [],
       "video_path": null,
@@ -20,7 +20,7 @@
       "text": "Все юристы слышали страшилки про использование ИИ в судах: выдуманная судебная практика, фейковые цитаты, судебные штрафы за это. И в этом есть доля правды — в одной только базе Дамьена Шарлотена уже более 1600 дел с «галлюцинациями» ИИ, а рекордный штраф юристу за выдумки ИИ дошёл до $110 тыс.\n\nНо есть нюанс. Провалы попадают в новости, потому что их легко поймать и эффектно описать. А тысячи рутинных удачных случаев (контраргументы к позиции оппонента, добротный черновик ходатайства и др.) новостными заголовком не становятся. Их просто никто не считает.\n\nПоэтому вопрос давно не в том, «использовать ли ИИ в спорах», а в том, «как делать это грамотно и не навредить».\n\nОдна топовая юридическая фирма строит на базе Claude отдельный проект под каждое дело. Другая вкладывает сотни миллионов в собственную проприетарную платформу. Третья — поймала «галлюцинацию» в своем же ходатайстве и сама написала об этом судье, не дожидаясь, пока заметит оппонент.\n\nНа сегодня отрицать это уже нет смысла: ИИ достиг залов судебных заседаний, пишет процессуальные документы и повседневно «работает» над спорами.\n\nПо долгу службы судебные юристы Buzko Krasnov держат руку на пульсе этого тренда и сами используют ИИ ежедневно. Для более широкой аудитории они собрали свои наблюдения, лучшие практики и отдельные правила работы в одном месте.\n\nЧитайте в их наглядном разборе «Искусственный интеллект приходит в зал суда»:\n\n— почему ИИ нельзя просить «оценить наши шансы», и что попросить вместо этого, чтобы он искал дыры в вашей позиции;\n\n— почему в эпоху ИИ краткость — это не просто сестра таланта, а его мать, жена и теща;\n\n— что происходит с адвокатской тайной, когда стратегию защиты прогоняют через публичный чат-бот (спойлер: в деле Heppner суд признал привилегию утраченной); и\n\n— какие есть правила использования ИИ в национальных судах и международных арбитражах. \n\nВ статье много примеров, промпты, схемы и ссылки на первоисточники.\n\nПриятного чтения! 👉\n\nhttps://explainers.buzko.legal/ru/ai-sudebnye-spory",
       "text_html": "Все юристы слышали страшилки про использование ИИ в судах: выдуманная судебная практика, фейковые цитаты, судебные штрафы за это. И в этом есть доля правды — в одной только базе Дамьена Шарлотена уже более 1600 дел с «галлюцинациями» ИИ, а рекордный штраф юристу за выдумки ИИ дошёл до $110 тыс.<br><br>Но есть нюанс. Провалы попадают в новости, потому что их легко поймать и эффектно описать. А тысячи рутинных удачных случаев (контраргументы к позиции оппонента, добротный черновик ходатайства и др.) новостными заголовком не становятся. Их просто никто не считает.<br><br>Поэтому вопрос давно не в том, «использовать ли ИИ в спорах», а в том, «как делать это грамотно и не навредить».<br><br>Одна топовая юридическая фирма строит на базе Claude отдельный проект под каждое дело. Другая вкладывает сотни миллионов в собственную проприетарную платформу. Третья — поймала «галлюцинацию» в своем же ходатайстве и сама написала об этом судье, не дожидаясь, пока заметит оппонент.<br><br>На сегодня отрицать это уже нет смысла: ИИ достиг залов судебных заседаний, пишет процессуальные документы и повседневно «работает» над спорами.<br><br>По долгу службы судебные юристы Buzko Krasnov держат руку на пульсе этого тренда и сами используют ИИ ежедневно. Для более широкой аудитории они собрали свои наблюдения, лучшие практики и отдельные правила работы в одном месте.<br><br>Читайте в их наглядном разборе «<a href=\"https://explainers.buzko.legal/ru/ai-sudebnye-spory\" target=\"_blank\" rel=\"noopener noreferrer\">Искусственный интеллект приходит в зал суда</a>»:<br><br>— почему ИИ нельзя просить «оценить наши шансы», и что попросить вместо этого, чтобы он искал дыры в вашей позиции;<br><br>— почему в эпоху ИИ краткость — это не просто сестра таланта, а его мать, жена и теща;<br><br>— что происходит с адвокатской тайной, когда стратегию защиты прогоняют через публичный чат-бот (спойлер: в деле Heppner суд признал привилегию утраченной); и<br><br>— какие есть правила использования ИИ в национальных судах и международных арбитражах. <br><br>В статье много примеров, промпты, схемы и ссылки на первоисточники.<br><br>Приятного чтения! 👉<br><br><a href=\"https://explainers.buzko.legal/ru/ai-sudebnye-spory\" target=\"_blank\" rel=\"noopener noreferrer\">https://explainers.buzko.legal/ru/ai-sudebnye-spory</a>",
       "date": "2026-06-17T09:15:10+00:00",
-      "views": 8140,
+      "views": 8210,
       "forwards": 0,
       "photos": [],
       "video_path": null,
@@ -33,7 +33,7 @@
       "text": "Мы в ШОРТРИДе подумали, что надо бы проанализировать, как в последние годы выстраивается практика судов по применению норм о заверениях об обстоятельствах. \n\nЭто непростой институт, который тяжело вписывался в наше обязательственное право. \n\nНапомню, что обязательство по ст. 307 ГК - это обязанность что-либо сделать или не сделать. А вот обязанность гарантировать (praestare) в эту систему не очень укладывается. \n\nОтсюда и разные практические сложности, так как суды просто не понимали, как так можно: сказать сначала что-то, а потом отвечать за это. Мы привыкли, что ответственность наступает за действие или бездействие. \n\nНо так или иначе, заверения об обстоятельствах появились в ГК (хотя я убежден, что они были возможны и до поправок 2014 года в рамках идеи свободы договора). \n\nИ теперь мы внимательно наблюдаем за тем, как этот институт приживается на российской правовой почве. \n\nПрочитать анализ судебной практики по тонким и сложным вопросам заверений от Валериана Мамагеишвили (можно ли давать заверения о будущих обстоятельствах? в какой форме возможно предоставление заверений об обстоятельствах? можно ли считать заверениями условия, изложенные в публичной оферте или в переписке? в каких случаях получатель заверений теряет право на защиту по недостоверным заверениям об обстоятельствах? и др.) можно у нас на сайте ШОРТРИДа, материал пока открытый.\n\nСсылка - здесь.",
       "text_html": "Мы в ШОРТРИДе подумали, что надо бы проанализировать, как в последние годы выстраивается практика судов по применению норм о заверениях об обстоятельствах. <br><br>Это непростой институт, который тяжело вписывался в наше обязательственное право. <br><br>Напомню, что обязательство по ст. 307 ГК - это обязанность что-либо сделать или не сделать. А вот обязанность гарантировать (praestare) в эту систему не очень укладывается. <br><br>Отсюда и разные практические сложности, так как суды просто не понимали, как так можно: сказать сначала что-то, а потом отвечать за это. Мы привыкли, что ответственность наступает за действие или бездействие. <br><br>Но так или иначе, заверения об обстоятельствах появились в ГК (хотя я убежден, что они были возможны и до поправок 2014 года в рамках идеи свободы договора). <br><br>И теперь мы внимательно наблюдаем за тем, как этот институт приживается на российской правовой почве. <br><br>Прочитать анализ судебной практики по тонким и сложным вопросам заверений от Валериана Мамагеишвили (можно ли давать заверения о будущих обстоятельствах? в какой форме возможно предоставление заверений об обстоятельствах? можно ли считать заверениями условия, изложенные в публичной оферте или в переписке? в каких случаях получатель заверений теряет право на защиту по недостоверным заверениям об обстоятельствах? и др.) можно у нас на сайте ШОРТРИДа, материал пока открытый.<br><br>Ссылка - <a href=\"https://shortread.ru/zavereniya-ob-obstoyatelstvah-kak-oformit-i-pochemu-oni-ne-vsegda-rabotajut/\" target=\"_blank\" rel=\"noopener noreferrer\">здесь</a>.",
       "date": "2026-06-17T09:01:39+00:00",
-      "views": 7510,
+      "views": 7560,
       "forwards": 0,
       "photos": [],
       "video_path": null,
@@ -46,7 +46,7 @@
       "text": "Добрые читатели конечно же помнят, что раздел II нашего ГК \"Вещное право\" это самый убогий и примитивный раздел всего нашего частного права. Хуже, наверное, только семейное законодательство.\n\nШансы на изменение этого раздела есть, написан прекрасный проект реформы вещного права, но он ждет своего часа.  \n\nНо знают ли добрые читатели, что существует любопытный документ под названием \"Модельный закон стран СНГ об ограниченных вещных правах\"?\n\nЭто очень качественный текст (я примерно представляю, кто его написал), который содержит все, что нужно для того, чтобы создавать нормальное вещное право в отдельно взятой стране. \n\nЮридическая сила у этого документа, мягко говоря, не великая. Но его вполне можно использовать как источник для аналогии права в спорах, в которых прямого ответа на вопрос вещного права в нашем Кодексе нет.\n\nИ, что удивительно, суды на это идут. Об одном таком своем деле в Ленинградском областном суде рассказала Татьяна Краснова. \n\nКроме того, я покопался в базе КонсультантПлюс и нашел еще два акта 3КСОЮ (это тоже Петербург), в которых суд ссылается на этот модельный закон СНГ. \n\nТак что, не только все консервативно-охранительное, несменяемое и традиционно-ценностное приходит к нам с Северо-Запада. Но и доброе, светлое, умное и прогрессивное.\n\nВ общем, берите этот акт на вооружение!",
       "text_html": "Добрые читатели конечно же помнят, что раздел II нашего ГК \"Вещное право\" это самый убогий и примитивный раздел всего нашего частного права. Хуже, наверное, только семейное законодательство.<br><br>Шансы на изменение этого раздела есть, написан прекрасный проект реформы вещного права, но он ждет своего часа.  <br><br>Но знают ли добрые читатели, что существует любопытный документ под названием <a href=\"http://www.parliament.am/library/modelayin%20orenqner/330.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">&quot;Модельный закон стран СНГ об ограниченных вещных правах&quot;</a>?<br><br>Это очень качественный текст (я примерно представляю, кто его написал), который содержит все, что нужно для того, чтобы создавать нормальное вещное право в отдельно взятой стране. <br><br>Юридическая сила у этого документа, мягко говоря, не великая. Но его вполне можно использовать как источник для аналогии права в спорах, в которых прямого ответа на вопрос вещного права в нашем Кодексе нет.<br><br>И, что удивительно, суды на это идут. Об одном таком своем <a href=\"https://oblsud--lo.sudrf.ru/modules.php?name=sud_delo&amp;amp;srv_num=1&amp;amp;name_op=doc&amp;amp;number=36547269&amp;amp;delo_id=5&amp;amp;new=5&amp;amp;text_number=1&amp;amp;fbclid=IwY2xjawSeI_FleHRuA2FlbQIxMABicmlkETFSS2Q2V3E5QkZlR0IzYWtmc3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHkAiIYg5NW61-bOpNXWq6_gfoTUZZsLb9EZvdj6KIMWmUQsZ2j6w7EVis3Oo_aem_vGdRAaHDbZdkwqG0MuJUGg\" target=\"_blank\" rel=\"noopener noreferrer\">деле</a> в Ленинградском областном суде рассказала Татьяна Краснова. <br><br>Кроме того, я покопался в базе КонсультантПлюс и нашел еще два акта 3КСОЮ (это тоже Петербург), в которых суд ссылается на этот модельный закон СНГ. <br><br>Так что, не только все консервативно-охранительное, несменяемое и традиционно-ценностное приходит к нам с Северо-Запада. Но и доброе, светлое, умное и прогрессивное.<br><br>В общем, берите этот акт на вооружение!",
       "date": "2026-06-16T12:58:17+00:00",
-      "views": 8320,
+      "views": 8350,
       "forwards": 0,
       "photos": [],
       "video_path": null,
@@ -59,7 +59,7 @@
       "text": "Посмотрите, какой замечательный новый курс Д.В. Дождева сделали коллеги из образовательной платформы @orbisjuris_bot!\n\nКурс целиком посвящен купле-продаже, основному договору частного права. Прелесть этой темы состоит в том, что разобравшись в купле-продаже, юрист одновременно разберется и в десятке смежных тем (переход собственности, понятие риска, понятие вещи, защита от эвикции и проч.). \n\nЛектор - Д.В. Дождев - в представлениях не нуждается, это один из лучших российских юристов. \n\nВ общем, очень рекомендую!\n\nPS. Коллеги, сообщение от платформы - если не смогли подключиться  в приложение сразу,  попробуйте через пару часов.",
       "text_html": "Посмотрите, какой замечательный новый курс Д.В. Дождева сделали коллеги из образовательной платформы <a href=\"https://t.me/orbisjuris_bot\" target=\"_blank\" rel=\"noopener noreferrer\">@orbisjuris_bot</a>!<br><br>Курс целиком посвящен купле-продаже, основному договору частного права. Прелесть этой темы состоит в том, что разобравшись в купле-продаже, юрист одновременно разберется и в десятке смежных тем (переход собственности, понятие риска, понятие вещи, защита от эвикции и проч.). <br><br>Лектор - Д.В. Дождев - в представлениях не нуждается, это один из лучших российских юристов. <br><br>В общем, очень рекомендую!<br><br>PS. Коллеги, сообщение от платформы - если не смогли подключиться  в приложение сразу,  попробуйте через пару часов.",
       "date": "2026-06-16T06:06:20+00:00",
-      "views": 8700,
+      "views": 8720,
       "forwards": 0,
       "photos": [
         "https://cdn4.telesco.pe/file/fM3V2jOLxqJ_zNErsbumzKbp3YJM5IImcWS0MB0rI_-In36gRXHntk9FuqbS-yaSElkR6keYYp3GAJcmVkX_apY9YWnydQT9FxH2JTWMZSR-1YV8_LmHy09zDOy0j3AdEFriXcNmPqREN41QS-IS17Xu8P179DdaBbVVJSGwl1XAQDXD-zyOAuShtm-nz5XWpJ8JvsL9FZdYcUbck9xfG-m4lAv7Xx7yubHJgQeaJ5P2G2yC1A8AAHQC4M0S5TBBkRoh4MRp7ty7v_jXuOcjNE7ae_yT-rWLdlIZ6S4zdlryMinKuYFLXENZri631bwgXS2sLIPoQpZ8Lscs4ObSTw.jpg"
@@ -74,7 +74,7 @@
       "text": "На Петербургой цивилистике вышел новый выпуск с моим участием. \n\nОчень славно пообсуждали с Радиславом Репиным и Владиславой Михайловой определение СКЭС ВС РФ № 310-ЭС25-14720. \n\n(Я его уже комментировал на канале)\n\nЭто дело о проблеме прекращения залога в связи с изменением, в т.ч. реконструкцией предмета залога.\n\nКонечно, главная цитата обсуждения - прекрасные слова, сказанные как-то Михаилом Церковниковым: для того, чтобы понять, возникла ли новая недвижимая вещь или нет нам не нужен никакой Градостроительный кодекс с его чудовищными определениями реконструкции и проч. В ГК для этого есть ст. 133 и нам просто надо правильно её читать. \n\nСсылка на видео - \n\nhttps://youtu.be/DnyqMZl8PEs?si=tH8ctLTpD5odhrJl",
       "text_html": "На Петербургой цивилистике вышел новый выпуск с моим участием. <br><br>Очень славно пообсуждали с Радиславом Репиным и Владиславой Михайловой определение СКЭС ВС РФ № 310-ЭС25-14720. <br><br>(Я его уже <a href=\"https://t.me/loaderfromSVO/3134\" target=\"_blank\" rel=\"noopener noreferrer\">комментировал</a> на канале)<br><br>Это дело о проблеме прекращения залога в связи с изменением, в т.ч. реконструкцией предмета залога.<br><br>Конечно, главная цитата обсуждения - прекрасные слова, сказанные как-то Михаилом Церковниковым: для того, чтобы понять, возникла ли новая недвижимая вещь или нет нам не нужен никакой Градостроительный кодекс с его чудовищными определениями реконструкции и проч. В ГК для этого есть ст. 133 и нам просто надо правильно её читать. <br><br>Ссылка на видео - <br><br><a href=\"https://youtu.be/DnyqMZl8PEs?si=tH8ctLTpD5odhrJl\" target=\"_blank\" rel=\"noopener noreferrer\">https://youtu.be/DnyqMZl8PEs?si=tH8ctLTpD5odhrJl</a>",
       "date": "2026-06-15T18:03:25+00:00",
-      "views": 9570,
+      "views": 9590,
       "forwards": 0,
       "photos": [
         "https://cdn4.telesco.pe/file/UFlAZlQLqdV_BRcBKROZZ_orum92WAjKBOXOOd5MqOq-lrpdGvA0lnhe3__FYathD-hsUP899WajTuEKEbNd5DXH2eG7q7hN1oJGAWCFgbcSUJxYSndcH_7zP5I8KwTJ8uIzpnvQcEHTWATKTR0zz8cBgcWLEsmA_ZgoOs7X3dUmIng2h2f61tO4_a2lmH9WOPILIcuwTb7mKqbpMEUWujL1I5MlsNP4dNVXCMhdXLfQ8B3S9lAtbE5eb59KoeTbzXk8Id5DDtQi71dyC2WJUi_UtZqi7Mv1dJgctgYbwhh-wcDxfnu4OPXQrTXt-2BV8pu6Tp11JuJJaTfGeZkt0w.jpg"
@@ -89,7 +89,7 @@
       "text": "Вот для примера - блестящее изложение проф. Хельдрихом учения о форме договора. По моим впечатлениям, это, пожалуй, лучшее по этой теме из того, что было написано когда-либо. Но напечатано это было готикой.",
       "text_html": "Вот для примера - блестящее изложение проф. Хельдрихом учения о форме договора. По моим впечатлениям, это, пожалуй, лучшее по этой теме из того, что было написано когда-либо. Но напечатано это было готикой.",
       "date": "2026-06-15T16:25:34+00:00",
-      "views": 8730,
+      "views": 8740,
       "forwards": 0,
       "photos": [],
       "video_path": null,
@@ -102,7 +102,7 @@
       "text": "Я знаю, что среди добрых читателей канала есть молодые люди, которые изучают право. \n\nСреди них есть коллеги, которые хотят изучать право серьезно, а не так как это принято в основном у нас в России (в подавляющем большинстве случаев на юрфаках учат не праву, а законам). \n\nДля того, чтобы стать хорошим специалистом в сфере частного права, надо уверенно знать догму. Догма - это не то, что написано сегодня в законах, а то, что является интеллектуальным каркасом частного права. Типа \"никто не может передать прав больше чем имеет сам\" или \"из акцессорного обеспечения кредитор не может забрать больше суммы обеспеченного долга\". \n\nНа русском языке книг, из которых можно узнать догму частного права, не так уж и много. Совсем другое дело - это великая немецкая юридическая литература 19-20 веков. Это золотой фонд частного права - Савиньи, Пухта, Бринц, Виндшайд, Йеринг, Зом, Гирке, Вангеров, Унгер, Якоби, Эннекцерус и проч. Эти фамилии не представляют собой ничего нового для образованных юношей и девушек. \n\nНо одно дело - знать эти фамилии, другое - читать эти работы. Это непростая задача, даже для тех, кто хорошо знает немецкий. \n\nДело в том, что работы напечатаны шрифтом Fraktur, современной готикой. И ее читать очень неудобно. \n\nПоэтому я решил сделать специальный ИИ-сервис для помощи молодым людям, изучающим право, который бы позволил переводить тексты, написанные готикой, в современный немецкий язык. Я так и назвал его - Фрактур. \n\nЧто он позволяет делать? Есть три сценария - загрузка пдф файла с работой, постраничная загрузка изображений, загрузка через ссылку на сайте он-лайн библиотеки (например, Макса Планка, самого крупного собрания старой немецкой литературы по частному праву, ссылка на библиотеку есть на самом сервисе). \n\nВ левом окне сервиса вы видите текст на готике, в правом - современный немецкий. \n\nМожно сразу же сохранить переведенные страницы (или даже книгу) в формате пдф. \n\nКроме того, я решил прикрутить к сервису и ИИ-переводчик с немецкого на основные языки (в том числе, русский). Поэтому если вы не читаете на немецком, можно попробовать сразу же сделать перевод. Качество перевода - более-менее приемлемое. Хотя, конечно же, призыв учить языки и читать литературу в оригинале я всеми руками поддерживаю.\n\nСервис платный, можно покупать пакеты страниц для распознавая (100, 500, 1000 стр.). Оплачивать можно как российской картой через ЮКассу, так и международными картами (Visa и MasterCard).\n\nЯ решил сделать подарок для первых 100 зарегистрировавшихся, они получают первые 10 страниц бесплатно для того, чтобы потестить сервис.",
       "text_html": "Я знаю, что среди добрых читателей канала есть молодые люди, которые изучают право. <br><br>Среди них есть коллеги, которые хотят изучать право серьезно, а не так как это принято в основном у нас в России (в подавляющем большинстве случаев на юрфаках учат не праву, а законам). <br><br>Для того, чтобы стать хорошим специалистом в сфере частного права, надо уверенно знать догму. Догма - это не то, что написано сегодня в законах, а то, что является интеллектуальным каркасом частного права. Типа \"никто не может передать прав больше чем имеет сам\" или \"из акцессорного обеспечения кредитор не может забрать больше суммы обеспеченного долга\". <br><br>На русском языке книг, из которых можно узнать догму частного права, не так уж и много. Совсем другое дело - это великая немецкая юридическая литература 19-20 веков. Это золотой фонд частного права - Савиньи, Пухта, Бринц, Виндшайд, Йеринг, Зом, Гирке, Вангеров, Унгер, Якоби, Эннекцерус и проч. Эти фамилии не представляют собой ничего нового для образованных юношей и девушек. <br><br>Но одно дело - знать эти фамилии, другое - читать эти работы. Это непростая задача, даже для тех, кто хорошо знает немецкий. <br><br>Дело в том, что работы напечатаны шрифтом Fraktur, современной готикой. И ее читать очень неудобно. <br><br>Поэтому я решил сделать специальный ИИ-сервис для помощи молодым людям, изучающим право, который бы позволил переводить тексты, написанные готикой, в современный немецкий язык. Я так и назвал его - <a href=\"https://fraktur.app/\" target=\"_blank\" rel=\"noopener noreferrer\">Фрактур</a>. <br><br>Что он позволяет делать? Есть три сценария - загрузка пдф файла с работой, постраничная загрузка изображений, загрузка через ссылку на сайте он-лайн библиотеки (например, Макса Планка, самого крупного собрания старой немецкой литературы по частному праву, ссылка на библиотеку есть на самом сервисе). <br><br>В левом окне сервиса вы видите текст на готике, в правом - современный немецкий. <br><br>Можно сразу же сохранить переведенные страницы (или даже книгу) в формате пдф. <br><br>Кроме того, я решил прикрутить к сервису и ИИ-переводчик с немецкого на основные языки (в том числе, русский). Поэтому если вы не читаете на немецком, можно попробовать сразу же сделать перевод. Качество перевода - более-менее приемлемое. Хотя, конечно же, призыв учить языки и читать литературу в оригинале я всеми руками поддерживаю.<br><br>Сервис платный, можно покупать пакеты страниц для распознавая (100, 500, 1000 стр.). Оплачивать можно как российской картой через ЮКассу, так и международными картами (Visa и MasterCard).<br><br>Я решил сделать подарок для первых 100 зарегистрировавшихся, они получают первые 10 страниц бесплатно для того, чтобы потестить сервис.",
       "date": "2026-06-15T14:31:57+00:00",
-      "views": 9430,
+      "views": 9440,
       "forwards": 0,
       "photos": [
         "https://cdn4.telesco.pe/file/AbCbkbF6h-iPDJY39uOaTpkG6tfhQoAJOPFD7vkIJ70zUlIYcOWwJsM0Zxot9UFZK0xRbT-kvFfvKTCBLGFM0x_JLGe-b694L1hYswdbKEVxw2WUsofrdQ9B0OKaNVFbhol94LIGsIFlWsmNBZ59XaRrmL8yjaYWlSl2RJNlWLJDqY85Nskr8w-7NO5Z64Iw8qLPgPg9IRE_9RrdWxIO55DtK1IWCZiloVOXCVOTwnjLXRn1yZM_2TKL0y7I_bvZWCFM35fVW9g8im3gPSceFE5muNOn8JAsV27zxv0jTDw5GypAj7-kTwhPorHDv5w8Rt08U9tUWDS1LOB8N67Exw.jpg",
@@ -118,7 +118,7 @@
       "text": "Вчерашний стрим уже на бусти. \n\nСмотреть - здесь.",
       "text_html": "Вчерашний стрим уже на бусти. <br><br>Смотреть - <a href=\"https://boosty.to/rbevzenko/posts/46c3c88a-92ab-4675-8572-f0faf3b8b589?share=post_link\" target=\"_blank\" rel=\"noopener noreferrer\">здесь</a>.",
       "date": "2026-06-15T06:25:59+00:00",
-      "views": 9560,
+      "views": 9570,
       "forwards": 0,
       "photos": [
         "https://cdn4.telesco.pe/file/gTaSxay14FUsgMPUfcay6hPOdmA8jVvR6lVEabg2rsZ8oSbTpepaQ1bK73uxDHsR_aUbIjCUyESVZgxUYJJ4uvB8SA3EY8nsChX9mpdNXRpqC-CdL58xgXUY9yVSNPrkaFk2dgz5eXPntbg0lgeMGzGqsKFNYA7-PcnMUu9QGBCCMZP70uQyO6TUDyeFYt28Kc-VT8YayVD1jFaQY1cPygAT8YhPIl7hk-dV6xVB4DAireRQNtCEK_dIx2zNTUAMSdaHNPIQTsVdfVpXl-UC9ek2J4XaBKLvD6mlN8kUn2_q92tvm4Sh5nlBQzoMkFUy-78RTSsA9SI9uA-1I8tzlw.jpg"
@@ -2010,7 +2010,7 @@
       "views": 21200,
       "forwards": 0,
       "photos": [
-        "https://cdn4.telesco.pe/file/USJkYLO-VvVMW7FiDpd0Pno_Zdd_NFTuO6oY0IuUD_LWCW8qhS4W1jMD1lkVfpMmy54Id0a-GEexzO_Nh-uFKU0hpIFdMMrSSXPjZU8S_A67NwAzFpmw-B7T_9xi7BiEQQ5vEVtKSeUJEy3hlwmWY8IS_dhiNy4UfDeftKpg5fACtnQD1QEbUBd1tFY4icOwms9Zt8ckjGPEerCZ3ldxL1n6y329fqKrBm-aV0beRFmdCG9Hui0XSWEUpH-e72IM9UkrKtF0Bv5__cmyCxJ8TMa_IGmAN2OlwBDDmZ_CaUky8DSB485haVzswvgCkLWRIgDQ0FVTxhFuRwsfn0opOg.jpg"
+        "https://cdn4.telesco.pe/file/PpzLIk6rBfDRNOanTJWOEtf_xj7ReTmV47uIH3Qw4QqM32lTbSDtcIvAh5JAC84fgy5Nz4gGH3abJnH87Hft9rhfxyTmMBX-LxUWdJhH0egl-mKHlZEOSW-Mux2f2_UjWQlCHxbhh6biiqRhUWofYC3HmjEi9Buls0N2ndjpB0INpRmOG7pnKYTpKO4wMYWtWx6opOsK7-Ygpsxjpr3JlTFtl3wxLZ-ami77_tRLZoa9yfYFdiBi1HGDi_HnEo1BZ-zhqCu6ehICwBEJJohd-tseuFnVO7176evyPJbI2Wtn3K-_YyM8JujbAuyJ056rYbZ5gsZGNtIvZFUlLJnKvg.jpg"
       ],
       "video_path": null,
       "gif_path": null,
@@ -2472,7 +2472,7 @@
       "views": 25300,
       "forwards": 0,
       "photos": [
-        "https://cdn4.telesco.pe/file/FR2bQ9zHmBspE2aR8TUPWRH7MbFnepBB4Ml5rtC63vZkbV_t8vhSYZb_a9CPo8V7dh84ShNlocb3u0akb4KYNayiN2x_zcR4tUD07E4nL6jTbOq--PaRVrnpLaVkqIB9QoDoFgYvVdNmUD9UbNfdRwDNn3aQu8I4dgNmVUqvePzbkVdKXbND4mVVvGw5yMRlXw7G6n21pExT28DOXMSLdeDopQm_3spJmyb3FILrmdZ-RYKlAQQaK2FmYyObiuGarw2hPWlaZMZ94xg1clcj77CGO5N7yUqNeJDeT7YBsmiZZ7LT7O7GKcjFg1ShydrkV-SXVX3_MHsZ7c_NZTeHzw.jpg"
+        "https://cdn4.telesco.pe/file/qnWRi94c_vREU1kekxB9MdWhqqAm2r2T3bn7Qm9fFcEcw7LrdxAHILM0EQZehnXbri9Usnj8C8_bpMk3n1eIFnpHLVGCXR-fTaH_FwOyeVBIclRLK8chQpoIKMcLbnXNcG1MtUrXNoEsb-kK6P07QQN2IdK38IJy6fqqfRn8uwQpNpwaNAk7kM8dw3p4ZitFpkddckVJU8rrK5-oszQiZ7Vt0MpOLwSF4bfwSOr56EJNmL_PuEdeHBMAfekzfB8Cct7hn1R3H-MuVGmOqZH1nWSMn8JV3_tQM0VZcHIKN34YaQpWywaKNyTTL6M1uvQ3fv5clSlv-UyV6X8B44xuLA.jpg"
       ],
       "video_path": null,
       "gif_path": null,
@@ -3199,7 +3199,7 @@
       "views": 20600,
       "forwards": 0,
       "photos": [
-        "https://cdn4.telesco.pe/file/Ji_i5evkEjwcQPdo5_47JGy3xb1U94fbl7Ch3Zfny5ZKglPo6HOVjT17l9l1PgLy_Kd_KeuKgNNtzvTKXYDOysGBoH5bkoFkcW4_XG5Cjwmt4v7HOCjnbp5ZojiWZzMiskheew-MGpMWvH7TlqjRQheqdc-10vZ4K-Vt08R8JjaWz_o2KKh0zBNS2rgtosD1_QjYrYCm4IdhTbpn2oeTgSgpHdksy1vFshN_zAZ4AO-BV5wl08cz30utzt-Jssajkkb4oR5LlUmND4ALKdfMh_dUbwNiQaOFLA4eOglo4UNQt9qlbBOl47OBzLZFXxeDo06nAUTdV7vuPGyZWXuyBg.jpg",
+        "https://cdn4.telesco.pe/file/oOnJbpGtxMCpx1YBib0z7_H1Tu-2xElC5wwyxFoEiexorO2xPL9A7evP63V3tR3a9fff8Lx8yljXMzFcASQDawAfFB2mIZ0VWka1LGuLuIIZ_SpiiibBVvpPYM2k-vvUjFTNzC0Vq5Yf7XekkDzpxODRSh6qFW-JSMYubvp-sFPOEZOFcU4OVsPqbwds9hvsPzs0PLl4LblxTtkMezsYe5sgZmTj06QOimpLpwPiSYL_rQ0c7hLLT7-fwzTUABKrqjDifqjLte4ATpSOcLR9laTrd1O2CsltVxf393ZD3fN46NiW4am222U2uTxnTWvQBAkGfMBYBW3Mi1VDDYPq5w.jpg",
         "https://cdn4.telesco.pe/file/qpaRIXl9R0HxmmrEQnX-UjAdsK-C3C9EppYplrKzzqyQFzKPcrP86HduOcQK5R7voVBtFhcmQE20CP2eNZhkKdr53jgb5BiIz8-RqxJw8Tku_6mAJJqEgW_2mh70odNpIwcqIkXuSxaHnhY9wWjdVMMHaoi9nu_cf6Nn42BALvMY6gt8WhJdkqYXU170qO_Ugygfjw-9y0y43cySMtOSfwzJMmMuSXREQxhR1t_7T5QMuGXxUt2n_q57crRRVhDORrbWoTVnVj3_LYNZVPVclZKYCGcvRjC9eSb-mcGfF2lIe3TCDg3CCNAWmtvor-yxsfAPD6aFy76o6o2qmWnI5Q.jpg",
         "https://cdn4.telesco.pe/file/ELBH4X_SYSPFlHSTaOfFEim01kMDoj54Ml41sbcCzkn32rZwaJPnaa1Rl_4iI9GovENLp-_ZGf-FB_f_xEZT6433goG0a6GomTprbYZ8nwaiRNjl_3LIcE8VmYXvsysU6JXryIwR3nZ4QsrH_rkX1o2KgLY4U0Pm9A5axwMw6i2fwLPt3vKLfJBFWS7uZAC6NdLjagbhKXh2mqwVfQKBT6m4xdKZCKgMukmdrjJ41XLImdRcOOKy0AxMINBtPGAYWbWaI55q7deehMQaCblUAQInyC2_HloLzWWyublalhWnyjuS53hlH13tJXLEsMALH4GPmlGac5bGmMPNKGrcZQ.jpg",
         "https://cdn4.telesco.pe/file/u5oezZcKhvH0_Uc-Rrd_8y87Z4ahbvGvsW3jfXEzIZJyxlwgoeopYfAOKF--IQEKWHwih2CL_kb79FjYdxgvkJDfJFe465acGwtbCCelPerWiYGJ_JfnoAKU5wZu-PH9ofe0NdGggsYiJEX8EwTa0Kt9VcEnI5GwX8SZbmCKetNDUek43HJZA8NlZlcroOcVbxTumCyz9ar3sqtGRiDfxLqKFi4GAr8xeU0XlW4leCYOFdA7xC-aDKkIXTHeyLkb7H1UUig-LI6XSn2qMHfu-sJykGfX5bWOxtN-7ilo7o5chkcxTzsCkJkjpR72FXKWG7HSSgShIPYHwjNSYvac1w.jpg"
@@ -5715,7 +5715,7 @@
       "views": 32800,
       "forwards": 0,
       "photos": [
-        "https://cdn4.telesco.pe/file/BsPgiNDooewbk2Rghq0f_ZYbrTozZ2YH-yhcfsYysC5KMrL6k5O2mYEBJusqi_CdY0VSaxnqNdZf5XuIvDOUTcV_83NfQEDWmhO2RR0JmJwlhXK5JIfufTAYHZ0BNF5RvnXaQhMeoEJNBAbeJfPBv7ZzAU-prjBptepF1NsPd6-YmQsU_goVGGhwiabC7IZ-2O0BBYqX0IpFEpz2IESgLa6DNz3QqTMrtqtGwzES4H_r4geSs8vqUWN7fxzuI-JDt_-cvN5iRcJfCVbiYBea7VLtM4w5XdBdEF2NJ4xoETmt2lxvqJYH5v52paXx3P2jCka_oipbW4fCUAR_7xz6RQ.jpg"
+        "https://cdn4.telesco.pe/file/FZvt1CIX4Lf8fSf0ZyYJ2rBnwCSpEMx59cpS8Q8N1hvWvSF8ZF21Vv92YYctTN7iJqTfMKWE9-UiYGNlxXcuk_BBE1R89E_92grFMKpy4ndz8Moxl2kgIgf-D-mAdNzt6w4grpY-sr_Kov3uHm-Ic7hCqE8AlYlJCykyKpLoBn8PD7kbA1qlNJbZYUrsFKnU0UXCMKMfAjjMfVFR4KM-qljksDr-oGUvsE7C2GjyCTYvwzQeW2soe-QKf3xxvEMrvcMRcsNXboE3Uoc7OP5aUMbByLGHJmpS51zIEQZSHyc2ddMxO1MmODjo_N38gse4lGy202cuaQkYM4E36HHX3w.jpg"
       ],
       "video_path": null,
       "gif_path": null,
@@ -7281,7 +7281,7 @@
       "views": 29700,
       "forwards": 0,
       "photos": [
-        "https://cdn4.telesco.pe/file/bE55ut14Z05iNop31mSI1BlpuFyYe_TlMB8w8P_sxYipcgtH7uZEsUlKJrwZ-MxNDqUE4IbqYeAQInGHUDQlB27Ibk9X_SExFND6VDpyfsnYT3rIHQRWu5jxCEuchzInJHEbLJRHiFukJQA4FxBk9lyTP2QDk2ovTUtTIuZv6h59HahdmDE5b54hSuqGwAD5xTthvkssRBK4CL4huArzemyqerfV303MMkjNq_ZCGWS5i8KViKZV0FOuLnqriF25tMw5pVFDy1vuveMEZySgaFSBCb5YniM20gCQtZjEpPovvcgkwPICxfoptTDmRtIdE5-Rl9bzYZFVg1XEZ9DobQ.jpg"
+        "https://cdn4.telesco.pe/file/ofxcKH-Vk8TpvS6faH7zrBcUgbdQXrBFg4gKUbwUH8ngPIvX_6wjaWvzLVPp1qWQ4V1v-TbvK9-FsGWNfu4BDehvS52op0y8PSON315J4eFi2r8wuo8Eib7phNF2hyRSpyddRcO-YtWv7HEIoH46YDb290tnCuIZg19HMaaJ613nmAYN9IY0NqaeDmvttPppR_gRuS58Q7tlywua28uOedBis12dZ78g59yieJu1amcqGc-Kz8JZqHs-A3plLX405otJUTxEH9ICl6QWZl-gEgnq2mvKaFmLojDej5NXCQ4LRBOJKBonOG018P7So0z-bKb9FpFCXAWG3AMyUC0Zgg.jpg"
       ],
       "video_path": null,
       "gif_path": null,
@@ -7566,7 +7566,7 @@
       "views": 31800,
       "forwards": 0,
       "photos": [
-        "https://cdn4.telesco.pe/file/k27E8oX10KbrcqGkacrUECh2IWAeLf-OqrMsTe4GSt6PJYthiUhKN2xKgirYO1SP1X76qcXuGFGZ6NLT3ewN1HIR69-odQSXG1HBpTCjmTgfbG17BOvrnu5NoGBBeXNVHTzM74A-0E3uTxE-TZScOvJg03nGh9jRnMJUPj4INcaoj7ociitYbBrg-i7l2kb1OrAxpEbCvjqsWmPefBEecgkcXi-uEselIAcUF4Bw1nMSYxNksDaqTGqCqCZrw-EBaGr3OKxEX1WrzgsGJMDslGTDK_HBJ0tj4zxhRoT208PufGw68NHRQhMJVB3CEQAVNgV1oDTSVLbtXa-YsnPraA.jpg"
+        "https://cdn4.telesco.pe/file/WjoTdtpAOoSCRv0QiY053E64Ueug-U2bx02T56SYSs52sc40P9iJngbOItTLyMZjyvgI-P7zYY49WbWBvJLBxrWzoPpA4ZEDwJn7RPSHyV1IqwreTb6GIKNlpTUEJNZYIjwFqoG3MPKTK50qTdJEIlIwkbMkQ7fMICNVrzu_R_3W8urb9AFB4sTBux7gOiy_h0DDWNWY4fmtpdnEWx4y3Ap_1I2Nc0HC-SgEImzdKI1uu-MLpnahV6DsAGa7ZzUPCTHt6nd5vNWvtWZXDzgxy3EP_SXkB4CUazeN1dSc9VdgM4Pb4XbGeumWrxDFRFo2KGYRbWCmVKJ-KJn3vGtvzw.jpg"
       ],
       "video_path": null,
       "gif_path": null,
@@ -11361,7 +11361,7 @@
       "views": 22700,
       "forwards": 0,
       "photos": [
-        "https://cdn4.telesco.pe/file/euuPrhddmhMo89ZV4rW4ria8hINAi0VwCYx35jc12ma2mjxY5In92lBlc5wvbLHj1NnaCR158W8z7Pxj5DTZPHE_mvw4t1RXPohB5NRL2S1nqVBjueD_qi1Wxk26JRpZc77zQJh7vTRlInljNa671jQ284Ry4jpBNm8IfP8C3ZxdVwG_JiUF0gtY80H9vS6QQFHjuR1oVMDgDKK8Nh29aDU_4mxdJLgTiUilY2RdIR2VKjM_QI10rzz8GIQ9C12SmLgGn7mRUGux3iDdXSfh3KHh6S3cWRSk5laji2gSs1yOBiD4P5ejbRMI3CfcrlDLiAN6-Bwfvzz4lT0cvugOUw.jpg"
+        "https://cdn4.telesco.pe/file/QwUZEmbCzeR8qT4FHF1dXus0PJlrYC6jzivZxowhTqnrPi8WX7nFIrSLfob9klrv-Se2ssdE5wjv58VOFCGW4A1oW14dizTCYU7vdUUZdeOOWSVs1uiESnqNmbCh_It-AMbYbuIMWGj5_P67nZSlciXqwHGYqnMMQsBLUfVXZ3O6-M6cFOEekMPDg2qa5fspMVCsAUi5Ex3fUd35YJbNtJIvN87kh8YQR_eOKz0ui08kfswyV2oYia9sHLqJC6A13blSwB2tZadB8iDlJuP_GZZbzBkIDaYYCO4X950nWGrllA8wrZImi2islDWqJQoKlvAOm5GIZ6qBtr5sh_FH6g.jpg"
       ],
       "video_path": null,
       "gif_path": null,
@@ -12630,7 +12630,7 @@
       "views": 33900,
       "forwards": 0,
       "photos": [
-        "https://cdn4.telesco.pe/file/CwAAzQVfRJaHOfqVPF-ypWtdQJngPBZSNfco4ihX6dp7iXp7DG9QPHsBuHcBMhr3CDcjcFRCiKJmoVR9jUXoMC6oPvHEQAZuUfsIEWmBCcOGH8jABhdBil8guMpGYiNzKni_-Ldn8FXF4VsKcTm-dVmPhcIDlYvp5F2T9TL65sbLVNz3y7R-CnqYS6yJZZG33RZXkN0ZHQ3JBAW8fWNovJTy4D95wtS6_neo4ElB6Bnqpv4o4D1553_WjiA9-28I2TR0qf3klq2Xzm3Y-kU-4EBJvBpyQmpqm_IHAp1Wmtafvekqu4c8SBBdN72iVqs9WGYhwAIDAeqXBcD9gI6B4g.jpg"
+        "https://cdn4.telesco.pe/file/Qb1I-wmQYi1kEON9_YntfHp7-v2iBKlqG371TmrUhLXy_h4vW6_B0Zh36W9NUPgpJsv3GSY3p24EnvD4cZ2lq_AEG-xM7VqpnQmikn9i55ExOtrwXnnwoUb9JwZd81enJaAn65WlYrC40H1F6J92R7XD1V-170NM-t0I4Jhmk_cNgqZkdMfD28TZpbDT2l6phD-2vcUy3T9WMme1ZyVKx9Kb2HcimYc3UxFPgZi1tjeHNCWpAnb_JKjafWX9bHTEOBnKintkgaHU-Slq8Ojfmjf0x39HIddzFFVzV3oqE-AYocY5S4BmPObEEF_tAHAm2mA1piQGY6gQeAoJY631ow.jpg"
       ],
       "video_path": null,
       "gif_path": null,
@@ -13716,7 +13716,7 @@
       "views": 22900,
       "forwards": 0,
       "photos": [
-        "https://cdn4.telesco.pe/file/NKhsuvxgT_5ZOgcNxLZhBvgYNdeOSoC2S30ZMQtUITgQ1gbk3NGRl5k7q4xBXuS8LB_4r-vEzomFKrotOqGBwOJpnnIzRNRTmF9ke-I5p26b-M3XNvS9ZSm4KbtYo-owZvkFPNDSN08KcVdIMTss40Mo1Pllg50PjHRShImpDAsfoX2WkP9YHHD20z3npFa-K8yWVahUMRHTQxi6A8Ji7_6E-_KwhG0yUgVWq_QlCijMmLpBoKr2mq8-uW42aeCPHrs0nCu8dxv-oexafEh6j5sJ7Hh5mQ8M89Ui7KLmL8Z1Bz2WdiRsf3qIcEMJ6v0OqRRZeMllzEGuYR_HrWkRHw.jpg"
+        "https://cdn4.telesco.pe/file/FlmLr3EE4oGC53HRkVG_uKI1P3olfSq7ufEBHb5jFR_PdF25jqBXHIlXhVxaBNORXfc1BF7au8JBw8qq-VFZFBnGz-KDSZhPCDh5_h6FMru8V8_Xz7IOYucZNMoB7GOWfoPU9kjOEiIHzMoutFcFfILSkN92ne91trZmTdaJI3etqrjHttIn0PR3lJCKnkshTBXCcU4n6PY1H-pUkJ0o-tNJuIn_3MrrvFyGNxva1fnVPWU0L8UNP4kNg_sfKwSBbBnCEhCADQ9qjyUwO0W5-suNYqOEAjYBMPG0JhWwf-RV5hjnxOoq5SJRxCFLvMDQKtS5bb0V-lcvbQaiPBXsqA.jpg"
       ],
       "video_path": null,
       "gif_path": null,
@@ -17018,7 +17018,7 @@
       "text": "Как интересно - пишут, что суд в Тюмени признал недействительным брак по причине смены пола одним из супругов. Заявителем иска был прокурор, он был подан в интересах неопределенного круга лиц. \n\nЛюбопытно, что такого основания для недействительности брака в СК нет. Более того, его и не может быть: потому что недействительность означает изначальное несуществование. А тут обстоятельства, препятствующие браку, возникли после его заключения. \n\nПравильно (с точки действующего закона) было бы говорить не о недействительности, а о прекращении брака на будущее. Но такие тонкости прокурора, видимо, не волновали. Ведь речь шла о скорейшей защите скреп, поэтому думать не надо, «и так сойдет». \n\nА разница ведь колоссальна - хотя бы с точки зрения имущественных последствий недействительности и прекращения брака. \n\nПримечательно, что такого основания и для прекращения брака в СК нет. И прокурор не может требовать расторжения брака между супругами, ставшими однополыми. \n\nПравильное решение - это реквалификация этого союза: он перестал подпадать под понятие брака, содержащееся в действующем законе. То есть, союз есть, а брака больше нет. \n\nУ нас в гражданском праве такое сплошь и рядом: было двухэтажное здание, надстроили незаконно третий этаж, оно перестало быть недвижимой вещью, а стало самовольной постройкой. И так далее. \n\nНо ведь для того, чтобы прийти к этому выводу нужно (а) интеллектуальное усилие и (б) признание того, что семейное право - это раздел гражданского права, поэтому применяется частноправовая методология (последнее для меня очевидно, но есть до сих пор люди, которые это отрицают). \n\nВ общем, куда взгляд ни брось, сплошь проблемы. Но скрепы они такие, требуют борьбы за них несмотря ни на что.",
       "text_html": "Как интересно - <a href=\"https://www.forbes.ru/forbeslife/486190-sud-v-tumeni-priznal-nedejstvitel-nym-brak-posle-smeny-pola-odnim-iz-suprugov#bounce\" target=\"_blank\" rel=\"noopener noreferrer\">пишут</a>, что суд в Тюмени признал недействительным брак по причине смены пола одним из супругов. Заявителем иска был прокурор, он был подан в интересах неопределенного круга лиц. <br><br>Любопытно, что такого основания для недействительности брака в СК нет. Более того, его и не может быть: потому что недействительность означает изначальное несуществование. А тут обстоятельства, препятствующие браку, возникли после его заключения. <br><br>Правильно (с точки действующего закона) было бы говорить не о недействительности, а о прекращении брака на будущее. Но такие тонкости прокурора, видимо, не волновали. Ведь речь шла о скорейшей защите скреп, поэтому думать не надо, «и так сойдет». <br><br>А разница ведь колоссальна - хотя бы с точки зрения имущественных последствий недействительности и прекращения брака. <br><br>Примечательно, что такого основания и для прекращения брака в СК нет. И прокурор не может требовать расторжения брака между супругами, ставшими однополыми. <br><br>Правильное решение - это реквалификация этого союза: он перестал подпадать под понятие брака, содержащееся в действующем законе. То есть, союз есть, а брака больше нет. <br><br>У нас в гражданском праве такое сплошь и рядом: было двухэтажное здание, надстроили незаконно третий этаж, оно перестало быть недвижимой вещью, а стало самовольной постройкой. И так далее. <br><br>Но ведь для того, чтобы прийти к этому выводу нужно (а) интеллектуальное усилие и (б) признание того, что семейное право - это раздел гражданского права, поэтому применяется частноправовая методология (последнее для меня очевидно, но есть до сих пор люди, которые это отрицают). <br><br>В общем, куда взгляд ни брось, сплошь проблемы. Но скрепы они такие, требуют борьбы за них несмотря ни на что.",
       "date": "2023-03-18T18:38:04+00:00",
-      "views": 25700,
+      "views": 25800,
       "forwards": 0,
       "photos": [],
       "video_path": null,
@@ -18617,7 +18617,7 @@
       "views": 23000,
       "forwards": 0,
       "photos": [
-        "https://cdn4.telesco.pe/file/XIQNQ44sEsgEnHg6-Equ0kAHjUwhKymt81kUjHvUvr4tqFlB3staYpGVnFmjjpW3yWHA-A-wDYoxgqxkfw4Zro1aOkHOd9EQ0lJVsdxpuus1retAMzVyob_DUoObvZf4TMIw5z6M6df29gvbaNu1nkwgghK6eSMnklqZJyBLDx0CVtH2asUsDbadFowQckIWRTJso1YdM3dqjkFHde_uRXUD0X-Bb8vEkxh93Cn7zNbvo9svesdb7XGeCBH7jMd97dOZ20vBr3H-PZaYfj-GMhaMU0_GZ8GVumouYHCL1IqVeR26ucWd06tki2J4der79jzdvxf_3jQV_iqo9sDufA.jpg"
+        "https://cdn4.telesco.pe/file/u71CEK60zHXSHsaPBx3XjbKBfCbRf730rhFS-D0tOjGuiM5n758PSWoLbISaJ5hY1C8crY8_aY0VWSNm15ir1v7X_iSPxn3VxU_q3ki3lCUAK0CIcXC2ehaUP3dSCNN02zhU03hVf06Cjae_BQUyogTIvloYOUfdsiyYpK4Q_V-B3pML610StLqZNrBN_5B1NSpOiEojNy7bNXI-bnFOk7rPd-dQXth09-t4TTU4JVVaTcE2wrwGomJxNtOprqIJ0yosKoltZhs71nmsIuEeo_fBsQK1Y2BbjAI55KY78skkbv6wXF_NklmkbkhnyB2GVtgCNLj2QbrrMkj-0gbR1g.jpg"
       ],
       "video_path": null,
       "gif_path": null,
@@ -24135,7 +24135,7 @@
       "views": 16700,
       "forwards": 0,
       "photos": [
-        "https://cdn4.telesco.pe/file/n9S7o4P2bWfYvtBw8lphgxv5SQbN_2SQY-bQxjXc1vR5MBPfeSMu47cK0k7zNLCNwWsid4lh-AMYcWSEpr1-y0LirZa6O8csp2N7UuW-lgEjahJBo6qzFJ9WauCzWIDHG4-gWVPQ28LCv6aY98iutIGZoHzESF3L2lMoRD6S7DH-X-kM0b5eCLfyyem5fNBAOnBIDOrzcES5ZrnV6a0azLcNwcHnM5opJD-ts_uF2wE12p8voHW4zOA5hx4wGFreW2uZpCyG38Rkec3MPhLQ9oolsn4iPO8pHMjlFwNVT2V9vYEF2zKOj8HAyUqpi1BJKtdsiSlJuzY1CzJB1k78QA.jpg"
+        "https://cdn4.telesco.pe/file/r3TO-H5lGqCXIX4elZvIRjCvViuepiajJNFAzpOM_Aptq7ahxGD6Nhzh9qBkh_ogktF0WWeLMcKzp4j1nu2h_nsEFR4BYxhxtTM7Y1JNf1cBSJacVsA-oFFBjJE1uNTW4DJ2YM6X5jmS1qMiyzkoM8F1wFom_4E2CwjoIXV38qvJ6w-UEFVGduJWq0ey_JAdFqSMiHxV3dNpyNLPaiQ7ROGcT-18LvZmAIqKc3XITS5cJpLRtetuJpAKGgW5KHU3QplohugTWakIBsYyEL169KHTvPw8oNTl2V3S2LDSEf7-T9_1ESyNOpF9YpBorYcgONF9xOBLxtYk-30jPLh5Dg.jpg"
       ],
       "video_path": null,
       "gif_path": null,
@@ -27606,7 +27606,7 @@
       "views": 9330,
       "forwards": 0,
       "photos": [
-        "https://cdn4.telesco.pe/file/v1ZNGMRBEVvJsoZ17zsptM-eDnDdsFqbAVU1MkyEF86ozUX08yPiepj-_7-fm1yRu0ytQe4moYBF2xlJXWb6VoYETEkq0DrCQY1Yz1-gP1f9-GSqslG6Rhdz0XHDMYar1DeCRsTXFBrEUqdBLawxWbfFMJoHla3vueRAaP73NzEceG8Hz9gDZ8Mn_DcOjiMWaca9AinVi-dpbPe7m7Rp8Do4VYq0EE2RmL3ArSQCO-CBZKis1wbto3xDd5H1WJH1MQXHeJSNAUdaI4HdCLmv-Aw0ZvxOmfx4Ge7jANzgJ0GsMrhmTQtmCgmvTqtpQ6e8f3XUOfy5nEWCNHkEguElVQ.jpg"
+        "https://cdn4.telesco.pe/file/U4dGPtYvNVJfby3ENzxRWzh_pVl7m6vLjvaWDixmDXMneha_wpLWrgEQ-dHBxfnP8oByDLG2_vkhtawFPJ8aYK851AQ8up5MgY4T60-V3nOc_yIl7rmw5hbIItJl82I1r1hFSSNGeR9dYsMxRyxR5x3FM99RuZC4NNmvZwjnW2fHLnFvhh96Ry30WS9WvF8PfudRh5bEZi3PkuVMG2YiknCMWX9cCWX2GBBNtYqatV-dxMiGlVHHo_7VKSCoh0K9ShEjau8PwlTiWSvRkgF9snhDk5QpsNX52BwOmfxa3LMnVipRbpbcz5r5F-w5zRQ8VZxvWbVC7sPpy1wIs8X8iA.jpg"
       ],
       "video_path": null,
       "gif_path": null,
@@ -32281,7 +32281,7 @@
       "views": 2890,
       "forwards": 0,
       "photos": [
-        "https://cdn4.telesco.pe/file/KqkwAh8wevfCioeLoBZMQukHLGfHM36WmisWDc8wDGjxUImzZITNQMv4I-U3kLucdr9qk0GPt2EK3I78WQD02ZgxmVp-xi_2zFhDTlGzxevDKCgs8Z-X6o-wyLx4zs_o9I4sXe9WL8jJxEbPudhFhxrl25bmFcT3FHTC1EXUZg68FOHRElhwdoaDBW328sH73sygaDd69m3ZtDqzIE2Vh59AtawouHM09X-QW0l4cqooz9srU0OH8S4jKbFJeJfb50nbNU_y_Dv5lvTClBYYEiYTZQAPiDxAeg8VainzWcdfpO0JDB-ygH8ngfd_hAwH5IU2MIDOYTGieImpp7eY6A.jpg"
+        "https://cdn4.telesco.pe/file/EXbL870NyRQI1UK_DqThz7Qler_35LfwxXvHj2pd7ZgtHeHOEBnncyR__WG2AjplaTa-K2d2l9QzcdtEqx2yBs7dlazCaFy77ukOyQA0WrxB9pBFEN7bE9aaT10rNtF3YMzbao4qZZ3V196lsjBV0Yhdfhum6-kcqEg1snhe13ah7Y5ChE1Sv4hL0zKIi1L3__KSJ9qzLM43LPc0JQhA-aShvCIXeXwOK4np-RIMgd8XoCcGNBj7sJHxT6dc1FdUCSrm5IUFasQYAPf1dsSIH5QWLhYc-DNORfKs3UHqN_YCqkBT4IRKQ2foXlz5vUhJRTnntXLpzrD20AWJqehWbA.jpg"
       ],
       "video_path": null,
       "gif_path": null,
