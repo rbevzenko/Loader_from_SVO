@@ -1,13 +1,13 @@
 {
   "channel": "loaderfromSVO",
-  "updated_at": "2026-07-27T23:07:13.986898+00:00",
+  "updated_at": "2026-07-28T00:08:40.311846+00:00",
   "posts": [
     {
       "id": 3214,
       "text": "Спустя полтора года решил повторить эксперимент - попросил ИИ (DeepSeek) назвать пять лучших российских авторов по вопросам залогового права. \n\nОтвет был такой:\n\nполностью на русском):\n\n---\n\nВ России к числу ведущих специалистов по залоговому праву обычно относят следующих экспертов (по данным открытых рейтингов и академической репутации):\n\n· Д.М. Глазунов – партнёр ЕПАМ, руководитель банковской и финансовой практики, участник разработки закона об ипотеке, высоко оценивается Chambers Europe.\n\n· Р.С. Бевзенко – доктор юридических наук, бывший начальник аналитического отдела ВАС РФ, член рабочей группы по реформе гражданского законодательства, автор трудов по обеспечительным сделкам.\n\n· В.В. Витрянский – доктор юридических наук, профессор, бывший заместитель председателя ВАС РФ, член Совета по кодификации при Президенте РФ.\n\n· А.А. Маковская – кандидат юридических наук, бывший судья ВАС РФ, признанный эксперт в области обеспечения обязательств.\n\n· С.В. Сарбаш – доктор юридических наук, бывший судья ВАС РФ, автор многих публикаций по залоговому праву.\n\n___\n\nЧто это значит? Раньше он полностью придумывал две-три фамилии из пяти, сейчас придуманных фамилий нет. \n\nНо при этом одна фамилия кажется в этом списке скорее лишней из-за другой специализации, у еще одного автора нет специальных работ по обеспечению. И совершенно точно есть еще две фамилии, которых он не назвал, но должен был бы. \n\nК чему я клоню? Я по-прежнему не доверяю обычным ИИ сервисам с точки зрения их точности в создании юридического контента. Всё-таки, у них с российским правовым материалом слабовато. \n\nПоэтому, как мне кажется, единственная пока рабочая опция - это специализированные юридические ИИ-сервисы. В них вероятность ошибок сведена к минимуму.",
       "text_html": "Спустя полтора года решил повторить эксперимент - попросил ИИ (DeepSeek) назвать пять лучших российских авторов по вопросам залогового права. <br><br>Ответ был такой:<br><br>полностью на русском):<br><br>---<br><br>В России к числу ведущих специалистов по залоговому праву обычно относят следующих экспертов (по данным открытых рейтингов и академической репутации):<br><br>· Д.М. Глазунов – партнёр ЕПАМ, руководитель банковской и финансовой практики, участник разработки закона об ипотеке, высоко оценивается Chambers Europe.<br><br>· Р.С. Бевзенко – доктор юридических наук, бывший начальник аналитического отдела ВАС РФ, член рабочей группы по реформе гражданского законодательства, автор трудов по обеспечительным сделкам.<br><br>· В.В. Витрянский – доктор юридических наук, профессор, бывший заместитель председателя ВАС РФ, член Совета по кодификации при Президенте РФ.<br><br>· А.А. Маковская – кандидат юридических наук, бывший судья ВАС РФ, признанный эксперт в области обеспечения обязательств.<br><br>· С.В. Сарбаш – доктор юридических наук, бывший судья ВАС РФ, автор многих публикаций по залоговому праву.<br><br>___<br><br>Что это значит? Раньше он полностью придумывал две-три фамилии из пяти, сейчас придуманных фамилий нет. <br><br>Но при этом одна фамилия кажется в этом списке скорее лишней из-за другой специализации, у еще одного автора нет специальных работ по обеспечению. И совершенно точно есть еще две фамилии, которых он не назвал, но должен был бы. <br><br>К чему я клоню? Я по-прежнему не доверяю обычным ИИ сервисам с точки зрения их точности в создании юридического контента. Всё-таки, у них с российским правовым материалом слабовато. <br><br>Поэтому, как мне кажется, единственная пока рабочая опция - это специализированные юридические ИИ-сервисы. В них вероятность ошибок сведена к минимуму.",
       "date": "2026-07-27T07:25:51+00:00",
-      "views": 6840,
+      "views": 6860,
       "forwards": 0,
       "photos": [],
       "video_path": null,
@@ -20,7 +20,7 @@
       "text": "Недавно в ходе размышлений над одним делом вышел на такую интересную правовую проблему. \n\nСтороны совершили мнимую сделку, для вида подписали бумаги об исполнении. Также отдельно договорились о том, что никто из них не будет предъявлять никакие иски в связи с подписанными документами. \n\nНасколько такое соглашение действительно? \n\nНа первый взгляд, раз оно - часть притворства, то тоже не должно иметь силы. Кроме того, всегда есть негативное восприятие такого поведения и нежелание защищать его со ссылкой на недобросовестность. \n\nС другой стороны, если эта договоренность не затрагивает третьих лиц и касается только сторон сделки, то почему бы этот pactum de non petendo и не привести в исполнение? В конце концов, мнимость ведь необязательно связана со стремлением навредить кому-то. Например, мнимая сделка может быть совершена для защиты чьих-то интересов от заведомо неправомерных (но тяжело отражаемых) притязаний. \n\nТяжелый вопрос.",
       "text_html": "Недавно в ходе размышлений над одним делом вышел на такую интересную правовую проблему. <br><br>Стороны совершили мнимую сделку, для вида подписали бумаги об исполнении. Также отдельно договорились о том, что никто из них не будет предъявлять никакие иски в связи с подписанными документами. <br><br>Насколько такое соглашение действительно? <br><br>На первый взгляд, раз оно - часть притворства, то тоже не должно иметь силы. Кроме того, всегда есть негативное восприятие такого поведения и нежелание защищать его со ссылкой на недобросовестность. <br><br>С другой стороны, если эта договоренность не затрагивает третьих лиц и касается только сторон сделки, то почему бы этот pactum de non petendo и не привести в исполнение? В конце концов, мнимость ведь необязательно связана со стремлением навредить кому-то. Например, мнимая сделка может быть совершена для защиты чьих-то интересов от заведомо неправомерных (но тяжело отражаемых) притязаний. <br><br>Тяжелый вопрос.",
       "date": "2026-07-24T10:26:44+00:00",
-      "views": 9420,
+      "views": 9430,
       "forwards": 0,
       "photos": [],
       "video_path": null,
@@ -2415,7 +2415,7 @@
       "views": 21500,
       "forwards": 0,
       "photos": [
-        "https://cdn4.telesco.pe/file/X0-kNH1MLSntnsdTu1-pnsGprnHGBupwjLOEAaTHVZ1HtU1FVeKtX0ceyjm30di0tUk7AGqsvqAnXebASIK0jmQkWONiJ5FfXJq-UtkIRxtCelrr8mMxVfv24jpT0zRL95SYhTqCjHyHlv_MzYuHuF4ZXrJtWAOsgRLr2Ez0GyvScN18SNDwjht_EPHXINLzlg5vphl8XNsDblx_yzW8Udll887f1hhUdNirjDtEvv1vnpHrNt8jExO1F_wrga64wqBGakmOIVCD927tt6ndfW9f6fn9kMQ_o8CrecPQ_1A_g33ML6fX44mv3N-hoxCk2H3AvT8MvK3R5sXJ4AgDtA.jpg"
+        "https://cdn4.telesco.pe/file/tNg-zdbkDGghwojx_fKWGwnLwNk96Kdh8tM-AqAHsdVsNrLGKxZtA-_GEu6L3e13LmyE7DU9bCNs2I7XpUCpgjDKKZNX0qc1y9wGgYfud4yH9HuCOY7X31MKfEhJgtHUewMjOiTCPhS_IVJJDmpYwZGLOc8qJfefafFsZQdwSv73n88dOAWEIyUWtHju1rDNBCuygmdmrPP32B6rrwjpT6-nCAhNS0TfK90OHQX0wpqMQ8OlV_t1GeIT3YVLOQp6aeRk4gKto9L-A4NjQ3006F1eWiHxzCKSDZT3oUl7T2nu-g8Ct23dwHfQVDCh9P7weO57vhUlkPT49ce14lVT7w.jpg"
       ],
       "video_path": null,
       "gif_path": null,
@@ -2877,7 +2877,7 @@
       "views": 25400,
       "forwards": 0,
       "photos": [
-        "https://cdn4.telesco.pe/file/KX88LSoCGu9RgKJmcCT-NvEazFqD0Xl7Im57CBwdUICnKdB8cd5iOCfzCg1UjLUTGRp_1yp59WwrpT2FBGzfLGkcqlIvkqP-SyQk2B2GkF0YnzLlMNqHz5lSdfLxsOito10MGfUr7RDokUpPXu3zQo72GHyuLpLLVj4GqElLORKpaWhPV36I7ApbTir0YA59yzbh_jatH94_roBOnGWw7iIrha8CuoHxS_dYnuqbyTFPuQp_WXJa77U6J8nuuDl4QuS2faYsZe0pyP1PLFd96MxmHaRf_zfC1msb7oVWzCyGzySzYo_GZXHMcw8J1ULxJ1wx13Qted5X_3dCL-iXFQ.jpg"
+        "https://cdn4.telesco.pe/file/ktL5JB_El7V3Tk6oieYnBIEg5ptav6SVU8Hs2qdsHQK4OhlFK4H2MVCRZ0NYiiYt7Xq6rIRblBI2xxakSD6GArlbF_L2k5hmd72_b_rLtEr0jIAkgW3yr9sO22MzqQR0oTeFah6U80-y-9JoKOpTUshkCW6ivXcnGLHfvHkxp078lmPg-zVWCcB4aD6FoAmC1EnBkbO2B1LJr4G3hvmQ4wuAoiDF28mn6bIYbBDLVDhHF-4TjM3tkEyDfCKJOeUAKJtG8fvF_uXMeCaV1RDPTIoQSNmVEGZMZ9S_9asMc0ySAKndMc4mcPpE35Iv1l_n_ycwzv7ocppf_lyoMLjEQg.jpg"
       ],
       "video_path": null,
       "gif_path": null,
@@ -3604,7 +3604,7 @@
       "views": 20600,
       "forwards": 0,
       "photos": [
-        "https://cdn4.telesco.pe/file/A6UplXs04mejAOv1NwlpQvIzB-LZZIY63ZwdK53xgjpOML1LrgmDSpjVN_5SA8gdin4V-eC8i7iL2RgUnl8ZN2crAEgjd7UbWP6Z7xzto0ksQSPmtCY3x8FOXlTExnICybA4BjifxXGFDCzSRC-ZQupp_0pyEZYQJQmQ7ycdELH3vCaVMb1l92UHrKoU6XDdtX7PsdkDmmcfg3vOq839CUZKuXSH-9htYTts3N7DHnYhPDup5xSNL7GHmr2mNvTOqrHJDu0h5Bc1dERu3r9RZ-igX8sr20DktV_ynGNE_T1wBN4oSDNP-zC1BeEAVwB_JNVBQ85wlxj7EeT7ww0mJA.jpg",
+        "https://cdn4.telesco.pe/file/uUH567VG0Tmzj56tyemDwwM9yMVJHhyMYNsOtyq7JYpSsOAf0m_4K4oHKYwILdfIdi_ABNnr4FpcTZZhlrH1BNef5uADaN7-2kJ9q98fpdsY4O6QibbwWYoUMi7mZJUJhcS8Y5Jv1a7C70I1MmXUccSPeoG4ljTfi6McOPeS7SRoSv2SgYn4kXESzfsudsOGmERlfJU4OFN4N2dTOkwvnOPlJG63Rl2ZJ6Vojl_EGhVg2WTj1KdxARDVpcdcC0-8Kr0_-_YEKK1l6sQsm-t2wBRJDmZpgfypd1LRzaIB0S_lodw_wbLMGB4WaAr82S011f1P_LHyME0AlQ1ea-SyIA.jpg",
         "https://cdn4.telesco.pe/file/vpWzUnOqTE3LV-9pZc4EMB6finDkapykZN8Ak-trsa0DehgxwVrGxoLP2jHKqDlusdu7yQS-KOCI4hwaJ9vmiHcJtv6L9HmbM190TUpRKNgUKTmSZxyj5aCpTcczr9WmnaZ8EGKZWesNAVif9fDAIfHRLUNENVgdLUdkM3LsSL4vF5GIbMBB0rjXzG0WMR0z0vc9F902CcyWjVAiaIqdotOTBkPiwDxT0IaRBKYllIgIrDvTAvbfVPhvqeR1JljstSoz3FjwY1iVDu6h5x7lSbEl-VsOLFk_hWybnMqEzFPW7PHfdGJt7GqHzXBplhWl6KxkWECPhqrMwHMjiuD9jw.jpg",
         "https://cdn4.telesco.pe/file/vW697GLrQinNKJBa5enwp_EX5dBX1kdp0QN3It4mxL3Xv4Tv2DZgR6jNCfPR9XTF9JGSh_UVN63EvfLMyTmFG9jAG4dByRT4dKZHeMyVJqfwaiUD7gg87Deen3Oe5fSBDxhEQ7Yi18tOgGHuWFUOdAaGa8W1X7kuQiDgr3JMbKobm2ixAuge1IxoUjG9HkyUSGAw0kLH6cGhTk8iJXvTeDaVFP4lcrIE3WCoZAYnx6t8_2KFdqHxOtxyGbcXry-IiyJN_lVU2PXDiF2jNGelqvoNXFiQVnlPTSVlquuR6gBVob-FDVLVGqoZc__S4qxgGu-7xe8Ps3pUdxQ70NWGoQ.jpg",
         "https://cdn4.telesco.pe/file/hPDA1Te2eQvvWRBkSQ5EJ99wiUvgloRyNpxMZ6DNvn9U82frF0WLrUx2fXkKJDBYA1OECYGc5hiaWxNmVDgYazYfBDYsMriceU7--4Urkd-q0tSXd3VGFzVffyi5HWA14xkKLWxUE9TVCH0MDjjWlfgM6sWaAScKL0kUzm8qkVSNEsTYLng-lmeqNNbSGugOngEVK-vvXhitRLiZ_Wb9QE_G-1UXMzfPHqfePMACvclRUDVk6BrAA_7LphmWujBJkyiuzF1fShfWvspv1LNn4ldeECaPloMc5PsRcIBE3WaKxd7_YfDkp-HJoILchTvLFrqix9drlCQzyRzgrfvCNA.jpg"
@@ -6120,7 +6120,7 @@
       "views": 32800,
       "forwards": 0,
       "photos": [
-        "https://cdn4.telesco.pe/file/dVBxd-d_al2iuKhOnthNcX_OmPZLNmwpj_gg5PaTMY1LDynAS12zmvg5KnzDQ82hh1ZoZXQdcywcxe56WILedUaW11VM4rnPSQyDbnIw93ecFHq5XR3JpXMbJwAnYHL-F-an_a0cmgwv9kH39R3KmndBhz_Cbq5cUraEznl4yeiPRZNeGoQE9flmGm089rXBEJyqZiMFNOGyNQdhHmuyA2MKWDCsf5rCyIywuAlzbyvTLp-mgntIPO0TK88fm0qZ-3Faa46eqJe1vI6GaZum18JXilXN2Ar5oLLxpRR9btCafvpIBsqE0ZGZG9czOIpULxUMEyHRZYUQF69LvMiA9w.jpg"
+        "https://cdn4.telesco.pe/file/UKvu7dkAD0668IgIiI5EeHqUsmFFd7ssfcOEgO-Vrht9Z8noeb9XCJuW9cnrwKe6Bp6CrEVX_L7tpp7lNF6brHYzyJwsxtZrFcwL5E90hWGoVsc8gE_PneeU80qL4SauKR1bVgKpN1aH1RzslrOmjWDg-i0eB8XQHx8CY2plAP9na0GxF_slTuPDW9PaWlPiP7XnQnM6PUd4I4rXP6jnQGoxPQosASnbJh7bZn1lsHwffsh1MUCaD6YKt5PbskPVaz6yAQx9GJS_49d7MAy4oVZz422Bldgw_YlvKPH3YTWYb3gufmcK32W0Ak4TeKdpALd9-718F3LXe6OFnXSy1Q.jpg"
       ],
       "video_path": null,
       "gif_path": null,
@@ -7971,7 +7971,7 @@
       "views": 31900,
       "forwards": 0,
       "photos": [
-        "https://cdn4.telesco.pe/file/dJPf7pIUemODWRm4Qep6LUedeSJ6M5EofTEM79nCjYnEDQ8qMqHI8coa89DaaYWe_LQiNg0FUsuN4U8pgWGrNuux5llbfpYtSNdYCTtb-8W5SpcJ0iIANGgR9Ouc0eLbxq5-sxZT0LlQwAqFdhfyz9YLvYQEkjY2UIWEOcs5JfUCFbgGz8O6qfqjIA7u3ZyS7xhaKk1fOS4LZ1M3-6MRrE6azgKR3cxrHvgj6Y2H7_M6dqajkcY8lLEffIBiPeYwVEBrx8iBhYehn49Ca0HlovEBdaVEUYeqXVIL83zkT5U3cu0F6yz0zeDgjnaGlpRTk8VXhtFOX21Ov59dlr11_A.jpg"
+        "https://cdn4.telesco.pe/file/NyklmhtQ4s2-_Yzgxq6yUvauNcUUnc7JIDJRW--fgn3SD1jAst3brqB9d_wtFuR3k4ZZimoSSJ0Xw1n-A5cFrsstUHGnaj3ObE3yPW64t7GjRQxRHKjQ3MfyFgOLBEMr0-THu3hlGE8vnTW1nXmoBT8mt-SN8yM8nwwfRLsCY_DRP71TpxoplDdXizi6BaKzf0kmacYqNzkRmj-7InK8G2RDlDpAlRl_0w4l_-TK8KUuwnZLf_DckIfaMakwt8yiJ8XcB3tlCJeKk97BQ9nKfxeJT0qLsL7GLh8xeZYRTJfkGYQiCs9iwocMi1_yjuFDqqEBlQBr2W0ZUaHwWMYNGw.jpg"
       ],
       "video_path": null,
       "gif_path": null,
