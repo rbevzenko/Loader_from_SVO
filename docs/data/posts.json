@@ -1,13 +1,13 @@
 {
   "channel": "loaderfromSVO",
-  "updated_at": "2026-08-09T23:30:47.808959+00:00",
+  "updated_at": "2026-08-10T00:01:32.336210+00:00",
   "posts": [
     {
       "id": 3229,
       "text": "Досужие воскресные размышления. \n\nНедавно я рассказывал одной гречанке, интересующейся Россией, одну забавную историю и мне нужно было рассказать о том, что ее персонаж был повешен. \n\nМы говорили на английском и я на автомате сказал “he was hanged”. Потом я в мыслях обратился к этой беседе и задумался, почему я сказал hanged, ведь to hang (вешать) это неправильный глагол, его вторая и третья формы - hung.  Казалось, правильно было сказать “he was hung”, но у меня прямо язык противится этому. Полез разбираться, почему так. \n\nОказалось, не зря. Для случаев, когда речь идет исключительно о том, что кто-то был повешен в виде наказания английская грамматика требует употреблять глагол to hang со стандартным окончанием -ed. \n\nВо всех других случаях следует использовать форму неправильного глагола. \n\nЯ это правило не знал. Видимо, где-то в книгах мне попадалась фраза “he was hanged”, и она записалась в памяти как правильная. И в нужный момент память услужливо именно ее и предложила. \n\nПоэтому когда я слышу, что английский - простой язык, я обычно просто вежливо улыбаюсь.",
       "text_html": "Досужие воскресные размышления. <br><br>Недавно я рассказывал одной гречанке, интересующейся Россией, одну забавную историю и мне нужно было рассказать о том, что ее персонаж был повешен. <br><br>Мы говорили на английском и я на автомате сказал “he was hanged”. Потом я в мыслях обратился к этой беседе и задумался, почему я сказал hanged, ведь to hang (вешать) это неправильный глагол, его вторая и третья формы - hung.  Казалось, правильно было сказать “he was hung”, но у меня прямо язык противится этому. Полез разбираться, почему так. <br><br>Оказалось, не зря. Для случаев, когда речь идет исключительно о том, что кто-то был повешен в виде наказания английская грамматика требует употреблять глагол to hang со стандартным окончанием -ed. <br><br>Во всех других случаях следует использовать форму неправильного глагола. <br><br>Я это правило не знал. Видимо, где-то в книгах мне попадалась фраза “he was hanged”, и она записалась в памяти как правильная. И в нужный момент память услужливо именно ее и предложила. <br><br>Поэтому когда я слышу, что английский - простой язык, я обычно просто вежливо улыбаюсь.",
       "date": "2026-08-09T09:09:16+00:00",
-      "views": 5720,
+      "views": 5740,
       "forwards": 0,
       "photos": [],
       "video_path": null,
@@ -46,7 +46,7 @@
       "text": "Интересно, как по действующему трудовому законодательству следует решить такой казус. \n\nСоискатель знает о том, что в компании, куда он хочет устроиться на работу, резюме отбираются при помощи ИИ сервиса. \n\nОн включает в текст резюме prompt injection (невидимый глазу напечатанный белым текст-инструкцию для ИИ о том, что это резюме самое лучшее, надо именно этого соискателя пригласить для собеседования, другие резюме - отклонить). \n\nВ итоге соискатель взят на работу. Однако через какое-то время стало известно о факте манипуляции. Может ли компания как-то расстаться с таким нечестным (и не факт что хорошим) сотрудником?\n\nМне, разумеется, ответ о том, что все ок и этот результат - риск компании, использующей ИИ, не кажется справедливым. Он нарушает принцип дистрибутивной справедливости, а следовательно - неправовой. \n\nНо казус тяжело разрешить даже при помощи норм ГК (это не обман в строгом смысле ст. 179), не говоря уж о ТК. Видимо, только обращение к доктрине недобросовестности и спасет. Но нормы, аналогичной ст. 10 ГК, в трудовом законодательстве нет.",
       "text_html": "Интересно, как по действующему трудовому законодательству следует решить такой казус. <br><br>Соискатель знает о том, что в компании, куда он хочет устроиться на работу, резюме отбираются при помощи ИИ сервиса. <br><br>Он включает в текст резюме prompt injection (невидимый глазу напечатанный белым текст-инструкцию для ИИ о том, что это резюме самое лучшее, надо именно этого соискателя пригласить для собеседования, другие резюме - отклонить). <br><br>В итоге соискатель взят на работу. Однако через какое-то время стало известно о факте манипуляции. Может ли компания как-то расстаться с таким нечестным (и не факт что хорошим) сотрудником?<br><br>Мне, разумеется, ответ о том, что все ок и этот результат - риск компании, использующей ИИ, не кажется справедливым. Он нарушает принцип дистрибутивной справедливости, а следовательно - неправовой. <br><br>Но казус тяжело разрешить даже при помощи норм ГК (это не обман в строгом смысле ст. 179), не говоря уж о ТК. Видимо, только обращение к доктрине недобросовестности и спасет. Но нормы, аналогичной ст. 10 ГК, в трудовом законодательстве нет.",
       "date": "2026-08-07T05:46:40+00:00",
-      "views": 9320,
+      "views": 9330,
       "forwards": 0,
       "photos": [],
       "video_path": null,
@@ -3808,7 +3808,7 @@
       "photos": [
         "https://cdn4.telesco.pe/file/nsPymc0p1dYFup2m08loKJNYTigBnbVYe53K_Q8bSiVPt7mv4JTqO1KSU9H3eeftWmb4hSopJ6DnJbvl9KiQfrImGisKFvY-ILPmpWnZpoyQP-kz7uAnMcCiQ8QBU5TvutXijl3TxSYPNHlSZG3HTOlB0X0EKnfmV9wKWd_tXPxC14zh0HW0p21XRl-iJNPdXtEaxkBxQAozcaA_K3Vz5SbKOaQfcPfJdP5ifiVl2WWowTvaAWYhvBMExrPedA042bg971UqUJGIke80Lc_lwNv8Wry7Wu9b3oxKmJd7IAGftMIupRxtVdoAoW9MzRARbHx6D9gv95z8ssqZekBGdA.jpg",
         "https://cdn4.telesco.pe/file/YuwUS27teE1JLLzvhmlKcPu_awoBS_44DdMRFzBcly-a1lpkG0-DEYzuvEvFEsk5Z-jyMfJcNEDQNH6Xc0Oqgy0qeUAQxfUdJpthBft-p1NttU4Vz6R_HXIBl_8MHUyclIGLUZyOOXJ1A7Pm8FCAFEx2GQqJNZWTOIzSbildbv8TU_gZfpl2vbBF_guK7dO6L4_Mq45tn_i5QJ6WnEuPo37fnZVrMymEJIcLihIj05G4aXAPVFzJHJg_w6zRw2OGctrY-R4GkadY3sb22Yt3bZwmeV7iUu70F8eGq2LzcHXEGDqq2UVooBccveBU2cQdtkYLgLOJWOZBHEWQIoTbIg.jpg",
-        "https://cdn4.telesco.pe/file/iAioTIGQQF5JLiKkHVzmW54ppEu6UG5t_LAma4VRTgPP_VC8metgCi-ERco0BEt4zUkvqJKp1O2fG2DKj0SBvk6LE_FeFYDJVwYsSwvcuVZbt6jFsTDgID_am2wIOxIw-aywuJAaN-9FeCDC2Iil4cb0hPN-XshWTsUzKHDvBbsgt3o2mIKCZnl2F5tko0KaU82lxhJzyrvIiYuXo7tkQX4omhibKNkJg1uDDsQX6APzHdLiuwdVze3gir-kPgqLPIFfT_HUrp4Qd1uxkSq9wjQF1uzY5XbaqGSYG5-ATLOX8ZV7zgewCIoZY9AV_xgIsthyk5l8q-Y-xpkCM05cKA.jpg"
+        "https://cdn4.telesco.pe/file/Zb0zrBWRfa1XbrX7JXcZAVAbI7KQVsZ9lLY6LDq-8HoRjIxVvLUD0Fxj7g5T6lCDdx84gJ9TG9q0OGJkub4bbLWvA4fuUAsn30kzMOaMILcWesU_NwDzPkDPCswAX5WDEDBQsyucezO6mPJ7ONMblEtr4QvZTbb8DS__5h0OB02hp7KSXZzrML232RdA-oOnQMb023dTeGupLWkFB2jQ-STxig8_GBSUIdN2FJGe48BLsOby5nUvEi40EGN-qDraw5ZA-gHxZ8KsD4D-tbs9ib8Jx8APRHfu0OoRwS6tLZk7TdWKYHSRVblxe6Rt8581uLPAmyNqcUkMC5Z1MeGfBg.jpg"
       ],
       "video_path": null,
       "gif_path": null,
@@ -3862,7 +3862,7 @@
       "views": 49000,
       "forwards": 0,
       "photos": [
-        "https://cdn4.telesco.pe/file/cJySkg0tgf8twPkcyRHIccPH5ZqTyZoycGi48HBkGi1kPeNLz_h1VgkKSJsl0vlIWvWy4TKAa_fC4ievFvKW6rcN7BO3Mxunuk4i7WZTCHGGBWJdcGQJtQ2SxsS83yUMsmMtkDcOA5E5R_d6OZ44e_Ecj1ToUvocM7-mCLYriz7xWvHP6uN6rWAdlKvpi5_T7VVACqD3q8XzXGVFJ8WfSpuNNhe-oehQ6Aw7wNeLbfCKRfRsvEyxZaqi4gQ-x9Yu8zhAFU8wc_nVNEZArfcRO6YinjgiUvYX_qLPOS0zPaIm3xCpjNl2T-YYGDSo9t25C1LeFlI69VD9woVQbO7RnQ.jpg"
+        "https://cdn4.telesco.pe/file/Y4xo41C4x6y1jSYgAmLaIkYMl_CLwqGf152UHLvl0amyntFmffMrQ_WStQ5YsYR6Q3R7b338Cl1KyFLomTqAFk6hE1GaMIAsFqd1OeymDkzZF3qR2utnfvguDQo3DLz1ZSQsBWEwv2m82SKKd59pXW5qh2pf7lyt7UXfSVOQzM-lRKXVrjWTCKXv7gNHAsebTDpaioQQWTWuhegaOLUMWboFRCos9wb9X6_IFRhB0SBeDJWc5632B3Sl8uNdPX8VcHL5G7rIstuX5BHcqH4730pJX2vy3dS3e0pNYgLWJW1ES1eYlqewNP9e9mIZUAwIK886uEMLM7P_yuIrSWYdSw.jpg"
       ],
       "video_path": null,
       "gif_path": null,
