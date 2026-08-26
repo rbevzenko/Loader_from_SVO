@@ -1,13 +1,13 @@
 {
   "channel": "loaderfromSVO",
-  "updated_at": "2026-08-26T07:27:36.290648+00:00",
+  "updated_at": "2026-08-26T08:10:56.417358+00:00",
   "posts": [
     {
       "id": 3247,
       "text": "Какое интересное дело (13-КГ26-3-К2) рассмотрела недавно гражд.коллегия верх.суда! \n\nОно посвящено различиям правовых последствий обязательства установить залог и собственно залога как вещного права. \n\nОпределение написано неплохо, я бы оценил его на 5 по десятибалльной шкале (при этом что обычный уровень определений гражд.коллегии, на мой взгляд, 2-3). \n\nФабула дела такова.\n\nИП Баров предоставил ООО «Заря» заем в размере нескольких десятков миллионов рублей. Возврат займа должен был обеспечиваться залогом. Помимо уже заключенных договоров залога, заемщик обязался оформить залог земельных долей, принадлежавших его учредителю и генеральному директору Валдаевой (договор подписывала не она, а представитель по доверенности) . Однако договор залога этих долей заключен не был.\n\nЗаем не был возвращен, заемщик был впоследствии было признан банкротом.\n\nЗемельные доли Валдаева ранее передала Кузнецову, который впоследствии выделил принадлежащие ему доли в самостоятельный земельный участок. \n\nБаров обратился в суд, требуя признать последующие сделки с земельными долями недействительными и обратить взыскание на образовавшийся земельный участок. Он исходил из того, что обязанность предоставить землю в залог возникла из договора займа, а отсутствие отдельного договора залога объяснялось уклонением Валдаевой от его оформления. \n\nСуд первой инстанции согласился с Баровым и обратил взыскание на часть земельного участка. Апелляционный суд пришел к противоположному выводу: залог не возник, поскольку договор с собственником земельных долей заключен не был, необходимые условия ипотеки не были согласованы, а обременение не было зарегистрировано. Кассация отменила апелляцию и оставила в силе решение первой инстанции. \n\nВерх.суд отменил решение кассации и оставил в силе апелляцию. Любопытно, что это произошло через отмену зам.предом отказного определения.\n\nВерх.суд разрешил спор очень догматично. Указание в договоре займа на то, что директор заемщика передаст в залог принадлежащие ей земельные доли не может квалифицироваться как залог (то есть, как вещное право). \n\nДля того, чтобы он возник, требуется чтобы залогодатель (1) заключил договор залога (создающий его - залогодателя - обязательство установить обеспечение), (2) залог должен быть зарегистрирован в реестре и (3) обеспеченный долг должен возникнуть. (1) и (2) это следствие принципа разделения (то есть, одного основания для возникновения вещного права недостаточно, нужна запись в реестре, а (3) это действие принципа акцессорности. То есть, для того, чтобы обеспечение возникло, необходимо наличие обеспеченного долга.\n\nВ принципе, все это и написано в определении, может быть, и не очень детально и глубоко. Да и сам вопрос для хорошо образованного юриста не кажется сложным.\n\nНо что меня заинтересовала следующая деталь. \n\nСуд первой инстанции решил дело в пользу залогодержателя, ссылаясь на то, что Валдаева (директор заемщика) уклонялась от того, чтобы заключить договор ипотеки и зарегистрировать залог. И суд счел, что этого достаточно для того, чтобы у кредитора появились права залогодержателя. \n\nЭто чем-то напоминает английское право справедливости (equity) и вещное обременение, возникающее по праву справедливости (equitable mortgage).\n\nПраво справедливости исходит из того, что то, \"что должно было быть сделано, как будто бы сделано\". То есть, для возникновения обычного вещного обеспечения (legal mortgage) нужна регистрация. Если регистрации нет, но стороны ведут себя так, как будто рассматривают себя связанными обеспечением, то хоть для общего права его действительно нет, а вот для права справедливости - обеспечение все-таки есть. Несмотря на отсутствие регистрации. И оно будет связывать всех, кто знает (или должен был знать) о нем. \n\nТо есть, это чем-то похоже на решение суда первой инстанции по этому делу, отмененное симпатичнейшей коллегией верх.суда. А это, я напомню, не какой-нибудь там Ленинский районный суд Лондонграда, а Жердевский районный суд Тамбовской области! Вот такая вот эквити по-тамбовски.",
       "text_html": "Какое интересное дело (13-КГ26-3-К2) рассмотрела недавно гражд.коллегия верх.суда! <br><br>Оно посвящено различиям правовых последствий обязательства установить залог и собственно залога как вещного права. <br><br>Определение написано неплохо, я бы оценил его на 5 по десятибалльной шкале (при этом что обычный уровень определений гражд.коллегии, на мой взгляд, 2-3). <br><br>Фабула дела такова.<br><br>ИП Баров предоставил ООО «Заря» заем в размере нескольких десятков миллионов рублей. Возврат займа должен был обеспечиваться залогом. Помимо уже заключенных договоров залога, заемщик обязался оформить залог земельных долей, принадлежавших его учредителю и генеральному директору Валдаевой (договор подписывала не она, а представитель по доверенности) . Однако договор залога этих долей заключен не был.<br><br>Заем не был возвращен, заемщик был впоследствии было признан банкротом.<br><br>Земельные доли Валдаева ранее передала Кузнецову, который впоследствии выделил принадлежащие ему доли в самостоятельный земельный участок. <br><br>Баров обратился в суд, требуя признать последующие сделки с земельными долями недействительными и обратить взыскание на образовавшийся земельный участок. Он исходил из того, что обязанность предоставить землю в залог возникла из договора займа, а отсутствие отдельного договора залога объяснялось уклонением Валдаевой от его оформления. <br><br>Суд первой инстанции согласился с Баровым и обратил взыскание на часть земельного участка. Апелляционный суд пришел к противоположному выводу: залог не возник, поскольку договор с собственником земельных долей заключен не был, необходимые условия ипотеки не были согласованы, а обременение не было зарегистрировано. Кассация отменила апелляцию и оставила в силе решение первой инстанции. <br><br>Верх.суд отменил решение кассации и оставил в силе апелляцию. Любопытно, что это произошло через отмену зам.предом отказного определения.<br><br>Верх.суд разрешил спор очень догматично. Указание в договоре займа на то, что директор заемщика передаст в залог принадлежащие ей земельные доли не может квалифицироваться как залог (то есть, как вещное право). <br><br>Для того, чтобы он возник, требуется чтобы залогодатель (1) заключил договор залога (создающий его - залогодателя - обязательство установить обеспечение), (2) залог должен быть зарегистрирован в реестре и (3) обеспеченный долг должен возникнуть. (1) и (2) это следствие принципа разделения (то есть, одного основания для возникновения вещного права недостаточно, нужна запись в реестре, а (3) это действие принципа акцессорности. То есть, для того, чтобы обеспечение возникло, необходимо наличие обеспеченного долга.<br><br>В принципе, все это и написано в определении, может быть, и не очень детально и глубоко. Да и сам вопрос для хорошо образованного юриста не кажется сложным.<br><br>Но что меня заинтересовала следующая деталь. <br><br>Суд первой инстанции решил дело в пользу залогодержателя, ссылаясь на то, что Валдаева (директор заемщика) уклонялась от того, чтобы заключить договор ипотеки и зарегистрировать залог. И суд счел, что этого достаточно для того, чтобы у кредитора появились права залогодержателя. <br><br>Это чем-то напоминает английское право справедливости (equity) и вещное обременение, возникающее по праву справедливости (equitable mortgage).<br><br>Право справедливости исходит из того, что то, \"что должно было быть сделано, как будто бы сделано\". То есть, для возникновения обычного вещного обеспечения (legal mortgage) нужна регистрация. Если регистрации нет, но стороны ведут себя так, как будто рассматривают себя связанными обеспечением, то хоть для общего права его действительно нет, а вот для права справедливости - обеспечение все-таки есть. Несмотря на отсутствие регистрации. И оно будет связывать всех, кто знает (или должен был знать) о нем. <br><br>То есть, это чем-то похоже на решение суда первой инстанции по этому делу, отмененное симпатичнейшей коллегией верх.суда. А это, я напомню, не какой-нибудь там Ленинский районный суд Лондонграда, а Жердевский районный суд Тамбовской области! Вот такая вот эквити по-тамбовски.",
       "date": "2026-08-25T05:05:49+00:00",
-      "views": 7020,
+      "views": 7050,
       "forwards": 0,
       "photos": [],
       "video_path": null,
@@ -20,7 +20,7 @@
       "text": "В ленте новостей этим летом заметное место занимает новость о том, что даже с очень высокими баллами по ЕГЭ школьниками тяжело попасть на бюджетное место в хороший университет. \n\nЭти места занимаются олимпиадниками, которых стало много, и детьми, имеющими социальную льготу, которых стало очень много. \n\nПолучается, что бюджетные места практически распределяются между ними. И тем, кто не участвовал в олимпиадах и не имеет льгот, но хорошо учился в школе и получил высокие баллы, остаются только платные места. \n\nЭта история - очередной доказательство того, что «бесплатное» высшее образование это зло. \n\nЗло - потому что лицемерие. Бесплатного ничего не бывает (как не было бесплатных советских квартир или медицины), за образование бюджетников сейчас платит государство, а в конечном счете - мы все, из наших налогов. \n\nСправедливая система была бы такой: обучение в университете всегда платное, но платить ты можешь либо из собственного кармана, либо из денег, которые тебе заплатило (например, путем выдачи сертификата) государство за хорошие оценки по ЕГЭ, за высокие результаты на олимпиаде, в связи с особенностью социального статуса (ребенок сирота или инвалид). \n\nТогда системе становится простой, прозрачной или справедливой. \n\nНо тогда логичным становится и следующий шаг - если высшее образование это про деньги, то никаких университетов, содержащихся за счет бюджета, быть не должно. \n\nКонечно, возможны какие-то исключения, связанные с тем, что университет это не только образование, но и фундаментальная наука (которая, как известно, сама себя не прокормит). Но это именно что исключения. \n\nЯ уже много писал об этом, что любое вовлечение государства в финансирование университетов это зло, которое влечет за собой стремление чиновников ограничивать академические свободы, вмешиваться в процесс обучения, требовать цензуры и проч. Все эти истории на слуху. \n\nВидимо, возможна и такая модель: раз все высшее образование существует за счет бюджета (фактически высшее образование считается в обществе обязательным), то и оно должно быть доступным всем желающим. Раз уж оно оплачивается всем обществом через налоги, уплачиваемые его членами. Но это, кажется, утопическая идея.",
       "text_html": "В ленте новостей этим летом заметное место занимает новость о том, что даже с очень высокими баллами по ЕГЭ школьниками тяжело попасть на бюджетное место в хороший университет. <br><br>Эти места занимаются олимпиадниками, которых стало много, и детьми, имеющими социальную льготу, которых стало очень много. <br><br>Получается, что бюджетные места практически распределяются между ними. И тем, кто не участвовал в олимпиадах и не имеет льгот, но хорошо учился в школе и получил высокие баллы, остаются только платные места. <br><br>Эта история - очередной доказательство того, что «бесплатное» высшее образование это зло. <br><br>Зло - потому что лицемерие. Бесплатного ничего не бывает (как не было бесплатных советских квартир или медицины), за образование бюджетников сейчас платит государство, а в конечном счете - мы все, из наших налогов. <br><br>Справедливая система была бы такой: обучение в университете всегда платное, но платить ты можешь либо из собственного кармана, либо из денег, которые тебе заплатило (например, путем выдачи сертификата) государство за хорошие оценки по ЕГЭ, за высокие результаты на олимпиаде, в связи с особенностью социального статуса (ребенок сирота или инвалид). <br><br>Тогда системе становится простой, прозрачной или справедливой. <br><br>Но тогда логичным становится и следующий шаг - если высшее образование это про деньги, то никаких университетов, содержащихся за счет бюджета, быть не должно. <br><br>Конечно, возможны какие-то исключения, связанные с тем, что университет это не только образование, но и фундаментальная наука (которая, как известно, сама себя не прокормит). Но это именно что исключения. <br><br>Я уже много писал об этом, что любое вовлечение государства в финансирование университетов это зло, которое влечет за собой стремление чиновников ограничивать академические свободы, вмешиваться в процесс обучения, требовать цензуры и проч. Все эти истории на слуху. <br><br>Видимо, возможна и такая модель: раз все высшее образование существует за счет бюджета (фактически высшее образование считается в обществе обязательным), то и оно должно быть доступным всем желающим. Раз уж оно оплачивается всем обществом через налоги, уплачиваемые его членами. Но это, кажется, утопическая идея.",
       "date": "2026-08-24T05:58:51+00:00",
-      "views": 9190,
+      "views": 9200,
       "forwards": 0,
       "photos": [],
       "video_path": null,
@@ -180,7 +180,7 @@
       "text": "Павел Мищенко попросил рассказать о том, как я пользуюсь нейросетями в своей ежедневной практической работе. Какими сервисами, для каких функций и проч. \n\nНо самое главное - обсудим использование сервиса по умному поиску судебной практики CasusLegal. \n\nЗарегистрироваться на бесплатное мероприятие с моим участием можно здесь.",
       "text_html": "Павел Мищенко попросил рассказать о том, как я пользуюсь нейросетями в своей ежедневной практической работе. Какими сервисами, для каких функций и проч. <br><br>Но самое главное - обсудим использование сервиса по умному поиску судебной практики CasusLegal. <br><br>Зарегистрироваться на бесплатное мероприятие с моим участием можно <a href=\"https://s.salebot.pro/r/runetlex_academy_web1308_1?utm_source=ad&amp;amp;utm_medium=neuralnetworks&amp;amp;utm_campaign=loader\" target=\"_blank\" rel=\"noopener noreferrer\">здесь</a>.",
       "date": "2026-08-10T10:53:55+00:00",
-      "views": 22900,
+      "views": 23000,
       "forwards": 0,
       "photos": [],
       "video_path": null,
@@ -232,7 +232,7 @@
       "text": "В ленте юридических новостей несколько раз попались публикации о том, что теперь разъяснения верх.суда станут обязательными для судов. И это подается чуть ли не как какая-то революция. \n\nМне это читать очень странно. \n\nВо-первых, разъяснения были обязательны всегда. Добавление смердящего советскостью канцелярита \"руководящие\" ничего не меняет по существу.\n\nВо-вторых, суды так игнорировали раньше, так и дальше будут их игнорировать, если им за это ничего не будет. То есть, если гражд.коллегия верх.суда по-прежнему не будет при отмене акта писать, что суды не применили разъяснение, которое нужно было применить, то все останется как есть. \n\nЯ напомню авторам этих заметок, что это все уже было в нашей недавней юридической истории - ровно то же самое в конце нулевых-начале десятых делал Президиум ВАС. И эффективность идеи обязательности правовых позиций существовала не на бумаге, а не деле лишь благодаря активности высшего суда. \n\nСтрого говоря, верх.суд мог сделать то, что якобы в сентябре станет чем-то \"новым и прорывным\" сам, без всяких изменений в законы. \n\nНо если он это не сделал раньше, то почему он это будет делать теперь? Ведь кадровый состав верх.суда все тот же, ничего не изменилось. \n\nПоэтому все эти разговоры о предсказуемости практики, обязательности правовых позиций верх.суда (а их качество - это отдельный и очень большой вопрос, на мой вкус, оно очень среднее), скорее всего, так и останутся разговорами. В реальной жизни ничего не изменится. Для этого просто нет никаких предпосылок - запроса на качественное и независимое правосудие у тех, кто действительно влияет на нашу жизнь, нет. Он есть у среднего класса, но мало ли чего он там себе нафантазировал...\n\nВ общем, напомню мою любимую присказку последних лет: чтобы не разочаровываться, не надо очаровываться.",
       "text_html": "В ленте юридических новостей несколько раз попались публикации о том, что теперь разъяснения верх.суда станут обязательными для судов. И это подается чуть ли не как какая-то революция. <br><br>Мне это читать очень странно. <br><br>Во-первых, разъяснения были обязательны всегда. Добавление смердящего советскостью канцелярита \"руководящие\" ничего не меняет по существу.<br><br>Во-вторых, суды так игнорировали раньше, так и дальше будут их игнорировать, если им за это ничего не будет. То есть, если гражд.коллегия верх.суда по-прежнему не будет при отмене акта писать, что суды не применили разъяснение, которое нужно было применить, то все останется как есть. <br><br>Я напомню авторам этих заметок, что это все уже было в нашей недавней юридической истории - ровно то же самое в конце нулевых-начале десятых делал Президиум ВАС. И эффективность идеи обязательности правовых позиций существовала не на бумаге, а не деле лишь благодаря активности высшего суда. <br><br>Строго говоря, верх.суд мог сделать то, что якобы в сентябре станет чем-то \"новым и прорывным\" сам, без всяких изменений в законы. <br><br>Но если он это не сделал раньше, то почему он это будет делать теперь? Ведь кадровый состав верх.суда все тот же, ничего не изменилось. <br><br>Поэтому все эти разговоры о предсказуемости практики, обязательности правовых позиций верх.суда (а их качество - это отдельный и очень большой вопрос, на мой вкус, оно очень среднее), скорее всего, так и останутся разговорами. В реальной жизни ничего не изменится. Для этого просто нет никаких предпосылок - запроса на качественное и независимое правосудие у тех, кто действительно влияет на нашу жизнь, нет. Он есть у среднего класса, но мало ли чего он там себе нафантазировал...<br><br>В общем, напомню мою любимую присказку последних лет: чтобы не разочаровываться, не надо очаровываться.",
       "date": "2026-08-08T07:38:20+00:00",
-      "views": 22600,
+      "views": 22700,
       "forwards": 0,
       "photos": [],
       "video_path": null,
@@ -310,7 +310,7 @@
       "text": "Опубликован закон об ИИ. Основные нормы вступят в силу с 1 марта 2027 года. \n\nЗакон довольно большой, 22 страницы. Если ваша сфера деятельности тесно связана с ИИ и технологиями, его надо читать внимательно и вдумчиво. \n\nЕсли вы просто хотите держать руку на пульсе - можно потратить 7-10 минут на чтение краткого, но содержательного обзора этого закона, который мы сделали на Шортриде.\n\nСобственно, в этом и состоит центральная идея Шортрида - оптимизировать время (неувеличивающийся ресурс), которое в стремительно разрастающемся объеме информации надо тратить на поддержание профессиональной формы практикующего юриста.",
       "text_html": "Опубликован закон об ИИ. Основные нормы вступят в силу с 1 марта 2027 года. <br><br>Закон довольно большой, 22 страницы. Если ваша сфера деятельности тесно связана с ИИ и технологиями, его надо читать внимательно и вдумчиво. <br><br>Если вы просто хотите держать руку на пульсе - можно потратить 7-10 минут на чтение краткого, но содержательного обзора этого закона, который мы <a href=\"https://shortread.ru/zakon-ob-ii-kakie-kompanii-zatronet-nuzhna-li-markirovka-i-chto-budet-s-pravami-na-ii-kontent/\" target=\"_blank\" rel=\"noopener noreferrer\">сделали</a> на Шортриде.<br><br>Собственно, в этом и состоит центральная идея Шортрида - оптимизировать время (неувеличивающийся ресурс), которое в стремительно разрастающемся объеме информации надо тратить на поддержание профессиональной формы практикующего юриста.",
       "date": "2026-07-30T07:22:57+00:00",
-      "views": 18600,
+      "views": 18700,
       "forwards": 0,
       "photos": [],
       "video_path": null,
@@ -448,7 +448,7 @@
       "forwards": 0,
       "photos": [
         "https://cdn4.telesco.pe/file/PKO8oJD9Rulf6Rurluk31HlxrPOzEFnrdYKtmH2jT6DrTn1gKi8whn9hDdOj053btc__76sGhrZT85fMEZh1KjOhepY4_ReQNSEKdnZ7bdBWrj9LDpUGeNItrgVE4xqYhjOgc1ZdlfxquZwsWtjXe-Gx3MC9AMMnPLdmDpo6GLF6pOdVuEhhTQy9D4ZhrinmmdOsYj0oQ4-3uTBE7zMuxe46_8kP95JiEDucDX7E5rMuCmoAQJvtFdC_NfaKwOb88D-WnXiDGAxrYxs21gC_Rawx5DPjpSLfa_TCTeHwGbJsCYBlrA2yO0CMqlSH4ICdOqzf5d5JzBZl4jYxDeSrKQ.jpg",
-        "https://cdn4.telesco.pe/file/tCYZrFJVF1XrAGbhuoXcqrCSUKnxQh9IAgPjS-7lvxXV8bkJzDQ2HN6YBCioeJpCiCx3Pf6mhDZxEv16X1ATJtzNC_6XVrLZtmsSHkx13MnbHC7TP9ZbVcAxnbLjQBwoHIAqKrINN5_zBcBHSGKyT-NHuJ2OvrWwL8Z-jQxBoQpY-jEARxokgI58XMbws8pK6wT9BKD_Q6Km-4Cm3HiKGvUAECSc5byTcLHJ5e6r8y9Q6XKvaTjphnRajMLodl7a-81xiAGIl5rAb5ObocqUEqyVeYtoe7VcR0M0VYY7Ah7EkDHZX8eptiDEYIaIteMSCE6-Eilhou_ktlkp5BXIHQ.jpg"
+        "https://cdn4.telesco.pe/file/uBao24svF2DiRcXj6upXh910bktOe6YCDSh95MNsGiDnHBegVyvm3kkJjMiPDBenuLtEOorMe91baLA_aHwLJrTgxmGCyydx40HuLzrrUvHzbCmR2kT7HB0Jbpa17zjF4zYw8n0Ph2pq5PLkGNLkALb69uqO7lAGZsJoJ4JdZPp1HuS84-rpilxfhI60JA1E2nnv0rYQ9Z4eRB55ONwqlmzpFhzMhwon_rU2zfQ4F5qjnPwUb3q45ie8nkHzghY_bXjcDVb1Z6X72duMxGpOKw8DaUChmMWHOAEcuwjbGPPwkdRlqh9l3PLhIkDMizhq65vuPcnK5Q8uYN06ZJJkjQ.jpg"
       ],
       "video_path": null,
       "gif_path": null,
@@ -1540,7 +1540,7 @@
       "text": "В СМИ пишут о новой тенденции в Москве - в аренду сдают (и, видимо, охотно снимают) ... лоджии для проживания в них людей.\n\nИной досужий критик скажет: довели людей до ручки, одни пытаются хотя бы какие-то крохи заработать, а другие - сэкономить. \n\nНо мы с добрыми читателями не такие, мы - равнодушные  наблюдатели-эксперты. \n\nПоэтому мы лишь порадуемся за то, что - вопреки положениям ст. 607 ГК (которая устанавливает, что объектом аренды может быть только вещь в целом) договор аренды части недвижимой вещи набирает обороты. Он шагнул за пределы торговых и бизнес-центров, нежилых помещений. И даже за пределы комнат в многокомнатных квартирах.",
       "text_html": "В СМИ <a href=\"https://vologda.bezformata.com/listnews/lodzhii-kak-otdelnoe/159301315/\" target=\"_blank\" rel=\"noopener noreferrer\">пишут</a> о новой тенденции в Москве - в аренду сдают (и, видимо, охотно снимают) ... лоджии для проживания в них людей.<br><br>Иной досужий критик скажет: довели людей до ручки, одни пытаются хотя бы какие-то крохи заработать, а другие - сэкономить. <br><br>Но мы с добрыми читателями не такие, мы - равнодушные  наблюдатели-эксперты. <br><br>Поэтому мы лишь порадуемся за то, что - вопреки положениям ст. 607 ГК (которая устанавливает, что объектом аренды может быть только вещь в целом) договор аренды части недвижимой вещи набирает обороты. Он шагнул за пределы торговых и бизнес-центров, нежилых помещений. И даже за пределы комнат в многокомнатных квартирах.",
       "date": "2026-05-06T13:35:18+00:00",
-      "views": 20900,
+      "views": 21000,
       "forwards": 0,
       "photos": [],
       "video_path": null,
@@ -13247,7 +13247,7 @@
       "photos": [
         "https://cdn4.telesco.pe/file/RvSDA6l9PqlKd6kQHkOHhlHnfEVSHgJo0dqm3wGduGgz_NMzU9bqYR3H8wYqNr8Yi7HDel2dUnUKEzGE_hmcrTILSk3H1aHYur1jaaColOtRG3PWjGRPnNDQ52wEzo_ulY4x3c2QabfxLx9WsHuxoaKYPfLwOyDL59fa_-fa4e_cKaq5yzqOqYpORVuqKKBA7aoWsii8TpZX0gEte8tO-2RYF3svcoEVQfOPC77jefMl7CyRYFSLxlubBi0uPkAbiiDHf0UANU-gTxTmIPTQbFHSh_Iv4P8d5b7d-dbUSIku6IZuuz6FMg-mVOnaUkbBGdTrVLoAefqsBQLGsiIYMw.jpg",
         "https://cdn4.telesco.pe/file/bnH92YNewH_1O0vBS8s7ahISExqgVF2zr9-zenf4ZLth1s11iZoeA8guYGz8NHVaOkyL2sJhKW938EcHlFLAyNSZgqUqVyG0bVTsyVV4gFCTwnWPnaxZH8dyvZrVLnNW44SgmjFMmrsPd4woNne_ud9YrZbW_Ya20l8y-rvPrR897JojY8c1AUQShceTinxt2jBBNDzb2RtS8TFgTz08W1_s5ccWeIcZvqMKqSkdpI72f8TO8CFQm0OupPgmqN77ln-3DCGhFcB6BWSyKjdCSNlOSUlpkBuU4ePMqKHzAeNenmYRxcj6TBRPmp4Kk0nK8LpjG6kHV_SV1rFVBL56sg.jpg",
-        "https://cdn4.telesco.pe/file/bcVZcDbD1ZWQpLPAGO3bJq_8TOIXu9FUXXYELMZ4WKsKY7ufXj73OWt0y0JvCQwzs-5wVN5EV0DcD1DzMLdZGqWugud-wiIeqcnauRuHo1bIkNpPwvjpSbPyZFPAN4GC5DV6OsL_i4YUftcJk6TrScxsvl3RYKox4c4kCU2MeKOFxLue5d31ETZuloNqUJF4OinrwQpdLOMumBAxstAHQ_uilueadaBoPIR4PAVh52hkTdKUXBySSQzPTMQI1eTabkk6DWiHiVVmK8L9Ro7mRVSSjm-xigo5JSoe1_JYHgtgx_QswCdHn-mq5BQ5oLVmiOFGRa1OPhRVBuqeqqkl3Q.jpg"
+        "https://cdn4.telesco.pe/file/pNdFg8WTKqzJ8dWm7afjGFbPpQbuOg2Be7MrjVDDMy9Vc54BlUnNPHuKpN2jpYjxNP_l-wyuCklA4vZLIZhVLJA1IdhSDq49SlPL8s2TV3TCtmcxHxAwxlD5y3et4tN_IcnLUW8sDLdYFNcaS6pThVtT9q6V3pHi6veUWwXEuoqfJP8y64R2DECIA1bPLzQiIYd94C8Zp5c9qy_AT-rCziIEfLDdbteIRik3Luer1olem4lzx_VEYEUhHTuUTdNsQtDDE6xjMg7Oex5Qw1q5An10NtNgvIx-XJVergWxC6M-qRVRaTyJG35ZeG6RySP7EmmpBLP2QIUK8sGMQFv01Q.jpg"
       ],
       "video_path": null,
       "gif_path": null,
@@ -28513,7 +28513,7 @@
       "views": 9090,
       "forwards": 0,
       "photos": [
-        "https://cdn4.telesco.pe/file/CiFzOueY6VYu7uLmJk2ZQvWd2c46KHrmO8rZa0UbAj_eLHvJ4jlr1IUX9xJzBSY4sLyUAlIzg6zMtU1Bhvfg6QNstpbDpJYT3zeo6-qOKBJ67g117CkQIBF8TD7fCWEow-sdHxj1Wp3iA0_KuSLUiyRNdpGxTECmT1Ps48ZiGr0xO7kgkAqggRm9mv62pxEM-mFRlbyo1ODqujUNaSh_MX7gKstUlmn9-y1rzi6YV6mI7xyvFAgldVG68kUR6zCP6EigeRR37KXeAt6fM0yO-aYDyXITWwDoC_K_o8Cb4D281L4vnctSTZmgE_7GNOS3fYTjvEaTMQNpp3f16t5kbA.jpg"
+        "https://cdn4.telesco.pe/file/fFFXJ24Vh1MTrHtYWuGzLp628kMMDiaI_fh484j2W_iIvYm6c6y8gW4c18poZg_kBwv1Nn31tt6rOM5-PxArE5cUYmTH2PSDewqeZJ5wJwaqf2iEL3bKxtPVzfan7Sc9QDV4Chz80zXl666xSWJGhPoyuJNLU00TbRubCg7mhpwveyXuw0oKkv8T0UJp3Yn_AI1bvER3f_ep80d9FTSz5ZXrV7l4goojY-lFz_hFLib8IiJDSokzHiRaHOLsYRb9aoz8GGnUrp4vYAFwygRWVxBEdr5mim8DCsZAiCIhRNaCMxeF543utaORGGDqe-QNdAoIAmrhrl6GQo0L5Jo7mA.jpg"
       ],
       "video_path": null,
       "gif_path": null,
@@ -29355,7 +29355,7 @@
       "views": 8410,
       "forwards": 0,
       "photos": [
-        "https://cdn4.telesco.pe/file/hH78GA-QT4tbCdpsYIn-tErHe2Oi8fix0n5goaBn2reSN2wKoMb62EKZEoipKUARlMMy5C-1DN1FhJabDYnZrQVKWLOrXPcepikvnp9ukHLDAHUz93gB_2uh_q2aQ-eq756u6Vnu4p-mJhz24zz-00xgFvzD1GZdHWLaaLqMmDUTEhqkAoo6UgP83wz1cGmIVS_XgSVHDTzGOghRzsDYbq4NkIaUjyY4Bw8LOA573U44WDnRZ9o24mAACUtKP7qc_i1tDbqO-JJabMaxhZggf4VxuQP2dJhWwN97BPfFUTSEAo_DUTekPi8EfKBhZqBkHbyCsBumxulHJpKP675e5w.jpg"
+        "https://cdn4.telesco.pe/file/TeHCv-ZrOzrUXRCAnH0gfLhV31pcBJSMoriRiMXZSFIQHy8De2c9SZv_QsbTLr3bjGZQTuyeA5c-nBYkOhrO312YyCk31AYlVENRl_zcqyc7hPi_ple8QIUUx6Wqg8QFoZVurU2Qbp8Wk7eQksW6zpJC0FDu9XZDIkjUf71Qs_1EcCAbb23l_YLhfZqyxz_mtwY4csLRLdfeciFGlXAlcBT8AajiiKniYzsYs_P0dQs5bgRvK6J8uRZuE5iKPUNG8dgzpXvQK16KUiQSqPYj6px_OtE1s1LMn_pEqN_1-ZcQZ9vNpetH-HUMRFjHfzXTPAhQ2JyqeHF3q_CGagrGMA.jpg"
       ],
       "video_path": null,
       "gif_path": null,
@@ -30004,7 +30004,7 @@
       "views": 6620,
       "forwards": 0,
       "photos": [
-        "https://cdn4.telesco.pe/file/wAz9qqwT8_ThiBpM1tG3BbcLZAgg0QB5iWQWQ0xwwhe33WSPQw_OjzQVJZuJl3Fe-KCWCDd-G2vjxo6dGhtIqO4mn43am4i-2avdN3nQ7brIzWjEtc2inQY7v8r6ykzg_y0LNzRKkq6YWASbXPFZZObWWxU7Z3WdCaVNrGWyIfuz6ZViomUHT_33hYgNlHaaLr9GS4r9PT56xf7djgGrNt5qhpoUxGSJxeygAvFu8T2vOhwUabWV4MT1cFs61ns_DErfylQgClA0Z8xuAskX7Mz1l9si_5Hx_FaBryCTGKJJfV_fyX3IpWOKKUPP16SmaOkY_nKyBC6THh4mdS54FQ.jpg"
+        "https://cdn4.telesco.pe/file/bazrRgOk_d4mIx4iwraBYAqXITrXguW3H1seFNinvkr5FLHeAvmhKo46nxZZzEHFGcxip8sEcQyq19cYSwFXA7pwrz8WsQH_pKqWM6NF4W3g0eTZrZJnmd4GASoXKGD68aUKSKr80A6xhXd2CJVKUDJbffnxijdS-NkgaAHaPFscD6D5_wOJmB776CYxrsrpPIhbLQdVjNk529GqKtnxaLjC9yEs0TBjTrqrbekVsIPkBT-WIMXuBtrbyRxwEzc7RShQwYhJ66RDnIhIcjjwkv0rlSFbkpG2M_3YOmEefD1bbHbOoqaWzdQAY6E9n8UfY1Z40p5wfJAucZmy7JjtFA.jpg"
       ],
       "video_path": null,
       "gif_path": null,
@@ -30745,7 +30745,7 @@
       "views": 1070,
       "forwards": 0,
       "photos": [
-        "https://cdn4.telesco.pe/file/KINyq-amCujCOxMoa1QXx4jBRiCgue1Hx8HxBW8IRB_FSBJR0-5zy22sGSGEklE71ewgZwGpSsJsZnSUYxwKZSjkJiS7c9cit9X2yCCXhrgq_rgLajbSBOXJXCwEY1iOciNC1-42s4WNpORNhJQo_RzL1-eOD7e_dGWVYQzFi1Uhyuj4yNUbUmRkCF17inYYyKSs7goOhMzu1oruAtNMyg9vilOGue8GgBDYeRbPZXH8fwuSdbgu3m9lJ4I0v7_pmH_Vg7UTNpMYn0ufKheRFYKNzfcjT3l3_k1XnJXtH8Fi0bgbb8BVRlmMfNTCdCrr6-IbE2q0lIzSfTcZU_v5jQ.jpg"
+        "https://cdn4.telesco.pe/file/c1zhjN4_DeI1lGFovIwtj0sOLBHtG7Lu5EfFod-Bsc2bFWQna9GHWsOK3C2UnY1WGOowhajW0TVgfaEcKHyeWePEnvxYMmEbmCcc_a4TnUz49x2FoO4pcFLNcNEt7_tZY7Ae6SMFHdhLD7go7ub1dU7I8-JLI8UScpv-6C2uEebdl8V1mcwuv-xhzm-EjhCz__XGzDGXFYV75qLC3QOlkGyr1wiwR_HIrHbv8u4ozNZuBijt15GDxt-bBQ5_FCAlxa10-BENfT8WXpPEkXpaTOwkqz7iiY_mBc9EtfAEK9sPByZCiCMiaDIOlFpMlkFuPRQlZwdDpnxswe3R-c45bA.jpg"
       ],
       "video_path": null,
       "gif_path": null,
@@ -31336,7 +31336,7 @@
       "views": 5080,
       "forwards": 0,
       "photos": [
-        "https://cdn4.telesco.pe/file/mZ3Oo9byZKDTPNZ83XpHjzE2Bf0EMs_dENTfNCtpM6HGABrZBwohXwHL71Abd8XJ01pD7jBzxIb65xZlcH2xJKIbFDy-7Q3eRtr0ugnqiyrekts0AJz-a7SaoupeiAGmjS8KeI1ha14yGXtpT-_ztVeBLyrMu91Vwp6ygCNA2_DtQlXn0WmHDIQP-9_gDsRcDl8s1Y2qs1bIqZ_wsSlWlw0X5i8B7t0FUUpCBoo5HK0FNQ577pThiHMq9sWziMVXY7NqHToreMueQgvTbpPl3iMCdqsIV6bXxiZkBgGRYqG-94c8D-Q_PBr2ddmGbpjLUqt8rS8l820v7GQBQBPkBA.jpg"
+        "https://cdn4.telesco.pe/file/rOxoess-4re2OFChnYAPzCr7D3YvtlY_CbrgB7Q-rJb4kjs-WdS3X4YppaF5u2seMH_nI4ORfyttLBaBWCW4zHVLEbQtF7aWZ5uQOeb1jvYyThpwXASeaGvi4xesZEqhUm-YXitUGfoREi_r5OrzvZpGUUPIjq3CnoUXopg-iSdnogAbAh7rEB9eVqNzoSE76SPlyIUFc27mGMEsZ1crVfV0qB1SJ7qlvgZTrbT3NB9zK9bJcS46lWbWniQvNSdzESoGQSFJbx9KMFTkWzE-ukcSmcKGtRFRIvu23UyLuUaJQH5vYpK5tCfkQAzZbrpCPsHN8_UkY4NjWk8mrTwpJQ.jpg"
       ],
       "video_path": null,
       "gif_path": null,
@@ -31598,7 +31598,7 @@
       "views": 4290,
       "forwards": 0,
       "photos": [
-        "https://cdn4.telesco.pe/file/aqDIVGPc29dH8PeZo-EdjWjBCCT4VuYdmdnirPLMQqzaJTGX0P-I37G5QHoFxKJExxU7zQvd7nTPtKZdPts14YDXn7ipfl0RnoYEKMB4PA52cfZTB9BGj6uUcRNpkW9ofWE02Ezflv8XPNRWDP5T_ok1N2BG6XmkmJIHvBKBjBc9ZpgdPCP-12dAyJRZ9JaL4LEFJZcg3zEfDzCkOAGnBaQVmP7QUdzDcZzffQxG7622REbgpzmA8y7MqUl0YDVfQu3a3TJTXXAqARLm9MvTJgihZ0cACKaX6i1xDbhwXbg08iZdjAA3t28cejwhA9Ut80I4-nU-xH_RuEOulRh-dw.jpg"
+        "https://cdn4.telesco.pe/file/unrFP5iYCLuD654d-SOMKgxRnh5V831IM6c9qYUHxIDGENAK4a2FBVAMfRkv9pUCW-OLN1Efwxr2aA4HvboeM5OIJpujBF6UxYOo3tyypV30-OhJICxQGlePdnBEbI4YqkSm8_lqoZGTto4fhQly1S59C5wO-pEc9PgnySP10KqeP-CXjGStM_orkFknn7KiuEzInAJEs2WxbJjpU3Ceb_GmUKQVpioW5JpQqjQkPWhYGcv0XaDE353pvsLd_4kCXCWkXRkUvM6UVjC2NuBXy43dunn_7LM7IFq2rqLE7a7RHJHNnPLdv3zvFbxpCBTdJ3FzRb5Mkavm7IFK2GyDFg.jpg"
       ],
       "video_path": null,
       "gif_path": null,
@@ -31626,7 +31626,7 @@
       "views": 6840,
       "forwards": 0,
       "photos": [
-        "https://cdn4.telesco.pe/file/kKtA-VfDShQduXPrbyYdPcXBTlZjsP68af53Z-_ezrAP6IzEIA3BFRu-tyNaMwBMUWmU5Nk8nyzNwredxpjo2va0GaWeIrlBqptPsHnqfzbUSWs_PyHnD1YjT0AvKsWByHYNjmBJTw9_0Vk15k5cVCv26VOpFfygYaC7E04Ohrr-EPEoFdpEETWiMuyEj3W_l6NOxtFP1IYg5Gk4XSnZOqG-MXJmdfZ5z_f8EoajD8J2uj-DfF3hTHTSxwL4ed6gySmFGq9ujO0bJrTwCi23JB3pW7KMEQCjm3NOUz7iqctOU7bzuAQxF93n4SpnlZqg9ZWX1kwRz3-KhHkrLeNkeg.jpg"
+        "https://cdn4.telesco.pe/file/aq-YVXfV3bx3Kio0kYCovjW-exofmGIMGjaNhdg6fcSXWQqthO5A0WNUsW0LpbgQcU3gNaDjpH79RBf4T5TYdxN7k4GtHWjyRc4FfBeIiQk3VxxN6UaQyeJ7gpFAUkAxp-a5LBDXbRT7hLWpmGqvhEX6dooAFuXGyobp_VJ0aIka3Oo542nxKr6NCaC1H5HNbWXqvhaQqrcCAiaimfvUsZxE5ipfTI5ZCXr8DHmoQh4wwbJicBCAdBdOs-ZgdutA5a0FTqqNhuGVS5nZEBpQ3FuqLX-PIZbV6-Kz3H2u0FP0PO5DPI-D62l2RZYEJCrpsGZGgPNIIwmvQ023JOiM-g.jpg"
       ],
       "video_path": null,
       "gif_path": null,
@@ -31881,7 +31881,7 @@
       "views": 5420,
       "forwards": 0,
       "photos": [
-        "https://cdn4.telesco.pe/file/JKix3OyNcltpOMIaLgPkX3ayskHd5--AF10ZxyjMdiGaCB0f5IHjbNPEck0QqKvXDOvcz72tVXDTKwFdbw4L4KZkt4ycPGwaOMDblf8QJow9LVNZDN7NMdhe2QYUOQETD8kFwDfzRM8PWbyW-xOvmmnC9YjbRVJTxWgggn-KzkuXLZoa5xrTpVgJTATgB8P9qAy09Vc6kK1TkyyFmrWJbTsbUjfptmJ-WSb2KXOn4FaszPcjOkym11Yfa0cytCWL135F39C4-RFNx0DHN-pA79XcZuAJoUT48ztzTymFR4PA6R6VHJlEMBRyN8_KM7N_0k7wobdMLho4vI50cmIf5A.jpg"
+        "https://cdn4.telesco.pe/file/HIXRgdkLwR8J-9cqTyg8lc-wZTLGjCw2u0eTSQusi9oYKlDT5WB8mFNTO0bCoDHU96SQ7YRPsRSyyVfWwZ40Oo1DGbouaKjonqPv1bMg8mbDsp8lV0W8N1aOFhXuYogiUsPEtz0v_DrCWigbw40j1wI7Y6gLAEPGLzOtwQCcR0iaQmmc3eVBwOMnFOnnALK4qwGdUtPo3fcEMl238IqQCij9BZ6W2GK9BxtFbcWUVdTWQWJ0J4SXkyfsZY_H4vG1FHq1mzYpmbstMJ0pSt6L2Dm0J4F8wnAO3EMN4NE-O90tHvHmR7cBBbFM68OGkTLz21eK2xOl-3kcau5IyF5Ubg.jpg"
       ],
       "video_path": null,
       "gif_path": null,
@@ -32000,7 +32000,7 @@
       "views": 3870,
       "forwards": 0,
       "photos": [
-        "https://cdn4.telesco.pe/file/Aib0qcP5MmqxiWFWpMCY44xX560B68IHmKnB1VImij97VYz6hqmJ8fTfB6Kz5zXgOZ6eHoRi-PyLbrnpc-CECxMAvNHM4KVSfjng1DzlpGmSKGcnbJqsGS-njUMKMyj04EH9dJNeCnhAK0zXTs-H-DAXYkZym914sp_ynBjHy0wPp59EhY6Uf3cU5hk1yyhbFgxuqBLHjfqkAadnFVdmYVO61GUUpDMS7y9c3wbv9PF3l2V_-BF3j5omPxoQ1FpgbMCm_nww99TncfA1WrioWArbhAzjjUJq5LsKwli2w_Md5wFNz-OPuMIl3fJN3NWrCS8t7SjT9YzQqWiOmk-dpg.jpg"
+        "https://cdn4.telesco.pe/file/o6vBjphLrEwdFvhucwRiQr8jpM5VOiCdnTGZKRjwEDm5NSn13Dymk02Ty336o7heKQ6hLaMFi_swpE5hEMh5hLWTH51DbijcvQaDOBsidVcGkQplYrPprbfCoEzwGYlVp5rcFqFJdYr3AsoryZtjANXDPtH20K0nuK53iVBTwvsvYAaa_e6Ub3cir_bo0JuNAZv4lNGcCcae2FPXjh9uRNoJsWodO08fPkzAeJNwrirGSJ1KKChLIV2h4GG4tivuzptZDHy1U8TFGTXKU3t9YHPXcdds5bnbvqmpqgdtIC6off_jag_bXUHRUb78GCV9z1I0WL6xWznEMcNW9FQgZQ.jpg"
       ],
       "video_path": null,
       "gif_path": null,
@@ -32067,7 +32067,7 @@
       "views": 3890,
       "forwards": 0,
       "photos": [
-        "https://cdn4.telesco.pe/file/MRbWbeM2Y6V2P_QYTfsHmaic62pAG3Godi21Zs8nx4lah2VH7xPzARRCiKhXRX1VUMRe6Tn_BSwWoQKdD2dgq5UJ2JnCLpSFXCdzBA6Mm0u-yRFZpCg0ituFDdQLn9mP4jLfFC_ntNCFBntP3wGBCo9cwHYwme430EEwHJRPapiXCWUTSAgLGiWKVzFMqlC_coWNZdIHFF7ye309cymB-EUYpHpPTZD8o-5Xut9H_6QhiMFiD1HRBoIKLpAxLjHa8zDIdeP1UCiaRzh-K-E_NjnSNDEpdq_SeW3mMaI7Ipd61mKq44U0gEw44j2WHkONDrK1ZEN8AvD2OzHNArIhBw.jpg"
+        "https://cdn4.telesco.pe/file/TNSp2HPLoONoJ6CuRqpeeDFFLCcqWq8qY53tL3p0YchjH-Kkj3lKxv9-8pf0QGne1zkcncs5yyh3Lt_UyoFwGmtwxpsg9LcBHsaEfGBd39VfvIFPYIcnPfvtj3RuDS6lUCXj8Z-nRszBaJBURYV6ShD1aKiFAq6eNGNr-ko3_yQzgdJIof2VaJPGowRc-dfUSHSY9COwbwxUU_QibMoKYdfOkgF7TiuB_LugdC82aFVy386roZVGkiNntITXMG8mgc-2r_5E69kFctafyTrSav8kv18i70m5n16DQpJvbufe1aVXe8CjFy62ob0o7AM-WjR26st27tnF7GCeADI1SQ.jpg"
       ],
       "video_path": null,
       "gif_path": null,
@@ -32807,7 +32807,7 @@
       "views": 3340,
       "forwards": 0,
       "photos": [
-        "https://cdn4.telesco.pe/file/nMT5o_QV1i3Z-vkUctOZ5Prfi6fQUk76ILPaNdyq4HPWUMGh7_UobSR76DjS3MXgMUBNulbfhcYgT6Y4b0YdEvsFU5ahYYUp1GvaZzk1JhmeHBwYugRLqnCH5QPqH9c5peetvI7ETpkP5BFHK1QOzdtXcl2FqmWeILNeKczf7PSzsTetPOCRE9YYhq_B7q99KV2jjyn2isd0ApBakcTctvBGVqGGwG_hfd-0kNxe366kS5uRVspLfy-jsWo0V0N8XKRUuYLb__EZI4Su1mBfb35vkaegKzoEm8BnHAVMuGdyftSSbnqOKii5F2xLmEVoMj18aGn0WwsZcU3wpv-yLg.jpg"
+        "https://cdn4.telesco.pe/file/tBf5gaz6KhOazxxZcbNBzZFMvh-WfkUFeuNgKDR-N9jXafZy2dk-itgN8mGhL9o0T5NPr4How4nNz-i86jvhyDpC4XWWfTpoQbPm6tFrdREo3Hxsc3Y3UGXKZDiRAeGR7OnfWexXpv-mjyvVb0OZxRVLjLoK2mxCpJJiu1ZpR8G88yw-2_RBarSoXXqBxYp6yKQSeZQGBj9LcgCPBrYP7dSzEA9p-SQ6yvP1vnRpOHQ8sPh6uMZLotMzrSzwc-UrEevimmoELOOgoAh5zB4uutpauHhX2MGxUAr6b5nG6zPSDAAwUb2ZAJbKUbU1WiUBUaI_Afip5OcVLj8c1hJltg.jpg"
       ],
       "video_path": null,
       "gif_path": null,
@@ -33056,7 +33056,7 @@
       "views": 2890,
       "forwards": 0,
       "photos": [
-        "https://cdn4.telesco.pe/file/nrr-3-81UePCUx5qvfCzR__zq2eyQKjowjDjpEqV6hc9QpSvKOs23ufNgf7DBezdRNktw4Bv2EwRLWGE9h-y1vtZuSCLRht5KJx7cJ5Hp28vzwdejZlhCjfU86J039MVJFzuD4h1kpdNJzMosTpdTsbu9-BCyVlN3X4miHkHX9U4uRNZm3gt4lXIJ9oxv-PWMZlw0xAKu3-smWM-A8cHXAnFVWDAtx32BoqGQHhvqxaNM3_TxLOHvJgusIF-4e-cPUW1g8VdI36PJI9fc08WtEDAkvnwJEFEQbPWA8LMpwKWRU2m9BdZaRh_J-h5hDGU-vR4Mbf3LJyXe2up-XLalQ.jpg"
+        "https://cdn4.telesco.pe/file/mIJv2UI9fVqemo72hqhoPT8SSzf2pqVB6P85Gn8U2nObKRoCDrUT6eUkwvLju6oYFFQDyfLrz5JZeuqA5B_ZNps25LBhSUwDMwx25NgoUE5mT3u_Sa18Asqp_6cmrwQr63zDxIYq1CekkztF95GwCO94HIXiY3DE4osSM8Cr7cGjnoc6B7I5_BoXuMlITnvUhHQRKnpU_yknmROFpR91JL1x1q2ARRPGN_3fWIWpvG3KS_bfXf34kgjNm2fYL-0tVJB4NSldtu_RZfmoNtqCdOoenLz3JE3Fha4XgNa_FWp5D1jIoxfRuE6cjIw19zHdmRMJiLOvyCHiL4DWbbSL9Q.jpg"
       ],
       "video_path": null,
       "gif_path": null,
@@ -33372,7 +33372,7 @@
       "views": 3370,
       "forwards": 0,
       "photos": [
-        "https://cdn4.telesco.pe/file/d3WKmg6O7aQVBymYj8obVoz2HqgCcDJp-qrOZaU3vO139WYwVvXNdn1Sq19rqjXE-R-CH2P6DzXJRSEDN1cypFbFvjFEhMFoydqiFMQfFXEPFz9pC6T4AxNpkVhoCoR7yaaQQ5yWWNaPWVZkSExTbpc40S6Bxhtj1my7s1EJDM82W3QRzx6RnXATtzuP2hQ5r4Y7kAiiYgZAzB5-FIYZX1GldDaZf__fKSatP8iaYuoDNREdpcsIE4Cvzlt4h311rPXhiS-fSYzTmlPXPUf0DyciuZzSz61GsAyiSDQniepUvDCLtS8V8XvfN1H7VvQWo5xeflx5E5gUP2NlQjOiZQ.jpg"
+        "https://cdn4.telesco.pe/file/uCE-RYg35sfZWUG7gIq_DI9gr-VAVgysft5OGKmr23cQMRvu4QeARQF5-tK4YZ3J_KnblOxMtSfa06FdUgmKVWyTmHksmB_82ZRj803XR52_WR7_JJtzb4Vj1JE6doT6-gU1d4h0DnYwJg5IUhvk4yetpQoI1P_9B96OkXV-3siH5qXj-LzzOlz5fhJhGyQC3t_mG2rxXQ54DkatXe5mohVcmCk9-gcrwDB6t5xB7vVLCbII5FowxD5EC58ip1Vh2C6xCJX0NhAY_SOj3-DDKyeGtoL32rZMEK5eTuAaRruzUG-Y99pVbT9nUyBdm9WPqRVLjXo2A0axtdCQD4Zu6g.jpg"
       ],
       "video_path": null,
       "gif_path": null,
@@ -33506,7 +33506,7 @@
       "views": 3340,
       "forwards": 0,
       "photos": [
-        "https://cdn4.telesco.pe/file/FD2YpazADhrhJrw8DiypGs3eewI4PPnlb5Qe4X5DFFK67GGaYxlltH-3c74crpZgDGcbJoIiNd8CupJqRHx61e1of42lG5-xcKS789L8fIF-UgG7AeDbF-KVf52V_FbGFYeB1N3uKDL87G4SGUtDMK_cATHb5u1smSiLgTbZifkDbbfZ22yZKwlkyEBBjMz9IrcKVDTm2akyzP1wQhOI-hbm2hFV9gkuI2hCiP2dejHDNo4zGcnnsyJX5AKAuntbj2TNHbycdVb1cjd-RGYY8QKObxCixiPMRLRUTDX9zhkTc7wjfXVuoCu0JD6ZGpLfTny9ITfzEZmEpkjZhE_j6g.jpg"
+        "https://cdn4.telesco.pe/file/CvGCG9R1QMg_7rkGMMu3Gb6J4CLWX2doknBWWvSvJv9f-YfbWUX86URLLt2L_5M3OC8UAbolEW25CxzJ25atsMubMi9KhyANhxBQxh1017n418ibunYPXR-zK7eFnexfOb-hhzkJk2cWe6zIXgG4NnOlW9TR0ylnIRbuixOACC8y7Upu4815Z6IATdnaufT93L4wCGjSp6ACEpmO3g-MJjHD1Qk9UMc91asXsbSSmc-vmfgJg3UUPiOF0m-RUlqe8EAXXQ06NsicLFaPLXyfaQtrRo6nomNFvvKW958He2uKKbhEoocrOVRnH1CgVPrHzB_97b8hPC1FcFuCfDsyUw.jpg"
       ],
       "video_path": null,
       "gif_path": null,
@@ -33625,7 +33625,7 @@
       "views": 3070,
       "forwards": 0,
       "photos": [
-        "https://cdn4.telesco.pe/file/jZP5zLCv8329iRWJt9Rldiu13WV9l-fioGVtjnCticAUOUDvej8xomh4tG3liLmr5z9_siBYpFM7DbTcgm2MrwvZwG4PpKlTkUb_zP_9dUeAm2glH_SBdds6S0eUa-Edj5qDi_HtypqMb76edyUjLIIvkTHOcbJrn-qqGABfHKysKNJWIFEl_lYE_qV2H4OtwEYsgCMMdlqGhRGtbpX_XemmSCHFgR54Mr62qaUkO6CERw6d5OX90Vns-KlDFM1YNj3O5oegO91axNAsNReDaDUNFomhz2eBBs08NkFjW1asAPLsWXTVV_CVv1y4GXowSqkdzijBljxlCUCkEeX5gQ.jpg"
+        "https://cdn4.telesco.pe/file/MI3PqCXzmy-8lS5j8OAZSYA0BiKcZIjYMa_SA1WGOwwXo_OJ-Q4226vbbuaIKc1gpB_UkA40XaaxgmmXP--vHv8G68A8PJlAljkrCFLBviW3Y-Nq6BYJrDLg4maFQpRAvrn5g41_2PNhK6FD1xUOR60IZJe5HTMQTl8PKsNzNqLcXnlXuHl9tiRttonV-yzP8OCcIAJKibOntcOENlWZ2xziBFH_O3rmJwgjCXnsOLDOLjLVVo8P2vy_auznUZU1VQtayFcG0R3Iadmnl5PI-oPJyk6_rDcPcJFgveMTCvKGT-KHtRXTuyYeuxkWrUooNoizt0_fwI3aq5ZaaGERiQ.jpg"
       ],
       "video_path": null,
       "gif_path": null,
